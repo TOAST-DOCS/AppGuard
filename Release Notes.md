@@ -1,5 +1,12 @@
 ## Security > AppGuard > Release Notes
 
+### 2016.10.20
+
+#### 기능 개선/변경
+
+* [API][Document] 연동 함수 인자 변경 (j함수에 Appkey 제거, p함수에 Context 추가)
+* [SDK] CLI 자동 업데이트 기능 추가
+
 ### 2016.09.29
 
 #### 버그 수정
