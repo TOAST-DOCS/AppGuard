@@ -4,10 +4,8 @@
 
 #### 기능 개선/변경
 
-* [API] j함수 인자 Appkey 제거 / p함수 Context 인자 추가  
-  (자세한 내용은 SDK내의 "TOAST Cloud AppGuard Developer's Guide.pdf" 문서 참고)
-* [SDK] AppGuard CLI(Command Line Build) 툴 자동 업데이트 기능 추가  
-  (최신 CLI 툴 사용시 CLI 툴이 항상 최신으로 자동 업데이트 됨)
+* [API] 앱가드 SDK 연동 함수 매개변수 변경
+* [SDK] AppGuard CLI(Command Line Build) 툴 자동 업데이트 기능 추가
  
 ### 2016.09.29
 
