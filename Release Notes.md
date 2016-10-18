@@ -1,5 +1,12 @@
 ## Security > AppGuard > Release Notes
 
+### 2016.10.20
+
+#### 기능 개선/변경
+
+* [API] 앱가드 SDK 연동 함수 매개변수 변경
+* [SDK] AppGuard CLI(Command Line Build) 툴 자동 업데이트 기능 추가
+ 
 ### 2016.09.29
 
 #### 버그 수정
