@@ -4,7 +4,7 @@
 
 #### 기능 개선/변경
 
-* [SDK] 앱가드 SDK 업데이트
+* [SDK] 앱가드 SDK(tcag.jar) 업데이트
 * [Console] AppGuard Web Console에 공지사항 추가
 
 ### 2016.10.20
