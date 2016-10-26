@@ -1,5 +1,12 @@
 ## Security > AppGuard > Release Notes
 
+### 2016.11.17
+
+#### 기능 개선/변경
+
+* [SDK] 앱가드 SDK 업데이트
+* [Console] AppGuard Web Console에 공지사항 추가
+
 ### 2016.10.20
 
 #### 기능 개선/변경
