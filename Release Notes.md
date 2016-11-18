@@ -1,6 +1,6 @@
 ## Security > AppGuard > Release Notes
 
-### 2016.11.17
+### 2016.11.24
 
 #### 기능 개선/변경
 
