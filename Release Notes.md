@@ -3,7 +3,7 @@
 ### 2017.01.19
 
 #### 기능 개선/변경
-* [SDK] AppGuard iOS SDK 배포
+* [SDK] AppGuard iOS SDK 신규 배포
 * apk 변조 방지 기능 강화
 
 #### 버그 수정
