@@ -1,6 +1,6 @@
 ## Security > AppGuard > Release Notes
 
-### 2016.01.19
+### 2017.01.19
 
 #### 기능 개선/변경
 * [SDK] AppGuard iOS SDK 배포
