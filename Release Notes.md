@@ -1,5 +1,10 @@
 ## Security > AppGuard > Release Notes
 
+### 2017.04.04
+
+#### 버그 수정
+* 앱 변조 방지 기능 multidex 버그 수정
+
 ### 2017.03.23
 
 #### 기능 개선/변경
