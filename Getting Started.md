@@ -1,7 +1,9 @@
 ## Security > AppGuard > Getting Started
 
 AppGuard는 Android 버전과 iOS 버전이 있습니다.
+
 Android 버전은 SDK 연동(선택 사항) 후 빌드된 apk 파일을 Web Console 또는 CLI를 통해 앱 보호 작업(필수 사항)을 하면 적용됩니다. 
+
 iOS 버전의 경우 SDK 연동(필수 사항)을 통해 적용되며, 별도의 보호 작업은 없습니다.
 
 AppGuard의 사용을 위한 적용 단계는 [그림 1]과 같습니다. 
@@ -25,13 +27,17 @@ AppGuard를 이용하여 앱을 보호하려면 먼저 서비스를 활성화 �
 ![[그림 3] AppGuard 요금 정책 선택](http://static.toastoven.net/prod_appguard/terms.jpg)
 <center>[그림 3] AppGuard 요금 정책 선택</center>
 
-이용 약관 선택 후 AppGuard를 활성화하면 [앱 보호] 메뉴에서 앱에 연동 할 수 있는 SDK를 다운로드 받을 수 있습니다. SDK 연동 방법은 SDK 다운로드 시 매뉴얼에서 확인 할 수 있습니다.
+이용 약관 선택 후 AppGuard를 활성화하면 [앱 보호] 메뉴에서 앱에 연동 할 수 있는 SDK를 다운로드 받을 수 있습니다. 
+
+SDK 연동 방법은 SDK 다운로드 시 매뉴얼에서 확인 할 수 있습니다.
 
 ## 앱 보호
 
 ### SDK 다운로드 및 연동
 
-AppGuard를 활성화하면 [대쉬보드/앱 보호] 메뉴가 보입니다. [앱 보호] 메뉴를 선택하면 SDK를 다운로드 받을 수 있습니다. SDK를 다운로드 받은 후 첨부 되어 있는 매뉴얼에 따라 연동합니다.
+AppGuard를 활성화하면 [대쉬보드/앱 보호] 메뉴가 보입니다. [앱 보호] 메뉴를 선택하면 SDK를 다운로드 받을 수 있습니다. 
+
+SDK를 다운로드 받은 후 첨부 되어 있는 매뉴얼에 따라 연동합니다.
 
 ### 앱 보호 메뉴 선택
 
