@@ -1,10 +1,12 @@
 ## Security > AppGuard > Getting Started
 
-AppGuard는 SDK 연동 후 Console에서 앱 보호 작업을 한 후에 정상적으로 앱을 보호 할 수 있습니다. 아래는 앱 보호 작업을 설명하고, AppGuard의 대쉬보드에 대해서 설명합니다.
+AppGuard는 Android 버전과 iOS 버전이 있습니다.
+Android 버전은 SDK 연동(선택 사항) 후 빌드된 apk 파일을 Web Console 또는 CLI를 통해 앱 보호 작업(필수 사항)을 하면 적용됩니다. 
+iOS 버전의 경우 SDK 연동(필수 사항)을 통해 적용되며, 별도의 보호 작업은 없습니다.
 
-AppGuard의 사용을 위한 적용 방법은 [그림 1]과 같습니다. 
+AppGuard의 사용을 위한 적용 단계는 [그림 1]과 같습니다. 
 
-![[그림 1] AppGuard 적용 방법](http://static.toastoven.net/toastcloud/static/common/img/cms_img/werebeta/img_07.jpg)
+![[그림 1] AppGuard 적용 방법](http://static.toastoven.net/prod_appguard/picture1.png)
 <center>[그림 1] AppGuard 적용 방법</center>
 
 ## 서비스 활성화
@@ -31,14 +33,11 @@ AppGuard를 이용하여 앱을 보호하려면 먼저 서비스를 활성화 �
 
 AppGuard를 활성화하면 [대쉬보드/앱 보호] 메뉴가 보입니다. [앱 보호] 메뉴를 선택하면 SDK를 다운로드 받을 수 있습니다. SDK를 다운로드 받은 후 첨부 되어 있는 매뉴얼에 따라 연동합니다.
 
-> [주의]  
-> 앱 보호 전 반드시 SDK연동이 이루어져야 AppGuard가 정상적으로 동작합니다.
-
 ### 앱 보호 메뉴 선택
 
-[앱 설정/보호] 메뉴 선택 후 [앱 보호] 버튼을 클릭하면 [그림 3]의 화면이 나옵니다.
+[앱 설정/보호] 메뉴 선택 후 [앱 보호] 버튼을 클릭하면 [그림 3]의 화면이 나옵니다. (iOS의 경우 보호 단계 없이 SDK 연동만으로 동작합니다.)
 
-![[그림 4] 앱 보호 설정을 위한 입력 항목](http://static.toastoven.net/prod_appguard/protect.jpg)
+![[그림 4] 앱 보호 설정을 위한 입력 항목](http://static.toastoven.net/prod_appguard/picture4.png)
 <center>[그림 4] 앱 보호 설정을 위한 입력 항목</center>
 
 * [인증서 파일]을 선택합니다. 안드로이드는 KeyStore파일입니다.
@@ -48,15 +47,16 @@ AppGuard를 활성화하면 [대쉬보드/앱 보호] 메뉴가 보입니다. [�
 * [앨리어스]명을 선택합니다.
 * [앨리어스 비밀번호]를 입력합니다.
 * [보호할 앱]을 선택합니다.
-* 코드 조작을 원천적으로 차단하는 [디컴파일 방지]는 항상 [예]를 선택하시길 가이드 드립니다.
-	- **디컴파일 방지 옵션**  
-디컴파일 방지기능은 현재 Unity3D C# DLL 및 COCOS2D-X 코드 파일 만 지원합니다.
-디컴파일 방지 기능을 "아니오"로 선택 후 앱 보호를 하여 문제 여부를 확인 할 수 있습니다. 디컴파일 방지를 사용하지 않을 경우 코드 조작에 대해서 파일 무결성 검증 기능으로 탐지가 가능하나 보안성이 많이 낮아져 권장하지 않습니다. 특별한 사유가 없는 한 디컴파일 방지 기능을 사용하고, 문제 발생 시에는 "신고"하기로 문의 바랍니다.
-
+* 보호 레벨을 선택합니다.
+	- Level1 : 패턴 탐지 등 기본적인 보안 기능 (안정성:높음, 보안성:낮음)
+	- Level2 : Level1 + 코드 암호화, 앱 변조 방지 등 향상된 보안 기능 (안정성:중간, 보안성:중간)
+	- Level3 : Level2 + 강력하지만 안정성이 낮은 신규 기능 (안정성:낮음, 보안성:높음)
+	- Level ex : SDK 연동이 필수로 필요한 버전, 보안성은 Level1과 2 중간 정도 (타 보안솔루션과 충돌시에만 사용 권장) 
+	
 * [앱 보호] 버튼을 클릭하여 앱 보호를 합니다.
 	\- 앱 보호가 끝나면 [그림 4]의 [앱 설정/보호]탭을 선택하여 보호가 된 앱을 다운로드 받을 수 있습니다. 이제 보호가 된 배포 파일을 각 앱스토어에 올려서 배포하면 됩니다.
 
-![[그림 5] 앱 설정/보호 화면](http://static.toastoven.net/prod_appguard/protectList.jpg)
+![[그림 5] 앱 설정/보호 화면](http://static.toastoven.net/prod_appguard/picture5.png)
 <center>[그림 5] 앱 설정/보호 화면</center>
 
 * 앱 보호 작업 수단 Console, CLI(Command Line Interface)
