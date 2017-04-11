@@ -3,7 +3,6 @@
 AppGuard는 Android 버전과 iOS 버전이 있습니다.
 
 Android 버전은 SDK 연동(선택 사항) 후 빌드된 apk 파일을 Web Console 또는 CLI를 통해 앱 보호 작업(필수 사항)을 하면 적용됩니다. 
-
 iOS 버전의 경우 SDK 연동(필수 사항)을 통해 적용되며, 별도의 보호 작업은 없습니다.
 
 AppGuard의 사용을 위한 적용 단계는 [그림 1]과 같습니다. 
