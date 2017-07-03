@@ -42,5 +42,5 @@ AppGuard uses the terms in [Table 1].
 The structure of AppGuard is shown in [Figure 1].
 After the code is linked (optional) to the app via the AppGuard SDK, use the Console or Command Line Interface(CLI) tools to complete protection operation (required), then deploy app. The AppGuard Engine detects abusing and sends logs to the server for blocking or restriction.
 
-![[그림 1] The Structure of AppGuard Serivce](http://static.toastoven.net/toastcloud/static/common/img/cms_img/werebeta/img_06.jpg)
-<center>[그림 1] The Structure of AppGuard Serivce</center>
+![[Figure 1] The Structure of AppGuard Serivce](http://static.toastoven.net/toastcloud/static/common/img/cms_img/werebeta/img_06.jpg)
+<center>[Figure 1] The Structure of AppGuard Serivce</center>

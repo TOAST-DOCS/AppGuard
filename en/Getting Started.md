@@ -24,7 +24,7 @@ Refer to the Terms of Use and select the pricing policy, so AppGuard is availabl
 please see AppGuard pricing policy ([http://cloud.toast.com/pricing/security](http://cloud.toast.com/pricing/security)) for details.
 
 ![[Figure 3] Selection of  AppGuard pricing policy](http://static.toastoven.net/prod_appguard/terms.jpg)
-<center>[그림 3] Selection of AppGuard pricing policy</center>
+<center>[Figure 3] Selection of AppGuard pricing policy</center>
 
 If you activate AppGuard after select Terms of Use, you can download an SDK that can be linked to the app from the [App Protection] menu.
 
@@ -61,8 +61,8 @@ After selecting [App Setting/Protect] menu, click [Protect App] button and the s
 * Click [Protect App] button to protect app
 	\- Once the app is protected, you can download the protected app by selecting the [App Setting / Protect] tap in [Figure 5]. Now you can deploy protected app to upload each app store.
 
-![[그림 5] App Setting/Protect window](http://static.toastoven.net/prod_appguard/picture5.png)
-<center>[그림 5] App Setting/Protect window</center>
+![[Figure 5] App Setting/Protect window](http://static.toastoven.net/prod_appguard/picture5.png)
+<center>[Figure 5] App Setting/Protect window</center>
 
 * App Protect Operation Method: Console, CLI(Command Line Interface)
 
