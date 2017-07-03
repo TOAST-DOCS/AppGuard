@@ -2,8 +2,8 @@
 
 Appguard is available in Android and iOS verions.
 
-The Android version is applied to the apk file built after the SDK connection(optional) by applying the appliction protection operation(mandatory) through Web Console or CLI.
-The iOS version is applied through SDK connectionn(mandatory), and there is no additional protection operation.
+The Android version is applied to the apk file built after the SDK linkage(optional) by applying the appliction protection operation(required) through Web Console or CLI.
+The iOS version is applied through SDK linkage(required), and there is no additional protection operation.
 
 Apply step for using AppGuard are shown in [Figure 1].
 
@@ -26,13 +26,13 @@ please see AppGuard pricing policy ([http://cloud.toast.com/pricing/security](ht
 ![[Figure 3] Selection of  AppGuard pricing policy](http://static.toastoven.net/prod_appguard/terms.jpg)
 <center>[그림 3] Selection of AppGuard pricing policy</center>
 
-If you activate AppGuard after select Terms of Use, you can download an SDK that can be connected to the app from the [App Protection] menu.
+If you activate AppGuard after select Terms of Use, you can download an SDK that can be linked to the app from the [App Protection] menu.
 
-How to use the SDK connection can be checked in the manual included in SDK after download the SDK
+How to use the SDK linkage can be checked in the manual included in SDK after download the SDK
 
 ## Protect App
 
-### Download SDK and Connection
+### Download SDK and Linkage
 
 When you activate AppGuard, you will see the [Dashboard/App Protect] menu. You can download the SDK by selecting [App Protection] menu.
 
@@ -40,7 +40,7 @@ After download SDK, follow the attached manual.
 
 ### Select App Protect Menu
 
-After selecting [App Setting/Protect] menu, click [Protect App] button and the screen of [Figure 4] will appear. (For iOS, it works only with SDK connection without protection phase)
+After selecting [App Setting/Protect] menu, click [Protect App] button and the screen of [Figure 4] will appear. (For iOS, it works only with SDK linkage without protection operation)
 
 ![[Figure 4] Input item for app protection setting](http://static.toastoven.net/prod_appguard/picture4.png)
 <center>[Figure 4] Input item for app protection setting</center>
@@ -56,7 +56,7 @@ After selecting [App Setting/Protect] menu, click [Protect App] button and the s
 	- Level1 : Abnormal behavior and Pattern based basic security behavior detect function about app
 	- Level2 : Level1 + Improved security function (Encrypt code, Prevent to modify App, etc)
 	- Level3 : Level2 + More improve security function (Because stability check may be required for certain services, it is recommended to use it only if you have received a separate guide)
-	- Level ex : Must required SDK connection and Provide security between level1 to level2(It is recommended when conflict other security solution)
+	- Level ex : Must required SDK linkage and Provide security between level1 to level2(It is recommended when conflict other security solution)
 
 * Click [Protect App] button to protect app
 	\- Once the app is protected, you can download the protected app by selecting the [App Setting / Protect] tap in [Figure 5]. Now you can deploy protected app to upload each app store.
