@@ -2,117 +2,117 @@
 
 ### 2017.06.22
 
-#### 기능 개선/변경
-* 64bit용 앱가드 모듈 추가
-    * x86_64, arm64-v8a 용 jni를 사용하는 앱에 대해서만 보호시 해당 아키텍쳐에 맞는 앱가드 모듈이 포함됩니다.
-* SDK 다운로드 버튼 수정
-    * Android, iOS(Beta) SDK를 따로 받을 수 있도록 분리하였습니다.
-    * iOS(Beta) 버전은 모든 사용자에게 무료로 제공되며, iOS 로그는 과금에 반영 되지 않습니다.
-* 탐지 로직 강화
-    * 앱가드 자체 모듈 변조 탐지 기능이 강화되었습니다.
-* Unity3D 암호화 대상 파일 확장
-    * 유니티 기본 DLL 파일 뿐 아니라 별도로 추가하신 DLL 파일들도 암호화 됩니다. (Level3)
+#### function upgrade/change
+* Add AppGuard module for 64bit
+    * Only App that use jni for x86_64, arm64-v8a will have an AppGuard module for that architecture.
+* Edit SDK Download Button for SDK Download
+    * divide button to download SDK for Android, iOS(Beta)
+    * The iOS(Beta) version is free for all users, and iOS logs are not reflected in billing.
+* Enhanced Detection Logic
+    * Enhancement of the module detection function of the AppGuard itself
+* Extend Unity3D Encrypted File
+    * Unitiy Basic DLL files as well as DLL files added separately are also encrypted. (Level 3)
 
 ### 2017.05.25
 
-#### 기능 개선/변경
-* Android 버전 적용 방식 단순화
-    * 기존 : SDK 연동 후 보호작업
-    * 변경 : 보호작업 만으로 적용 가능 (유저 ID 식별자 등록 필요시 선택적으로 SDK 연동이 필요하나 기존보다 간단해집니다.)
-* 앱 보호 레벨 개편
-    * Level 1 : 앱에 대한 비정상 행위 및 패턴 기반의 기본 보안 탐지 기능
-    * Level 2 : Level1 + 코드 암호화, 앱 변조 방지 등 향상된 보안 기능
-    * Level 3 : Level2 + 강화된 보안 기능 (특정 서비스에서는 안정성 검증이 필요할 수 있어, 별도 적용 가이드를 받은 경우에만 사용 권장)
-    * Level ex : SDK 연동이 필수로 필요한 버전, Level1과 2  사이의 보안성 제공 (타 보안솔루션과 충돌시에만 사용 권장)
+#### function upgrade/change
+* Simplify application Android version
+    * before : Protection operation after SDK linkage
+    * after : You can apply only protection operation (If user ID identifier registration is necessary, it is necessary to selectively be linked SDK, but it becomes simpler than before.)
+* Restructure App Protection Level
+    * Level 1 : Abnormal behavior and pattern based basic security behavior detect about app
+    * Level 2 : Level1 + Enhanced security function such as Encrypt source code, Prevent to modify App, etc.
+    * Level 3 : Level2 + More Enhanced security function(Because stability check may be required for certain services, it is recommended to use it only if you have received a separate guide)
+    * Level ex : Version of must required SDK be linked, Provide security between level1 to level2(it is recommended when conflict other security solution)
 
 ### 2017.04.20
 
-#### 버그 수정
-* 앱변조 방지기능 적용시 일부 앱 설치 문제 수정
-* 앱변조 방지기능 적용시 외부 리소스 사용앱에 대한 호환성 강화
-* Unity3d 5.6 버전에서 앱가드 빌드 오류 수정
+#### bug fix
+* Fix some app intall issues when applying app modification prevent function
+* Enhance compatibility with apps that use external resources when applying app modification prevent function
+* Fix app guard build error in version 5.6 of Unity3d
 
 ### 2017.04.04
 
-#### 버그 수정
-* 앱 변조 방지 기능 multidex 버그 수정
+#### bug fix
+* Fix multidex bug of app modification prevent function
 
 ### 2017.03.23
 
-#### 기능 개선/변경
-* [SDK] Unity3d il2cpp 빌드 지원 기능 추가
+#### function upgrade/change
+* [SDK] Add function of supporting Unity3d il2cpp build
 
-#### 버그 수정
-* 정책 업데이트가 늦어지는 경우, 차단 로직이 정상적으로 수행되지 않던 문제 수정
-* Android 로그에 불필요한 익셉션이 출력되는 문제 수정
+#### bug fix
+* Fix an issue where blocking logic was not executed normally when policy update was delayed
+* Fix an issue where unnecessary exceptions were output to Android logs
 
 ### 2017.01.19
 
-#### 기능 개선/변경
-* [SDK] AppGuard iOS SDK 신규 배포
-* apk 변조 방지 기능 강화
+#### function upgrade/change
+* [SDK] New AppGuard iOS SDK deploy
+* Enhanced modification prevent function of apk
 
-#### 버그 수정
-* 정책 설정과 탐지 로직 간 동기화 오류 수정
-* 네트워크 상황에 따른 크래쉬 이슈 수정 (로그 전송 라이브러리 업데이트)
+#### bug fix
+* Fix synchronization error between policy settings and detection logic
+* Fix crash issue based on network conditions (Update log transfer library)
 
 ### 2016.12.22
 
-#### 기능 개선/변경
-* 치팅툴 탐지 패턴 추가
-* [Console] 탐지 로그에 앱가드 엔진 버전 정보 추가
+#### function upgrade/change
+* Add detection pattern of cheating tool
+* [Console] Add information of AppGuard engine version in detection logs
 
 ### 2016.12.08
 
-#### 기능 개선/변경
-* 루팅 탐지 패턴 추가
-* [SDK] 앱가드에서 차단시 표시되는 메시지 다국어 설정 API 추가
+#### function upgrade/change
+* Add detection pattern of rooting
+* [SDK] Add multi-lingual setting API at message when blocking in AppGuard
 
-#### 버그 수정
-* [Console] 보호가 실패하였는데 웹 콘솔상에 성공으로 표시되는 오류 수정
+#### bug fix
+* [Console] Fix an error that the protection failed but appears to be successful on the web console
 
 ### 2016.11.24
 
-#### 기능 개선/변경
+#### function upgrade/change
 
-* [SDK] 앱가드 SDK(tcag.jar) 업데이트
-* [Console] AppGuard Web Console에 공지사항 추가
+* [SDK] Update AppGuard SDK(tcag.jar)
+* [Console] Add Notice in AppGuard Web Console
 
 ### 2016.10.20
 
-#### 기능 개선/변경
+#### function upgrade/change
 
-* [API] 앱가드 SDK 연동 함수 매개변수 변경
-* [SDK] AppGuard CLI(Command Line Build) 툴 자동 업데이트 기능 추가
- 
+* [API] Change parameter of AppGuard SDK linkage function
+* [SDK] Add auto update function of AppGuard CLI(Command Line Build) tool
+
 ### 2016.09.29
 
-#### 버그 수정
+#### bug fix
 
-* [Console] 약관 동의 창 위치, 링크 오류 수정
-* [Console] 앱 보호시 UI 깨짐 현상 수정
+* [Console] Fix window of agree terms and link error
+* [Console] Fix UI break when protecting app
 
 ### 2016.09.08
 
-#### 버그 수정
+#### bug fix
 
-* Android 7.0 스피드핵 오탐 수정
+* Fix false positives of speed hack detection in Android 7.0
 
 ### 2016.08.18
 
-#### 기능 개선/변경
+#### function upgrade/change
 
-* 탐지 패턴 업데이트
-* Android N 지원
-* [Console] iOS 로그 조회 기능 추가
-* [Console] 한 페이지에 표시되는 로그 수 변경 기능 추가 (15 고정 -> 15/30/50 선택 가능)
+* Update detection pattern
+* Support Android N
+* [Console] Add function to searching iOS logs
+* [Console] Add function to change the number of logs displayed on a page (fixed 15 -> select 15/30/50)
 
 ### 2016.08.04
 
-#### 기능 개선/변경
+#### function upgrade/change
 
-* 스피드조작 탐지 강화
-    
-#### 버그 수정
+* Enhance detection of speed manipulation
 
-* Timer로 인한 일부 오류 수정
+#### bug fix
+
+* Fix some errors due to Timer
