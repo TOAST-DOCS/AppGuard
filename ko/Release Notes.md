@@ -1,5 +1,10 @@
 ## Security > AppGuard > Release Notes
 
+### 2017.07.20
+
+#### 기능 개선/변경
+* Level 1~3 적용시 Callback 함수가 탐지시 호출되지 않는 오류 수정 
+
 ### 2017.06.22
 
 #### 기능 개선/변경
