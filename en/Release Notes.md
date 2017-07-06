@@ -17,8 +17,8 @@
 
 #### function upgrade/change
 * Simplify application Android version
-    * before : Protection operation after SDK linkage
-    * after : You can apply only protection operation (If user ID identifier registration is necessary, it is necessary to selectively be linked SDK, but it becomes simpler than before.)
+    * before : Protection work after SDK linkage
+    * after : You can apply only protection work (If user ID identifier registration is necessary, it is necessary to selectively be linked SDK, but it becomes simpler than before.)
 * Restructure App Protection Level
     * Level 1 : Abnormal behavior and pattern based basic security behavior detect about app
     * Level 2 : Level1 + Enhanced security function such as Encrypt source code, Prevent to modify App, etc.

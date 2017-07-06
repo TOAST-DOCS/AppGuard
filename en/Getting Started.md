@@ -2,8 +2,8 @@
 
 Appguard is available in Android and iOS verions.
 
-The Android version is applied to the apk file built after the SDK linkage(optional) by applying the appliction protection operation(required) through Web Console or CLI.
-The iOS version is applied through SDK linkage(required), and there is no additional protection operation.
+The Android version is applied to the apk file built after the SDK linkage(optional) by applying the appliction protection work(required) through Web Console or CLI.
+The iOS version is applied through SDK linkage(required), and there is no additional protection work.
 
 Apply step for using AppGuard are shown in [Figure 1].
 
@@ -40,7 +40,7 @@ After download SDK, follow the attached manual.
 
 ### Select App Protect Menu
 
-After selecting [App Setting/Protect] menu, click [Protect App] button and the screen of [Figure 4] will appear. (For iOS, it works only with SDK linkage without protection operation)
+After selecting [App Setting/Protect] menu, click [Protect App] button and the screen of [Figure 4] will appear. (For iOS, it works only with SDK linkage without protection work)
 
 ![[Figure 4] Input item for app protection setting](http://static.toastoven.net/prod_appguard/picture4.png)
 <center>[Figure 4] Input item for app protection setting</center>
@@ -59,12 +59,12 @@ After selecting [App Setting/Protect] menu, click [Protect App] button and the s
 	- Level ex : Must required SDK linkage and Provide security between level1 to level2(It is recommended when conflict other security solution)
 
 * Click [Protect App] button to protect app
-	\- Once the app is protected, you can download the protected app by selecting the [App Setting / Protect] tap in [Figure 5]. Now you can deploy protected app to upload each app store.
+	\- Once the app is protected, you can download the protected app by selecting the [App Setting / Protection] tap in [Figure 5]. Now you can deploy protected app to upload each app store.
 
 ![[Figure 5] App Setting/Protect window](http://static.toastoven.net/prod_appguard/picture5.png)
 <center>[Figure 5] App Setting/Protect window</center>
 
-* App Protect Operation Method: Console, CLI(Command Line Interface)
+* App Protect work Method: Console, CLI(Command Line Interface)
 
 ## Dashboard
 
@@ -72,7 +72,7 @@ After selecting [App Setting/Protect] menu, click [Protect App] button and the s
 2. [Dashboard] allows you to search statistic graphs and lists of detected user by AppGuard.
 3. You can search by [User ID], [Device ID], [Detection Log Count], [Detection Log Pattern], [Search Period]
 	* You can add multiple [User ID] and [Device ID] by separating with comma.
-4. The detection statistics graph can check 'distribution byyy detection pattern' and 'detection pattern coutn' by period
+4. The detection statistics graph can check 'distribution by detection pattern' and 'detection pattern coutn' by period
 5. The detection list show [User ID], [Device ID], [Detection Log Pattern Information], [Detection Log Count], [App version] and [Detection Time]
 6. The search results can be downloaded by clicking [Download Report(CSV)].
 
