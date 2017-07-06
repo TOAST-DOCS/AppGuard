@@ -1,5 +1,10 @@
 ## Security > AppGuard > Release Notes
 
+### 2017.07.20
+
+#### function upgrade/change
+* Fixed an error that Callback function is not called when detecting Level 1~3
+
 ### 2017.06.22
 
 #### function upgrade/change
