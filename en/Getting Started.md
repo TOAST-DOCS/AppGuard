@@ -7,14 +7,14 @@ The iOS version is applied through SDK linkage(required), and there is no additi
 
 Apply step for using AppGuard are shown in [Figure 1].
 
-![[Figure 1] How to apply AppGuard](http://static.toastoven.net/prod_appguard/picture1.png)
+![[Figure 1] How to apply AppGuard](http://static.toastoven.net/prod_appguard/figure1.png)
 <center>[Figure 1] How to apply AppGuard</center>
 
 ## Activate Service
 
 To protect your app with AppGuard, first activate the service. To activate, select [Security] > [AppGuard] and click the [Use Product] button in the Console as shown in [Figure 2]
 
-![[Figure 2] Activate AppGuard](http://static.toastoven.net/toastcloud/static/common/img/cms_img/werebeta/img_08.jpg)
+![[Figure 2] Activate AppGuard](http://static.toastoven.net/toastcloud/static/common/img/cms_img/werebeta/figure2.png)
 <center>[Figure 2] Activate AppGuard</center>
 
 When you first access the AppGuard Console page after clicking the [Use Product] button, the selection window of the Terms of Use appears as shown in [Figure 3] below.
@@ -23,7 +23,7 @@ Refer to the Terms of Use and select the pricing policy, so AppGuard is availabl
 
 please see AppGuard pricing policy ([http://cloud.toast.com/pricing/security](http://cloud.toast.com/pricing/security)) for details.
 
-![[Figure 3] Selection of  AppGuard pricing policy](http://static.toastoven.net/prod_appguard/terms.jpg)
+![[Figure 3] Selection of  AppGuard pricing policy](http://static.toastoven.net/prod_appguard/figure3.png)
 <center>[Figure 3] Selection of AppGuard pricing policy</center>
 
 If you activate AppGuard after select Terms of Use, you can download an SDK that can be linked to the app from the [App Protection] menu.
@@ -42,7 +42,7 @@ After download SDK, follow the attached manual.
 
 After selecting [App Setting/Protect] menu, click [Protect App] button and the screen of [Figure 4] will appear. (For iOS, it works only with SDK linkage without protection work)
 
-![[Figure 4] Input item for app protection setting](http://static.toastoven.net/prod_appguard/picture4.png)
+![[Figure 4] Input item for app protection setting](http://static.toastoven.net/prod_appguard/figure4.png)
 <center>[Figure 4] Input item for app protection setting</center>
 
 * Select [Certificate file]. It is KeyStore file on Android.
@@ -61,7 +61,7 @@ After selecting [App Setting/Protect] menu, click [Protect App] button and the s
 * Click [Protect App] button to protect app
 	\- Once the app is protected, you can download the protected app by selecting the [App Setting / Protection] tap in [Figure 5]. Now you can deploy protected app to upload each app store.
 
-![[Figure 5] App Setting/Protect window](http://static.toastoven.net/prod_appguard/picture5.png)
+![[Figure 5] App Setting/Protect window](http://static.toastoven.net/prod_appguard/figure5.png)
 <center>[Figure 5] App Setting/Protect window</center>
 
 * App Protect work Method: Console, CLI(Command Line Interface)
@@ -76,5 +76,5 @@ After selecting [App Setting/Protect] menu, click [Protect App] button and the s
 5. The detection list show [User ID], [Device ID], [Detection Log Pattern Information], [Detection Log Count], [App version] and [Detection Time]
 6. The search results can be downloaded by clicking [Download Report(CSV)].
 
-![[Figure 6] Dashboard Windows of Abusing User Detection](http://static.toastoven.net/prod_appguard/dashboard.jpg)
+![[Figure 6] Dashboard Windows of Abusing User Detection](http://static.toastoven.net/prod_appguard/figure6.png)
 <center>[Figure 6] Dashboard Windows of Abusing User Detection</center>
