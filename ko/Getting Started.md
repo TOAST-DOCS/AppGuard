@@ -7,14 +7,14 @@ iOS 버전의 경우 SDK 연동(필수 사항)을 통해 적용되며, 별도의
 
 AppGuard의 사용을 위한 적용 단계는 [그림 1]과 같습니다. 
 
-![[그림 1] AppGuard 적용 방법](http://static.toastoven.net/prod_appguard/picture1.png)
+![[그림 1] AppGuard 적용 방법](http://static.toastoven.net/prod_appguard/figure1.png)
 <center>[그림 1] AppGuard 적용 방법</center>
 
 ## 서비스 활성화
 
 AppGuard를 이용하여 앱을 보호하려면 먼저 서비스를 활성화 합니다. 활성화 방법은 [그림 2]와 같이 Console에서 [Security] > [AppGuard]를 선택한 후 [상품 이용] 버튼을 클릭합니다.
 
-![[그림 2] AppGuard 활성화](http://static.toastoven.net/toastcloud/static/common/img/cms_img/werebeta/img_08.jpg)
+![[그림 2] AppGuard 활성화](http://static.toastoven.net/prod_appguard/figure2.png)
 <center>[그림 2] AppGuard 활성화</center>
 
 [상품 이용] 버튼 클릭 후 AppGuard Console 페이지에 최초 접속하시면 아래 [그림 3]과 같이 이용약관 선택 창이 나타납니다.

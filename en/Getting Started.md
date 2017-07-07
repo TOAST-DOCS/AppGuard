@@ -14,7 +14,7 @@ Apply step for using AppGuard are shown in [Figure 1].
 
 To protect your app with AppGuard, first activate the service. To activate, select [Security] > [AppGuard] and click the [Use Product] button in the Console as shown in [Figure 2]
 
-![[Figure 2] Activate AppGuard](http://static.toastoven.net/toastcloud/static/common/img/cms_img/werebeta/figure2.png)
+![[Figure 2] Activate AppGuard](http://static.toastoven.net/prod_appguard/figure2.png)
 <center>[Figure 2] Activate AppGuard</center>
 
 When you first access the AppGuard Console page after clicking the [Use Product] button, the selection window of the Terms of Use appears as shown in [Figure 3] below.
