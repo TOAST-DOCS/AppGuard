@@ -42,5 +42,5 @@ AppGuard에서는 [표 1]의 용어를 사용 합니다.
 AppGuard의 구조는 [그림 1]과 같습니다.  
 AppGuard의 SDK를 통해 앱에 코드 연동(선택 사항) 후, Console이나 CLI(Command Line Interface)툴을 이용하여 앱 보호(필수 사항) 작업을 배포합니다. AppGuard Engine은 어뷰징을 탐지하여 차단하거나 제재할 수 있는 로그를 서버로 전송합니다.
 
-![[그림 1] AppGuard 서비스 구조](http://static.toastoven.net/toastcloud/static/common/img/cms_img/werebeta/img_06.jpg)
+![[그림 1] AppGuard 서비스 구조](http://static.toastoven.net/prod_appguard/Overview_figure1.png)
 <center>[그림 1] AppGuard 서비스 구조</center>
