@@ -7,17 +7,17 @@ AppGuard can help prevent code manipulation in application. AppGuard can also de
 * Code manipulation can be prevented at the source.
 * Various manipulation tools can be detected and restrict based on pattern or behavior that is difficult to bypass.
 * AppGuard provide basis about restriction after check detected information by AppGuard through the Console.
-* Powerful App protection with simple SDK linkage and easy app protection work.
-* Is is applied to about 50 various services such as game, shopping, and easy payment, and is utilized for protecting
+* Powerful App protection with easy app protection work only.
+* Is is applied to about 80 various services such as game, shopping, and easy payment, and is utilized for protecting
 
 ## Main Function
 
 It provides the following function.
 
 * Application protection via Web console provides convenient decompile protection function.
-* Application manipulation detection through file integrity.
-* Abusing environment detection like Rooting, Emulation, etc.
-* Speed manipulation detection.
+* Detect application manipulation through file integrity.
+* Detect Abusing environment like Rooting, Emulation, etc.
+* Detect speed manipulation.
 * Patterns and behavior based detection of various manipulation tools.
 * It it not a manual restriction with a lot of resources by the operator, but a low-cose automatic restriction by the system. (to be provided in the near future)
 

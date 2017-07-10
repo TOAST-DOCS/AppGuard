@@ -26,7 +26,7 @@ please see AppGuard pricing policy ([http://cloud.toast.com/pricing/security](ht
 ![[Figure 3] Selection of  AppGuard pricing policy](http://static.toastoven.net/prod_appguard/figure3.png)
 <center>[Figure 3] Selection of AppGuard pricing policy</center>
 
-If you activate AppGuard after select Terms of Use, you can download an SDK that can be linked to the app from the [App Protection] menu.
+If you activate AppGuard after select Terms of Use, you can download an SDK that can be linked to the app from the [Protect App] menu.
 
 How to use the SDK linkage can be checked in the manual included in SDK after download the SDK
 
@@ -34,13 +34,13 @@ How to use the SDK linkage can be checked in the manual included in SDK after do
 
 ### Download SDK and Linkage
 
-When you activate AppGuard, you will see the [Dashboard/App Protect] menu. You can download the SDK by selecting [App Protection] menu.
+When you activate AppGuard, you will see the [Dashboard], [App Setting/Protection] menu. Select [App Setting/Protection] menu and click [Download SDK] button to download SDK for each OS.
 
 After download SDK, follow the attached manual.
 
 ### Select App Protect Menu
 
-After selecting [App Setting/Protect] menu, click [Protect App] button and the screen of [Figure 4] will appear. (For iOS, it works only with SDK linkage without protection work)
+After selecting [App Setting/Protection] menu, click [Protect App] button and the screen of [Figure 4] will appear. (For iOS, it works only with SDK linkage without protection work)
 
 ![[Figure 4] Input item for app protection setting](http://static.toastoven.net/prod_appguard/figure4.png)
 <center>[Figure 4] Input item for app protection setting</center>
@@ -48,7 +48,7 @@ After selecting [App Setting/Protect] menu, click [Protect App] button and the s
 * Select [Certificate file]. It is KeyStore file on Android.
 * Enter [Master Password] and Click [Validation] Button to validate the certificate file.
 	* This check is to validate KeyStore and to select proper alias before protecting the app.
-	* If the validation fails, check whether the certificate file is OK and the master password.
+	* If the validation fails, check whether the certificate file and the master password is OK.
 * Select [Alias].
 * Enter the [Alias Password].
 * Select the [App to protect]

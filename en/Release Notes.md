@@ -3,7 +3,7 @@
 ### 2017.07.20
 
 #### function upgrade/change
-* Fixed an error that Callback function is not called when detecting Level 1~3
+* Fixed an error that Callback function is not called when detecting on Level 1~3
 
 ### 2017.06.22
 
@@ -16,7 +16,7 @@
 * Enhanced Detection Logic
     * Enhancement of the module detection function of the AppGuard itself
 * Extend Unity3D Encrypted File
-    * Unitiy Basic DLL files as well as DLL files added separately are also encrypted. (Level 3)
+    * Unitiy Basic DLL files as well as DLL files separately added are also encrypted. (Level 3)
 
 ### 2017.05.25
 
@@ -55,7 +55,7 @@
 
 #### function upgrade/change
 * [SDK] New AppGuard iOS SDK deploy
-* Enhanced modification prevent function of apk
+* Enhance function of apk modification prevention
 
 #### bug fix
 * Fix synchronization error between policy settings and detection logic
