@@ -4,6 +4,7 @@
 
 #### function upgrade/change
 * Fixed an error that Callback function is not called when detecting on Level 1~3
+* Add optimization function option for Level 1~3
 
 ### 2017.06.22
 
