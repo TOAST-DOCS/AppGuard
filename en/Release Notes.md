@@ -1,5 +1,13 @@
 ## Security > AppGuard > Release Notes
 
+### 2017.08.24
+
+#### function upgrade/change
+* Removal of charge/free selection window due to full charge (Apply September 1)
+* Support Android 8.0
+#### bug fix
+* Fixed a bug that did not update automatically when adding CLI option
+
 ### 2017.07.20
 
 #### function upgrade/change
