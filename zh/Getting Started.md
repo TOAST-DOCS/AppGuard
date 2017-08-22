@@ -1,128 +1,80 @@
-Security &gt; AppGuard &gt; Getting Started
--------------------------------------------
+## Security > AppGuard > Getting Started
 
 AppGuard有 Android版本和iOS版本(Beta)。
 
-Android版本关联SDK(选项)后所构建的apk文件，通过Web
-Console或CLI来进行App保护
-工作(必选项)。iOS版本的话，通过关联SDK(必选项)来进行应用，没有额外的保护工作。
+Android版本关联SDK(选项)后所构建的apk文件，通过Web Console或CLI来进行App保护 工作(必选项)。<br>
+iOS版本的话，通过关联SDK(必选项)来进行应用，没有额外的保护工作。
 
-AppGuard的使用应用阶段如\[图 1\]。
+AppGuard的使用应用阶段如[图 1]。
 
-![\[그림 1\] AppGuard 적용
-방법](media/image1.png){width="5.833333333333333in"
-height="4.096691819772529in"}
+![[图 1] AppGuard 应用方法](http://static.toastoven.net/prod_appguard/figure1.png)
 
-\[图 1\] AppGuard 应用方法
+<center>[图 1] AppGuard 应用方法</center>
 
-服务活性化
-----------
+## 服务活性化
 
-要想用AppGuard来保护App的话，首先要激活服务。激活方法如\[图
-2\]，在Console上选择\[Security\] &gt; \[AppGuard\]后，点击
-\[商品使用\]按钮。
+要想用AppGuard来保护App的话，首先要激活服务。激活方法如[图 2]，在Console上选择[Security] > [AppGuard]后，点击 [商品使用]按钮。
 
-![\[그림 2\] AppGuard
-활성화](media/image2.jpg){width="5.833333333333333in"
-height="4.331049868766404in"}
+![[그림 2] AppGuard 활성화](http://static.toastoven.net/prod_appguard/figure2.png)
+<center>[图 2] AppGuard活性化</center>
 
-\[图 2\] AppGuard活性化
-
-点击\[商品使用\]按钮后，最早访问AppGuard Console页面的话，就会出现如\[图
-3\]一样的使用条款选择窗口。
+点击[商品使用]按钮后，最早访问AppGuard Console页面的话，就会出现如[图 3]一样的使用条款选择窗口。
 
 参照使用条款选择费用政策的话，即可按照设定的费用政策使用AppGuard。
 
 详细的费用内容请参照AppGuard费用政策(<http://cloud.toast.com/pricing/security>)。
 
-![\[그림 3\] AppGuard 요금 정책
-선택](media/image3.jpg){width="1.2933333333333332in" height="1.6in"}
-
-\[图 3\] 选择AppGuard费用政策
+![[图 3] 选择AppGuard费用政策](http://static.toastoven.net/prod_appguard/figure3.png)
+<center>[图 3] 选择AppGuard费用政策</center>
 
 选择使用条款后，激活AppGuard的话，即可在[保护App菜单中](#保护app)下载可关联App的SDK。
 
 关联SDK的方法可在下载 SDK时的说明书中进行确认。
 
-保护App
--------
+## 保护App
 
 ### SDK 下载及关联
 
-若是激活AppGuard的话，就会看见\[控制面板/保护App\]菜单。若是选择
-[保护App](#保护app)菜单的话，就可下载SDK。
+若是激活AppGuard的话，就会看见\[控制面板/保护App\]菜单。若是选择 [保护App](#保护app)菜单的话，就可下载SDK。
 
 下载SDK后，按照附加的说明书中进行关联。
 
-保护App菜单选择
----------------
+### 保护App菜单选择
 
-选择\[设置/保护App\]后，点击[保护App按钮的话，就会出现](#保护app) \[图
-3\]的页面。(iOS的话，没有保护阶段，只能关联SDK。)
+选择 [设置 保护App]后，点击[保护App按钮的话，就会出现](#保护app) [图 3]的页面。(iOS的话，没有保护阶段，只能关联SDK。)
 
-![\[그림 4\] 앱 보호 설정을 위한 입력
-항목](media/image4.png){width="5.833333333333333in"
-height="5.503345363079615in"}
+![[图 4] 为了设置保护App而需要输入的项目](http://static.toastoven.net/prod_appguard/figure4.png)
+<center>[图 4] 为了设置保护App而需要输入的项目</center>
 
-\[图 4\] 为了设置保护App而需要输入的项目
+* 选择\[证书文件\]。Android为 KeyStore文件。
+* 输入\[主密码\]，点击\[有效性检查\]按钮，可检查证书文件的有效性。
+        * 此检查操作是为了在App保护工作前选择KeyStore的有效性和适当的Alias。
+        * 有效性检查失败时，需确认证书文件是否正常和管理员密码。
+* 选择\[Alias\]名。
+* 输入\[Alias密码\]。
+* 选择\[要保护的App\]。
+* 选择保护等级。
+        * Level1 : 有关App的非正常行为及模式基础的基本安全检测功能
+        * Level2 : Level1 + 代码加密、App防伪等增强的安全功能
+        * Level3 : Level2 + 强化的安全功能(在特定服务中，可能会需要检测安全性，只有收到额外的应用指南才建议使用。)
+        * Level ex : 关联SDK作为必须需要的版本，提供Level1和2之间的安全性(只有和其它安全解决方案相冲突时，才建议使用。)
+* 点击保护App按钮，保护App。 
+    \- 若保护App结束的话，选择\[图片4\]的\[设置/保护App\]标签，即可下载被保护的App。现在，将被保护的发布文件上传至各App Store进行发布即可。 
+   
+![[图 5] 设置/保护App页面](http://static.toastoven.net/prod_appguard/figure5.png)
+<center>[图 5] 设置/保护App页面</center>
 
--   选择\[证书文件\]。Android为 KeyStore文件。
+* App保护工作手段 Console, CLI(Command Line Interface)
 
--   输入\[主密码\]，点击\[有效性检查\]按钮，可检查证书文件的有效性。
+## 控制面板
 
-    -   此检查操作是为了在App保护工作前选择KeyStore的有效性和适当的Alias。
-
-    -   有效性检查失败时，需确认证书文件是否正常和管理员密码。
-
--   选择\[Alias\]名。
-
--   输入\[Alias密码\]。
-
--   选择\[要保护的App\]。
-
--   选择保护等级。
-
-    -   Level1 : 有关App的非正常行为及模式基础的基本安全检测功能
-
-    -   Level2 : Level1 + 代码加密、App防伪等增强的安全功能
-
-    -   Level3 : Level2 + 强化的安全功能
-        (在特定服务中，可能会需要检测安全性，只有收到额外的应用指南才建议使用。)
-
-    -   Level ex : 关联SDK作为必须需要的版本，提供Level1和2之间的安全性
-        (只有和其它安全解决方案相冲突时，才建议使用。)
-
--   点击保护App按钮，保护App。 -
-    若保护App结束的话，选择\[图片4\]的\[设置/保护App\]标签，即可下载被保护的App。现在，将被保护的发布文件上传至各App
-    Store进行发布即可。 ![\[그림 5\] 앱 설정/보호
-    화면](media/image5.png){width="5.833333333333333in"
-    height="1.9019094488188977in"}
-
-\[图 5\] 设置/保护App页面
-
--   App保护工作手段 Console, CLI(Command Line Interface)
-
-控制面板
---------
-
-1.  App保护工作已完结的App在App
-    Store发布后，若被Abusing用户探知的话，可在\[图 5\]的
-    [控制面板](#控制面板)标签上确认现状。
-
+1.  App保护工作已完结的App在App Store发布后，若被Abusing用户探知的话，可在[图 5]的 [控制面板](#控制面板)标签上确认现状。
 2.  [控制面板](#控制面板)可搜索AppGuard探知的Abusing用户的统计图表和清单。
-
-3.  可用\[用户ID\]、\[设备ID\]、\[日志检测次数\]、\[日志检测模式\]、\[查询时间\]进行\[搜索\]。
-
-    -   \[用户ID\]和\[设备ID\]用逗号来区分，可添加多个条件。.
-
+3.  可用 [用户ID]、 [设备ID]、 [日志检测次数]、 [日志检测模式]、 [查询时间]进行 [搜索]。
+        * [用户ID]和[设备ID]用逗号来区分，可添加多个条件。.
 4.  检测统计图表可确认“按检测模式分布”和按时间“检测模式量”。
+5.  检测目录会显示[用户ID]和[设备ID]、[日志检测模式信息]、[日志检测次数]、[App版本]、[开始]。
+6.  搜索结果，点击[报告书下载(CSV)]，即可进行下载。
 
-5.  检测目录会显示\[用户ID\]和\[设备ID\]、\[日志检测模式信息\]、\[日志检测次数\]、\[App版本\]、\[开始\]。
-
-6.  搜索结果，点击\[报告书下载(CSV)\]，即可进行下载。
-
-![\[그림 6\] 어뷰징 유저 탐지 대시보드
-화면](media/image6.jpg){width="4.006666666666667in"
-height="3.4366666666666665in"}
-
-\[图 6\] Abusing 用户探知控制面板页面
+![[图 6] Abusing 用户探知控制面板页面](http://static.toastoven.net/prod_appguard/figure6.png)
+<center>[图 6] Abusing 用户探知控制面板页面</center>
