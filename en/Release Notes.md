@@ -3,7 +3,7 @@
 ### 2017.08.24
 
 #### function upgrade/change
-* Removal of charge/free selection window due to full charge (Apply September 1)
+* Removal of charge/free selection window (Apply September 1)
 * Support Android 8.0
 #### bug fix
 * Modify the module(CLIUpdater.exe) that automatically updates the AppGuard CLI(AppGuard.exe)
