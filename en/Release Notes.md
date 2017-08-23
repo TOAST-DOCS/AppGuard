@@ -1,5 +1,14 @@
 ## Security > AppGuard > Release Notes
 
+### 2017.08.24
+
+#### function upgrade/change
+* Removal of charge/free selection window due to full charge (Apply September 1)
+* Support Android 8.0
+#### bug fix
+* Modify the module(CLIUpdater.exe) that automatically updates the AppGuard CLI(AppGuard.exe)
+    * Requires CLI of latest SDK (If you don't want automatic update function, add --noUpdate as CLI option)
+
 ### 2017.07.20
 
 #### function upgrade/change
@@ -9,14 +18,11 @@
 ### 2017.06.22
 
 #### function upgrade/change
-* Add AppGuard module for 64bit
-    * Only App that use jni for x86_64, arm64-v8a will have an AppGuard module for that architecture.
-* Edit SDK Download Button for SDK Download
-    * divide button to download SDK for Android, iOS(Beta)
-    * The iOS(Beta) version is free for all users, and iOS logs are not reflected in billing.
-* Enhanced Detection Logic
-    * Enhancement of the module detection function of the AppGuard itself
-* Extend Unity3D Encrypted File
+* App that use jni for x86_64, arm64-v8a will have an AppGuard module for that architecture.
+* Divide path to download SDK for Android, iOS(Beta)
+* The iOS(Beta) version is free for all users
+* Enhancement of the module detection function of the AppGuard itself
+* Extend Unity3D DLL File Encrpyt
     * Unitiy Basic DLL files as well as DLL files separately added are also encrypted. (Level 3)
 
 ### 2017.05.25
