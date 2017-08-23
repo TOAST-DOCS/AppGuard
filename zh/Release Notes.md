@@ -6,7 +6,7 @@
 * 전면유료화로 인한 유/무료 선택창 제거(9월 1일 적용)
 * Android 8.0 지원
 #### 버그 수정
-* 앱가드 CLI(AppGuard.exe)를 자동으로 업데이트 해주는 모듈(CLIUpdater.exe) 수정
+* 앱가드 CLI(AppGuard.exe)를 자동으로 업데이트 해주는 모듈(CLIUpdater.exe) 수정, 업데이트 필수
     * 최신 SDK의 CLI 사용 필요 (자동 업데이트기능을 원하지 않는 경우 CLI 옵션으로 --noUpdate를 추가)
 
 ### 2017.07.20
