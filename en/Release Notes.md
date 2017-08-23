@@ -6,7 +6,7 @@
 * Removal of charge/free selection window (Apply September 1)
 * Support Android 8.0
 #### bug fix
-* Modify the module(CLIUpdater.exe) that automatically updates the AppGuard CLI(AppGuard.exe)
+* Modify the module(CLIUpdater.exe) that automatically updates the AppGuard CLI(AppGuard.exe), required update
     * Requires CLI of latest SDK (If you don't want automatic update function, add --noUpdate as CLI option)
 
 ### 2017.07.20
