@@ -12,23 +12,18 @@ AppGuard의 사용을 위한 적용 단계는 [그림 1]과 같습니다. 
 
 ## 서비스 활성화
 
-AppGuard를 이용하여 앱을 보호하려면 먼저 서비스를 활성화 합니다. 활성화 방법은 [그림 2]와 같이 Console에서 [Security] > [AppGuard]를 선택한 후 [상품 이용] 버튼을 클릭합니다.
+AppGuard 상품 활성화는 [그림 2]와 같이 Toast Cloud [Console] 페이지에서 [Security] > [AppGuard]를 선택한 후 [상품 이용] 버튼을 클릭합니다.
 
 ![[그림 2] AppGuard 활성화](http://static.toastoven.net/prod_appguard/figure2.png)
 <center>[그림 2] AppGuard 활성화</center>
 
-[상품 이용] 버튼 클릭 후 AppGuard Console 페이지에 최초 접속하시면 아래 [그림 3]과 같이 이용약관 선택 창이 나타납니다.
+[상품 이용] 버튼으로 AppGuard 상품을 활성화 하신 후 Web Console 상단에 [상품 사용법]을 참고하셔서 AppGuard를 이용하시면 됩니다.
 
-이용 약관을 참고 하셔서 요금 정책을 선택하시면 설정된 요금 정책에 따라 AppGuard를 이용하실 수 있습니다.
+AppGuard는 어뷰징에 대한 로그 정보를 제공하기 위해 단말 정보, IP등 최소한으로 필요한 내용를 수집 및 저장하게 됩니다.
 
-자세한 요금 내용은 AppGuard 요금정책 ([http://cloud.toast.com/pricing/security](http://cloud.toast.com/pricing/security))을 참고 바랍니다.
+AppGuard 상품을 이용하는 고객께서는 [상품 사용법]에 공개된 '개인정보보호 가이드'를 참고해 주시기 바랍니다.
 
-![[그림 3] AppGuard 요금 정책 선택](http://static.toastoven.net/prod_appguard/figure3.png)
-<center>[그림 3] AppGuard 요금 정책 선택</center>
-
-이용 약관 선택 후 AppGuard를 활성화하면 [앱 보호] 메뉴에서 앱에 연동 할 수 있는 SDK를 다운로드 받을 수 있습니다.
-
-SDK 연동 방법은 SDK 다운로드 시 매뉴얼에서 확인 할 수 있습니다.
+이용요금은 AppGuard 요금정책([http://cloud.toast.com/pricing/security](http://cloud.toast.com/pricing/security))을 참고 바랍니다.
 
 ## 앱 보호
 
