@@ -18,18 +18,7 @@ AppGuard的使用应用阶段如[图 1]。
 ![[그림 2] AppGuard 활성화](http://static.toastoven.net/prod_appguard/figure2.png)
 <center>[图 2] AppGuard活性化</center>
 
-点击[商品使用]按钮后，最早访问AppGuard Console页面的话，就会出现如[图 3]一样的使用条款选择窗口。
-
-参照使用条款选择费用政策的话，即可按照设定的费用政策使用AppGuard。
-
 详细的费用内容请参照AppGuard费用政策(<http://cloud.toast.com/pricing/security>)。
-
-![[图 3] 选择AppGuard费用政策](http://static.toastoven.net/prod_appguard/figure3.png)
-<center>[图 3] 选择AppGuard费用政策</center>
-
-选择使用条款后，激活AppGuard的话，即可在[保护App菜单中](#保护app)下载可关联App的SDK。
-
-关联SDK的方法可在下载 SDK时的说明书中进行确认。
 
 ## 保护App
 
