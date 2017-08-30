@@ -17,18 +17,7 @@ To protect your app with AppGuard, first activate the service. To activate, sele
 ![[Figure 2] Activate AppGuard](http://static.toastoven.net/prod_appguard/figure2.png)
 <center>[Figure 2] Activate AppGuard</center>
 
-When you first access the AppGuard Console page after clicking the [Use Product] button, the selection window of the Terms of Use appears as shown in [Figure 3] below.
-
-Refer to the Terms of Use and select the pricing policy, so AppGuard is available according to the set pricing policy.
-
-please see AppGuard pricing policy ([http://cloud.toast.com/pricing/security](http://cloud.toast.com/pricing/security)) for details.
-
-![[Figure 3] Selection of  AppGuard pricing policy](http://static.toastoven.net/prod_appguard/figure3.png)
-<center>[Figure 3] Selection of AppGuard pricing policy</center>
-
-If you activate AppGuard after select Terms of Use, you can download an SDK that can be linked to the app from the [Protect App] menu.
-
-How to use the SDK linkage can be checked in the manual included in SDK after download the SDK
+Please see AppGuard pricing policy ([http://cloud.toast.com/pricing/security](http://cloud.toast.com/pricing/security)) for details.
 
 ## Protect App
 
