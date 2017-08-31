@@ -12,12 +12,12 @@ AppGuard의 사용을 위한 적용 단계는 [그림 1]과 같습니다. 
 
 ## 서비스 활성화
 
-AppGuard 상품 활성화는 [그림 2]와 같이 Toast Cloud [Console] 페이지에서 [Security] > [AppGuard]를 선택한 후 [상품 이용] 버튼을 클릭합니다.
+AppGuard 상품 활성화는 [그림 2]와 같이 Toast Cloud [Console] 페이지에서 [Security] > [AppGuard]를 선택한 후 [Product using] 버튼을 클릭합니다.
 
 ![[그림 2] AppGuard 활성화](http://static.toastoven.net/prod_appguard/figure2.png)
 <center>[그림 2] AppGuard 활성화</center>
 
-[상품 이용] 버튼으로 AppGuard 상품을 활성화 하신 후 Web Console 상단에 [상품 사용법]을 참고하셔서 AppGuard를 이용하시면 됩니다.
+[Product using] 버튼으로 AppGuard 상품을 활성화 하신 후 Web Console 상단에 [상품 사용법]을 참고하셔서 AppGuard를 이용하시면 됩니다.
 
 AppGuard는 어뷰징에 대한 로그 정보를 제공하기 위해 단말 정보, IP등 최소한으로 필요한 내용를 수집 및 저장하게 됩니다.
 
@@ -35,12 +35,12 @@ SDK를 다운로드 받은 후 첨부 되어 있는 매뉴얼에 따라 연동�
 
 ### 앱 보호 메뉴 선택
 
-[앱 설정/보호] 메뉴 선택 후 [앱 보호] 버튼을 클릭하면 [그림 4]의 화면이 나옵니다. (iOS의 경우 보호 단계 없이 SDK 연동만으로 동작합니다.)
+[앱 설정/보호] 메뉴 선택 후 [앱 보호] 버튼을 클릭하면 [그림 3]의 화면이 나옵니다. (iOS의 경우 보호 단계 없이 SDK 연동만으로 동작합니다.)
 
-![[그림 4] 앱 보호 설정을 위한 입력 항목](http://static.toastoven.net/prod_appguard/figure4.png)
-<center>[그림 4] 앱 보호 설정을 위한 입력 항목</center>
+![[그림 3] 앱 보호 설정을 위한 입력 항목](http://static.toastoven.net/prod_appguard/figure4.png)
+<center>[그림 3] 앱 보호 설정을 위한 입력 항목</center>
 
-* [인증서 파일]을 선택합니다. 안드로이드는 KeyStore파일입니다.
+* [인증서] 파일을 선택합니다. 안드로이드는 KeyStore파일입니다.
 * [마스터 비밀번호]를 입력하고 [유효성 검사] 버튼을 클릭하여 인증서 파일의 유효성을 검사합니다.
 	* 이 검사 작업은 앱 보호 작업 전 KeyStore의 유효성과 적절한 앨리어스를 선택하기 위함입니다.
 	* 유효성 검사 실패시, 인증서 파일 정상 여부와 마스터 비밀번호를 확인 합니다.
@@ -53,11 +53,11 @@ SDK를 다운로드 받은 후 첨부 되어 있는 매뉴얼에 따라 연동�
 	- Level3 : Level2 + 강화된 보안 기능 (특정 서비스에서는 안정성 검증이 필요할 수 있어, 별도 적용 가이드를 받은 경우에만 사용 권장)
 	- Level ex : SDK 연동이 필수로 필요한 버전, Level1과 2  사이의 보안성 제공 (타 보안솔루션과 충돌시에만 사용 권장)
 
-* [앱 보호] 버튼을 클릭하여 앱 보호를 합니다.
-	\- 앱 보호가 끝나면 [그림 5]의 [앱 설정/보호]탭을 선택하여 보호가 된 앱을 다운로드 받을 수 있습니다. 이제 보호가 된 배포 파일을 각 앱스토어에 올려서 배포하면 됩니다.
+* [확인] 버튼을 클릭하여 앱 보호를 합니다.
+	\- 앱 보호가 끝나면 [그림 4]의 [앱 설정/보호]탭을 선택하여 보호가 된 앱을 다운로드 받을 수 있습니다. 이제 보호가 된 배포 파일을 각 앱스토어에 올려서 배포하면 됩니다.
 
-![[그림 5] 앱 설정/보호 화면](http://static.toastoven.net/prod_appguard/figure5.png)
-<center>[그림 5] 앱 설정/보호 화면</center>
+![[그림 4] 앱 설정/보호 화면](http://static.toastoven.net/prod_appguard/figure5.png)
+<center>[그림 4] 앱 설정/보호 화면</center>
 
 * 앱 보호 작업 수단: Console, CLI(Command Line Interface)
 
@@ -71,5 +71,5 @@ SDK를 다운로드 받은 후 첨부 되어 있는 매뉴얼에 따라 연동�
 5. 탐지 목록은 [유저 ID]와 [디바이스 ID], [로그 탐지 패턴 정보], [로그 탐지 횟수], [앱 버전], [시각]이 나타납니다.
 6. 검색 결과는 [보고서 다운로드(CSV)]를 클릭하여 다운로드가 가능합니다. 
 
-![[그림 6] 어뷰징 유저 탐지 대시보드 화면](http://static.toastoven.net/prod_appguard/figure6.png)
-<center>[그림 6] 어뷰징 유저 탐지 대시보드 화면</center>
+![[그림 5] 어뷰징 유저 탐지 대시보드 화면](http://static.toastoven.net/prod_appguard/figure6.png)
+<center>[그림 5] 어뷰징 유저 탐지 대시보드 화면</center>
