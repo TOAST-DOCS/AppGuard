@@ -58,17 +58,11 @@ AppGuard的使用应用阶段如[图 1]。
 ## 控制面板
 
 1.  App保护工作已完结的App在App Store发布后，若被Abusing用户探知的话，可在[图 5]的 [Dashboard]标签上确认现状。
-
 2.  [Dashboard]可搜索AppGuard探知的Abusing用户的统计图表和清单。
-
-3.  可用 [User ID]、 [Device ID]、 [Detection Log Count]、 [Detection Log Pattern]、 [Search Period]进行搜索。
-
+3.  可用 [User ID]、 [Device ID]、 [Detection Log Count]、 [Detection Log Pattern]、[Search Period]进行搜索。<br>
     * [User ID]和[Device ID]用逗号来区分，可添加多个条件。
-        
 4.  检测统计图表可确认“按检测模式分布”和按时间“检测模式量”。
-
 5.  检测目录会显示[User ID]和[Device ID]、[Detection Log Pattern Information]、[Detection Log Count]、[App version]、[Detection Time]。
-
 6.  搜索结果，点击[Download Report(CSV)]，即可进行下载。
 
 ![[图 6] Abusing 用户探知控制面板页面](http://static.toastoven.net/prod_appguard/figure6.png)
