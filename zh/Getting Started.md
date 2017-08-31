@@ -63,7 +63,7 @@ AppGuard的使用应用阶段如[图 1]。
 
 3.  可用 [User ID]、 [Device ID]、 [Detection Log Count]、 [Detection Log Pattern]、 [Search Period]进行搜索。
 
-        * [User ID]和[Device ID]用逗号来区分，可添加多个条件。
+    * [User ID]和[Device ID]用逗号来区分，可添加多个条件。
         
 4.  检测统计图表可确认“按检测模式分布”和按时间“检测模式量”。
 
