@@ -42,13 +42,8 @@ AppGuard的使用应用阶段如[图 1]。
 * 选择[Alias]名。
 * 输入[Alias Password]。
 * 选择要保护的App。
-* 选择保护等级。
-        * Level1 : 有关App的非正常行为及模式基础的基本安全检测功能
-        * Level2 : Level1 + 代码加密、App防伪等增强的安全功能
-        * Level3 : Level2 + 强化的安全功能(在特定服务中，可能会需要检测安全性，只有收到额外的应用指南才建议使用。)
-        * Level ex : 关联SDK作为必须需要的版本，提供Level1和2之间的安全性(只有和其它安全解决方案相冲突时，才建议使用。)
-* 点击[OK]按钮，保护App。 
-    \- 若保护App结束的话，选择\[图片4\]的[App Setting / Protection]标签，即可下载被保护的App。现在，将被保护的发布文件上传至各App Store进行发布即可。 
+* 选择保护等级。<br>    * Level1 : 有关App的非正常行为及模式基础的基本安全检测功能<br>    * Level2 : Level1 + 代码加密、App防伪等增强的安全功能<br>    * Level3 : Level2 + 强化的安全功能(在特定服务中，可能会需要检测安全性，只有收到额外的应用指南才建议使用。)<br>    * Level ex : 关联SDK作为必须需要的版本，提供Level1和2之间的安全性(只有和其它安全解决方案相冲突时，才建议使用。)
+* 点击[OK]按钮，保护App。<br>    \- 若保护App结束的话，选择\[图片4\]的[App Setting / Protection]标签，即可下载被保护的App。现在，将被保护的发布文件上传至各App Store进行发布即可。 
    
 ![[图 4] 设置/保护App页面](http://static.toastoven.net/prod_appguard/figure5.png)
 <center>[图 4] 设置/保护App页面</center>
