@@ -1,46 +1,46 @@
 ## Security > AppGuard > Overview
 
-AppGuard can help prevent code manipulation in application. AppGuard can also detect various tools to manipulate memory, speed, and code by pattern or heuristics, and restrict tools.
+AppGuard helps prevent manipulating application codes. It also detects and prohibits any tools which try to manipulate memory, speed or codes through patterned or heuristic method.
 
 ## Feature/Advantage
 
-* Code manipulation can be prevented at the source.
-* Various manipulation tools can be detected and restrict based on pattern or behavior that is difficult to bypass.
-* AppGuard provide basis about restriction after check detected information by AppGuard through the Console.
-* Powerful App protection with easy app protection work only.
-* Is is applied to about 80 various services such as game, shopping, and easy payment, and is utilized for protecting
+* Blocks code manipulation from the root stage.
+* Detects and prohibits various fabricating tools through pattern- or act-oriented method.
+* Checks information detected by AppGuard through Console so as to provide cause for restriction.
+* Protects application with easy but strong means
+* Currently in use for about 100 services, including game, shopping, and simple payment, to serve as a protective measure against abusive acts or application manipulation.
 
 ## Main Function
 
-It provides the following function.
+Functions are provided as follows:
 
-* Application protection via Web console provides convenient decompile protection function.
-* Detect application manipulation through file integrity.
-* Detect Abusing environment like Rooting, Emulation, etc.
-* Detect speed manipulation.
-* Patterns and behavior based detection of various manipulation tools.
-* It it not a manual restriction with a lot of resources by the operator, but a low-cose automatic restriction by the system. (to be provided in the near future)
+* Easily blocks decompiling by protecting applications through web consoles
+* Detects manipulated applications by checking integrity of files
+* Detects abusive acts, such as rooting or emulation.
+* Detects speed hack.
+* Detects by pattern or act of each manipulative tool.
+* Provides low-cost automatic sanctions, unlike resource-wasting manual system (to be updated soon)
 
-## Service Terms
+## Glossary
 
-AppGuard uses the terms in [Table 1].
+For the AppGuard service, please refer to the glossary on Table 1.
 
-[Table 1] Service Terms of AppGuard
+[Table 1] Glossary for AppGuard
 
 | Term       | Description                                                             |
 | -------- | ----------------------------------------------------------------------- |
-| Heuristic Detection      | Detection methods that can not be bypassed by detecting target like the cheat tools in the usual way |
-| Code Manipulation        | Analyzing the code through decompilation, etc., and manipulating it for the purpose of obtaining the benefit |
-| Decompile                | Converting compiled code into high-level language for easy analysis |
-| File integrity           | Check if the original file has changed due to code manipulation, etc. |
-| Rooting, Jail Break      | Raising the limited privileges of the smartphone to the higheste level of root privileges to allow unrestricted access to all parts of the system |
-| Behavior Based Detection | A method of detecting using behavior of cheat tool or like to perform a cheat |
-| Restriction System       | The restriction are automatically performed by the system, not by the operator through the detected logs, etc. |
+| Heuristic Detection      | A method of general detection on cheating tools which prevents taking a bypass |
+| Code Manipulation        | A manipulative act by analyzing code decompiling to gain profits |
+| Decompile                | An act of converting compiled codes to high-level language for easy analysis |
+| File integrity           | An act of checking if original files are changed due to code manipulation |
+| Rooting, Jail Break      | Upgrading smartphone user’s restricted authority to the highest root level so as to gain access to all system parts without a hitch |
+| Behavior Based Detection | A method of detection by copying how a cheating tool does to cheat |
+| System Restriction       | Sanctions on detected logs automatically posed by a system, not by an operator’s manual act |
 
 ## Service Structure
 
-The structure of AppGuard is shown in [Figure 1].
-After the code is linked (optional) to the app via the AppGuard SDK, use the Console or Command Line Interface(CLI) tools to complete protection work (required), then deploy app. The AppGuard Engine detects abusing and sends logs to the server for blocking or restriction.
+Figure 1 displays how AppGuard flows:
+Using AppGuard’s SDK, the code is integrated with the application (optional), and then app protection service (required) is completed and deployed on a console or Command Line Interface (CLI). The AppGuard Engine sends a detective log to a server so as to block or sanction against abuses.
 
-![[Figure 1] The Structure of AppGuard Serivce](http://static.toastoven.net/prod_appguard/Overview_figure1.png)
-<center>[Figure 1] The Structure of AppGuard Serivce</center>
+![[Figure 1] Flow of AppGuard](http://static.toastoven.net/prod_appguard/Overview_figure1.png)
+<center>[Figure 1] Flow of AppGuard</center>
