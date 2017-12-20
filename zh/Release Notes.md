@@ -1,5 +1,13 @@
 ## Security > AppGuard > Release Notes
 
+### 2017.12.21
+
+#### function upgrade/change
+* Enhanced Unity Speed Hack Detection
+#### bug fix
+* Fixed an error that occurred during the protection operation in the latest version of Unity Personal (2017.x.x version)
+* Fixed an apk increase in size unnecessarily when protecting multi-dex (3 or more) apps
+
 ### 2017.08.24
 
 #### function upgrade/change
