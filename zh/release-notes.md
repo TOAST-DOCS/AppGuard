@@ -1,0 +1,1 @@
+## Security > AppGuard > Release Notes
