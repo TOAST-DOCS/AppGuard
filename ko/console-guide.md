@@ -12,12 +12,12 @@ AppGuard의 사용을 위한 적용 단계는 [그림 1]과 같습니다.
 
 ## 서비스 활성화
 
-AppGuard 상품 활성화는 [그림 2]와 같이 Toast Cloud [Console] 페이지에서 [Security] > [AppGuard]를 선택한 후 [Product using] 버튼을 클릭합니다.
+AppGuard 상품 활성화는 [그림 2]와 같이 Toast Cloud [Console] 페이지에서 좌측 탭의 [ORGANIZATION]과 [PROJECT]를 선택한 뒤 [서비스 선택] 버튼을 클릭하고 <Security> 카테고리에 있는 AppGuard를 클릭하여 활성화 할 수 있습니다.
 
 ![[그림 2] AppGuard 활성화](http://static.toastoven.net/prod_appguard/figure2.png)
 <center>[그림 2] AppGuard 활성화</center>
 
-[Product using] 버튼으로 AppGuard 상품을 활성화 하신 후 Web Console 상단에 [상품 사용법]을 참고하셔서 AppGuard를 이용하시면 됩니다.
+AppGuard 상품을 활성화 하신 후 좌측 탭에서 [Security], [AppGuard]를 클릭하셔서 AppGuard를 이용하시면 됩니다.
 
 AppGuard는 어뷰징에 대한 로그 정보를 제공하기 위해 단말 정보, IP등 최소한으로 필요한 내용를 수집 및 저장하게 됩니다.
 
@@ -32,10 +32,11 @@ AppGuard 상품을 이용하는 고객께서는 [상품 사용법]에 공개된 
 AppGuard를 활성화하면 [대쉬보드], [앱 설정/보호] 메뉴가 보입니다. [앱 설정/보호] 메뉴를 선택하고 [SDK 다운로드] 버튼을 누르면 OS별 SDK를 다운로드 받을 수 있습니다.
 
 SDK를 다운로드 받은 후 첨부 되어 있는 매뉴얼에 따라 연동합니다.
+(iOS의 경우 추가적인 보호 단계 없이 SDK 연동만으로 동작합니다.)
 
 ### 앱 보호 메뉴 선택
 
-[앱 설정/보호] 메뉴 선택 후 [앱 보호] 버튼을 클릭하면 [그림 3]의 화면이 나옵니다. (iOS의 경우 보호 단계 없이 SDK 연동만으로 동작합니다.)
+[앱 설정/보호] 메뉴 선택 후 [앱 보호] 버튼을 클릭하면 [그림 3]의 화면이 나옵니다.
 
 ![[그림 3] 앱 보호 설정을 위한 입력 항목](http://static.toastoven.net/prod_appguard/figure4.png)
 <center>[그림 3] 앱 보호 설정을 위한 입력 항목</center>
