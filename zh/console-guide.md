@@ -15,7 +15,7 @@ AppGuard的使用应用阶段如[图 1]。
 
 要想用AppGuard来保护App的话，首先要激活服务。激活方法如[图 2]，在Console上选择[Security] > [AppGuard]后，点击 [Product using]按钮。
 
-![[图 2] AppGuard 활성화](http://static.toastoven.net/prod_appguard/figure2.png)
+![[图 2] AppGuard 활성화](http://static.toastoven.net/prod_appguard/figure2_new.png)
 <center>[图 2] AppGuard活性化</center>
 
 详细的费用内容请参照AppGuard费用政策(<http://cloud.toast.com/pricing/security>)。

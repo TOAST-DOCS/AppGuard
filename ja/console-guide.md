@@ -14,7 +14,7 @@ Apply step for using AppGuard are shown in [Figure 1].
 
 To enable AppGuard products, select [Security] > [AppGuard] on the Toast Cloud [Console] page, as Figure 2 shows, and click on [Product Using].
 
-![[Figure 2] How to Enable AppGuard](http://static.toastoven.net/prod_appguard/figure2.png)
+![[Figure 2] How to Enable AppGuard](http://static.toastoven.net/prod_appguard/figure2_new.png)
 <center>[Figure 2] How to Enable AppGuard</center>
 
 Then, the enabled AppGuard product is made available with the reference guide on [Product Using] in the upper side of the web console.
