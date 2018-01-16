@@ -54,8 +54,8 @@ Select [App Protection] and click on the [Protect App] button, and [Figure 3] wi
 * Click [Ok] to start Protect App
 	\- when completed, select [App Protection] tab on [Figure 4] to download the protected application. Now, you're ready to upload the protected files to each Appstore for deployment.
 
-![[Figure 4] App Setting/Protect window](http://static.toastoven.net/prod_appguard/figure5.png)
-<center>[Figure 4] App Setting/Protect window</center>
+![[Figure 4] App Protection window](http://static.toastoven.net/prod_appguard/figure5_new.png)
+<center>[Figure 4] App Protection window</center>
 
 *	Methods of app protection: Console or CLI(Command Line Interface)
 
@@ -69,5 +69,5 @@ Select [App Protection] and click on the [Protect App] button, and [Figure 3] wi
 5. The detection list shows [User ID], [Device ID], [Detection Log Pattern Information], [Detection Log Count], [App version] and [Detection Time]
 6. You may click on the [Download Report (CSV)] to see the results.
 
-![[Figure 5] Dashboard Screen](http://static.toastoven.net/prod_appguard/figure6.png)
+![[Figure 5] Dashboard Screen](http://static.toastoven.net/prod_appguard/figure6_new.png)
 <center>[Figure 5] Dashboard Screen</center>

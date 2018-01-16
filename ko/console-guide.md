@@ -57,7 +57,7 @@ SDK를 다운로드 받은 후 첨부 되어 있는 매뉴얼에 따라 연동�
 * [확인] 버튼을 클릭하여 앱 보호를 합니다.
 \- 앱 보호가 끝나면 [그림 4]의 [App Protection]탭을 선택하여 보호가 된 앱을 다운로드 받을 수 있습니다. 이제 보호가 된 배포 파일을 각 앱스토어에 올려서 배포하면 됩니다.
 
-![[그림 4] App Protection 화면](http://static.toastoven.net/prod_appguard/figure5.png)
+![[그림 4] App Protection 화면](http://static.toastoven.net/prod_appguard/figure5_new.png)
 <center>[그림 4] App Protection 화면</center>
 
 * 앱 보호 작업 수단: Console, CLI(Command Line Interface)
@@ -72,5 +72,5 @@ SDK를 다운로드 받은 후 첨부 되어 있는 매뉴얼에 따라 연동�
 5. 탐지 목록은 [유저 ID]와 [디바이스 ID], [로그 탐지 패턴 정보], [로그 탐지 횟수], [앱 버전], [시각]이 나타납니다.
 6. 검색 결과는 [보고서 다운로드(CSV)]를 클릭하여 다운로드가 가능합니다.
 
-![[그림 5] 어뷰징 유저 탐지 Dashboard 화면](http://static.toastoven.net/prod_appguard/figure6.png)
+![[그림 5] 어뷰징 유저 탐지 Dashboard 화면](http://static.toastoven.net/prod_appguard/figure6_new.png)
 <center>[그림 5] 어뷰징 유저 탐지 Dashboard 화면</center>
