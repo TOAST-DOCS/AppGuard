@@ -29,11 +29,11 @@ Visit AppGuard Pricing ([http://cloud.toast.com/pricing/security](http://cloud.t
 
 ### Download and Integrate SDKs
 
-When AppGuard is enabled, the [Dashboard] and [App Setting/Protection] menus are made available. Select [App Setting/Protection] and click on [Download SDK] to download SDKs for each OS. Then, follow the attached manual to work with SDKs.
+When AppGuard is enabled, the [Dashboard] and [App Protection] menus are made available. Select [App Protection] and click on [Download SDK] to download SDKs for each OS. Then, follow the attached manual to work with SDKs.
 
 ### Select App Protect Menu
 
-Select [App Setting/Protection] and click on the [Protect App] button, and [Figure 3] will pop up (in the case of iOS, it works only by SDK integration, without any protection process required).
+Select [App Protection] and click on the [Protect App] button, and [Figure 3] will pop up (in the case of iOS, it works only by SDK integration, without any protection process required).
 
 ![[Figure 3] Input item for app protection setting](http://static.toastoven.net/prod_appguard/figure4.png)
 <center>[Figure 3] Input item for app protection setting</center>
@@ -52,7 +52,7 @@ Select [App Setting/Protection] and click on the [Protect App] button, and [Figu
 	- Level ex : This level requires SDK integration, which provides security between Level 1 and Level 2 (recommended only when there's a conflict with other security solutions)
 
 * Click [Ok] to start Protect App
-	\- when completed, select [App Setting/Protection] tab on [Figure 4] to download the protected application. Now, you're ready to upload the protected files to each Appstore for deployment.
+	\- when completed, select [App Protection] tab on [Figure 4] to download the protected application. Now, you're ready to upload the protected files to each Appstore for deployment.
 
 ![[Figure 4] App Setting/Protect window](http://static.toastoven.net/prod_appguard/figure5.png)
 <center>[Figure 4] App Setting/Protect window</center>

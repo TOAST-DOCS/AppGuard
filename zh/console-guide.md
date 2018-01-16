@@ -24,13 +24,13 @@ AppGuard的使用应用阶段如[图 1]。
 
 ### SDK 下载及关联
 
-若是激活AppGuard的话，就会看见[App Setting/Protection]菜单。若是选择 [App Setting/Protection]菜单的话，就可下载SDK。
+若是激活AppGuard的话，就会看见[App Protection]菜单。若是选择 [App Protection]菜单的话，就可下载SDK。
 
 下载SDK后，按照附加的说明书中进行关联。
 
 ### 保护App菜单选择
 
-选择 [App Setting/Protection]后，点击[Protect App]按钮的话，就会出现 [图 3]的页面。(iOS的话，没有保护阶段，只能关联SDK。)
+选择 [App Protection]后，点击[Protect App]按钮的话，就会出现 [图 3]的页面。(iOS的话，没有保护阶段，只能关联SDK。)
 
 ![[图 3] 为了设置保护App而需要输入的项目](http://static.toastoven.net/prod_appguard/figure4.png)
 <center>[图 3] 为了设置保护App而需要输入的项目</center>

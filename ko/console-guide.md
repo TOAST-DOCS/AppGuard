@@ -21,7 +21,7 @@ AppGuard 상품을 활성화 하신 후 좌측 탭에서 [Security], [AppGuard]�
 
 AppGuard는 어뷰징에 대한 로그 정보를 제공하기 위해 단말 정보, IP등 최소한으로 필요한 내용를 수집 및 저장하게 됩니다.
 
-AppGuard 상품을 이용하는 고객께서는 [상품 사용법]에 공개된 '개인정보보호 가이드'를 참고해 주시기 바랍니다.
+AppGuard 상품을 이용하는 고객께서는 [Quick Start]에 공개된 '개인정보보호 가이드'를 참고해 주시기 바랍니다.
 
 이용요금은 AppGuard 요금정책([http://cloud.toast.com/pricing/security](http://cloud.toast.com/pricing/security))을 참고 바랍니다.
 
@@ -29,14 +29,14 @@ AppGuard 상품을 이용하는 고객께서는 [상품 사용법]에 공개된 
 
 ### SDK 다운로드 및 연동
 
-AppGuard를 활성화하면 [대쉬보드], [앱 설정/보호] 메뉴가 보입니다. [앱 설정/보호] 메뉴를 선택하고 [SDK 다운로드] 버튼을 누르면 OS별 SDK를 다운로드 받을 수 있습니다.
+AppGuard를 활성화하면 [Dashboard], [App Protection] 메뉴가 보입니다. [App Protection] 메뉴를 선택하고 [SDK 다운로드] 버튼을 누르면 OS별 SDK를 다운로드 받을 수 있습니다.
 
 SDK를 다운로드 받은 후 첨부 되어 있는 매뉴얼에 따라 연동합니다.
 (iOS의 경우 추가적인 보호 단계 없이 SDK 연동만으로 동작합니다.)
 
 ### 앱 보호 메뉴 선택
 
-[앱 설정/보호] 메뉴 선택 후 [앱 보호] 버튼을 클릭하면 [그림 3]의 화면이 나옵니다.
+[App Protection] 메뉴 선택 후 [앱 보호] 버튼을 클릭하면 [그림 3]의 화면이 나옵니다.
 
 ![[그림 3] 앱 보호 설정을 위한 입력 항목](http://static.toastoven.net/prod_appguard/figure4.png)
 <center>[그림 3] 앱 보호 설정을 위한 입력 항목</center>
@@ -55,22 +55,22 @@ SDK를 다운로드 받은 후 첨부 되어 있는 매뉴얼에 따라 연동�
 - Level ex : SDK 연동이 필수로 필요한 버전, Level1과 2  사이의 보안성 제공 (타 보안솔루션과 충돌시에만 사용 권장)
 
 * [확인] 버튼을 클릭하여 앱 보호를 합니다.
-\- 앱 보호가 끝나면 [그림 4]의 [앱 설정/보호]탭을 선택하여 보호가 된 앱을 다운로드 받을 수 있습니다. 이제 보호가 된 배포 파일을 각 앱스토어에 올려서 배포하면 됩니다.
+\- 앱 보호가 끝나면 [그림 4]의 [App Protection]탭을 선택하여 보호가 된 앱을 다운로드 받을 수 있습니다. 이제 보호가 된 배포 파일을 각 앱스토어에 올려서 배포하면 됩니다.
 
-![[그림 4] 앱 설정/보호 화면](http://static.toastoven.net/prod_appguard/figure5.png)
-<center>[그림 4] 앱 설정/보호 화면</center>
+![[그림 4] App Protection 화면](http://static.toastoven.net/prod_appguard/figure5.png)
+<center>[그림 4] App Protection 화면</center>
 
 * 앱 보호 작업 수단: Console, CLI(Command Line Interface)
 
 ## 대쉬보드
 
-1. 앱 보호 작업이 완료된 앱을 앱 스토어에 배포 후 어뷰징 유저가 탐지되면 [그림 6]의 [대쉬보드] 탭에서 현황을 확인 할 수 있습니다.
-2. [대쉬보드]는 AppGuard가 탐지한 어뷰징 사용자의 통계 그래프와 리스트를 검색할 수 있습니다.
+1. 앱 보호 작업이 완료된 앱을 앱 스토어에 배포 후 어뷰징 유저가 탐지되면 [그림 6]의 [Dashboard] 탭에서 현황을 확인 할 수 있습니다.
+2. [Dashboard]는 AppGuard가 탐지한 어뷰징 사용자의 통계 그래프와 리스트를 검색할 수 있습니다.
 3. [유저 ID], [디바이스 ID], [로그 탐지 횟수], [로그 탐지 패턴], [조회기간]으로 [검색] 할 수 있습니다.
 * [유저 ID]와 [디바이스 ID]는 콤마로 구분하여 여러 개의 조건을 추가할 수 있습니다.
 4. 탐지 통계 그래프는 '탐지 패턴별 분포'와 기간별 '탐지 패턴량'을 확인 할 수 있습니다.
 5. 탐지 목록은 [유저 ID]와 [디바이스 ID], [로그 탐지 패턴 정보], [로그 탐지 횟수], [앱 버전], [시각]이 나타납니다.
 6. 검색 결과는 [보고서 다운로드(CSV)]를 클릭하여 다운로드가 가능합니다.
 
-![[그림 5] 어뷰징 유저 탐지 대시보드 화면](http://static.toastoven.net/prod_appguard/figure6.png)
-<center>[그림 5] 어뷰징 유저 탐지 대시보드 화면</center>
+![[그림 5] 어뷰징 유저 탐지 Dashboard 화면](http://static.toastoven.net/prod_appguard/figure6.png)
+<center>[그림 5] 어뷰징 유저 탐지 Dashboard 화면</center>
