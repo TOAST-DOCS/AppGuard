@@ -1,5 +1,15 @@
 ## Security > AppGuard > Release Notes
 
+## 2018.02.20
+
+### bug fix
+* Fixed an error that the app with AppGuard Level2 app was not running properly in Momo App Player version 1.2.1
+
+## 2018.01.24
+
+### bug fix
+* Fixed an error that would not run on Android 8.x specific devices if Level2 was applied to an app developed with Unity2017 version
+
 ## 2017.12.21
 
 ### function upgrade/change
