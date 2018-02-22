@@ -23,7 +23,7 @@ AppGuard는 어뷰징에 대한 로그 정보를 제공하기 위해 단말 정�
 
 AppGuard 상품을 이용하는 고객께서는 [Quick Start]에 공개된 '개인정보보호 가이드'를 참고해 주시기 바랍니다.
 
-이용요금은 AppGuard 요금정책([http://cloud.toast.com/pricing/security](http://cloud.toast.com/pricing/security))을 참고 바랍니다.
+이용요금은 AppGuard 소개 페이지([https://toast.com/service/security/appguard](https://toast.com/service/security/appguard))을 참고 바랍니다.
 
 ## 앱 보호
 

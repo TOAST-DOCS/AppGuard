@@ -23,7 +23,7 @@ AppGuard collects and stores device IDs and IPs, etc. to provide log data on abu
 
 For more information about AppGuard, see 'Guide on Personal Information Protection' released on [Product Using].
 
-Visit AppGuard Pricing ([http://cloud.toast.com/pricing/security](http://cloud.toast.com/pricing/security)) to learn more about pricing.
+Visit AppGuard introduction page ([https://toast.com/service/security/appguard](https://toast.com/service/security/appguard)) to learn more about pricing.
 
 ## Protect App
 
