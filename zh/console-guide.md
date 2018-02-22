@@ -18,7 +18,7 @@ AppGuard的使用应用阶段如[图 1]。
 ![[图 2] AppGuard 활성화](http://static.toastoven.net/prod_appguard/figure2_new.png)
 <center>[图 2] AppGuard活性化</center>
 
-详细的费用内容请参照AppGuard费用政策(<http://cloud.toast.com/pricing/security>)。
+详细的费用内容请参照AppGuard费用政策(<https://toast.com/service/security/appguard>)。
 
 ## 保护App
 
