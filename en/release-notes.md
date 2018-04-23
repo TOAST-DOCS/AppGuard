@@ -1,5 +1,11 @@
 ## Security > AppGuard > Release Notes
 
+## 2018.04.24
+
+### function upgrade/change
+* Support Unity il2cpp gamge code encryption
+* Improved anti-debugging
+
 ## 2018.02.20
 
 ### bug fix
