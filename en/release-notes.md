@@ -3,7 +3,7 @@
 ## 2018.04.24
 
 ### function upgrade/change
-* Support Unity il2cpp gamge code encryption
+* Support Unity il2cpp game code encryption
 * Improved anti-debugging
 
 ## 2018.02.20
