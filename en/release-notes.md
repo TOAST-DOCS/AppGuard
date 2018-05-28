@@ -1,5 +1,13 @@
 ## Security > AppGuard > Release Notes
 
+### 2018.05.29
+
+#### function upgrade/change
+* Enhanced Memory Manipulation Detection
+    * Enhanced detection of memory manipulation using cheating tool
+#### bug fix
+* Fixed an error that the anti-debugging function applied to Level 3 consumed battery excessively
+
 ### 2018.04.24
 
 #### function upgrade/change
