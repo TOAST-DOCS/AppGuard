@@ -1,5 +1,12 @@
 ## Security > AppGuard > 릴리스 노트
 
+### 2018.06.26
+
+#### 기능 개선 / 변경
+* Android P(9.0) 호환성 개선
+* AppGuard Unity SDK
+    * UNITY 2018 버전 지원
+
 ### 2018.05.29
 
 #### 기능 개선 / 변경

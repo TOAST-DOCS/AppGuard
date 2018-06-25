@@ -1,5 +1,12 @@
 ## Security > AppGuard > Release Notes
 
+### 2018.06.26
+
+#### function upgrade/change
+* Improved compatibility in Android P(9.0)
+* AppGuard Unity SDK
+    * Support UNITY 2018
+
 ### 2018.05.29
 
 #### function upgrade/change
