@@ -1,5 +1,11 @@
 ## Security > AppGuard > Release Notes
 
+### 2018.07.24
+
+#### function upgrade/change
+* Support Unreal Engine 4
+    * Support protection for game code of Unreal Engine 4
+
 ### 2018.06.26
 
 #### function upgrade/change
