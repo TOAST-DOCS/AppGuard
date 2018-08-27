@@ -1,5 +1,11 @@
 ## Security > AppGuard > Release Notes
 
+### 2018.08.28
+
+#### bug fix
+* AppGuard Unity SDK
+	* Fixed an error that editor linkage in Unity 5 or earlier
+
 ### 2018.07.24
 
 #### function upgrade/change
