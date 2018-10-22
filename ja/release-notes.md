@@ -1,5 +1,12 @@
 ## Security > AppGuard > Release Notes
 
+### 2018.10.23
+
+#### function upgrade/change
+* Add function to applied AppGuard verification
+* Enhanced Rooting Detection
+* Enhanced Debugging Detection
+
 ### 2018.08.28
 
 #### bug fix
