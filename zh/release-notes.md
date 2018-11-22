@@ -1,5 +1,11 @@
 ## Security > AppGuard > Release Notes
 
+### 2018.11.27
+
+#### function upgrade/change
+* Enhanced encryption function for Unity il2cpp build
+* Enhanced Hooking Detection Function
+
 ### 2018.10.23
 
 #### function upgrade/change
