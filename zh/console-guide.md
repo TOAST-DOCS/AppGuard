@@ -13,7 +13,7 @@ AppGuard的使用应用阶段如下。
 
 App保护工作已完结的App在App Store发布后，若被Abusing用户探知的话，可在 **Dashboard**标签上确认现状。
 
-![appguard_01_201812_zh](https://static.toastoven.net/prod_appguard/[appguard_01_201812_zh.png)
+![appguard_01_201812_zh](https://static.toastoven.net/prod_appguard/appguard_01_201812_zh.png)
 
 - **Dashboard**可搜索AppGuard探知的Abusing用户的统计图表和清单。
 - 可用 [User ID]、 [Device ID]、 [Detection Log Count]、 [Detection Log Pattern]、[Search Period]进行搜索。
@@ -35,9 +35,9 @@ App保护工作已完结的App在App Store发布后，若被Abusing用户探知�
 
 选择 **App保护** 后，点击 **+ Protect App** 按钮的话，就会出现以下页面。
 
-![appguard_02_201812_zh](https://static.toastoven.net/prod_appguard/[appguard_02_201812_zh.png)
+![appguard_02_201812_zh](https://static.toastoven.net/prod_appguard/appguard_02_201812_zh.png)
 
-- 选择[Certificate](KeyStore文件）。 
+- 选择[Certificate](KeyStore文件）。
 - 输入[Master Password]，点击[Validation]按钮，可检查证书文件的有效性。
     - 此检查操作是为了在App保护工作前选择KeyStore的有效性和适当的Alias。
     - 有效性检查失败时，需确认证书文件是否正常和管理员密码。
@@ -57,7 +57,7 @@ App保护工作已完结的App在App Store发布后，若被Abusing用户探知�
 
 AppGuard发现恶意破解或者编码造假的时，可以设置阻止政策。
 
-![appguard_03_201812_zh](https://static.toastoven.net/prod_appguard/[appguard_03_201812_zh.png)
+![appguard_03_201812_zh](https://static.toastoven.net/prod_appguard/appguard_03_201812_zh.png)
 
 用户用Block设置政策来检测的话，AppGuard弹出消息框后停止运行。
 有关阻止政策的更多详细信息，请参阅SDK中包含的“AppGuard Devloper's Guide”文档。
