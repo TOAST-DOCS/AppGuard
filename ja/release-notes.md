@@ -9,7 +9,7 @@
 * Add Rooting Detection Pattern
 * Add Emulator Detection Pattern
 * Enhanced Unity IL2CPP Build Protection Function
-		* IL2CPP Dumper Tool Prevention
+	* IL2CPP Dumper Tool Prevention
 
 ### 2018.11.27
 
