@@ -1,5 +1,16 @@
 ## Security > AppGuard > Release Notes
 
+### 2018.12.27
+
+#### function upgrade/change
+* Enhanced self-protection
+* Add Dex Loader Obfuscation Function
+* Add Hooking Detection Pattern
+* Add Rooting Detection Pattern
+* Add Emulator Detection Pattern
+* Enhanced Unity IL2CPP Build Protection Function
+	* IL2CPP Dumper Tool Prevention
+
 ### 2018.11.27
 
 #### function upgrade/change

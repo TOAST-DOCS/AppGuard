@@ -3,71 +3,60 @@
 AppGuard is provided in two versions: Android and iOS(Beta).
 
 For Android users, AppGuard is applied when apk files built on SDK integration (optional) go through application protection process (required) on a web console or command line interface(CLI).
-For iOS users, it is applied when apk files are created with SDK integration (required) and no further protection process is needed.
+For iOS users, it is applied when the application files are created with SDK integration (required) and no further protection process is required.
 
-Apply step for using AppGuard are shown in [Figure 1].
+Following diagram shows the AppGuard application process.
 
 ![[Figure 1] How to apply AppGuard](http://static.toastoven.net/prod_appguard/figure1.png)
-<center>[Figure 1] How to apply AppGuard</center>
 
-## Enable Service
+## Dashboard
+When an abusive user is detected, you can check detection status by clicking on the **Dashboard** tab.
 
-To enable AppGuard products, select [Security] > [AppGuard] on the Toast Cloud [Console] page, as Figure 2 shows, and click on [Product Using].
+![appguard_01_201812_en](https://static.toastoven.net/prod_appguard/appguard_01_201812_en.png)
 
-![[Figure 2] How to Enable AppGuard](http://static.toastoven.net/prod_appguard/figure2_new.png)
-<center>[Figure 2] How to Enable AppGuard</center>
+- **Dashboard** tab shows statistical graphs and the list of abusive users detected by AppGuard.
+- You can **Search** by [User ID], [Device ID], [Detection Log Count], [Log Pattern], and [Search Period].
+	- Multiple [User ID] and [Device ID] can be added with comma as a delimiter.
+- In the statistical detection graph, you can check 'Detection Distribution by Pattern' and 'Detection Pattern Volume by Period'.
+- The detection list shows User ID, Device ID, Host IP, OS, Logs, App Information, and Detection Time.
+- You may click **Download Report (CSV)** to download the query result.
 
-Then, the enabled AppGuard product is made available with the reference guide on [Product Using] in the upper side of the web console.
-
-AppGuard collects and stores device IDs and IPs, etc. to provide log data on abuses.
-
-For more information about AppGuard, see 'Guide on Personal Information Protection' released on [Product Using].
-
-Visit AppGuard introduction page ([https://toast.com/service/security/appguard](https://toast.com/service/security/appguard)) to learn more about pricing.
-
-## Protect App
+## App Protection
 
 ### Download and Integrate SDKs
 
-When AppGuard is enabled, the [Dashboard] and [App Protection] menus are made available. Select [App Protection] and click on [Download SDK] to download SDKs for each OS. Then, follow the attached manual to work with SDKs.
+Select **App Protection** and click **Download SDK** to download SDK by OS.
 
-### Select App Protect Menu
+Then, follow the attached manual to work with SDKs.
+(In case of iOS, no further steps are required once the applicaiton is integrated with the SDK).
 
-Select [App Protection] and click on the [Protect App] button, and [Figure 3] will pop up (in the case of iOS, it works only by SDK integration, without any protection process required).
+### App Protection Menu
 
-![[Figure 3] Input item for app protection setting](http://static.toastoven.net/prod_appguard/figure4.png)
-<center>[Figure 3] Input item for app protection setting</center>
+Select **App Protection** and click **+ Protect App**.
 
-* Choose a [Certificate] file. For Android, use a Keystore file.
-* Enter [Master Password] and Click [Validation] to check validation of the chosen file.
-	* This process is required to validate KeyStore and to choose an appropriate Alias.
-	* When validation fails, be sure to check the status of the certificate file and the master password.
-* Choose a name of [Alias].
-* Enter [Alias Password].
-* Choose an [APK]
-* Select the level of protection
+![appguard_02_201812_en](https://static.toastoven.net/prod_appguard/appguard_02_201812_en.png)
+
+- Choose a [Certificate] KeyStore file.
+- Enter [Master Password] and Click [Validation] to check validation of the chosen file.
+	- This process is required to validate KeyStore and to choose an appropriate Alias.
+	- When validation fails, be sure to check the status of the certificate file and the master password.
+- Select the name of [Alias].
+- Enter [Alias Password].
+- Choose an [APK]
+- Select the level of protection
 	- Level1 : Basic level of pattern-oriented and abnormal acts protection on application
 	- Level2 : Level1 + Advanced security functions such as, code encryption and preventing app manipulation
-	- Level3 : Level2 + Fortified security functions (recommended only when additional deployment guide is given, because some services might require verification process on the stability)
-	- Level ex : This level requires SDK integration, which provides security between Level 1 and Level 2 (recommended only when there's a conflict with other security solutions)
+	- Level3 : Level2 + Fortified security functions (recommended only when additional deployment guide is given, because some services might require verification process on stability)
+	- Level ex : This level requires SDK integration, which provides security between Level 1 and Level 2 (recommended only when there's a conflict with other security solutions
+- Click **Ok** to start Protect App
+    - When completed, you can download the protected application. Now, you're ready to upload protected apps on each Appstore for deployment.
+- Methods of app protection: Console or CLI(Command Line Interface)
 
-* Click [Ok] to start Protect App
-	\- when completed, select [App Protection] tab on [Figure 4] to download the protected application. Now, you're ready to upload the protected files to each Appstore for deployment.
+## Policy Setting
 
-![[Figure 4] App Protection window](http://static.toastoven.net/prod_appguard/figure5_new.png)
-<center>[Figure 4] App Protection window</center>
+When AppGuard detects manipulation or malicious hacks, it can set block policies.
 
-*	Methods of app protection: Console or CLI(Command Line Interface)
+![appguard_03_201812_en](https://static.toastoven.net/prod_appguard/appguard_03_201812_en.png)
 
-## Dashboard
-
-1. When an abusive user is detected, you can check the status by clicking on the [Dashboard] tab, as [Figure 6] shows.
-2. [Dashboard] shows statistical graphs and the list of abusive users detected by AppGuard.
-3. You can [Search] by [User ID], [Device ID], [Detection Log Count], [Log Pattern], and [Search Period].
-	* For [User ID] and [Device ID], many conditions can be added, by comma.
-4. In the statistical detection graph, you can check 'Detection Distribution by Pattern' and 'Detection Pattern Volume by Period'.
-5. The detection list shows [User ID], [Device ID], [Detection Log Pattern Information], [Detection Log Count], [App version] and [Detection Time]
-6. You may click on the [Download Report (CSV)] to see the results.
-
-![[Figure 5] Dashboard Screen](http://static.toastoven.net/prod_appguard/figure6_new.png)
-<center>[Figure 5] Dashboard Screen</center>
+When a user is detected by the block policy, an AppGuard message box pops up and the app is force-closed.
+For further details on the policy, please refer to "AppGuard Developer's Guide" document included in the SDK.
