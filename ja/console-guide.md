@@ -1,62 +1,63 @@
-## Security > AppGuard > Console Guide
+## Security > AppGuard > コンソール使用ガイド
 
-AppGuard is provided in two versions: Android and iOS(Beta).
+AppGuardは、AndroidバージョンとiOSバージョン(Beta)があります。
 
-For Android users, AppGuard is applied when apk files built on SDK integration (optional) go through application protection process (required) on a web console or command line interface(CLI).
-For iOS users, it is applied when the application files are created with SDK integration (required) and no further protection process is required.
+Androidバージョンは、SDK連携(選択事項)後、ビルドされたapkファイルをWeb ConsoleまたはCLIを通してアプリ保護作業(必須事項)を行うと適用されます。
+iOSバージョンの場合、SDK連携(必須事項)を通して適用され、別途の保護作業はありません。
 
-Following diagram shows the AppGuard application process.
+AppGuardの使用するための適用段階は次のとおりです。
 
-![[Figure 1] How to apply AppGuard](http://static.toastoven.net/prod_appguard/figure1.png)
+![[図1] AppGuard適用方法](http://static.toastoven.net/prod_appguard/figure1.png)
 
-## Dashboard
-When an abusive user is detected, you can check detection status by clicking on the **Dashboard** tab.
+## ダッシュボード
 
-![appguard_01_201812_en](https://static.toastoven.net/prod_appguard/appguard_01_201812_en.png)
+アプリ保護作業が完了したアプリをアプリストアに配布し、アビューズユーザーが探知されると、下図の**ダッシュボード** タブで現況を確認できます。
 
-- **Dashboard** tab shows statistical graphs and the list of abusive users detected by AppGuard.
-- You can **Search** by [User ID], [Device ID], [Detection Log Count], [Log Pattern], and [Search Period].
-	- Multiple [User ID] and [Device ID] can be added with comma as a delimiter.
-- In the statistical detection graph, you can check 'Detection Distribution by Pattern' and 'Detection Pattern Volume by Period'.
-- The detection list shows User ID, Device ID, Host IP, OS, Logs, App Information, and Detection Time.
-- You may click **Download Report (CSV)** to download the query result.
+![appguard_01_201812](https://static.toastoven.net/prod_appguard/appguard_01_201812_en.png)
 
-## App Protection
+- **ダッシュボード**はAppGuardが探知したアビューズユーザーの統計グラフとリストを検索できます。
+- [ユーザーID]、 [デバイスID]、 [ログ探知回数]、 [ログ探知パターン]、 [照会期間]で **検索**できます。
+    - [ユーザーID]と[デバイスID]は、カンマで区切って複数の条件を追加できます。
+- 探知統計グラフは、「探知パターン別比率」と期間別「探知パターン量」を確認できます。
+- 探知リストはユーザーIDとデバイスID、 Host IP、 OS、ログ、アプリ情報および時刻が表示されます。
+- 検索結果は **報告書ダウンロード(CSV)** ボタンをクリックしてダウンロードできます。
 
-### Download and Integrate SDKs
+## アプリ保護
 
-Select **App Protection** and click **Download SDK** to download SDK by OS.
+### SDKダウンロードおよび連携
 
-Then, follow the attached manual to work with SDKs.
-(In case of iOS, no further steps are required once the applicaiton is integrated with the SDK).
+**アプリ保護** メニューを選択し、 **SDKダウンロード** ボタンを押すと、OS別にSDKをダウンロードできます。
 
-### App Protection Menu
+SDKをダウンロードした後、添付されているマニュアルに沿って連携します。
+(iOSの場合、追加の保護段階なしでSDK連携のみで動作します。)
 
-Select **App Protection** and click **+ Protect App**.
+### アプリ保護メニュー選択
 
-![appguard_02_201812_en](https://static.toastoven.net/prod_appguard/appguard_02_201812_en.png)
+**アプリ保護** メニュー選択後、**+ アプリ保護** ボタンをクリックすると、次のような画面が表示されます。
 
-- Choose a [Certificate] KeyStore file.
-- Enter [Master Password] and Click [Validation] to check validation of the chosen file.
-	- This process is required to validate KeyStore and to choose an appropriate Alias.
-	- When validation fails, be sure to check the status of the certificate file and the master password.
-- Select the name of [Alias].
-- Enter [Alias Password].
-- Choose an [APK]
-- Select the level of protection
-	- Level1 : Basic level of pattern-oriented and abnormal acts protection on application
-	- Level2 : Level1 + Advanced security functions such as, code encryption and preventing app manipulation
-	- Level3 : Level2 + Fortified security functions (recommended only when additional deployment guide is given, because some services might require verification process on stability)
-	- Level ex : This level requires SDK integration, which provides security between Level 1 and Level 2 (recommended only when there's a conflict with other security solutions
-- Click **Ok** to start Protect App
-    - When completed, you can download the protected application. Now, you're ready to upload protected apps on each Appstore for deployment.
-- Methods of app protection: Console or CLI(Command Line Interface)
+![appguard_02_201812](https://static.toastoven.net/prod_appguard/appguard_02_201812_en.png)
 
-## Policy Setting
+* [証明書]ファイルを選択します。 AndroidはKeyStoreファイルです。
+* [マスターパスワード]を入力し、 [有効性検査]ボタンをクリックして証明書ファイルの有効性を検査します。
+* この検査作業はアプリ保護作業前のKeyStoreの有効性と適切なエイリアスを選択するためのものです。
+* 有効性の検査に失敗した時、証明書ファイルが正常かどうか、そしてマスターパスワードを確認します。
+* [エイリアス]名を選択します。
+* [エイリアス パスワード]を入力します。
+* [保護するアプリ]を選択します。
+* 保護レベルを選択します。
+    - Level1 ：アプリに対する異常な行為およびパターンベースの基本セキュリティー探知機能
+    - Level2 ： Level1 + コード暗号化、アプリ改ざん防止など、向上したセキュリティー機能
+    - Level3 ： Level2 + 強化されたセキュリティー機能(特定サービスでは安定性の検証が必要な場合があり、別途の適用ガイドを受けた場合にのみ使用を推奨)
+    - Level ex ： SDK連携が必須で必要なバージョン、 Level1と2の間のセキュリティーを提供(他セキュリティーソリューションと衝突する時にのみ使用を推奨)
+* **確認**ボタンをクリックしてアプリ保護をします。
+    - アプリ保護が完了したら、保護されたアプリをダウンロードできます。保護された配布ファイルを各アプリストアにアップロードして配布してください。
+* アプリ保護作業方法： Console、 CLI(Command Line Interface)
 
-When AppGuard detects manipulation or malicious hacks, it can set block policies.
+## ポリシー設定
 
-![appguard_03_201812_en](https://static.toastoven.net/prod_appguard/appguard_03_201812_en.png)
+AppGuard作動中、コード、メモリ、速度操作を探知した時に講ずる必要がある遮断ポリシーを設定できます。
 
-When a user is detected by the block policy, an AppGuard message box pops up and the app is force-closed.
-For further details on the policy, please refer to "AppGuard Developer's Guide" document included in the SDK.
+![appguard_03_201812](https://static.toastoven.net/prod_appguard/appguard_03_201812_en.png)
+
+ユーザーが、Blockに設定されたポリシーで探知された場合、 AppGuardメッセージボックスを表示してアプリを終了します。
+制裁の内容はSDKに含まれている"AppGuard Developer's Guide" 文書を参照してください。
