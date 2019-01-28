@@ -1,4 +1,4 @@
-﻿## Security > AppGuard > コンソール使用ガイド
+## Security > AppGuard > コンソール使用ガイド
 
 AppGuardは、AndroidバージョンとiOSバージョン(Beta)があります。
 
