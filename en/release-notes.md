@@ -1,5 +1,10 @@
 ## Security > AppGuard > Release Notes
 
+### 2019.01.29
+
+#### function upgrade/change
+* Unity latest version compatibility improvement
+
 ### 2018.12.27
 
 #### function upgrade/change
