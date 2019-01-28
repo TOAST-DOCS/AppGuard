@@ -1,46 +1,46 @@
-## Security > AppGuard > Overview
+﻿## Security > AppGuard > 概要
 
-AppGuard helps prevent manipulating application codes. It also detects and prohibits any tools which try to manipulate memory, speed or codes through patterned or heuristic method.
+AppGuardは、アプリケーションコードの改ざんを防止できます。またメモリや速度、コードを操作しようとする各種ツールをパターンまたはヒューリスティックな方法で探知し、制裁できます。
 
-## Feature/Advantage
+## 特徴/利点
 
-* Blocks code manipulation from the root stage.
-* Detects and prohibits various fabricating tools through pattern- or act-oriented method.
-* Checks information detected by AppGuard through Console so as to provide cause for restriction.
-* Protects application with easy but strong means
-* Currently in use for about 100 services, including game, shopping, and simple payment, to serve as a protective measure against abusive acts or application manipulation.
+* コード改ざんを原則防止できます。
+* 多様な操作ツールをパターンや迂回が困難な行為ベースで探知し、制裁できます。
+* AppGuardを通して探知した情報をConsoleで確認後、制裁できる根拠を提供します。
+* 簡単なアプリ保護作業だけで、強力にアプリを保護できます。
+* ゲーム、ショッピング、簡易決済など、約100個の多様なサービスに適用され、各種アビューズ行為、アプリ操作からの保護に活用されています。
 
-## Main Function
+## 主な機能
 
-Functions are provided as follows:
+次のような機能を提供します。
 
-* Easily blocks decompiling by protecting applications through web consoles
-* Detects manipulated applications by checking integrity of files
-* Detects abusive acts, such as rooting or emulation.
-* Detects speed hack.
-* Detects by pattern or act of each manipulative tool.
-* Provides low-cost automatic sanctions, unlike resource-wasting manual system (to be updated soon)
+* Webコンソールを介してアプリケーション保護することで、逆コンパイル防止機能を提供
+* ファイルの整合性チェックによりアプリケーション操作を探知
+* ルート化、エミュレータなど、アビューズ環境を探知
+* スピード操作を探知
+* 各種操作ツールのパターンおよび行為ベースによる探知
+* 運営者による多くのリソースが必要な手動の制裁ではなく、システムによる低価格の自動制裁(近日中に提供予定)
 
-## Glossary
+## サービス用語
 
-For the AppGuard service, please refer to the glossary on Table 1.
+AppGuardでは[表1]の用語を使用します。
 
-[Table 1] Glossary for AppGuard
+[表1] AppGuardサービス用語
 
-| Term       | Description                                                             |
+| 用語     | 説明                                                                    |
 | -------- | ----------------------------------------------------------------------- |
-| Heuristic Detection      | A method of general detection on cheating tools which prevents taking a bypass |
-| Code Manipulation        | A manipulative act by analyzing code decompiling to gain profits |
-| Decompile                | An act of converting compiled codes to high-level language for easy analysis |
-| File integrity           | An act of checking if original files are changed due to code manipulation |
-| Rooting, Jail Break      | Upgrading smartphone user’s restricted authority to the highest root level so as to gain access to all system parts without a hitch |
-| Behavior Based Detection | A method of detection by copying how a cheating tool does to cheat |
-| System Restriction       | Sanctions on detected logs automatically posed by a system, not by an operator’s manual act |
+| ヒューリスティック探知 | チートツールなどを一般的な方法で探知して、迂回が困難な探知方法 |
+| コード改ざん  | コードをDCOMファイルなどを通して解析し、利益を得るために操作する行為                             |
+| 逆コンパイル   | コンパイルされたコードを簡単に解析するために高級言語に変換する行為 |
+| ファイル整合性のチェック  | コード改ざんなどにより原本ファイルが変更されたか確認すること |
+| ルート化、脱獄  | スマートフォンの制限されている権限を、最上位root権限に昇格させ、システムのすべての部分に無制限にアクセスできるようにすること |
+| 行為ベース探知 | チートツールなどがチートを行うために行う行為を利用して探知する方法                                   |
+| システム制裁 | 探知されたログにより運営者が制裁をするのではなく、システムにより自動で行われる制裁                 |
 
-## Service Structure
+## サービス構造
 
-Figure 1 displays how AppGuard flows:
-Using AppGuard’s SDK, the code is integrated with the application (optional), and then app protection service (required) is completed and deployed on a console or Command Line Interface (CLI). The AppGuard Engine sends a detective log to a server so as to block or sanction against abuses.
+AppGuardの構造は[図1]のとおりです。
+AppGuardのSDKを通してアプリにコード連携(選択事項)後、 ConsoleやCLI(Command Line Interface)ツールを利用して、アプリ保護(必須事項)作業を完了して配布します。AppGuard Engineは、アビューズ行為を探知して遮断したり、制裁できるログをサーバーに転送します。
 
-![[Figure 1] Flow of AppGuard](http://static.toastoven.net/prod_appguard/Overview_figure1.png)
-<center>[Figure 1] Flow of AppGuard</center>
+![[図1] AppGuardサービス構造](http://static.toastoven.net/prod_appguard/Overview_figure1.png)
+<center>[図1] AppGuardサービス構造</center>
