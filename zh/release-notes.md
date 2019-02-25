@@ -1,5 +1,14 @@
 ## Security > AppGuard > Release Notes
 
+### 2019.02.26
+
+#### function upgrade/change
+* Apply AppGuard self-obfuscation
+* Unity latest version(2018) compatibility improvement
+	* MONO, IL2CPP build encryption function
+* Add Emulator Detection Pattern
+	* NOX latest version(6.2.7.0)
+
 ### 2019.01.29
 
 #### function upgrade/change
