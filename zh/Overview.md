@@ -42,5 +42,5 @@ AppGuard可防止应用程序编码造假。并且，将内存或速度、代码
 AppGuard的结构如 [图 1\]。<br>
 通过AppGuard的SDK，在App上关联代码(选项)后，利用Console或CLI(Command Line Interface)工具，发布App保护(必选项)工作。AppGuard Engine探知到Abusing后，对其进行阻止或用服务器发送可制裁的日志。
 
-![[图 1] AppGuard 服务结构](http://static.toastoven.net/prod_appguard/Overview_figure1.png)
+![[图 1] AppGuard 服务结构](http://static.toastoven.net/prod_appguard/AppGuard_2_overview01_en.png)
 <center>[图 1] AppGuard 服务结构</center>
