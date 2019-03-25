@@ -1,5 +1,11 @@
 ## Security > AppGuard > Release Notes
 
+### 2019.03.26
+
+#### function upgrade/change
+* Apply Unity Library obfuscation
+* Add Appguard API / Method obfuscation function
+
 ### 2019.02.26
 
 #### function upgrade/change
