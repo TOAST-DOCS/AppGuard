@@ -4,7 +4,7 @@
 
 #### function upgrade/change
 * Apply Unity Library obfuscation
-* Add Appguard API / Method obfuscation function
+* Add AppGuard API / Method obfuscation function
 
 ### 2019.02.26
 
