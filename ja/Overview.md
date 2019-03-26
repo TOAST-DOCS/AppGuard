@@ -42,5 +42,5 @@ AppGuardでは[表1]の用語を使用します。
 AppGuardの構造は[図1]のとおりです。
 AppGuardのSDKを通してアプリにコード連携(選択事項)後、 ConsoleやCLI(Command Line Interface)ツールを利用して、アプリ保護(必須事項)作業を完了して配布します。AppGuard Engineは、アビューズ行為を探知して遮断したり、制裁できるログをサーバーに転送します。
 
-![[図1] AppGuardサービス構造](http://static.toastoven.net/prod_appguard/Overview_figure1.png)
+![[図1] AppGuardサービス構造](http://static.toastoven.net/prod_appguard/AppGuard_2_overview01_en.png)
 <center>[図1] AppGuardサービス構造</center>
