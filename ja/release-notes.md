@@ -1,5 +1,18 @@
 ## Security > AppGuard > Release Notes
 
+### 2019.04.23
+
+#### function upgrade/change
+* Add Unity IL2CPP method encryption function
+	* Applied with CLI option "--il2cpp-encryption"
+* Add Unity MONO method encryption function
+	* Applied to AppGuard level3
+* Add Emulator Detection Pattern
+	* Memu Player latest version(6.1.1)
+
+#### bug fix
+* Fixed a multi-deck duplicate installation error on Android OS 4.X version
+
 ### 2019.03.26
 
 #### function upgrade/change
