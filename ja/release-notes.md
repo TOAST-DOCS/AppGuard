@@ -1,5 +1,17 @@
 ## Security > AppGuard > Release Notes
 
+### 2019.05.28
+
+#### function upgrade/change
+* Change to add 64bit libraries by default according to Google's guide
+	* AS-IS : Add a 32 or 64 bit library by checking user ABI
+	* TO-BE : Add Both 32bit and 64 bit Library
+* Improved macro detection
+
+#### bug fix
+* [Android] Fix Emulator not detected bug
+* [iOS] Fix integrity check bug
+
 ### 2019.04.23
 
 #### function upgrade/change
