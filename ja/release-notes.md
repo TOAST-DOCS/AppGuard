@@ -8,7 +8,7 @@
 * Add Crash Report Function
 
 #### bug fix
-* Improving Path Permission Change Inspection logic
+* Fix Path Permission Change Inspection bug
 
 ### 2019.05.28
 
