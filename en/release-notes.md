@@ -1,5 +1,15 @@
 ## Security > AppGuard > Release Notes
 
+### 2019.06.25
+
+#### function upgrade/change
+* Enhanced protection for AppGuard 64bit libraries
+* Add AppGuard Control Flow Obfuscation Function
+* Add Crash Report Function
+
+#### bug fix
+* Improving Path Permission Change Inspection logic
+
 ### 2019.05.28
 
 #### function upgrade/change
