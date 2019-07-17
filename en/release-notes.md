@@ -1,26 +1,36 @@
 ## Security > AppGuard > Release Notes
 
-### 2019.06.25
+### July 23, 2019
 
-#### function upgrade/change
-* Enhanced protection for AppGuard 64bit libraries
-* Add AppGuard Control Flow Obfuscation Function
-* Add Crash Report Function
+#### Feature Updates/Changes
+* Enabled the support of Android App Bundle
+* Added Unity library packing
+* Added macro detection of Unity MONO build
 
-#### bug fix
-* Fix Path Permission Change Inspection bug
+#### Bug Fixes
+* Fixed bugs in dex integrity check
 
-### 2019.05.28
+### June 25, 2019
 
-#### function upgrade/change
-* Change to add 64bit libraries by default according to Google's guide
-	* AS-IS : Add a 32 or 64 bit library by checking user ABI
-	* TO-BE : Add Both 32bit and 64 bit Library
-* Improved macro detection
+#### Feature Updates/Changes
+* Fortified protection of 64-bit Appguard library
+* Added obfuscation in Appguard control flow
+* Added crash reporting
 
-#### bug fix
-* [Android] Fix Emulator not detected bug
-* [iOS] Fix integrity check bug
+#### Bug Fixes
+* Fixed bugs in the check of authority change of Appguard path
+
+### May 28, 2019
+
+#### Feature Updates/Changes
+* Changed to add 64-bit library as default, according to Google guides
+	* Before Change: 32 or 64-bit library was added depending on user's ABI
+	* Now: Both 32 and 64-bit library are available
+* Upgraded macro detection
+
+#### Bug Fixes
+* [Android] Fixed undetected emulator bugs
+* [iOS] Fixed bugs in integrity check
 
 ### 2019.04.23
 
