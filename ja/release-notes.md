@@ -1,26 +1,36 @@
-## Security > AppGuard > Release Notes
+## Security > AppGuard > リリースノート
+
+### 2019.07.23
+
+#### 機能改善 / 変更
+* Android App Bundleをサポート
+* Unityライブラリパッキング機能を追加
+* Unity MONOマクロ探知機能を追加
+
+#### バグ修正
+* dex整合性チェックのバグを修正
 
 ### 2019.06.25
 
-#### function upgrade/change
-* Enhanced protection for AppGuard 64bit libraries
-* Add AppGuard Control Flow Obfuscation Function
-* Add Crash Report Function
+#### 機能改善 / 変更
+* アプリガード64bitライブラリ保護機能を強化
+* アプリガード制御フロー難読化機能を追加
+* クラッシュレポート機能を追加
 
-#### bug fix
-* Fix Path Permission Change Inspection bug
+#### バグ修正
+* アプリガードパス権限変更チェックのバグを修正
 
 ### 2019.05.28
 
-#### function upgrade/change
-* Change to add 64bit libraries by default according to Google's guide
-	* AS-IS : Add a 32 or 64 bit library by checking user ABI
-	* TO-BE : Add Both 32bit and 64 bit Library
-* Improved macro detection
+#### 機能改善 / 変更
+* Googleのガイドに従い、defaultで64bitのライブラリを追加するように変更
+	* 従来の方式：ユーザーがABIチェックして32または64bitライブラリを追加
+	* 変更方式：32/64bitライブラリの両方を追加
+* マクロ探知機能を改善
 
-#### bug fix
-* [Android] Fix Emulator not detected bug
-* [iOS] Fix integrity check bug
+#### バグ修正
+* [Android]エミュレータ未探知バグを修正
+* [iOS]整合性チェックのバグを修正
 
 ### 2019.04.23
 
