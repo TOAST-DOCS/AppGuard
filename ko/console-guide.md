@@ -66,11 +66,17 @@ AppGuard 작동 중 코드, 메모리, 속도 조작 시도 탐지 시 취해야
 '조건 차단'시 설정한 조건으로 탐지될 경우, AppGuard 안내 창이 나타나고 앱이 종료됩니다.
 제재에 대한 내용은 SDK에 포함된 "AppGuard Developer's Guide" 문서를 참고 바랍니다.
 
+### 변경 이력
+
+정책을 변경하고 저장할 때, 언제 누가 어떻게 변경했는지 이력을 관리할 수 있습니다.
+
+![appguard_04_201908](https://static.toastoven.net/prod_appguard/appguard_04_201908.png)
+
 ### 조건 추가
 
 **정책** 메뉴 선택 후, 각 탐지 종류별 **조건 차단** 버튼을 클릭하면 다음과 같은 화면이 나타납니다.
 
-![appguard_04_201908](https://static.toastoven.net/prod_appguard/appguard_04_201908.png)
+![appguard_05_201908](https://static.toastoven.net/prod_appguard/appguard_05_201908.png)
 
 * **차단 기준** 을 선택합니다.
 * **국가 정보** 를 선택합니다.
@@ -84,7 +90,7 @@ AppGuard 작동 중 코드, 메모리, 속도 조작 시도 탐지 시 취해야
 
 ### 조건 확인
 
-![appguard_05_201908](https://static.toastoven.net/prod_appguard/appguard_05_201908.png)
+![appguard_06_201908](https://static.toastoven.net/prod_appguard/appguard_06_201908.png)
 
 * **조건 차단** 버튼 옆 **▼** 버튼을 클릭하여 추가된 조건을 확인할 수 있습니다.
 
@@ -92,13 +98,13 @@ AppGuard 작동 중 코드, 메모리, 속도 조작 시도 탐지 시 취해야
 
 AppGuard에서 제공하는 디바이스 ID와 SDK 연동 시 사용할 수 있는 유저 ID를 등록하여, 특정 기기와 사용자를 블랙리스트로 관리합니다.
 
-![appguard_06_201908](https://static.toastoven.net/prod_appguard/appguard_06_201908.png)
+![appguard_07_201908](https://static.toastoven.net/prod_appguard/appguard_07_201908.png)
 
 ### 블랙리스트 등록
 
 **블랙리스트** 메뉴 선택 후, **등록** 버튼을 클릭하면 다음과 같은 화면이 나타납니다.
 
-![appguard_07_201908](https://static.toastoven.net/prod_appguard/appguard_07_201908.png)
+![appguard_08_201908](https://static.toastoven.net/prod_appguard/appguard_08_201908.png)
 
 * **등록 아이디** 를 선택합니다.
 * **아이디 유형** 을 선택합니다.
@@ -111,7 +117,7 @@ AppGuard에서 제공하는 디바이스 ID와 SDK 연동 시 사용할 수 있�
 
 **블랙리스트** 메뉴 선택 후, 등록된 블랙리스트의 **해제** 버튼을 클릭하면 다음과 같은 화면이 나타납니다.
 
-![appguard_08_201908](https://static.toastoven.net/prod_appguard/appguard_08_201908.png)
+![appguard_09_201908](https://static.toastoven.net/prod_appguard/appguard_09_201908.png)
 
 * **해제** 버튼을 클릭하여 등록된 블랙리스트를 해제합니다.
 * 해제된 블랙리스트 아이디로 앱을 실행하면 AppGuard에서 앱을 종료하지 않습니다.
@@ -120,7 +126,7 @@ AppGuard에서 제공하는 디바이스 ID와 SDK 연동 시 사용할 수 있�
 
 **블랙리스트** 메뉴 선택 후, 해제된 블랙리스트의 **재등록** 버튼을 클릭하면 다음과 같은 화면이 나타납니다.
 
-![appguard_09_201908](https://static.toastoven.net/prod_appguard/appguard_09_201908.png)
+![appguard_10_201908](https://static.toastoven.net/prod_appguard/appguard_10_201908.png)
 
 * **등록 사유** 와 **차단기간(일)** 을 수정합니다.
 * **등록** 버튼을 클릭하여 블랙리스트를 수정한 내용으로 등록합니다.
@@ -130,4 +136,4 @@ AppGuard에서 제공하는 디바이스 ID와 SDK 연동 시 사용할 수 있�
 
 AppGuard 웹 콘솔 정책 메뉴에서 변경 이력을 남길 수 있도록 설정할 수 있습니다.
 
-![appguard_10_201908](https://static.toastoven.net/prod_appguard/appguard_10_201908.png)
+![appguard_11_201908](https://static.toastoven.net/prod_appguard/appguard_11_201908.png)
