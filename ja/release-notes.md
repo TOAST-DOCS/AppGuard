@@ -1,5 +1,15 @@
 ## Security > AppGuard > リリースノート
 
+### 2019.08.27
+
+#### Feature Updates/Changes
+* Supporting Android Q
+* Added web console conditional block and blacklist
+* Added AppGuard iOS real time policy setting
+* Detecting unity game macro and supporting web console based on machine learning
+* AppGuard modules integrity verification improvement
+* Added audit log on web console
+
 ### 2019.07.23
 
 #### 機能改善 / 変更
