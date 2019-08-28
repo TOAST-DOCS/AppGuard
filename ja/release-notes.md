@@ -2,13 +2,13 @@
 
 ### 2019.08.27
 
-#### Feature Updates/Changes
-* Supporting Android Q
-* Added web console conditional block and blacklist
-* Added AppGuard iOS real time policy setting
-* Detecting unity game macro and supporting web console based on machine learning
-* AppGuard modules integrity verification improvement
-* Added audit log on web console
+#### 機能改善 / 変更
+* Android Qをサポート
+* Webコンソール条件遮断およびブラックリスト機能を追加
+* AppGuard iOSリアルタイムポリシー設定機能を追加
+* 機械学習基盤、Unityゲームのマクロ検知機能追加およびWebコンソールをサポート
+* AppGuardモジュールの整合性検証を改善
+* Webコンソールの監査ログ機能を追加
 
 ### 2019.07.23
 
