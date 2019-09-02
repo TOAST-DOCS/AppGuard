@@ -113,7 +113,7 @@ Select **Blacklist** and click **Register**, and the page shows as follows:
 
 ### Un-blacklist
 
-Select **Blacklist** and click **Un-blacklist** from the registered list, and the page shows as follows:
+Select **Blacklist** and click **UnBlock** from the registered list, and the page shows as follows:
 
 ![appguard_09_201908](https://static.toastoven.net/prod_appguard/appguard_09_201908.png)
 
