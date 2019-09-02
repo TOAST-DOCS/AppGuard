@@ -117,8 +117,8 @@ Select **Blacklist** and click **Un-blacklist** from the registered list, and th
 
 ![appguard_09_201908](https://static.toastoven.net/prod_appguard/appguard_09_201908.png)
 
-* Click **Un-blacklist** to release from the registered blacklist.
-* Execute the app with **un-blacklisted** ID and app is not closed by AppGuard.
+* Click **UnBlock** to release from the registered blacklist.
+* Execute the app with unblacklisted ID and app is not closed by AppGuard.
 
 ### Re-blacklist
 
