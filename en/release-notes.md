@@ -1,5 +1,10 @@
 ## Security > AppGuard > Release Notes
 
+### September 24, 2019
+
+#### Feature Updates/Changes
+* Enhanced Stability for AppGuard Android Q
+
 ### August 27, 2019
 
 #### Feature Updates/Changes
