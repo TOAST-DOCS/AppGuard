@@ -13,7 +13,7 @@ AppGuard의 사용을 위한 적용 단계는 다음과 같습니다.
 
 앱 보호 작업이 완료된 앱을 앱 스토어에 배포 후 어뷰징 유저가 탐지되면 밑 그림의 **대시보드** 탭에서 현황을 확인 할 수 있습니다.
 
-![appguard_01_201908](https://static.toastoven.net/prod_appguard/appguard_01_201908.png)
+![appguard_01_201910](https://static.toastoven.net/prod_appguard/appguard_01_201910.png)
 
 - **이상 행위 탐지 현황** 은 AppGuard가 탐지한 어뷰징 사용자를 **로그 탐지 패턴**, **기간별** 기준 시도 순서로 확인할 수 있습니다.
 - **이상 행위 탐지 현황** 의 결과는 우측 상단의 **보고서 다운로드(Excel)** 버튼을 클릭하여 다운로드할 수 있습니다.
@@ -38,7 +38,7 @@ SDK를 다운로드 받은 후 첨부 되어 있는 매뉴얼에 따라 연동�
 
 **앱 보호** 메뉴 선택 후 **+ 앱 보호** 버튼을 클릭하면 다음과 같은 화면이 나옵니다.
 
-![appguard_02_201908](https://static.toastoven.net/prod_appguard/appguard_02_201908.png)
+![appguard_02_201910](https://static.toastoven.net/prod_appguard/appguard_02_201910.png)
 
 * [인증서] 파일을 선택합니다. 안드로이드는 KeyStore파일입니다.
 * [마스터 비밀번호]를 입력하고 [유효성 검사] 버튼을 클릭하여 인증서 파일의 유효성을 검사합니다.

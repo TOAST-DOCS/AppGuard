@@ -12,7 +12,7 @@ Following diagram shows the AppGuard application process.
 ## Dashboard
 When an abusive user is detected, you can check detection status by clicking on the **Dashboard** tab.
 
-![appguard_01_201908_en](https://static.toastoven.net/prod_appguard/appguard_01_201908_en.png)
+![appguard_01_201910_en](https://static.toastoven.net/prod_appguard/appguard_01_201910_en.png)
 
 - **Status of abnormal behavior** can be found among abusive users as detected by AppGuard in the order of trials by **log detection pattern** or **period**.
 - Click **Download Reports (Excel)** on top-right of the page to download the detection result of abnormal behavior.  
@@ -37,7 +37,7 @@ Then, follow the attached manual to work with SDKs.
 
 Select **App Protection** and click **+ Protect App**.
 
-![appguard_02_201908_en](https://static.toastoven.net/prod_appguard/appguard_02_201908_en.png)
+![appguard_02_201910_en](https://static.toastoven.net/prod_appguard/appguard_02_201910_en.png)
 
 - Choose a [Certificate] KeyStore file.
 - Enter [Master Password] and Click [Validation] to check validation of the chosen file.

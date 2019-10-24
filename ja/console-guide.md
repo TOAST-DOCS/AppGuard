@@ -13,7 +13,7 @@ AppGuardの使用するための適用段階は次のとおりです。
 
 アプリ保護作業が完了したアプリをアプリストアに配布し、アビューズユーザーが探知されると、下図の**ダッシュボード** タブで現況を確認できます。
 
-![appguard_01_201908_en](https://static.toastoven.net/prod_appguard/appguard_01_201908_en.png)
+![appguard_01_201910_ja](https://static.toastoven.net/prod_appguard/appguard_01_201910_ja.png)
 
 - **異常行為の検知状況**は、AppGuardが検知したアビューズユーザーのログ検知パターン、期間別の試行順序を確認できます。
 - **異常行為検知状況の結果**は、右上のレポートダウンロード(Excel)ボタンをクリックしてダウンロードできます。
@@ -38,7 +38,7 @@ SDKをダウンロードした後、添付されているマニュアルに沿�
 
 **アプリ保護** メニュー選択後、**+ アプリ保護** ボタンをクリックすると、次のような画面が表示されます。
 
-![appguard_02_201908_en](https://static.toastoven.net/prod_appguard/appguard_02_201908_en.png)
+![appguard_02_201910_ja](https://static.toastoven.net/prod_appguard/appguard_02_201910_ja.png)
 
 * [証明書]ファイルを選択します。 AndroidはKeyStoreファイルです。
 * [マスターパスワード]を入力し、 [有効性検査]ボタンをクリックして証明書ファイルの有効性を検査します。
@@ -59,7 +59,7 @@ SDKをダウンロードした後、添付されているマニュアルに沿�
 
 AppGuard作動中、コード、メモリ、速度操作試行を検知した時、取るべき遮断ポリシーを設定でき、'条件遮断'の場合、しきい値で遮断条件を設定できます。
 
-![appguard_03_201908_en](https://static.toastoven.net/prod_appguard/appguard_03_201908_en.png)
+![appguard_03_201910_ja](https://static.toastoven.net/prod_appguard/appguard_03_201910_ja.png)
 
 全体遮断'に設定されたポリシーで検知された場合、AppGuard案内ウィンドウが表示され、アプリが終了します。
 条件遮断'に設定された条件で検知された場合、AppGuard案内ウィンドウが表示され、アプリが終了します。
@@ -67,11 +67,11 @@ AppGuard作動中、コード、メモリ、速度操作試行を検知した時
 
 ### 変更履歴
 ポリシーを変更、保存する時、いつ、誰が、どのように変更したのか、その履歴を管理できます。
-![appguard_04_201908_en](https://static.toastoven.net/prod_appguard/appguard_04_201908_en.png)
+![appguard_04_201910_ja](https://static.toastoven.net/prod_appguard/appguard_04_201910_ja.png)
 
 ### 条件追加
 ポリシーメニュー選択後、各検知種類別の条件遮断ボタンをクリックすると、次のような画面が表示されます。
-![appguard_05_201908_en](https://static.toastoven.net/prod_appguard/appguard_05_201908_en.png)
+![appguard_05_201910_ja](https://static.toastoven.net/prod_appguard/appguard_05_201910_ja.png)
 
 * 遮断基準を選択します。
 * 国情報を選択します。
@@ -85,7 +85,7 @@ AppGuard作動中、コード、メモリ、速度操作試行を検知した時
 
 ### 条件確認
 
-![appguard_06_201908_en](https://static.toastoven.net/prod_appguard/appguard_06_201908_en.png)
+![appguard_06_201910_ja](https://static.toastoven.net/prod_appguard/appguard_06_201910_ja.png)
 
 条件遮断ボタン横の▼ボタンをクリックして、追加された条件を確認できます。
 
@@ -94,14 +94,14 @@ AppGuard作動中、コード、メモリ、速度操作試行を検知した時
 
 AppGuardで提供するデバイスIDとSDK連携すると使用できるユーザーIDを登録して、特定端末とユーザーをブラックリストで管理します。
 
-![appguard_07_201908_en](https://static.toastoven.net/prod_appguard/appguard_07_201908_en.png)
+![appguard_07_201910_ja](https://static.toastoven.net/prod_appguard/appguard_07_201910_ja.png)
 
 
 ### ブラックリスト登録
 
 ブラックリストメニュー選択後、登録ボタンをクリックすると、次のような画面が表示されます。
 
-![appguard_08_201908_en](https://static.toastoven.net/prod_appguard/appguard_08_201908_en.png)
+![appguard_08_201910_ja](https://static.toastoven.net/prod_appguard/appguard_08_201910_ja.png)
 
 * 登録IDを選択します。
 * IDタイプを選択します。
@@ -114,7 +114,7 @@ AppGuardで提供するデバイスIDとSDK連携すると使用できるユー�
 
 ブラックリストメニュー選択後、登録されたブラックリストの解除ボタンをクリックすると、次のような画面が表示されます。
 
-![appguard_09_201908_en](https://static.toastoven.net/prod_appguard/appguard_09_201908_en.png)
+![appguard_09_201910_ja](https://static.toastoven.net/prod_appguard/appguard_09_201910_ja.png)
 
 * 解除ボタンをクリックして登録されたブラックリストを解除します。
 * 解除されたブラックリストIDでアプリを実行すると、AppGuardでアプリを終了させません。
@@ -123,7 +123,7 @@ AppGuardで提供するデバイスIDとSDK連携すると使用できるユー�
 
 メニュー選択後、解除されたブラックリストの再登録ボタンをクリックすると、次のような画面が表示されます。
 
-![appguard_10_201908_en](https://static.toastoven.net/prod_appguard/appguard_10_201908_en.png)
+![appguard_10_201910_ja](https://static.toastoven.net/prod_appguard/appguard_10_201910_ja.png)
 
 * 登録理由と遮断期間(日)を修正します。
 * 登録ボタンをクリックして、ブラックリストを修正した内容で登録します。
@@ -133,4 +133,4 @@ AppGuardで提供するデバイスIDとSDK連携すると使用できるユー�
 
 AppGuard Webコンソールポリシーメニューで、変更履歴を残せるように設定できます。
 
-![appguard_11_201908_en](https://static.toastoven.net/prod_appguard/appguard_11_201908_en.png)
+![appguard_11_201910_ja](https://static.toastoven.net/prod_appguard/appguard_11_201910_ja.png)
