@@ -1,5 +1,15 @@
 ## Security > AppGuard > Release Notes
 
+### October 29, 2019
+
+#### Feature Updates/Changes
+* Updated anti-debugging
+* Updated game hack detection
+* Updated memory search detection
+
+#### Bug Fixes
+* Enhanced Stability for AppGuard Engine
+
 ### September 24, 2019
 
 #### Feature Updates/Changes
