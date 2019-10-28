@@ -12,17 +12,17 @@ Following diagram shows the AppGuard application process.
 ## Dashboard
 When an abusive user is detected, you can check detection status by clicking on the **Dashboard** tab.
 
-![appguard_01_201908_en](https://static.toastoven.net/prod_appguard/appguard_01_201908_en.png)
+![appguard_01_201910_en](https://static.toastoven.net/prod_appguard/appguard_01_201910_en.png)
 
 - **Status of abnormal behavior** can be found among abusive users as detected by AppGuard in the order of trials by **log detection pattern** or **period**.
-- Click **Download Reports (CSV)** on top-right of the page to download the detection result of abnormal behavior.  
+- Click **Download Reports (Excel)** on top-right of the page to download the detection result of abnormal behavior.  
 - **Dashboard** tab shows statistical graphs and the list of abusive users detected by AppGuard.
 	- For rooting, you may check detection or sanction logs on dashboard, once a day since app is installed.
 - You can **Search** by [User ID], [Device ID], [Detection Log Count], [Log Pattern], and [Search Period].
 	- Multiple [User ID] and [Device ID] can be added with comma as a delimiter.
 - In the statistical detection graph, you can check 'Detection Distribution by Pattern' and 'Change status of detection logs'.
 - The detection list shows User ID, Device ID, Host IP, OS, Logs, App Information, and Detection Time.
-- You may click **Download Report (CSV)** to download the query result.
+- You may click **Download Report (Excel)** to download the query result.
 
 ## App Protection
 
@@ -37,7 +37,7 @@ Then, follow the attached manual to work with SDKs.
 
 Select **App Protection** and click **+ Protect App**.
 
-![appguard_02_201908_en](https://static.toastoven.net/prod_appguard/appguard_02_201908_en.png)
+![appguard_02_201910_en](https://static.toastoven.net/prod_appguard/appguard_02_201910_en.png)
 
 - Choose a [Certificate] KeyStore file.
 - Enter [Master Password] and Click [Validation] to check validation of the chosen file.
@@ -50,7 +50,6 @@ Select **App Protection** and click **+ Protect App**.
 	- Level1 : Basic level of pattern-oriented and abnormal acts protection on application
 	- Level2 : Level1 + Advanced security functions such as, code encryption and preventing app manipulation (Recommended for general apps)
 	- Level3 : Level2 + Fortified security functions (Recommended for game apps)
-	- Level ex : This level requires SDK integration, which provides security between Level 1 and Level 2 (recommended only when there's a conflict with other security solutions)
 - Click **Ok** to start Protect App
     - When completed, you can download the protected application. Now, you're ready to upload protected apps on each Appstore for deployment.
 - Methods of app protection: Console or CLI(Command Line Interface)
