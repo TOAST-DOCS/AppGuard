@@ -1,21 +1,26 @@
 ## Security > AppGuard > Release Notes
 
-### October 29, 2019
+### 2019. 11. 26.
 
 #### Feature Updates/Changes
-* Updated anti-debugging
+* 앱가드 버전 선택 기능 추가
+
+### 2019. 10. 29.
+
+#### Feature Updates/Changes
+* Updated the anti-debugging feature
 * Updated game hack detection
-* Updated memory search detection
+* Added the memory search detection feature
 
 #### Bug Fixes
-* Enhanced Stability for AppGuard Engine
+* Stabilized the AppGuard engine
 
-### September 24, 2019
+### 2019. 09. 24.
 
 #### Feature Updates/Changes
 * Enhanced Stability for AppGuard Android Q
 
-### August 27, 2019
+### 2019. 08. 27.
 
 #### Feature Updates/Changes
 * Supported Android Q
@@ -25,7 +30,7 @@
 * Updated integrity checks for AppGuard modules
 * Added web console inspection logs
 
-### July 23, 2019
+### 2019. 07. 23.
 
 #### Feature Updates/Changes
 * Enabled the support of Android App Bundle
@@ -35,7 +40,7 @@
 #### Bug Fixes
 * Fixed bugs in dex integrity check
 
-### June 25, 2019
+### 2019. 06. 25.
 
 #### Feature Updates/Changes
 * Fortified protection of 64-bit Appguard library
@@ -45,7 +50,7 @@
 #### Bug Fixes
 * Fixed bugs in the check of authority change of Appguard path
 
-### May 28, 2019
+### 2019. 05. 28.
 
 #### Feature Updates/Changes
 * Changed to add 64-bit library as default, according to Google guides
