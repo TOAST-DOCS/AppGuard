@@ -3,7 +3,7 @@
 ### 2019. 11. 26.
 
 #### Feature Updates/Changes
-* 앱가드 버전 선택 기능 추가
+* Updated to Select AppGuard Version
 
 ### 2019. 10. 29.
 
