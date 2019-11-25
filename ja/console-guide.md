@@ -38,7 +38,7 @@ SDKをダウンロードした後、添付されているマニュアルに沿�
 
 **アプリ保護** メニュー選択後、**+ アプリ保護** ボタンをクリックすると、次のような画面が表示されます。
 
-![appguard_02_201910_ja](https://static.toastoven.net/prod_appguard/appguard_02_201910_ja.png)
+![appguard_02_201911_ja](https://static.toastoven.net/prod_appguard/appguard_02_201911_test_ja.png)
 
 * [証明書]ファイルを選択します。 AndroidはKeyStoreファイルです。
 * [マスターパスワード]を入力し、 [有効性検査]ボタンをクリックして証明書ファイルの有効性を検査します。

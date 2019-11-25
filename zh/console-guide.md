@@ -37,7 +37,7 @@ Then, follow the attached manual to work with SDKs.
 
 Select **App Protection** and click **+ Protect App**.
 
-![appguard_02_201910_en](https://static.toastoven.net/prod_appguard/appguard_02_201910_en.png)
+![appguard_02_201911_en](https://static.toastoven.net/prod_appguard/appguard_02_201911_test_en.png)
 
 - Choose a [Certificate] KeyStore file.
 - Enter [Master Password] and Click [Validation] to check validation of the chosen file.
