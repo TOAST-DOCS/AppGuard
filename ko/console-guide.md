@@ -38,7 +38,7 @@ SDK를 다운로드 받은 후 첨부 되어 있는 매뉴얼에 따라 연동�
 
 **앱 보호** 메뉴 선택 후 **+ 앱 보호** 버튼을 클릭하면 다음과 같은 화면이 나옵니다.
 
-![appguard_02_201911](https://static.toastoven.net/prod_appguard/appguard_02_201911_test.png)
+![appguard_02_201911](https://static.toastoven.net/prod_appguard/appguard_02_201911.png)
 
 * [인증서] 파일을 선택합니다. 안드로이드는 KeyStore파일입니다.
 * [마스터 비밀번호]를 입력하고 [유효성 검사] 버튼을 클릭하여 인증서 파일의 유효성을 검사합니다.
