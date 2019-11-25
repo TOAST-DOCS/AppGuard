@@ -1,6 +1,6 @@
 ## Security > AppGuard > Console Guide
 
-AppGuard is provided in two versions: Android and iOS(Beta).
+AppGuard is provided in two versions: Android and iOS.
 
 For Android users, AppGuard is applied when apk files built on SDK integration (optional) go through application protection process (required) on a web console or command line interface(CLI).
 For iOS users, it is applied when the application files are created with SDK integration (required) and no further protection process is required.

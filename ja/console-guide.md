@@ -1,6 +1,6 @@
 ## Security > AppGuard > コンソール使用ガイド
 
-AppGuardは、AndroidバージョンとiOSバージョン(Beta)があります。
+AppGuardは、AndroidバージョンとiOSバージョンがあります。
 
 Androidバージョンは、SDK連携(選択事項)後、ビルドされたapkファイルをWeb ConsoleまたはCLIを通してアプリ保護作業(必須事項)を行うと適用されます。
 iOSバージョンの場合、SDK連携(必須事項)を通して適用され、別途の保護作業はありません。
