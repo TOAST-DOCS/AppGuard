@@ -5,6 +5,9 @@
 #### Feature Updates/Changes
 * Updated to Select AppGuard Version
 
+#### Bug Fixes
+* Fixed String obfuscation bugs
+
 ### 2019. 10. 29.
 
 #### Feature Updates/Changes
