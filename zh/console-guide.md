@@ -50,6 +50,7 @@ Select **App Protection** and click **+ Protect App**.
 	- Level1 : Basic level of pattern-oriented and abnormal acts protection on application
 	- Level2 : Level1 + Advanced security functions such as, code encryption and preventing app manipulation (Recommended for general apps)
 	- Level3 : Level2 + Fortified security functions (Recommended for game apps)
+- Select [Release Versions]
 - Click **Ok** to start Protect App
     - When completed, you can download the protected application. Now, you're ready to upload protected apps on each Appstore for deployment.
 - Methods of app protection: Console or CLI(Command Line Interface)
