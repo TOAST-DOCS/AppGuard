@@ -1,6 +1,6 @@
 ## Security > AppGuard > Console Guide
 
-AppGuard is provided in two versions: Android and iOS(Beta).
+AppGuard is provided in two versions: Android and iOS.
 
 For Android users, AppGuard is applied when apk files built on SDK integration (optional) go through application protection process (required) on a web console or command line interface(CLI).
 For iOS users, it is applied when the application files are created with SDK integration (required) and no further protection process is required.
@@ -37,7 +37,7 @@ Then, follow the attached manual to work with SDKs.
 
 Select **App Protection** and click **+ Protect App**.
 
-![appguard_02_201910_en](https://static.toastoven.net/prod_appguard/appguard_02_201910_en.png)
+![appguard_02_201911_en](https://static.toastoven.net/prod_appguard/appguard_02_201911_en.png)
 
 - Choose a [Certificate] KeyStore file.
 - Enter [Master Password] and Click [Validation] to check validation of the chosen file.
@@ -50,6 +50,7 @@ Select **App Protection** and click **+ Protect App**.
 	- Level1 : Basic level of pattern-oriented and abnormal acts protection on application
 	- Level2 : Level1 + Advanced security functions such as, code encryption and preventing app manipulation (Recommended for general apps)
 	- Level3 : Level2 + Fortified security functions (Recommended for game apps)
+- Select [Release Versions]
 - Click **Ok** to start Protect App
     - When completed, you can download the protected application. Now, you're ready to upload protected apps on each Appstore for deployment.
 - Methods of app protection: Console or CLI(Command Line Interface)
