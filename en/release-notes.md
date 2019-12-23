@@ -1,5 +1,10 @@
 ## Security > AppGuard > Release Notes
 
+### 2019. 12. 24.
+
+#### Feature Updates/Changes
+* Added The Cocos2d-x engine encryption modules
+
 ### 2019. 11. 26.
 
 #### Feature Updates/Changes
