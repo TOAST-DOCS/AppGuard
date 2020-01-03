@@ -9,6 +9,9 @@ AppGuard의 사용을 위한 적용 단계는 다음과 같습니다.
 
 ![[그림 1] AppGuard 적용 방법](http://static.toastoven.net/prod_appguard/figure1.png)
 
+## 동영상 가이드
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vzN8T0QFuu0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## 대시보드
 
 앱 보호 작업이 완료된 앱을 앱 스토어에 배포 후 어뷰징 유저가 탐지되면 밑 그림의 **대시보드** 탭에서 현황을 확인 할 수 있습니다.
