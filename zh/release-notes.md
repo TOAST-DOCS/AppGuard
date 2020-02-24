@@ -1,8 +1,13 @@
 ## Security > AppGuard > Release Notes
 
+### 2020. 02. 25.
+
+#### Feature Updates/Changes
+* Added modified app countermeasures logic
+
 ### 2020. 01. 21.
 
-#### Bug Fixes
+#### Feature Updates/Changes
 * Stabilized the AppGuard engine
 
 ### 2019. 12. 24.
