@@ -1,5 +1,10 @@
 ## Security > AppGuard > Release Notes
 
+### 2020. 03. 24.
+
+#### 기능 개선/변경
+* Android 7.0 버전 에뮬레이터 지원
+
 ### 2020. 02. 25.
 
 #### Feature Updates/Changes
