@@ -299,7 +299,7 @@
 
 #### Bug Fixes
 
-* [Console] Fixed the location error of pop-up for the consent of Terms, and link errors
+* [Console] Fixed the location error of pop-up for the consent of Terms, and linkage error
 * [Console] Fixed UI breaks when protecting app
 
 ### September 8, 2016
