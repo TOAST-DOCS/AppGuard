@@ -1,36 +1,36 @@
 ## Security > AppGuard > Release Notes
 
-### 2020. 03. 24.
+### March 24, 2020
 
-#### 기능 개선/변경
-* Android 7.0 버전 에뮬레이터 지원
+#### Feature Updates
+* Supports the Android 7.0 emulator
 
-### 2020. 02. 25.
+### February 25, 2020 
 
-#### Feature Updates/Changes
-* Added modified app countermeasures logic
+#### Feature Updates
+* Added the countermeasure logic to forged apps 
 
-### 2020. 01. 21.
+### January 21, 2020 
 
-#### Feature Updates/Changes
+#### Feature Updates
 * Stabilized the AppGuard engine
 
-### 2019. 12. 24.
+### December 24, 2019
 
-#### Feature Updates/Changes
-* Added The Cocos2d-x engine encryption modules
+#### Feature Updates
+* Added Cocos2d-x engine encryption module
 
-### 2019. 11. 26.
+### November 26, 2019
 
-#### Feature Updates/Changes
-* Updated to Select AppGuard Version
+#### Feature Updates
+* Updated to select AppGuard version 
 
 #### Bug Fixes
-* Fixed String obfuscation bugs
+* Fixed string obfuscation bugs
 
-### 2019. 10. 29.
+### October 29, 2019
 
-#### Feature Updates/Changes
+#### Feature Updates
 * Updated the anti-debugging feature
 * Updated game hack detection
 * Added the memory search detection feature
@@ -38,14 +38,14 @@
 #### Bug Fixes
 * Stabilized the AppGuard engine
 
-### 2019. 09. 24.
+### September 24, 2019
 
 #### Feature Updates/Changes
 * Enhanced Stability for AppGuard Android Q
 
-### 2019. 08. 27.
+### August 27, 2019
 
-#### Feature Updates/Changes
+#### Feature Updates
 * Supported Android Q
 * Added Block by Condition on web console and blacklisting  
 * Added real-time policy setting for AppGuard iOS
@@ -53,9 +53,9 @@
 * Updated integrity checks for AppGuard modules
 * Added web console inspection logs
 
-### 2019. 07. 23.
+### July 23, 2019
 
-#### Feature Updates/Changes
+#### Feature Updates
 * Enabled the support of Android App Bundle
 * Added Unity library packing
 * Added macro detection of Unity MONO build
@@ -63,9 +63,9 @@
 #### Bug Fixes
 * Fixed bugs in dex integrity check
 
-### 2019. 06. 25.
+### June 25, 2019
 
-#### Feature Updates/Changes
+#### Feature Updates
 * Fortified protection of 64-bit Appguard library
 * Added obfuscation in Appguard control flow
 * Added crash reporting
@@ -73,9 +73,9 @@
 #### Bug Fixes
 * Fixed bugs in the check of authority change of Appguard path
 
-### 2019. 05. 28.
+### May 28, 2019
 
-#### Feature Updates/Changes
+#### Feature Updates
 * Changed to add 64-bit library as default, according to Google guides
 	* Before Change: 32 or 64-bit library was added depending on user's ABI
 	* Now: Both 32 and 64-bit library are available
@@ -85,9 +85,9 @@
 * [Android] Fixed undetected emulator bugs
 * [iOS] Fixed bugs in integrity check
 
-### 2019.04.23
+### April 23, 2019
 
-#### function upgrade/change
+#### Feature Updates
 * Add Unity IL2CPP method encryption function
 	* Applied with CLI option "--il2cpp-encryption"
 * Add Unity MONO method encryption function
@@ -95,30 +95,30 @@
 * Add Emulator Detection Pattern
 	* Memu Player latest version(6.1.1)
 
-#### bug fix
+#### Bug Fixes
 * Fixed a multi-deck duplicate installation error on Android OS 4.X version
 
-### 2019.03.26
+### March 26, 2019
 
-#### function upgrade/change
+#### Feature Updates
 * Apply Unity Library obfuscation
 * Add AppGuard API / Method obfuscation function
 
-### 2019.02.26
+### February 26, 2019
 
-#### function upgrade/change
+#### Feature Updates
 * Apply AppGuard self-obfuscation
 * Unity latest version(2018) compatibility improvement
 	* MONO, IL2CPP build encryption function
 * Add Emulator Detection Pattern
 	* NOX latest version(6.2.7.0)
 
-### 2019.01.29
+### January 29, 2019
 
 #### function upgrade/change
 * Unity latest version compatibility improvement
 
-### 2018.12.27
+### December 27, 2018
 
 #### function upgrade/change
 * Enhanced self-protection
@@ -129,39 +129,39 @@
 * Enhanced Unity IL2CPP Build Protection Function
 	* IL2CPP Dumper Tool Prevention
 
-### 2018.11.27
+### November 27, 2018
 
 #### function upgrade/change
 * Enhanced encryption function for Unity il2cpp build
 * Enhanced Hooking Detection Function
 
-### 2018.10.23
+### October 23, 2018
 
 #### function upgrade/change
 * Add function to applied AppGuard verification
 * Enhanced Rooting Detection
 * Enhanced Debugging Detection
 
-### 2018.08.28
+### Aubust 28, 2018
 
 #### bug fix
 * AppGuard Unity SDK
 	* Fixed an error that editor linkage in Unity 5 or earlier
 
-### 2018.07.24
+### July 24, 2018
 
 #### function upgrade/change
 * Support Unreal Engine 4
     * Support protection for game code of Unreal Engine 4
 
-### 2018.06.26
+### June 26, 2018
 
 #### function upgrade/change
 * Improved compatibility in Android P(9.0)
 * AppGuard Unity SDK
     * Support UNITY 2018
 
-### 2018.05.29
+### May 29, 2018
 
 #### function upgrade/change
 * Enhanced Memory Manipulation Detection
@@ -169,7 +169,7 @@
 #### bug fix
 * Fixed an error that the anti-debugging function applied to Level 3 consumed battery excessively
 
-### 2018.04.24
+### April 24, 2018
 
 #### function upgrade/change
 * Support game code encryption for Unity il2cpp build
@@ -177,17 +177,17 @@
 * Improved anti-debugging(App analysis prevention technology)
     * Enhanced functionality and stability
 
-### 2018.02.20
+### February 20, 2018
 
 #### bug fix
 * Fixed an error that the app with AppGuard Level2 app was not running properly in Momo App Player version 1.2.1
 
-### 2018.01.24
+### January 24, 2018
 
 #### bug fix
 * Fixed an error that would not run on Android 8.x specific devices if Level2 was applied to an app developed with Unity2017 version
 
-### 2017.12.21
+### December 21, 2017
 
 #### function upgrade/change
 * Enhanced Unity Speed Hack Detection
@@ -195,7 +195,7 @@
 * Fixed an error that occurred during the protection operation in the latest version of Unity Personal (2017.x.x version)
 * Fixed an apk increase in size unnecessarily when protecting multi-dex (3 or more) apps
 
-### 2017.08.24
+### August 24, 2017
 
 #### function upgrade/change
 * Removal of charge/free selection window (Apply September 1)
@@ -204,13 +204,13 @@
 * Modify the module(CLIUpdater.exe) that automatically updates the AppGuard CLI(AppGuard.exe), required update
     * Requires CLI of latest SDK (If you don't want automatic update function, add --noUpdate as CLI option)
 
-### 2017.07.20
+### July 20, 2017
 
 #### function upgrade/change
 * Fixed an error that Callback function is not called when detecting on Level 1~3
 * Add optimization function option for Level 1~3
 
-### 2017.06.22
+### June 22, 2017
 
 #### function upgrade/change
 * App that use jni for x86_64, arm64-v8a will have an AppGuard module for that architecture.
@@ -220,7 +220,7 @@
 * Extend Unity3D DLL File Encrpyt
     * Unitiy Basic DLL files as well as DLL files separately added are also encrypted. (Level 3)
 
-### 2017.05.25
+### May 25, 2017
 
 #### function upgrade/change
 * Simplify application Android version
@@ -232,19 +232,19 @@
     * Level 3 : Level2 + More Enhanced security function(Because stability check may be required for certain services, it is recommended to use it only if you have received a separate guide)
     * Level ex : Version of must required SDK be linked, Provide security between level1 to level2(it is recommended when conflict other security solution)
 
-### 2017.04.20
+### April 20, 2017
 
 #### bug fix
 * Fix some app intall issues when applying app modification prevent function
 * Enhance compatibility with apps that use external resources when applying app modification prevent function
 * Fix app guard build error in version 5.6 of Unity3d
 
-### 2017.04.04
+### April 4, 2017
 
 #### bug fix
 * Fix multidex bug of app modification prevent function
 
-### 2017.03.23
+### March 23, 2017
 
 #### function upgrade/change
 * [SDK] Add function of supporting Unity3d il2cpp build
@@ -253,7 +253,7 @@
 * Fix an issue where blocking logic was not executed normally when policy update was delayed
 * Fix an issue where unnecessary exceptions were output to Android logs
 
-### 2017.01.19
+### January 19, 2017
 
 #### function upgrade/change
 * [SDK] New AppGuard iOS SDK deploy
@@ -263,13 +263,13 @@
 * Fix synchronization error between policy settings and detection logic
 * Fix crash issue based on network conditions (Update log transfer library)
 
-### 2016.12.22
+### December 22, 2016
 
 #### function upgrade/change
 * Add detection pattern of cheating tool
 * [Console] Add information of AppGuard engine version in detection logs
 
-### 2016.12.08
+### December 8, 2016
 
 #### function upgrade/change
 * Add detection pattern of rooting
@@ -278,7 +278,7 @@
 #### bug fix
 * [Console] Fix an error that the protection failed but appears to be successful on the web console
 
-### 2016.11.24
+### November 24, 2016.11.24
 
 #### function upgrade/change
 
