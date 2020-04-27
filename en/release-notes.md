@@ -1,16 +1,21 @@
 ## Security > AppGuard > Release Notes
 
+### April 28, 2020
+
+#### Feature Updates
+* SSL Pinning 공격 탐지 기능 추가
+
 ### March 24, 2020
 
 #### Feature Updates
 * Supports the Android 7.0 emulator
 
-### February 25, 2020 
+### February 25, 2020
 
 #### Feature Updates
-* Added the countermeasure logic to forged apps 
+* Added the countermeasure logic to forged apps
 
-### January 21, 2020 
+### January 21, 2020
 
 #### Feature Updates
 * Stabilized the AppGuard engine
@@ -23,7 +28,7 @@
 ### November 26, 2019
 
 #### Feature Updates
-* Allows to select AppGuard version 
+* Allows to select AppGuard version
 
 #### Bug Fixes
 * Fixed string obfuscation bugs
@@ -46,7 +51,7 @@
 ### August 27, 2019
 
 #### Feature Updates
-* Supports Android Q Android Q 
+* Supports Android Q Android Q
 * Added conditional block on web console and blacklisting  
 * Added real-time policy setting for AppGuard iOS
 * Added machine learning-based macro detection for Unity games and web console support
@@ -71,7 +76,7 @@
 * Added crash reporting
 
 #### Bug Fixes
-* Fixed bugs in the check of authority change of Appguard path 
+* Fixed bugs in the check of authority change of Appguard path
 
 ### May 28, 2019
 
@@ -108,21 +113,21 @@
 
 #### Feature Updates
 * Applies AppGuard self-obfuscation
-* Upgraded the compatibility for the latest Unity version(2018) 
-	* Build encryption for MONO and IL2CPP 
+* Upgraded the compatibility for the latest Unity version(2018)
+	* Build encryption for MONO and IL2CPP
 * Added emulator detection pattern
 	* The latest NOX version(6.2.7.0)
 
 ### January 29, 2019
 
-#### Feature Updates 
-* Upgraded the compabibility for the lastest Unity version 
+#### Feature Updates
+* Upgraded the compabibility for the lastest Unity version
 
 ### December 27, 2018
 
 #### Feature Updates
 * Enhanced AppGuard self-protection
-* Added obfuscation of Dex Loader 
+* Added obfuscation of Dex Loader
 * Added hooking detection pattern
 * Added rooting detection pattern
 * Added emulator detection pattern
@@ -133,7 +138,7 @@
 
 #### Feature Updates
 * Enhanced encryption for Unity il2cpp build
-* Enhanced hooking detection 
+* Enhanced hooking detection
 
 ### October 23, 2018
 
@@ -146,11 +151,11 @@
 
 #### Bug Fixes
 * AppGuard Unity SDK
-	* Fixed integration bugs for Unity 5 or lower versions 
+	* Fixed integration bugs for Unity 5 or lower versions
 
 ### July 24, 2018
 
-#### Feature Updates 
+#### Feature Updates
 * Supports Unreal Engine 4
     * Supports protection of game codes for Unreal Engine 4
 
@@ -166,13 +171,13 @@
 #### Feature Updates
 * Enhanced detection of memory manipulation
     * Enhanced the detection feature of memory manipulation based on cheating tools
-    
+
 #### Bug Fixes
 * Fixed excessive battery consumption by the anti-debugging feature of Level 3
 
 ### April 24, 2018
 
-#### Feature Updates 
+#### Feature Updates
 * Supports game code encryption for Unity il2cpp build
     * Supports il2cpp build by extending game code encryption, which was supported only for Mono builds
 * Improved anti-debugging (app analysis prevention technology)
@@ -186,12 +191,12 @@
 ### January 24, 2018
 
 #### Bug Fixes
-* Fixed errors on particular Android 8.x devices, for which Level 2 was not properly executed on apps developed with Unity 2017 
+* Fixed errors on particular Android 8.x devices, for which Level 2 was not properly executed on apps developed with Unity 2017
 
 ### December 21, 2017
 
 #### Feature Updates
-* Enhanced speed hack detection on Unity 
+* Enhanced speed hack detection on Unity
 
 #### Bug Fixes
 * Fixed an error that occurred during the protection operation in the latest version of Unity Personal (2017.x.x version)
@@ -226,11 +231,11 @@
 ### May 25, 2017
 
 #### Feature Updates
-* Simplified the application method for Android 
-    * Previously: Protection after SDK integration 
+* Simplified the application method for Android
+    * Previously: Protection after SDK integration
     * Now: Application is available only with protection (although SDK integration is required selectively, such as user ID identifier for registration, it is much simpler than before.)
 * Restructure App Protection Level
-    * Level 1: Basic security detection, like abnormal behavior and pattern-based 
+    * Level 1: Basic security detection, like abnormal behavior and pattern-based
     * Level 2: Level1 + Enhanced security, including code encryption and app forgery prevention
     * Level 3: Level2 + More upgraded security features (which is recommended only for the specially guided, since some services may need stability checks)
     * Level ex: Requires SDK integration, providing security between Level 1 to Level 2 (recommended only when there's conflict with other security solutions)
@@ -259,7 +264,7 @@
 ### January 19, 2017
 
 #### Feature Updates
-* [SDK] Newly deployed AppGuard iOS SDK 
+* [SDK] Newly deployed AppGuard iOS SDK
 * Enhanced the app forgery prevention feature
 
 #### Bug Fixes
@@ -275,7 +280,7 @@
 ### December 8, 2016
 
 #### Feature Updates
-* Added rooting detection pattern 
+* Added rooting detection pattern
 * [SDK] Added multi-lingual setting API at message when blocking in AppGuard
 
 #### Bug Fixes
@@ -293,7 +298,7 @@
 #### Feature Updates
 
 * [API] Changed parameter for the AppGuard SDK integration feature
-* [SDK] Added auto tool updates for AppGuard CLI(Command Line Build) 
+* [SDK] Added auto tool updates for AppGuard CLI(Command Line Build)
 
 ### September 29, 2016
 
@@ -304,7 +309,7 @@
 
 ### September 8, 2016
 
-#### Bug Fixes 
+#### Bug Fixes
 
 * Fixed false positives of speed hack detection in Android 7.0
 
