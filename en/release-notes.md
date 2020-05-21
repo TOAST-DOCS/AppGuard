@@ -1,5 +1,13 @@
 ## Security > AppGuard > Release Notes
 
+### May 26, 2020
+
+#### 기능 개선/변경
+* 난독화 신청 기능 추가
+
+#### 버그 수정
+* AppGuard 엔진 안정화
+
 ### April 28, 2020
 
 #### Feature Updates
