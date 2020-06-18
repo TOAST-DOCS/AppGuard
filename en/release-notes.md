@@ -1,5 +1,14 @@
 ## Security > AppGuard > Release Notes
 
+### June 23, 2020
+
+#### 기능 개선/변경
+* AppGuard 용량 개선
+* AppGuard 엔진 보안성 강화
+
+#### 버그 수정
+* Unreal 엔진 보호 버그 수정
+
 ### May 26, 2020
 
 #### 기능 개선/변경
