@@ -3,7 +3,7 @@
 ### June 23, 2020
 
 #### 기능 개선/변경
-* AppGuard 용량 개선
+* AppGuard 용량 축소 개선
 * AppGuard 엔진 보안성 강화
 
 #### 버그 수정
