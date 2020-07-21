@@ -1,5 +1,17 @@
 ## Security > AppGuard > Release Notes
 
+### July 28, 2020
+
+#### 기능 개선/변경
+* [Android] 가상 환경 탐지 기능 추가
+* [iOS] 탈옥 탐지 고도화
+* [iOS] 강제 종료 고도화
+* [iOS] 블랙리스트 차단 기능 추가
+
+#### 버그 수정
+* [Android] Unity Mono 에뮬레이터 7 버전 크래시 이슈 개선
+* [iOS] GAMEPOT(게임팟) 프레임워크 충돌 오류 개선
+
 ### June 23, 2020
 
 #### 기능 개선/변경
