@@ -1,29 +1,36 @@
 ## Security > AppGuard > Release Notes
 
+### August 25, 2020
+
+#### 기능 개선/변경
+[Android] 가상환경 탐지 기능 개선
+[iOS] 탈옥 탐지 고도화
+[iOS] 게임 핵 탐지 고도화
+
 ### July 28, 2020
 
-#### Feature Updates 
-* [Android] Added detection of virtual environment 
-* [iOS] Sophisticated jailbreaking detection 
+#### Feature Updates
+* [Android] Added detection of virtual environment
+* [iOS] Sophisticated jailbreaking detection
 * [iOS] Sophisticated forced closure
-* [iOS] Added the feature of blocking blacklist 
+* [iOS] Added the feature of blocking blacklist
 
 #### Bug Fixes
 * [Android] Updated crashes in Unity Mono Emulator version 7
-* [iOS] Updated clashes in Gamepot framework 
+* [iOS] Updated clashes in Gamepot framework
 
 ### June 23, 2020
 
 #### Feature Updates
-* Updated downsizing AppGuard volume 
-* Fortified AppGuard engin security 
+* Updated downsizing AppGuard volume
+* Fortified AppGuard engine security
 
 #### Bug Fixes
 * Fixed bugs in unreal engine protection
 
 ### May 26, 2020
 
-#### Feature Updates 
+#### Feature Updates
 * Added the obfuscation application  
 
 #### Bug Fixes
