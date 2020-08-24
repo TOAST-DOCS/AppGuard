@@ -1,43 +1,50 @@
 ## Security > AppGuard > Release Notes
 
-### 2020. 07. 28.
+### 2020. 08. 25.
 
 #### 기능 개선/변경
-* [Android] 가상 환경 탐지 기능 추가
-* [iOS] 탈옥 탐지 고도화
-* [iOS] 강제 종료 고도화
-* [iOS] 블랙리스트 차단 기능 추가
+[Android] 가상환경 탐지 기능 개선
+[iOS] 탈옥 탐지 고도화
+[iOS] 게임 핵 탐지 고도화
 
-#### 버그 수정
-* [Android] Unity Mono 에뮬레이터 7 버전 크래시 이슈 개선
-* [iOS] GAMEPOT(게임팟) 프레임워크 충돌 오류 개선
+### 2020. 07. 28.
+
+#### Feature Updates
+* [Android] Added detection of virtual environment
+* [iOS] Sophisticated jailbreaking detection
+* [iOS] Sophisticated forced closure
+* [iOS] Added the feature of blocking blacklist
+
+#### Bug Fixes
+* [Android] Updated crashes in Unity Mono Emulator version 7
+* [iOS] Updated clashes in Gamepot framework
 
 ### 2020. 06. 23.
 
-#### 기능 개선/변경
-* AppGuard 용량 축소 개선
-* AppGuard 엔진 보안성 강화
+#### Feature Updates
+* Updated downsizing AppGuard volume
+* Fortified AppGuard engine security
 
-#### 버그 수정
-* Unreal 엔진 보호 버그 수정
+#### Bug Fixes
+* Fixed bugs in unreal engine protection
 
 ### 2020. 05. 26.
 
-#### 기능 개선/변경
-* 난독화 신청 기능 추가
+#### Feature Updates
+* Added the obfuscation application  
 
-#### 버그 수정
-* AppGuard 엔진 안정화
+#### Bug Fixes
+* Stabilized the AppGuard engine
 
 ### 2020. 04. 28
 
-#### 기능 개선/변경
-* SSL Pinning 공격 탐지 기능 추가
+#### Feature Updates
+* Added the detection of attacks with SSL pinning  
 
 ### 2020. 03. 24.
 
-#### 기능 개선/변경
-* Android 7.0 버전 에뮬레이터 지원
+#### Feature Updates
+* Supports the Android 7.0 emulator
 
 ### 2020. 02. 25.
 
