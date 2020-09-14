@@ -3,7 +3,7 @@
 ### August 25, 2020
 
 #### Feature Updates
-[Android] Updated detection on virtual environment 
+[Android] Updated detection of virtual environment 
 [iOS] Upgraded detection of jailbreaking 
 [iOS] Upgraded detection of game hacks 
 
