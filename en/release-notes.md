@@ -2,10 +2,10 @@
 
 ### August 25, 2020
 
-#### 기능 개선/변경
-[Android] 가상 환경 탐지 기능 개선
-[iOS] 탈옥 탐지 고도화
-[iOS] 게임 핵 탐지 고도화
+#### Feature Updates
+[Android] Updated detection of virtual environment 
+[iOS] Upgraded detection of jailbreaking 
+[iOS] Upgraded detection of game hacks 
 
 ### July 28, 2020
 
