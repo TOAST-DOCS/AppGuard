@@ -2,6 +2,9 @@
 
 ### December 29, 2020
 
+#### 기능 개선/변경
+[Android] 서드 파티 스토어 지원용 옵션 추가
+
 #### Bug Fixes
 * Stabilized the AppGuard engine
 
