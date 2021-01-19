@@ -1,5 +1,11 @@
 ## Security > AppGuard > Release Notes
 
+### 2021. 1. 26.
+
+#### Feature Updates
+* [Android] Third party store support
+* [Android] Upgraded detection of game hacks
+
 ### 2020. 12. 29.
 
 #### Bug Fixes
