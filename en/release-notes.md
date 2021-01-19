@@ -1,9 +1,12 @@
 ## Security > AppGuard > Release Notes
 
-### December 29, 2020
+### January 26, 2021
 
-#### 기능 개선/변경
-[Android] 서드 파티 스토어 지원용 옵션 추가
+#### Feature Updates
+* [Android] Third party store support
+* [Android] Upgraded detection of game hacks 
+
+### December 29, 2020
 
 #### Bug Fixes
 * Stabilized the AppGuard engine
