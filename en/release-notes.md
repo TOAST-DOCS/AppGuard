@@ -1,5 +1,13 @@
 ## Security > AppGuard > Release Notes
 
+### February 23, 2021
+
+#### 기능 개선/변경
+* [Android] CLI 기능 개선
+* [Android] AppGuard 엔진 안정화
+* [Android] AppGuard 엔진 보안성 강화
+* [iOS] AppGuard 엔진 안정화
+
 ### January 26, 2021
 
 #### Feature Updates
@@ -14,9 +22,9 @@
 ### August 25, 2020
 
 #### Feature Updates
-[Android] Updated detection of virtual environment 
-[iOS] Upgraded detection of jailbreaking 
-[iOS] Upgraded detection of game hacks 
+* [Android] Updated detection of virtual environment 
+* [iOS] Upgraded detection of jailbreaking 
+* [iOS] Upgraded detection of game hacks 
 
 ### July 28, 2020
 
