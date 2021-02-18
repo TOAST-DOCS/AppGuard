@@ -2,11 +2,11 @@
 
 ### 2021. 2. 23.
 
-#### 기능 개선/변경
-* [Android] CLI 기능 개선
-* [Android] AppGuard 엔진 안정화
-* [Android] AppGuard 엔진 보안성 강화
-* [iOS] AppGuard 엔진 안정화
+#### 機能改善/変更
+* [Android] CLI機能の改善
+* [Android] AppGuardエンジンの安定化
+* [Android] AppGuardエンジンのセキュリティを強化
+* [iOS] AppGuardエンジンの安定化
 
 ### 2021. 1. 26.
 
