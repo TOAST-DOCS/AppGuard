@@ -3,16 +3,20 @@
 ### 2021. 2. 23.
 
 #### 기능 개선/변경
-* [Android] CLI 기능 개선
-* [Android] AppGuard 엔진 안정화
-* [Android] AppGuard 엔진 보안성 강화
-* [iOS] AppGuard 엔진 안정화
+* [Android] 1.8.1.0
+	* CLI 기능 개선
+	* AppGuard 엔진 안정화
+	* AppGuard 엔진 보안성 강화
+	* 가상환경 패턴 추가 (F1VM)
+* [iOS] 1.0.15
+	* AppGuard 엔진 안정화
 
 ### 2021. 1. 26.
 
 #### 기능 개선/변경
-* [Android] 서드 파티 스토어 지원용 옵션 추가
-* [Android] 게임 핵 탐지 기능 강화
+* [Android] 1.8.0.1
+	* 서드 파티 스토어 지원용 옵션 추가
+	* 게임 핵 탐지 기능 강화
 
 ### 2020. 12. 29.
 
