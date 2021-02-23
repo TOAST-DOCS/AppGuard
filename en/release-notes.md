@@ -2,11 +2,11 @@
 
 ### February 23, 2021
 
-#### 기능 개선/변경
-* [Android] CLI 기능 개선
-* [Android] AppGuard 엔진 안정화
-* [Android] AppGuard 엔진 보안성 강화
-* [iOS] AppGuard 엔진 안정화
+#### Feature Updates
+* [Android] CLI feature improved
+* [Android] AppGuard engine stabilized
+* [Android] AppGuard engine security enhanced
+* [iOS] AppGuard engine stabilized
 
 ### January 26, 2021
 
