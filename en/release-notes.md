@@ -1,18 +1,29 @@
 ## Security > AppGuard > Release Notes
 
+### March 23, 2021
+
+#### Feature Updates
+* [Android] 1.8.2.0
+    * AppGuard engine security enhanced
+* [iOS] 1.0.16
+    * AppGuard engine security enhanced
+
 ### February 23, 2021
 
-#### 기능 개선/변경
-* [Android] CLI 기능 개선
-* [Android] AppGuard 엔진 안정화
-* [Android] AppGuard 엔진 보안성 강화
-* [iOS] AppGuard 엔진 안정화
+#### Feature Updates
+* [Android] 1.8.1.0
+    * CLI feature improved
+    * AppGuard engine stabilized
+    * AppGuard engine security enhanced
+* [iOS] 1.0.15
+    * AppGuard engine stabilized
 
 ### January 26, 2021
 
 #### Feature Updates
-* [Android] Third party store support
-* [Android] Upgraded detection of game hacks 
+* [Android] 1.8.0.1
+    * Third party store support
+    * Upgraded detection of game hacks 
 
 ### December 29, 2020
 
