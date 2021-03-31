@@ -1,5 +1,11 @@
 ## Security > AppGuard > Release Notes
 
+### 2021. 3. 31.
+
+#### Bug Fixes
+* [Android] 1.8.2.1
+	* 페이스북 SDK 일부기능 충돌 오류 수정
+	
 ### 2021. 3. 23.
 
 #### Feature Updates
