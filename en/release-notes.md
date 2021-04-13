@@ -1,5 +1,28 @@
 ## Security > AppOnSecure > Release Notes
 
+### April 27, 2021
+
+#### Feature Updates
+* 서비스명 변경 (AppGuard -> AppOnSecure)
+* [Android] 1.8.3.0
+	* AppOnSecure 엔진 보안성 강화
+* [iOS] 1.0.18
+	* 악성행위 탐지 후 핸들링 로직 변경
+	* AppOnSecure 엔진 보안성 강화
+	* AppOnSecure 엔진 안정화
+ 
+### April 12, 2021
+
+#### Bug Fixes
+* [iOS] 1.0.17
+    * AppOnSecure 후킹 탐지 로직 추가
+
+### April 9, 2021
+
+#### Bug Fixes
+* [Android] 1.8.2.2
+	* Cocos2d 엔진 에뮬레이터 크래시 이슈 개선
+	
 ### March 31, 2021
 
 #### Bug Fixes
