@@ -42,5 +42,5 @@ For the AppOnSecure service, please refer to the glossary on Table 1.
 Figure 1 displays how AppOnSecure flows:
 Using AppOnSecure’s SDK, the code is integrated with the application (optional), and then app protection service (required) is completed and deployed on a console or Command Line Interface (CLI). The AppOnSecure Engine sends a detective log to a server so as to block or sanction against abuses.
 
-![[Figure 1] Flow of AppOnSecure](http://static.toastoven.net/prod_appguard/AppGuard_2_overview01_en.png)
+![[Figure 1] Flow of AppOnSecure](http://static.toastoven.net/prod_appguard/AppOnSecure_overview01_en.png)
 <center>[Figure 1] Flow of AppOnSecure</center>

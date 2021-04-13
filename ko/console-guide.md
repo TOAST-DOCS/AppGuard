@@ -7,7 +7,7 @@ iOS 버전의 경우 SDK 연동(필수 사항)을 통해 적용되며, 별도의
 
 AppOnSecure의 사용을 위한 적용 단계는 다음과 같습니다.
 
-![[그림 1] AppOnSecure 적용 방법](http://static.toastoven.net/prod_appguard/figure1.png)
+![[그림 1] AppOnSecure 적용 방법](http://static.toastoven.net/prod_appguard/AppOnSecure_figure1.png)
 
 ## 동영상 가이드
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LFr808vEHlI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

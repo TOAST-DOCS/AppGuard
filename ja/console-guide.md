@@ -7,7 +7,7 @@ iOSバージョンの場合、SDK連携(必須事項)を通して適用され、
 
 AppOnSecureの使用するための適用段階は次のとおりです。
 
-![[図1] AppOnSecure適用方法](http://static.toastoven.net/prod_appguard/figure1.png)
+![[図1] AppOnSecure適用方法](http://static.toastoven.net/prod_appguard/AppOnSecure_figure1.png)
 
 ## ダッシュボード
 

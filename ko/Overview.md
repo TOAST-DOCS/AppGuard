@@ -42,5 +42,5 @@ AppOnSecure에서는 [표 1]의 용어를 사용 합니다.
 AppOnSecure의 구조는 [그림 1]과 같습니다.
 AppOnSecure의 SDK를 통해 앱에 코드 연동(선택 사항) 후, Console이나 CLI(Command Line Interface)툴을 이용하여 앱 보호(필수 사항) 작업을 완료하고 배포합니다. AppOnSecure Engine은 어뷰징을 탐지하여 차단하거나 제재할 수 있는 로그를 서버로 전송합니다.
 
-![[그림 1] AppOnSecure 서비스 구조](http://static.toastoven.net/prod_appguard/AppGuard_2_overview01.png)
+![[그림 1] AppOnSecure 서비스 구조](http://static.toastoven.net/prod_appguard/AppOnSecure_overview01.png)
 <center>[그림 1] AppOnSecure 서비스 구조</center>

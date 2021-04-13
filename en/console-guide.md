@@ -7,7 +7,7 @@ For iOS users, it is applied when the application files are created with SDK int
 
 Following diagram shows the AppOnSecure application process.
 
-![[Figure 1] How to apply AppOnSecure](http://static.toastoven.net/prod_appguard/figure1.png)
+![[Figure 1] How to apply AppOnSecure](http://static.toastoven.net/prod_appguard/AppOnSecure_figure1.png)
 
 ## Dashboard
 When an abusive user is detected, you can check detection status by clicking on the **Dashboard** tab.

@@ -42,5 +42,5 @@ AppOnSecureでは[表1]の用語を使用します。
 AppOnSecureの構造は[図1]のとおりです。
 AppOnSecureのSDKを通してアプリにコード連携(選択事項)後、 ConsoleやCLI(Command Line Interface)ツールを利用して、アプリ保護(必須事項)作業を完了して配布します。AppOnSecure Engineは、アビューズ行為を探知して遮断したり、制裁の根拠となるログをサーバーに転送します。
 
-![[図1] AppOnSecureサービス構造](http://static.toastoven.net/prod_appguard/AppGuard_2_overview01_en.png)
+![[図1] AppOnSecureサービス構造](http://static.toastoven.net/prod_appguard/AppOnSecure_overview01_en.png)
 <center>[図1] AppOnSecureサービス構造</center>
