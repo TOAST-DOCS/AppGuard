@@ -7,7 +7,7 @@
 * [Android] 1.8.3.0
 	* AppOnSecure 엔진 보안성 강화
 * [iOS] 1.0.18
-	* 악성행위 탐지 후 핸들링 로직 변경
+	* 악성 행위 탐지 후 핸들링 로직 변경
 	* AppOnSecure 엔진 보안성 강화
 	* AppOnSecure 엔진 안정화
  
