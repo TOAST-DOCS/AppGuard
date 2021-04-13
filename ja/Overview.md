@@ -1,12 +1,12 @@
-## Security > AppGuard > 概要
+## Security > AppOnSecure > 概要
 
-AppGuardは、アプリケーションコードの改ざんを防止できます。またメモリや速度、コードを操作しようとする各種ツールをパターンまたはヒューリスティックな方法で探知し、制裁できます。
+AppOnSecureは、アプリケーションコードの改ざんを防止できます。またメモリや速度、コードを操作しようとする各種ツールをパターンまたはヒューリスティックな方法で探知し、制裁できます。
 
 ## 特徴/利点
 
 * コード改ざんを原則防止できます。
 * さまざまな操作ツールをパターンや迂回が困難な行為ベースで検知し、制裁できます。
-* AppGuardを通して検知した情報をコンソールで確認後、制裁できる根拠を提供します。
+* AppOnSecureを通して検知した情報をコンソールで確認後、制裁できる根拠を提供します。
 * 簡単なアプリ保護作業だけで、強力にアプリを保護できます。
 * ゲーム、ショッピング、簡易決済など、約100個の多様なサービスに適用され、各種アビューズ行為、アプリ操作からの保護に活用されています。
 
@@ -23,9 +23,9 @@ AppGuardは、アプリケーションコードの改ざんを防止できます
 
 ## サービス用語
 
-AppGuardでは[表1]の用語を使用します。
+AppOnSecureでは[表1]の用語を使用します。
 
-[表1] AppGuardサービス用語
+[表1] AppOnSecureサービス用語
 
 | 用語     | 説明                                                                    |
 | -------- | ----------------------------------------------------------------------- |
@@ -39,8 +39,8 @@ AppGuardでは[表1]の用語を使用します。
 
 ## サービス構造
 
-AppGuardの構造は[図1]のとおりです。
-AppGuardのSDKを通してアプリにコード連携(選択事項)後、 ConsoleやCLI(Command Line Interface)ツールを利用して、アプリ保護(必須事項)作業を完了して配布します。AppGuard Engineは、アビューズ行為を探知して遮断したり、制裁の根拠となるログをサーバーに転送します。
+AppOnSecureの構造は[図1]のとおりです。
+AppOnSecureのSDKを通してアプリにコード連携(選択事項)後、 ConsoleやCLI(Command Line Interface)ツールを利用して、アプリ保護(必須事項)作業を完了して配布します。AppOnSecure Engineは、アビューズ行為を探知して遮断したり、制裁の根拠となるログをサーバーに転送します。
 
-![[図1] AppGuardサービス構造](http://static.toastoven.net/prod_appguard/AppGuard_2_overview01_en.png)
-<center>[図1] AppGuardサービス構造</center>
+![[図1] AppOnSecureサービス構造](http://static.toastoven.net/prod_appguard/AppGuard_2_overview01_en.png)
+<center>[図1] AppOnSecureサービス構造</center>

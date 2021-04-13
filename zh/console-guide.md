@@ -1,22 +1,22 @@
-## Security > AppGuard > Console Guide
+## Security > AppOnSecure > Console Guide
 
-AppGuard is provided in two versions: Android and iOS.
+AppOnSecure is provided in two versions: Android and iOS.
 
-For Android users, AppGuard is applied when apk files built on SDK integration (optional) go through application protection process (required) on a web console or command line interface(CLI).
+For Android users, AppOnSecure is applied when apk files built on SDK integration (optional) go through application protection process (required) on a web console or command line interface(CLI).
 For iOS users, it is applied when the application files are created with SDK integration (required) and no further protection process is required.
 
-Following diagram shows the AppGuard application process.
+Following diagram shows the AppOnSecure application process.
 
-![[Figure 1] How to apply AppGuard](http://static.toastoven.net/prod_appguard/figure1.png)
+![[Figure 1] How to apply AppOnSecure](http://static.toastoven.net/prod_appguard/figure1.png)
 
 ## Dashboard
 When an abusive user is detected, you can check detection status by clicking on the **Dashboard** tab.
 
 ![appguard_01_201910_en](https://static.toastoven.net/prod_appguard/appguard_01_201910_en.png)
 
-- **Status of abnormal behavior** can be found among abusive users as detected by AppGuard in the order of trials by **log detection pattern** or **period**.
+- **Status of abnormal behavior** can be found among abusive users as detected by AppOnSecure in the order of trials by **log detection pattern** or **period**.
 - Click **Download Reports (Excel)** on top-right of the page to download the detection result of abnormal behavior.  
-- **Dashboard** tab shows statistical graphs and the list of abusive users detected by AppGuard.
+- **Dashboard** tab shows statistical graphs and the list of abusive users detected by AppOnSecure.
 	- For rooting, you may check detection or sanction logs on dashboard, once a day since app is installed.
 - You can **Search** by [User ID], [Device ID], [Detection Log Count], [Log Pattern], and [Search Period].
 	- Multiple [User ID] and [Device ID] can be added with comma as a delimiter.
@@ -57,13 +57,13 @@ Select **App Protection** and click **+ Protect App**.
 
 ## Policy
 
-Blocking policy can be set for tampering trials of code, memory or speed, while AppGuard is running, and blocking conditions can set for 'Block by Condition' based on threshold.
+Blocking policy can be set for tampering trials of code, memory or speed, while AppOnSecure is running, and blocking conditions can set for 'Block by Condition' based on threshold.
 
 ![appguard_03_201908_en](https://static.toastoven.net/prod_appguard/appguard_03_201908_en.png)
 
-When it is detected by policy set as 'Block All', guide for AppGuard shows and app is closed.
-When it is detected by conditions set as 'Block by Condition', guide for AppGuard shows and app is closed.
-For further details on the policy, please refer to "AppGuard Developer's Guide" document included in the SDK.
+When it is detected by policy set as 'Block All', guide for AppOnSecure shows and app is closed.
+When it is detected by conditions set as 'Block by Condition', guide for AppOnSecure shows and app is closed.
+For further details on the policy, please refer to "AppOnSecure Developer's Guide" document included in the SDK.
 
 ### Change History
 
@@ -94,7 +94,7 @@ Select **Policy** and click **Block by Condition** by each detection type, and t
 
 ## Blacklist
 
-By registering user IDs for the integration of device ID and SDK as provided by AppGuard, particular devices and users can be managed under blacklist.
+By registering user IDs for the integration of device ID and SDK as provided by AppOnSecure, particular devices and users can be managed under blacklist.
 
 ![appguard_07_201908_en](https://static.toastoven.net/prod_appguard/appguard_07_201908_en.png)
 
@@ -109,7 +109,7 @@ Select **Blacklist** and click **Register**, and the page shows as follows:
 * Enter **Cause of Registration**.
 * Select **Blocking Period (day)**.
 * Click **Register** to register it on the Blacklist.
-* Execute the app with registered blacklist ID and guide for AppGuard shows during specified blocking period and app is closed.  
+* Execute the app with registered blacklist ID and guide for AppOnSecure shows during specified blocking period and app is closed.  
 
 ### Un-blacklist
 
@@ -118,7 +118,7 @@ Select **Blacklist** and click **UnBlock** from the registered list, and the pag
 ![appguard_09_201908_en](https://static.toastoven.net/prod_appguard/appguard_09_201908_en.png)
 
 * Click **UnBlock** to release from the registered blacklist.
-* Execute the app with unblacklisted ID and app is not closed by AppGuard.
+* Execute the app with unblacklisted ID and app is not closed by AppOnSecure.
 
 ### Re-blacklist
 
@@ -128,10 +128,10 @@ Select **Blacklist** and click **Re-blacklist** for a blacklist which has been u
 
 * Modify **Cause of Registration** and **Blocking Period (day)**.
 * Click **Register** to register the upadated blacklist.
-* Execute the app with re-registered blacklist ID and guide for AppGuard shows during specified blocking period and app is closed.
+* Execute the app with re-registered blacklist ID and guide for AppOnSecure shows during specified blocking period and app is closed.
 
 ## Setting
 
-You may also leave change history by setting, from the web console policy menu of AppGuard.
+You may also leave change history by setting, from the web console policy menu of AppOnSecure.
 
 ![appguard_11_201908_en](https://static.toastoven.net/prod_appguard/appguard_11_201908_en.png)

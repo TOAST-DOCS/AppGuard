@@ -1,12 +1,12 @@
-## Security > AppGuard > 개요
+## Security > AppOnSecure > 개요
 
-AppGuard는 애플리케이션의 코드 조작을 방지 할 수 있습니다. 또한 메모리나 속도, 코드를 조작하려는 각종 툴을 패턴 또는 휴리스틱한 방법으로 탐지하고, 이를 제재할 수 있습니다.
+AppOnSecure는 애플리케이션의 코드 조작을 방지 할 수 있습니다. 또한 메모리나 속도, 코드를 조작하려는 각종 툴을 패턴 또는 휴리스틱한 방법으로 탐지하고, 이를 제재할 수 있습니다.
 
 ## 특/장점
 
 * 코드 조작을 원천적으로 방지 할 수 있습니다.
 * 다양한 조작 툴을 패턴이나 우회가 힘든 행위 기반으로 탐지하고, 제재 할 수 있습니다.
-* AppGuard를 통해 탐지한 정보를 Console을 통해 확인 후 제재할 수 있는 근거를 제공합니다.
+* AppOnSecure를 통해 탐지한 정보를 Console을 통해 확인 후 제재할 수 있는 근거를 제공합니다.
 * 쉬운 앱 보호 작업 만으로도 강력하게 앱을 보호 할 수 있습니다.
 * 게임, 쇼핑, 간편결제 등 약 100 여 개의 다양한 서비스에 적용되어 각종 어뷰징, 앱 조작에 대한 보호 효과에 활용되고 있습니다.
 
@@ -23,9 +23,9 @@ AppGuard는 애플리케이션의 코드 조작을 방지 할 수 있습니다. 
 
 ## 서비스 용어
 
-AppGuard에서는 [표 1]의 용어를 사용 합니다.
+AppOnSecure에서는 [표 1]의 용어를 사용 합니다.
 
-[표 1] AppGuard 서비스 용어
+[표 1] AppOnSecure 서비스 용어
 
 | 용어       | 설명                                                                      |
 | -------- | ----------------------------------------------------------------------- |
@@ -39,8 +39,8 @@ AppGuard에서는 [표 1]의 용어를 사용 합니다.
 
 ## 서비스 구조
 
-AppGuard의 구조는 [그림 1]과 같습니다.
-AppGuard의 SDK를 통해 앱에 코드 연동(선택 사항) 후, Console이나 CLI(Command Line Interface)툴을 이용하여 앱 보호(필수 사항) 작업을 완료하고 배포합니다. AppGuard Engine은 어뷰징을 탐지하여 차단하거나 제재할 수 있는 로그를 서버로 전송합니다.
+AppOnSecure의 구조는 [그림 1]과 같습니다.
+AppOnSecure의 SDK를 통해 앱에 코드 연동(선택 사항) 후, Console이나 CLI(Command Line Interface)툴을 이용하여 앱 보호(필수 사항) 작업을 완료하고 배포합니다. AppOnSecure Engine은 어뷰징을 탐지하여 차단하거나 제재할 수 있는 로그를 서버로 전송합니다.
 
-![[그림 1] AppGuard 서비스 구조](http://static.toastoven.net/prod_appguard/AppGuard_2_overview01.png)
-<center>[그림 1] AppGuard 서비스 구조</center>
+![[그림 1] AppOnSecure 서비스 구조](http://static.toastoven.net/prod_appguard/AppGuard_2_overview01.png)
+<center>[그림 1] AppOnSecure 서비스 구조</center>
