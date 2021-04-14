@@ -1,12 +1,12 @@
-## Security > AppOnSecure > Overview
+## Security > NHN AppGuard > Overview
 
-AppOnSecure可防止应用程序编码造假。并且，将内存或速度、代码进行造假的各种工具用模式或探索方法检测到后，将对此进行制裁。.
+NHN AppGuard可防止应用程序编码造假。并且，将内存或速度、代码进行造假的各种工具用模式或探索方法检测到后，将对此进行制裁。.
 
 ## 特/优点
 
 * 可从根源上防止代码造假。
 * 以各种造假工具用模式或难以迂回的行为基础进行检测到后，会得到制裁。
-* 通过AppOnSecure探知到的信息，在通过Console的确认后，提供可制裁的依据。.
+* 通过NHN AppGuard探知到的信息，在通过Console的确认后，提供可制裁的依据。.
 * 用简便的关联和简单的App保护工作即可强力保护App。
 * 适用于游戏、购物、快捷支付等约100多种多样化服务，活用于有关各种Abusing、App造假的保护效果中。
 
@@ -23,9 +23,9 @@ AppOnSecure可防止应用程序编码造假。并且，将内存或速度、代
 
 ## 服务词汇
 
-在AppOnSecure中使用 [表 1]的词汇。
+在NHN AppGuard中使用 [表 1]的词汇。
 
-[表 1] AppOnSecure 服务词汇
+[表 1] NHN AppGuard 服务词汇
 
 | 词汇           | 说明|
 |--------------- | ------------------------------------------------------------------------|
@@ -39,8 +39,8 @@ AppOnSecure可防止应用程序编码造假。并且，将内存或速度、代
 
 ## 服务结构
 
-AppOnSecure的结构如 [图 1\]。<br>
-通过AppOnSecure的SDK，在App上关联代码(选项)后，利用Console或CLI(Command Line Interface)工具，发布App保护(必选项)工作。AppOnSecure Engine探知到Abusing后，对其进行阻止或用服务器发送可制裁的日志。
+NHN AppGuard的结构如 [图 1\]。<br>
+通过NHN AppGuard的SDK，在App上关联代码(选项)后，利用Console或CLI(Command Line Interface)工具，发布App保护(必选项)工作。NHN AppGuard Engine探知到Abusing后，对其进行阻止或用服务器发送可制裁的日志。
 
-![[图 1] AppOnSecure 服务结构](http://static.toastoven.net/prod_appguard/AppOnSecure_overview01_en.png)
-<center>[图 1] AppOnSecure 服务结构</center>
+![[图 1] NHN AppGuard 服务结构](http://static.toastoven.net/prod_appguard/AppGuard_2_overview01_en.png)
+<center>[图 1] NHN AppGuard 服务结构</center>

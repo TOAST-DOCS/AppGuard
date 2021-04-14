@@ -1,21 +1,21 @@
-## Security > AppOnSecure > Release Notes
+## Security > NHN AppGuard > Release Notes
 
 ### April 27, 2021
 
 #### Feature Updates
-* 서비스명 변경 (AppGuard -> AppOnSecure)
+* 서비스명 변경 (AppGuard -> NHN AppGuard)
 * [Android] 1.8.3.0
-	* AppOnSecure 엔진 보안성 강화
+	* NHN AppGuard 엔진 보안성 강화
 * [iOS] 1.0.18
 	* 악성 행위 탐지 후 핸들링 로직 변경
-	* AppOnSecure 엔진 보안성 강화
-	* AppOnSecure 엔진 안정화
+	* NHN AppGuard 엔진 보안성 강화
+	* NHN AppGuard 엔진 안정화
  
 ### April 12, 2021
 
 #### Bug Fixes
 * [iOS] 1.0.17
-    * AppOnSecure 후킹 탐지 로직 추가
+    * NHN AppGuard 후킹 탐지 로직 추가
 
 ### April 9, 2021
 
@@ -33,19 +33,19 @@
 
 #### Feature Updates
 * [Android] 1.8.2.0
-    * AppOnSecure engine security enhanced
+    * NHN AppGuard engine security enhanced
 * [iOS] 1.0.16
-    * AppOnSecure engine security enhanced
+    * NHN AppGuard engine security enhanced
 
 ### February 23, 2021
 
 #### Feature Updates
 * [Android] 1.8.1.0
     * CLI feature improved
-    * AppOnSecure engine stabilized
-    * AppOnSecure engine security enhanced
+    * NHN AppGuard engine stabilized
+    * NHN AppGuard engine security enhanced
 * [iOS] 1.0.15
-    * AppOnSecure engine stabilized
+    * NHN AppGuard engine stabilized
 
 ### January 26, 2021
 
@@ -57,7 +57,7 @@
 ### December 29, 2020
 
 #### Bug Fixes
-* Stabilized the AppOnSecure engine
+* Stabilized the NHN AppGuard engine
 
 ### August 25, 2020
 
@@ -81,8 +81,8 @@
 ### June 23, 2020
 
 #### Feature Updates
-* Updated downsizing AppOnSecure volume
-* Fortified AppOnSecure engine security
+* Updated downsizing NHN AppGuard volume
+* Fortified NHN AppGuard engine security
 
 #### Bug Fixes
 * Fixed bugs in unreal engine protection
@@ -93,7 +93,7 @@
 * Added the obfuscation application  
 
 #### Bug Fixes
-* Stabilized the AppOnSecure engine
+* Stabilized the NHN AppGuard engine
 
 ### April 28, 2020
 
@@ -113,7 +113,7 @@
 ### January 21, 2020
 
 #### Feature Updates
-* Stabilized the AppOnSecure engine
+* Stabilized the NHN AppGuard engine
 
 ### December 24, 2019
 
@@ -123,7 +123,7 @@
 ### November 26, 2019
 
 #### Feature Updates
-* Allows to select AppOnSecure version
+* Allows to select NHN AppGuard version
 
 #### Bug Fixes
 * Fixed string obfuscation bugs
@@ -136,21 +136,21 @@
 * Added the memory search detection feature
 
 #### Bug Fixes
-* Stabilized the AppOnSecure engine
+* Stabilized the NHN AppGuard engine
 
 ### September 24, 2019
 
 #### Feature Updates
-* Enhanced Stability for AppOnSecure Android Q
+* Enhanced Stability for NHN AppGuard Android Q
 
 ### August 27, 2019
 
 #### Feature Updates
 * Supports Android Q Android Q
 * Added conditional block on web console and blacklisting  
-* Added real-time policy setting for AppOnSecure iOS
+* Added real-time policy setting for NHN AppGuard iOS
 * Added machine learning-based macro detection for Unity games and web console support
-* Updated integrity checks for AppOnSecure modules
+* Updated integrity checks for NHN AppGuard modules
 * Added web console inspection logs
 
 ### July 23, 2019
@@ -166,12 +166,12 @@
 ### June 25, 2019
 
 #### Feature Updates
-* Upgraded AppOnSecure 64-bit library protection
-* Added obfuscation in AppOnSecure control flow
+* Upgraded NHN AppGuard 64-bit library protection
+* Added obfuscation in NHN AppGuard control flow
 * Added crash reporting
 
 #### Bug Fixes
-* Fixed bugs in the check of authority change of AppOnSecure path
+* Fixed bugs in the check of authority change of NHN AppGuard path
 
 ### May 28, 2019
 
@@ -191,7 +191,7 @@
 * Added the Unity IL2CPP method encryption feature
 	* Applied with CLI option "--il2cpp-encryption"
 * Added the Unity MONO method encryption feature
-	* Applied with AppOnSecure level3
+	* Applied with NHN AppGuard level3
 * Added emulator detection pattern
 	* The latest Memu Player version(6.1.1)
 
@@ -202,12 +202,12 @@
 
 #### Feature Updates
 * Applies Unity Library obfuscation
-* Added AppOnSecure API / Method obfuscation function
+* Added NHN AppGuard API / Method obfuscation function
 
 ### February 26, 2019
 
 #### Feature Updates
-* Applies AppOnSecure self-obfuscation
+* Applies NHN AppGuard self-obfuscation
 * Upgraded the compatibility for the latest Unity version(2018)
 	* Build encryption for MONO and IL2CPP
 * Added emulator detection pattern
@@ -221,7 +221,7 @@
 ### December 27, 2018
 
 #### Feature Updates
-* Enhanced AppOnSecure self-protection
+* Enhanced NHN AppGuard self-protection
 * Added obfuscation of Dex Loader
 * Added hooking detection pattern
 * Added rooting detection pattern
@@ -238,14 +238,14 @@
 ### October 23, 2018
 
 #### Feature Updates
-* Added the feature of confirming AppOnSecure application
+* Added the feature of confirming NHN AppGuard application
 * Enhanced rooting detection
 * Enhanced debugging detection
 
 ### Aubust 28, 2018
 
 #### Bug Fixes
-* AppOnSecure Unity SDK
+* NHN AppGuard Unity SDK
 	* Fixed integration bugs for Unity 5 or lower versions
 
 ### July 24, 2018
@@ -258,7 +258,7 @@
 
 #### Feature Updates
 * Upgraded compatibility for Android P(9.0)
-* AppOnSecure Unity SDK
+* NHN AppGuard Unity SDK
     * Supports UNITY 2018
 
 ### May 29, 2018
@@ -281,7 +281,7 @@
 ### February 20, 2018
 
 #### Bug Fixes
-* Fixed errors in which apps with AppOnSecure Level2 were not running properly on the Momo App Player 1.2.1 version
+* Fixed errors in which apps with NHN AppGuard Level2 were not running properly on the Momo App Player 1.2.1 version
 
 ### January 24, 2018
 
@@ -304,7 +304,7 @@
 * Supports Android 8.0
 
 #### Bug Fixes
-* Modified the module (CLIUpdater.exe) that automatically updates the AppOnSecure CLI(AppOnSecure.exe), which requires updates
+* Modified the module (CLIUpdater.exe) that automatically updates the NHN AppGuard CLI(AppGuard.exe), which requires updates
     * Requires CLI of latest SDK (if you don't want automatic updates, add --noUpdate as CLI option)
 
 ### July 20, 2017
@@ -316,10 +316,10 @@
 ### June 22, 2017
 
 #### Feature Updates
-* Includes AppOnSecure modules for each architecture, when using 64 bit architecture for x86_64 and jni for arm64-v8a.
+* Includes NHN AppGuard modules for each architecture, when using 64 bit architecture for x86_64 and jni for arm64-v8a.
 * Divides SDK download paths for Android from iOS(Beta)
 * Free service for iOS (Beta) users  
-* Enhanced module detection of the AppOnSecure itself
+* Enhanced module detection of the NHN AppGuard itself
 * Extended the subject for Unity3D DLL file encryption
     * Encrypted default and additional DLL files of Unity (Level 3)
 
@@ -359,7 +359,7 @@
 ### January 19, 2017
 
 #### Feature Updates
-* [SDK] Newly deployed AppOnSecure iOS SDK
+* [SDK] Newly deployed NHN AppGuard iOS SDK
 * Enhanced the app forgery prevention feature
 
 #### Bug Fixes
@@ -370,13 +370,13 @@
 
 #### Feature Updates
 * Added detection pattern of cheating tool
-* [Console] Added information on AppOnSecure engine version for detection logs
+* [Console] Added information on NHN AppGuard engine version for detection logs
 
 ### December 8, 2016
 
 #### Feature Updates
 * Added rooting detection pattern
-* [SDK] Added multi-lingual setting API at message when blocking in AppOnSecure
+* [SDK] Added multi-lingual setting API at message when blocking in NHN AppGuard
 
 #### Bug Fixes
 * [Console] Fixed an error that the protection failed but appears to be successful on the web console
@@ -385,15 +385,15 @@
 
 #### Feature Updates
 
-* [SDK] Updated AppOnSecure SDK(tcag.jar)
-* [Console] Added notice on AppOnSecure Web Console
+* [SDK] Updated NHN AppGuard SDK(tcag.jar)
+* [Console] Added notice on NHN AppGuard Web Console
 
 ### October 20, 2016
 
 #### Feature Updates
 
-* [API] Changed parameter for the AppOnSecure SDK integration feature
-* [SDK] Added auto tool updates for AppOnSecure CLI(Command Line Build)
+* [API] Changed parameter for the NHN AppGuard SDK integration feature
+* [SDK] Added auto tool updates for NHN AppGuard CLI(Command Line Build)
 
 ### September 29, 2016
 

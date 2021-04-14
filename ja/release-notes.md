@@ -1,21 +1,21 @@
-## Security > AppOnSecure > リリースノート
+## Security > NHN AppGuard > リリースノート
 
 ### 2021. 4. 27.
 
 #### 機能改善/変更
-* 서비스명 변경 (AppGuard -> AppOnSecure)
+* 서비스명 변경 (AppGuard -> NHN AppGuard)
 * [Android] 1.8.3.0
-	* AppOnSecure 엔진 보안성 강화
+	* NHN AppGuard 엔진 보안성 강화
 * [iOS] 1.0.18
 	* 악성행위 탐지 후 핸들링 로직 변경
-	* AppOnSecure 엔진 보안성 강화
-	* AppOnSecure 엔진 안정화
+	* NHN AppGuard 엔진 보안성 강화
+	* NHN AppGuard 엔진 안정화
  
 ### 2021. 4. 12.
 
 #### バグ修正
 [iOS] 1.0.17
-* AppOnSecure 후킹 탐지 로직 추가
+* NHN AppGuard 후킹 탐지 로직 추가
 
 ### 2021. 4. 09.
 
@@ -33,19 +33,19 @@
 
 #### 機能改善/変更
 * [Android] 1.8.2.0
-    * AppOnSecureエンジンのセキュリティを強化
+    * NHN AppGuardエンジンのセキュリティを強化
 * [iOS] 1.0.16
-    * AppOnSecureエンジンのセキュリティを強化
+    * NHN AppGuardエンジンのセキュリティを強化
 
 ### 2021. 2. 23.
 
 #### 機能改善/変更
 * [Android] 1.8.1.0
     * CLI機能の改善
-    * AppOnSecureエンジンの安定化
-    * AppOnSecureエンジンのセキュリティを強化
+    * NHN AppGuardエンジンの安定化
+    * NHN AppGuardエンジンのセキュリティを強化
 * [iOS] 1.0.15
-    * AppOnSecureエンジンの安定化
+    * NHN AppGuardエンジンの安定化
 
 ### 2021. 1. 26.
 
@@ -57,7 +57,7 @@
 ### 2020. 12. 29.
 
 #### バグ修正
-* AppOnSecureエンジンの安定化
+* NHN AppGuardエンジンの安定化
 
 ### 2020. 08. 25.
 
@@ -81,8 +81,8 @@
 ### 2020. 06. 23.
 
 #### 機能改善/変更
-* AppOnSecure容量縮小を改善
-* AppOnSecureエンジンのセキュリティを強化
+* NHN AppGuard容量縮小を改善
+* NHN AppGuardエンジンのセキュリティを強化
 
 #### バグ修正
 * Unrealエンジンの保護バグを修正
@@ -93,7 +93,7 @@
 * 難読化申請機能を追加
 
 #### バグ修正
-* AppOnSecureエンジンの安定化
+* NHN AppGuardエンジンの安定化
 
 ### 2020. 04. 28.
 
@@ -113,7 +113,7 @@
 ### 2020. 01. 21.
 
 #### 機能改善/変更
-* AppOnSecureエンジンの安定化
+* NHN AppGuardエンジンの安定化
 
 ### 2019. 12. 24.
 
@@ -123,7 +123,7 @@
 ### 2019. 11. 26.
 
 #### 機能改善/変更
-* AppOnSecureバージョン選択機能を追加
+* NHN AppGuardバージョン選択機能を追加
 
 #### バグ修正
 * 文字列難読化機能のバグを修正
@@ -136,21 +136,21 @@
 * メモリ検索検知機能を追加
 
 #### バグ修正
-* AppOnSecureエンジンの安定化
+* NHN AppGuardエンジンの安定化
 
 ### 2019. 09. 24.
 
 #### 機能改善/変更
-* AppOnSecure Android Qの安定性が向上
+* NHN AppGuard Android Qの安定性が向上
 
 ### 2019. 08. 27.
 
 #### 機能改善/変更
 * Android Qをサポート
 * Webコンソール条件遮断およびブラックリスト機能を追加
-* AppOnSecure iOSリアルタイムポリシー設定機能を追加
+* NHN AppGuard iOSリアルタイムポリシー設定機能を追加
 * 機械学習基盤、Unityゲームのマクロ検知機能追加およびWebコンソールをサポート
-* AppOnSecureモジュールの整合性検証を改善
+* NHN AppGuardモジュールの整合性検証を改善
 * Webコンソールの監査ログ機能を追加
 
 ### 2019. 07. 23.
@@ -191,7 +191,7 @@
 * Add Unity IL2CPP method encryption function
 	* Applied with CLI option "--il2cpp-encryption"
 * Add Unity MONO method encryption function
-	* Applied to AppOnSecure level3
+	* Applied to NHN AppGuard level3
 * Add Emulator Detection Pattern
 	* Memu Player latest version(6.1.1)
 
@@ -202,12 +202,12 @@
 
 #### function upgrade/change
 * Apply Unity Library obfuscation
-* Add AppOnSecure API/Method obfuscation function
+* Add NHN AppGuard API/Method obfuscation function
 
 ### 2019.02.26
 
 #### function upgrade/change
-* Apply AppOnSecure self-obfuscation
+* Apply NHN AppGuard self-obfuscation
 * Unity latest version(2018) compatibility improvement
 	* MONO, IL2CPP build encryption function
 * Add Emulator Detection Pattern
@@ -238,14 +238,14 @@
 ### 2018.10.23
 
 #### function upgrade/change
-* Add function to applied AppOnSecure verification
+* Add function to applied NHN AppGuard verification
 * Enhanced Rooting Detection
 * Enhanced Debugging Detection
 
 ### 2018.08.28
 
 #### bug fix
-* AppOnSecure Unity SDK
+* NHN AppGuard Unity SDK
 	* Fixed an error that editor linkage in Unity 5 or earlier
 
 ### 2018.07.24
@@ -258,7 +258,7 @@
 
 #### function upgrade/change
 * Improved compatibility in Android P(9.0)
-* AppOnSecure Unity SDK
+* NHN AppGuard Unity SDK
     * Support UNITY 2018
 
 ### 2018.05.29
@@ -280,7 +280,7 @@
 ### 2018.02.20
 
 #### bug fix
-* Fixed an error that the app with AppOnSecure Level2 app was not running properly in Momo App Player version 1.2.1
+* Fixed an error that the app with NHN AppGuard Level2 app was not running properly in Momo App Player version 1.2.1
 
 ### 2018.01.24
 
@@ -301,7 +301,7 @@
 * Removal of charge/free selection window (Apply September 1)
 * Support Android 8.0
 #### bug fix
-* Modify the module(CLIUpdater.exe) that automatically updates the AppOnSecure CLI(AppOnSecure.exe), required update
+* Modify the module(CLIUpdater.exe) that automatically updates the NHN AppGuard CLI(AppGuard.exe), required update
     * Requires CLI of latest SDK (If you don't want automatic update function, add --noUpdate as CLI option)
 
 ### 2017.07.20
@@ -313,10 +313,10 @@
 ### 2017.06.22
 
 #### function upgrade/change
-* App that use jni for x86_64, arm64-v8a will have an AppOnSecure module for that architecture.
+* App that use jni for x86_64, arm64-v8a will have an NHN AppGuard module for that architecture.
 * Divide path to download SDK for Android, iOS(Beta)
 * The iOS(Beta) version is free for all users
-* Enhancement of the module detection function of the AppOnSecure itself
+* Enhancement of the module detection function of the NHN AppGuard itself
 * Extend Unity3D DLL File Encrpyt
     * Unitiy Basic DLL files as well as DLL files separately added are also encrypted. (Level 3)
 
@@ -356,7 +356,7 @@
 ### 2017.01.19
 
 #### function upgrade/change
-* [SDK] New AppOnSecure iOS SDK deploy
+* [SDK] New NHN AppGuard iOS SDK deploy
 * Enhance function of apk modification prevention
 
 #### bug fix
@@ -367,13 +367,13 @@
 
 #### function upgrade/change
 * Add detection pattern of cheating tool
-* [Console] Add information of AppOnSecure engine version in detection logs
+* [Console] Add information of NHN AppGuard engine version in detection logs
 
 ### 2016.12.08
 
 #### function upgrade/change
 * Add detection pattern of rooting
-* [SDK] Add multi-lingual setting API at message when blocking in AppOnSecure
+* [SDK] Add multi-lingual setting API at message when blocking in NHN AppGuard
 
 #### bug fix
 * [Console] Fix an error that the protection failed but appears to be successful on the web console
@@ -382,15 +382,15 @@
 
 #### function upgrade/change
 
-* [SDK] Update AppOnSecure SDK(tcag.jar)
-* [Console] Add Notice in AppOnSecure Web Console
+* [SDK] Update NHN AppGuard SDK(tcag.jar)
+* [Console] Add Notice in NHN AppGuard Web Console
 
 ### 2016.10.20
 
 #### function upgrade/change
 
-* [API] Change parameter of AppOnSecure SDK linkage function
-* [SDK] Add auto update function of AppOnSecure CLI(Command Line Build) tool
+* [API] Change parameter of NHN AppGuard SDK linkage function
+* [SDK] Add auto update function of NHN AppGuard CLI(Command Line Build) tool
 
 ### 2016.09.29
 

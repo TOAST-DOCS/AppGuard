@@ -1,13 +1,13 @@
-## Security > AppOnSecure > コンソール使用ガイド
+## Security > NHN AppGuard > コンソール使用ガイド
 
-AppOnSecureは、AndroidバージョンとiOSバージョンがあります。
+NHN AppGuardは、AndroidバージョンとiOSバージョンがあります。
 
 Androidバージョンは、SDK連携(選択事項)後、ビルドされたapkファイルをWeb ConsoleまたはCLIを通してアプリ保護作業(必須事項)を行うと適用されます。
 iOSバージョンの場合、SDK連携(必須事項)を通して適用され、別途の保護作業はありません。
 
-AppOnSecureの使用するための適用段階は次のとおりです。
+NHN AppGuardの使用するための適用段階は次のとおりです。
 
-![[図1] AppOnSecure適用方法](http://static.toastoven.net/prod_appguard/AppOnSecure_figure1.png)
+![[図1] NHN AppGuard適用方法](http://static.toastoven.net/prod_appguard/figure1.png)
 
 ## ダッシュボード
 
@@ -15,9 +15,9 @@ AppOnSecureの使用するための適用段階は次のとおりです。
 
 ![appguard_01_201910_ja](https://static.toastoven.net/prod_appguard/appguard_01_201910_ja.png)
 
-- **異常行為の検知状況**は、AppOnSecureが検知したアビューズユーザーのログ検知パターン、期間別の試行順序を確認できます。
+- **異常行為の検知状況**は、NHN AppGuardが検知したアビューズユーザーのログ検知パターン、期間別の試行順序を確認できます。
 - **異常行為検知状況の結果**は、右上のレポートダウンロード(Excel)ボタンをクリックしてダウンロードできます。
-- **ダッシュボード**はAppOnSecureが探知したアビューズユーザーの統計グラフとリストを検索できます。
+- **ダッシュボード**はNHN AppGuardが探知したアビューズユーザーの統計グラフとリストを検索できます。
     - ルート化の場合、アプリインストール後、1日1回検知または制裁ログをダッシュボードで確認できます。
 - [ユーザーID]、 [デバイスID]、 [ログ探知回数]、 [ログ探知パターン]、 [照会期間]で **検索**できます。
     - [ユーザーID]と[デバイスID]は、カンマで区切って複数の条件を追加できます。
@@ -58,13 +58,13 @@ SDKをダウンロードした後、添付されているマニュアルに沿�
 
 ## ポリシー
 
-AppOnSecure作動中、コード、メモリ、速度操作試行を検知した時、取るべき遮断ポリシーを設定でき、'条件遮断'の場合、しきい値で遮断条件を設定できます。
+NHN AppGuard作動中、コード、メモリ、速度操作試行を検知した時、取るべき遮断ポリシーを設定でき、'条件遮断'の場合、しきい値で遮断条件を設定できます。
 
 ![appguard_03_201910_ja](https://static.toastoven.net/prod_appguard/appguard_03_201910_ja.png)
 
-全体遮断'に設定されたポリシーで検知された場合、AppOnSecure案内ウィンドウが表示され、アプリが終了します。
-条件遮断'に設定された条件で検知された場合、AppOnSecure案内ウィンドウが表示され、アプリが終了します。
-制裁の内容はSDKに含まれている"AppOnSecure Developer's Guide" 文書を参照してください。
+全体遮断'に設定されたポリシーで検知された場合、NHN AppGuard案内ウィンドウが表示され、アプリが終了します。
+条件遮断'に設定された条件で検知された場合、NHN AppGuard案内ウィンドウが表示され、アプリが終了します。
+制裁の内容はSDKに含まれている"NHN AppGuard Developer's Guide" 文書を参照してください。
 
 ### 変更履歴
 ポリシーを変更、保存する時、いつ、誰が、どのように変更したのか、その履歴を管理できます。
@@ -93,7 +93,7 @@ AppOnSecure作動中、コード、メモリ、速度操作試行を検知した
 
 ## ブラックリスト
 
-AppOnSecureで提供するデバイスIDとSDK連携すると使用できるユーザーIDを登録して、特定端末とユーザーをブラックリストで管理します。
+NHN AppGuardで提供するデバイスIDとSDK連携すると使用できるユーザーIDを登録して、特定端末とユーザーをブラックリストで管理します。
 
 ![appguard_07_201910_ja](https://static.toastoven.net/prod_appguard/appguard_07_201910_ja.png)
 
@@ -109,7 +109,7 @@ AppOnSecureで提供するデバイスIDとSDK連携すると使用できるユ�
 * 登録理由を入力します。
 * 遮断期間(日)を選択します。
 * 登録ボタンをクリックし、ブラックリストに登録します。
-* 登録されたブラックリストIDでアプリを実行すると、遮断期間中はAppOnSecure案内ウィンドウが表示され、アプリが終了します。
+* 登録されたブラックリストIDでアプリを実行すると、遮断期間中はNHN AppGuard案内ウィンドウが表示され、アプリが終了します。
 
 ### ブラックリストの解除
 
@@ -118,7 +118,7 @@ AppOnSecureで提供するデバイスIDとSDK連携すると使用できるユ�
 ![appguard_09_201910_ja](https://static.toastoven.net/prod_appguard/appguard_09_201910_ja.png)
 
 * 解除ボタンをクリックして登録されたブラックリストを解除します。
-* 解除されたブラックリストIDでアプリを実行すると、AppOnSecureでアプリを終了させません。
+* 解除されたブラックリストIDでアプリを実行すると、NHN AppGuardでアプリを終了させません。
 
 ### ブラックリストの再登録
 
@@ -128,10 +128,10 @@ AppOnSecureで提供するデバイスIDとSDK連携すると使用できるユ�
 
 * 登録理由と遮断期間(日)を修正します。
 * 登録ボタンをクリックして、ブラックリストを修正した内容で登録します。
-* 再登録されたブラックリストIDでアプリを実行すると、遮断期間中はAppOnSecure案内ウィンドウが表示され、アプリが終了します。
+* 再登録されたブラックリストIDでアプリを実行すると、遮断期間中はNHN AppGuard案内ウィンドウが表示され、アプリが終了します。
 
 ## 設定
 
-AppOnSecure Webコンソールポリシーメニューで、変更履歴を残せるように設定できます。
+NHN AppGuard Webコンソールポリシーメニューで、変更履歴を残せるように設定できます。
 
 ![appguard_11_201910_ja](https://static.toastoven.net/prod_appguard/appguard_11_201910_ja.png)

@@ -1,22 +1,22 @@
-## Security > AppOnSecure > Console Guide
+## Security > NHN AppGuard > Console Guide
 
-AppOnSecure is provided in two versions: Android and iOS.
+NHN AppGuard is provided in two versions: Android and iOS.
 
-For Android users, AppOnSecure is applied when apk files built on SDK integration (optional) go through application protection process (required) on a web console or command line interface(CLI).
+For Android users, NHN AppGuard is applied when apk files built on SDK integration (optional) go through application protection process (required) on a web console or command line interface(CLI).
 For iOS users, it is applied when the application files are created with SDK integration (required) and no further protection process is required.
 
-Following diagram shows the AppOnSecure application process.
+Following diagram shows the NHN AppGuard application process.
 
-![[Figure 1] How to apply AppOnSecure](http://static.toastoven.net/prod_appguard/AppOnSecure_figure1.png)
+![[Figure 1] How to apply NHN AppGuard](http://static.toastoven.net/prod_appguard/figure1.png)
 
 ## Dashboard
 When an abusive user is detected, you can check detection status by clicking on the **Dashboard** tab.
 
 ![appguard_01_201910_en](https://static.toastoven.net/prod_appguard/appguard_01_201910_en.png)
 
-- **Status of abnormal behavior** can be found among abusive users as detected by AppOnSecure in the order of trials by **log detection pattern** or **period**.
+- **Status of abnormal behavior** can be found among abusive users as detected by NHN AppGuard in the order of trials by **log detection pattern** or **period**.
 - Click **Download Reports (Excel)** on top-right of the page to download the detection result of abnormal behavior.  
-- **Dashboard** tab shows statistical graphs and the list of abusive users detected by AppOnSecure.
+- **Dashboard** tab shows statistical graphs and the list of abusive users detected by NHN AppGuard.
 	- For rooting, you may check detection or sanction logs on dashboard, once a day since app is installed.
 - You can **Search** by [User ID], [Device ID], [Detection Log Count], [Log Pattern], and [Search Period].
 	- Multiple [User ID] and [Device ID] can be added with comma as a delimiter.
@@ -57,13 +57,13 @@ Select **App Protection** and click **+ Protect App**.
 
 ## Policy
 
-Blocking policy can be set for tampering trials of code, memory or speed, while AppOnSecure is running, and blocking conditions can set for 'Block by Condition' based on threshold.
+Blocking policy can be set for tampering trials of code, memory or speed, while NHN AppGuard is running, and blocking conditions can set for 'Block by Condition' based on threshold.
 
 ![appguard_03_201908_en](https://static.toastoven.net/prod_appguard/appguard_03_201908_en.png)
 
-When it is detected by policy set as 'Block All', guide for AppOnSecure shows and app is closed.
-When it is detected by conditions set as 'Block by Condition', guide for AppOnSecure shows and app is closed.
-For further details on the policy, please refer to "AppOnSecure Developer's Guide" document included in the SDK.
+When it is detected by policy set as 'Block All', guide for NHN AppGuard shows and app is closed.
+When it is detected by conditions set as 'Block by Condition', guide for NHN AppGuard shows and app is closed.
+For further details on the policy, please refer to "NHN AppGuard Developer's Guide" document included in the SDK.
 
 ### Change History
 
@@ -94,7 +94,7 @@ Select **Policy** and click **Block by Condition** by each detection type, and t
 
 ## Blacklist
 
-By registering user IDs for the integration of device ID and SDK as provided by AppOnSecure, particular devices and users can be managed under blacklist.
+By registering user IDs for the integration of device ID and SDK as provided by NHN AppGuard, particular devices and users can be managed under blacklist.
 
 ![appguard_07_201908_en](https://static.toastoven.net/prod_appguard/appguard_07_201908_en.png)
 
@@ -109,7 +109,7 @@ Select **Blacklist** and click **Register**, and the page shows as follows:
 * Enter **Cause of Registration**.
 * Select **Blocking Period (day)**.
 * Click **Register** to register it on the Blacklist.
-* Execute the app with registered blacklist ID and guide for AppOnSecure shows during specified blocking period and app is closed.  
+* Execute the app with registered blacklist ID and guide for NHN AppGuard shows during specified blocking period and app is closed.  
 
 ### Un-blacklist
 
@@ -118,7 +118,7 @@ Select **Blacklist** and click **UnBlock** from the registered list, and the pag
 ![appguard_09_201908_en](https://static.toastoven.net/prod_appguard/appguard_09_201908_en.png)
 
 * Click **UnBlock** to release from the registered blacklist.
-* Execute the app with unblacklisted ID and app is not closed by AppOnSecure.
+* Execute the app with unblacklisted ID and app is not closed by NHN AppGuard.
 
 ### Re-blacklist
 
@@ -128,10 +128,10 @@ Select **Blacklist** and click **Re-blacklist** for a blacklist which has been u
 
 * Modify **Cause of Registration** and **Blocking Period (day)**.
 * Click **Register** to register the upadated blacklist.
-* Execute the app with re-registered blacklist ID and guide for AppOnSecure shows during specified blocking period and app is closed.
+* Execute the app with re-registered blacklist ID and guide for NHN AppGuard shows during specified blocking period and app is closed.
 
 ## Setting
 
-You may also leave change history by setting, from the web console policy menu of AppOnSecure.
+You may also leave change history by setting, from the web console policy menu of NHN AppGuard.
 
 ![appguard_11_201908_en](https://static.toastoven.net/prod_appguard/appguard_11_201908_en.png)

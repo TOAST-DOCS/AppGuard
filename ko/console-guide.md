@@ -1,13 +1,13 @@
-## Security > AppOnSecure > 콘솔 사용 가이드
+## Security > NHN AppGuard > 콘솔 사용 가이드
 
-AppOnSecure는 Android 버전과 iOS 버전이 있습니다.
+NHN AppGuard는 Android 버전과 iOS 버전이 있습니다.
 
 Android 버전은 SDK 연동(선택 사항) 후 빌드된 apk 파일을 Web Console 또는 CLI를 통해 앱 보호 작업(필수 사항)을 하면 적용됩니다.
 iOS 버전의 경우 SDK 연동(필수 사항)을 통해 적용되며, 별도의 보호 작업은 없습니다.
 
-AppOnSecure의 사용을 위한 적용 단계는 다음과 같습니다.
+NHN AppGuard의 사용을 위한 적용 단계는 다음과 같습니다.
 
-![[그림 1] AppOnSecure 적용 방법](http://static.toastoven.net/prod_appguard/AppOnSecure_figure1.png)
+![[그림 1] NHN AppGuard 적용 방법](http://static.toastoven.net/prod_appguard/figure1.png)
 
 ## 동영상 가이드
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LFr808vEHlI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -18,9 +18,9 @@ AppOnSecure의 사용을 위한 적용 단계는 다음과 같습니다.
 
 ![appguard_01_201910](https://static.toastoven.net/prod_appguard/appguard_01_201910.png)
 
-- **이상 행위 탐지 현황** 은 AppOnSecure가 탐지한 어뷰징 사용자를 **로그 탐지 패턴**, **기간별** 기준 시도 순서로 확인할 수 있습니다.
+- **이상 행위 탐지 현황** 은 NHN AppGuard가 탐지한 어뷰징 사용자를 **로그 탐지 패턴**, **기간별** 기준 시도 순서로 확인할 수 있습니다.
 - **이상 행위 탐지 현황** 의 결과는 우측 상단의 **보고서 다운로드(Excel)** 버튼을 클릭하여 다운로드할 수 있습니다.
-- **대시보드** 는 AppOnSecure가 탐지한 어뷰징 사용자의 통계 그래프와 리스트를 검색할 수 있습니다.
+- **대시보드** 는 NHN AppGuard가 탐지한 어뷰징 사용자의 통계 그래프와 리스트를 검색할 수 있습니다.
     - 루팅의 경우, 앱 설치 후 하루 1회 탐지 또는 제재로그를 대시보드에서 확인할 수 있습니다.
 - **유저 ID**, **디바이스 ID**, **로그 탐지 횟수**, **로그 탐지 패턴**, **조회기간**으로 **검색**할 수 있습니다.
     - **유저 ID** 와 **디바이스 ID** 는 콤마로 구분하여 여러 개의 조건을 추가할 수 있습니다.
@@ -61,13 +61,13 @@ SDK를 다운로드 받은 후 첨부 되어 있는 매뉴얼에 따라 연동�
 
 ## 정책
 
-AppOnSecure 작동 중 코드, 메모리, 속도 조작 시도 탐지 시 취해야 할 차단 정책을 설정할 수 있으며, '조건 차단' 시 임계치 기반으로 차단 조건을 설정할 수 있습니다.
+NHN AppGuard 작동 중 코드, 메모리, 속도 조작 시도 탐지 시 취해야 할 차단 정책을 설정할 수 있으며, '조건 차단' 시 임계치 기반으로 차단 조건을 설정할 수 있습니다.
 
 ![appguard_03_201908](https://static.toastoven.net/prod_appguard/appguard_03_201908.png)
 
-'전체 차단'으로 설정된 정책으로 탐지될 경우, AppOnSecure 안내 창이 나타나고 앱이 종료됩니다.
-'조건 차단'시 설정한 조건으로 탐지될 경우, AppOnSecure 안내 창이 나타나고 앱이 종료됩니다.
-제재에 대한 내용은 SDK에 포함된 "AppOnSecure Developer's Guide" 문서를 참고 바랍니다.
+'전체 차단'으로 설정된 정책으로 탐지될 경우, NHN AppGuard 안내 창이 나타나고 앱이 종료됩니다.
+'조건 차단'시 설정한 조건으로 탐지될 경우, NHN AppGuard 안내 창이 나타나고 앱이 종료됩니다.
+제재에 대한 내용은 SDK에 포함된 "NHN AppGuard Developer's Guide" 문서를 참고 바랍니다.
 
 ### 변경 이력
 
@@ -99,7 +99,7 @@ AppOnSecure 작동 중 코드, 메모리, 속도 조작 시도 탐지 시 취해
 
 ## 블랙리스트
 
-AppOnSecure에서 제공하는 디바이스 ID와 SDK 연동 시 사용할 수 있는 유저 ID를 등록하여, 특정 기기와 사용자를 블랙리스트로 관리합니다.
+NHN AppGuard에서 제공하는 디바이스 ID와 SDK 연동 시 사용할 수 있는 유저 ID를 등록하여, 특정 기기와 사용자를 블랙리스트로 관리합니다.
 
 ![appguard_07_201908](https://static.toastoven.net/prod_appguard/appguard_07_201908.png)
 
@@ -114,7 +114,7 @@ AppOnSecure에서 제공하는 디바이스 ID와 SDK 연동 시 사용할 수 �
 * **등록 사유** 를 입력합니다.
 * **차단 기간(일)** 을 선택합니다.
 * **등록** 버튼을 클릭하여 블랙리스트를 등록합니다.
-* 등록된 블랙리스트 아이디로 앱을 실행하면 차단기간동안 AppOnSecure 안내 창이 나타나고 앱이 종료됩니다.
+* 등록된 블랙리스트 아이디로 앱을 실행하면 차단기간동안 NHN AppGuard 안내 창이 나타나고 앱이 종료됩니다.
 
 ### 블랙리스트 해제
 
@@ -123,7 +123,7 @@ AppOnSecure에서 제공하는 디바이스 ID와 SDK 연동 시 사용할 수 �
 ![appguard_09_201908](https://static.toastoven.net/prod_appguard/appguard_09_201908.png)
 
 * **해제** 버튼을 클릭하여 등록된 블랙리스트를 해제합니다.
-* 해제된 블랙리스트 아이디로 앱을 실행하면 AppOnSecure에서 앱을 종료하지 않습니다.
+* 해제된 블랙리스트 아이디로 앱을 실행하면 NHN AppGuard에서 앱을 종료하지 않습니다.
 
 ### 블랙리스트 재등록
 
@@ -133,10 +133,10 @@ AppOnSecure에서 제공하는 디바이스 ID와 SDK 연동 시 사용할 수 �
 
 * **등록 사유** 와 **차단기간(일)** 을 수정합니다.
 * **등록** 버튼을 클릭하여 블랙리스트를 수정한 내용으로 등록합니다.
-* 재등록된 블랙리스트 아이디로 앱을 실행하면 차단기간동안 AppOnSecure 안내 창이 나타나고 앱이 종료됩니다.
+* 재등록된 블랙리스트 아이디로 앱을 실행하면 차단기간동안 NHN AppGuard 안내 창이 나타나고 앱이 종료됩니다.
 
 ## 설정
 
-AppOnSecure 웹 콘솔 정책 메뉴에서 변경 이력을 남길 수 있도록 설정할 수 있습니다.
+NHN AppGuard 웹 콘솔 정책 메뉴에서 변경 이력을 남길 수 있도록 설정할 수 있습니다.
 
 ![appguard_11_201908](https://static.toastoven.net/prod_appguard/appguard_11_201908.png)
