@@ -12,7 +12,7 @@ Following diagram shows the NHN AppGuard application process.
 ## Dashboard
 When an abusive user is detected, you can check detection status by clicking on the **Dashboard** tab.
 
-![appguard_01_201910_en](https://static.toastoven.net/prod_appguard/appguard_01_201910_en.png)
+![appguard_01_202104_en](https://static.toastoven.net/prod_appguard/appguard_01_202104_en.png)
 
 - **Status of abnormal behavior** can be found among abusive users as detected by NHN AppGuard in the order of trials by **log detection pattern** or **period**.
 - Click **Download Reports (Excel)** on top-right of the page to download the detection result of abnormal behavior.  
@@ -37,7 +37,7 @@ Then, follow the attached manual to work with SDKs.
 
 Select **App Protection** and click **+ Protect App**.
 
-![appguard_02_201911_en](https://static.toastoven.net/prod_appguard/appguard_02_201911_en.png)
+![appguard_02_202104_en](https://static.toastoven.net/prod_appguard/appguard_02_202104_en.png)
 
 - Choose a [Certificate] KeyStore file.
 - Enter [Master Password] and Click [Validation] to check validation of the chosen file.
@@ -59,7 +59,7 @@ Select **App Protection** and click **+ Protect App**.
 
 Blocking policy can be set for tampering trials of code, memory or speed, while NHN AppGuard is running, and blocking conditions can set for 'Block by Condition' based on threshold.
 
-![appguard_03_201908_en](https://static.toastoven.net/prod_appguard/appguard_03_201908_en.png)
+![appguard_03_202104_en](https://static.toastoven.net/prod_appguard/appguard_03_202104_en.png)
 
 When it is detected by policy set as 'Block All', guide for NHN AppGuard shows and app is closed.
 When it is detected by conditions set as 'Block by Condition', guide for NHN AppGuard shows and app is closed.
@@ -69,13 +69,13 @@ For further details on the policy, please refer to "NHN AppGuard Developer's Gui
 
 History can be managed, regarding by who and when policy was changed and saved.
 
-![appguard_04_201908_en](https://static.toastoven.net/prod_appguard/appguard_04_201908_en.png)
+![appguard_04_202104_en](https://static.toastoven.net/prod_appguard/appguard_04_202104_en.png)
 
 ### Add Conditions
 
 Select **Policy** and click **Block by Condition** by each detection type, and the page shows as follows:
 
-![appguard_05_201908_en](https://static.toastoven.net/prod_appguard/appguard_05_201908_en.png)
+![appguard_05_202104_en](https://static.toastoven.net/prod_appguard/appguard_05_202104_en.png)
 * Select **Blocking Criteria**.
 * Select **Country Information**.
 * Enter **Number of Detections**.
@@ -88,7 +88,7 @@ Select **Policy** and click **Block by Condition** by each detection type, and t
 
 ### Check Conditions
 
-![appguard_06_201908_en](https://static.toastoven.net/prod_appguard/appguard_06_201908_en.png)
+![appguard_06_202104_en](https://static.toastoven.net/prod_appguard/appguard_06_202104_en.png)
 
 * Click ▼ next to **Block by Condition** and check added conditions.
 
@@ -96,13 +96,13 @@ Select **Policy** and click **Block by Condition** by each detection type, and t
 
 By registering user IDs for the integration of device ID and SDK as provided by NHN AppGuard, particular devices and users can be managed under blacklist.
 
-![appguard_07_201908_en](https://static.toastoven.net/prod_appguard/appguard_07_201908_en.png)
+![appguard_07_202104_en](https://static.toastoven.net/prod_appguard/appguard_07_202104_en.png)
 
 ### Blacklist
 
 Select **Blacklist** and click **Register**, and the page shows as follows:
 
-![appguard_08_201908_en](https://static.toastoven.net/prod_appguard/appguard_08_201908_en.png)
+![appguard_08_202104_en](https://static.toastoven.net/prod_appguard/appguard_08_202104_en.png)
 
 * Select **Registration ID**.
 * Select **ID Type**.
@@ -115,7 +115,7 @@ Select **Blacklist** and click **Register**, and the page shows as follows:
 
 Select **Blacklist** and click **UnBlock** from the registered list, and the page shows as follows:
 
-![appguard_09_201908_en](https://static.toastoven.net/prod_appguard/appguard_09_201908_en.png)
+![appguard_09_202104_en](https://static.toastoven.net/prod_appguard/appguard_09_202104_en.png)
 
 * Click **UnBlock** to release from the registered blacklist.
 * Execute the app with unblacklisted ID and app is not closed by NHN AppGuard.
@@ -124,14 +124,8 @@ Select **Blacklist** and click **UnBlock** from the registered list, and the pag
 
 Select **Blacklist** and click **Re-blacklist** for a blacklist which has been unblacklisted, and the page shows as follows:
 
-![appguard_10_201908_en](https://static.toastoven.net/prod_appguard/appguard_10_201908_en.png)
+![appguard_10_202104_en](https://static.toastoven.net/prod_appguard/appguard_10_202104_en.png)
 
 * Modify **Cause of Registration** and **Blocking Period (day)**.
 * Click **Register** to register the upadated blacklist.
 * Execute the app with re-registered blacklist ID and guide for NHN AppGuard shows during specified blocking period and app is closed.
-
-## Setting
-
-You may also leave change history by setting, from the web console policy menu of NHN AppGuard.
-
-![appguard_11_201908_en](https://static.toastoven.net/prod_appguard/appguard_11_201908_en.png)
