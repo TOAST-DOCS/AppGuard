@@ -1,12 +1,12 @@
-## Security > AppGuard > Overview
+## Security > NHN AppGuard > Overview
 
-AppGuard helps prevent manipulating application codes. It also detects and prohibits any tools which try to manipulate memory, speed or codes through patterned or heuristic method.
+NHN AppGuard helps prevent manipulating application codes. It also detects and prohibits any tools which try to manipulate memory, speed or codes through patterned or heuristic method.
 
 ## Feature/Advantage
 
 * Blocks code manipulation from the root stage.
 * Detects and prohibits various fabricating tools through pattern- or act-oriented method.
-* Checks information detected by AppGuard through Console so as to provide cause for restriction.
+* Checks information detected by NHN AppGuard through Console so as to provide cause for restriction.
 * Protects application with easy but strong means
 * Currently in use for about 100 services, including game, shopping, and simple payment, to serve as a protective measure against abusive acts or application manipulation.
 
@@ -23,9 +23,9 @@ Functions are provided as follows:
 
 ## Glossary
 
-For the AppGuard service, please refer to the glossary on Table 1.
+For the NHN AppGuard service, please refer to the glossary on Table 1.
 
-[Table 1] Glossary for AppGuard
+[Table 1] Glossary for NHN AppGuard
 
 | Term       | Description                                                             |
 | -------- | ----------------------------------------------------------------------- |
@@ -39,8 +39,8 @@ For the AppGuard service, please refer to the glossary on Table 1.
 
 ## Service Structure
 
-Figure 1 displays how AppGuard flows:
-Using AppGuard’s SDK, the code is integrated with the application (optional), and then app protection service (required) is completed and deployed on a console or Command Line Interface (CLI). The AppGuard Engine sends a detective log to a server so as to block or sanction against abuses.
+Figure 1 displays how NHN AppGuard flows:
+Using NHN AppGuard’s SDK, the code is integrated with the application (optional), and then app protection service (required) is completed and deployed on a console or Command Line Interface (CLI). The NHN AppGuard Engine sends a detective log to a server so as to block or sanction against abuses.
 
-![[Figure 1] Flow of AppGuard](http://static.toastoven.net/prod_appguard/AppGuard_2_overview01_en.png)
-<center>[Figure 1] Flow of AppGuard</center>
+![[Figure 1] Flow of NHN AppGuard](http://static.toastoven.net/prod_appguard/AppGuard_2_overview01_en.png)
+<center>[Figure 1] Flow of NHN AppGuard</center>

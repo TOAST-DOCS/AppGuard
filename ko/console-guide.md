@@ -1,26 +1,23 @@
-## Security > AppGuard > 콘솔 사용 가이드
+## Security > NHN AppGuard > 콘솔 사용 가이드
 
-AppGuard는 Android 버전과 iOS 버전이 있습니다.
+NHN AppGuard는 Android 버전과 iOS 버전이 있습니다.
 
 Android 버전은 SDK 연동(선택 사항) 후 빌드된 apk 파일을 Web Console 또는 CLI를 통해 앱 보호 작업(필수 사항)을 하면 적용됩니다.
 iOS 버전의 경우 SDK 연동(필수 사항)을 통해 적용되며, 별도의 보호 작업은 없습니다.
 
-AppGuard의 사용을 위한 적용 단계는 다음과 같습니다.
+NHN AppGuard의 사용을 위한 적용 단계는 다음과 같습니다.
 
-![[그림 1] AppGuard 적용 방법](http://static.toastoven.net/prod_appguard/figure1.png)
-
-## 동영상 가이드
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LFr808vEHlI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![[그림 1] NHN AppGuard 적용 방법](http://static.toastoven.net/prod_appguard/figure1.png)
 
 ## 대시보드
 
 앱 보호 작업이 완료된 앱을 앱 스토어에 배포 후 어뷰징 유저가 탐지되면 밑 그림의 **대시보드** 탭에서 현황을 확인 할 수 있습니다.
 
-![appguard_01_201910](https://static.toastoven.net/prod_appguard/appguard_01_201910.png)
+![appguard_01_202104](https://static.toastoven.net/prod_appguard/appguard_01_202104.png)
 
-- **이상 행위 탐지 현황** 은 AppGuard가 탐지한 어뷰징 사용자를 **로그 탐지 패턴**, **기간별** 기준 시도 순서로 확인할 수 있습니다.
+- **이상 행위 탐지 현황** 은 NHN AppGuard가 탐지한 어뷰징 사용자를 **로그 탐지 패턴**, **기간별** 기준 시도 순서로 확인할 수 있습니다.
 - **이상 행위 탐지 현황** 의 결과는 우측 상단의 **보고서 다운로드(Excel)** 버튼을 클릭하여 다운로드할 수 있습니다.
-- **대시보드** 는 AppGuard가 탐지한 어뷰징 사용자의 통계 그래프와 리스트를 검색할 수 있습니다.
+- **대시보드** 는 NHN AppGuard가 탐지한 어뷰징 사용자의 통계 그래프와 리스트를 검색할 수 있습니다.
     - 루팅의 경우, 앱 설치 후 하루 1회 탐지 또는 제재로그를 대시보드에서 확인할 수 있습니다.
 - **유저 ID**, **디바이스 ID**, **로그 탐지 횟수**, **로그 탐지 패턴**, **조회기간**으로 **검색**할 수 있습니다.
     - **유저 ID** 와 **디바이스 ID** 는 콤마로 구분하여 여러 개의 조건을 추가할 수 있습니다.
@@ -41,7 +38,7 @@ SDK를 다운로드 받은 후 첨부 되어 있는 매뉴얼에 따라 연동�
 
 **앱 보호** 메뉴 선택 후 **+ 앱 보호** 버튼을 클릭하면 다음과 같은 화면이 나옵니다.
 
-![appguard_02_201911](https://static.toastoven.net/prod_appguard/appguard_02_201911.png)
+![appguard_02_202104](https://static.toastoven.net/prod_appguard/appguard_02_202104.png)
 
 * [인증서] 파일을 선택합니다. 안드로이드는 KeyStore파일입니다.
 * [마스터 비밀번호]를 입력하고 [유효성 검사] 버튼을 클릭하여 인증서 파일의 유효성을 검사합니다.
@@ -61,25 +58,25 @@ SDK를 다운로드 받은 후 첨부 되어 있는 매뉴얼에 따라 연동�
 
 ## 정책
 
-AppGuard 작동 중 코드, 메모리, 속도 조작 시도 탐지 시 취해야 할 차단 정책을 설정할 수 있으며, '조건 차단' 시 임계치 기반으로 차단 조건을 설정할 수 있습니다.
+NHN AppGuard 작동 중 코드, 메모리, 속도 조작 시도 탐지 시 취해야 할 차단 정책을 설정할 수 있으며, '조건 차단' 시 임계치 기반으로 차단 조건을 설정할 수 있습니다.
 
-![appguard_03_201908](https://static.toastoven.net/prod_appguard/appguard_03_201908.png)
+![appguard_03_202104](https://static.toastoven.net/prod_appguard/appguard_03_202104.png)
 
-'전체 차단'으로 설정된 정책으로 탐지될 경우, AppGuard 안내 창이 나타나고 앱이 종료됩니다.
-'조건 차단'시 설정한 조건으로 탐지될 경우, AppGuard 안내 창이 나타나고 앱이 종료됩니다.
-제재에 대한 내용은 SDK에 포함된 "AppGuard Developer's Guide" 문서를 참고 바랍니다.
+'전체 차단'으로 설정된 정책으로 탐지될 경우, NHN AppGuard 안내 창이 나타나고 앱이 종료됩니다.
+'조건 차단'시 설정한 조건으로 탐지될 경우, NHN AppGuard 안내 창이 나타나고 앱이 종료됩니다.
+제재에 대한 내용은 SDK에 포함된 "NHN AppGuard Developer's Guide" 문서를 참고 바랍니다.
 
 ### 변경 이력
 
 정책을 변경하고 저장할 때, 언제 누가 어떻게 변경했는지 이력을 관리할 수 있습니다.
 
-![appguard_04_201908](https://static.toastoven.net/prod_appguard/appguard_04_201908.png)
+![appguard_04_202104](https://static.toastoven.net/prod_appguard/appguard_04_202104.png)
 
 ### 조건 추가
 
 **정책** 메뉴 선택 후, 각 탐지 종류별 **조건 차단** 버튼을 클릭하면 다음과 같은 화면이 나타납니다.
 
-![appguard_05_201908](https://static.toastoven.net/prod_appguard/appguard_05_201908.png)
+![appguard_05_202104](https://static.toastoven.net/prod_appguard/appguard_05_202104.png)
 
 * **차단 기준** 을 선택합니다.
 * **국가 정보** 를 선택합니다.
@@ -93,50 +90,44 @@ AppGuard 작동 중 코드, 메모리, 속도 조작 시도 탐지 시 취해야
 
 ### 조건 확인
 
-![appguard_06_201908](https://static.toastoven.net/prod_appguard/appguard_06_201908.png)
+![appguard_06_202104](https://static.toastoven.net/prod_appguard/appguard_06_202104.png)
 
 * **조건 차단** 버튼 옆 **▼** 버튼을 클릭하여 추가된 조건을 확인할 수 있습니다.
 
 ## 블랙리스트
 
-AppGuard에서 제공하는 디바이스 ID와 SDK 연동 시 사용할 수 있는 유저 ID를 등록하여, 특정 기기와 사용자를 블랙리스트로 관리합니다.
+NHN AppGuard에서 제공하는 디바이스 ID와 SDK 연동 시 사용할 수 있는 유저 ID를 등록하여, 특정 기기와 사용자를 블랙리스트로 관리합니다.
 
-![appguard_07_201908](https://static.toastoven.net/prod_appguard/appguard_07_201908.png)
+![appguard_07_202104](https://static.toastoven.net/prod_appguard/appguard_07_202104.png)
 
 ### 블랙리스트 등록
 
 **블랙리스트** 메뉴 선택 후, **등록** 버튼을 클릭하면 다음과 같은 화면이 나타납니다.
 
-![appguard_08_201908](https://static.toastoven.net/prod_appguard/appguard_08_201908.png)
+![appguard_08_202104](https://static.toastoven.net/prod_appguard/appguard_08_202104.png)
 
 * **등록 아이디** 를 선택합니다.
 * **아이디 유형** 을 선택합니다.
 * **등록 사유** 를 입력합니다.
 * **차단 기간(일)** 을 선택합니다.
 * **등록** 버튼을 클릭하여 블랙리스트를 등록합니다.
-* 등록된 블랙리스트 아이디로 앱을 실행하면 차단기간동안 AppGuard 안내 창이 나타나고 앱이 종료됩니다.
+* 등록된 블랙리스트 아이디로 앱을 실행하면 차단기간동안 NHN AppGuard 안내 창이 나타나고 앱이 종료됩니다.
 
 ### 블랙리스트 해제
 
 **블랙리스트** 메뉴 선택 후, 등록된 블랙리스트의 **해제** 버튼을 클릭하면 다음과 같은 화면이 나타납니다.
 
-![appguard_09_201908](https://static.toastoven.net/prod_appguard/appguard_09_201908.png)
+![appguard_09_202104](https://static.toastoven.net/prod_appguard/appguard_09_202104.png)
 
 * **해제** 버튼을 클릭하여 등록된 블랙리스트를 해제합니다.
-* 해제된 블랙리스트 아이디로 앱을 실행하면 AppGuard에서 앱을 종료하지 않습니다.
+* 해제된 블랙리스트 아이디로 앱을 실행하면 NHN AppGuard에서 앱을 종료하지 않습니다.
 
 ### 블랙리스트 재등록
 
 **블랙리스트** 메뉴 선택 후, 해제된 블랙리스트의 **재등록** 버튼을 클릭하면 다음과 같은 화면이 나타납니다.
 
-![appguard_10_201908](https://static.toastoven.net/prod_appguard/appguard_10_201908.png)
+![appguard_10_202104](https://static.toastoven.net/prod_appguard/appguard_10_202104.png)
 
 * **등록 사유** 와 **차단기간(일)** 을 수정합니다.
 * **등록** 버튼을 클릭하여 블랙리스트를 수정한 내용으로 등록합니다.
-* 재등록된 블랙리스트 아이디로 앱을 실행하면 차단기간동안 AppGuard 안내 창이 나타나고 앱이 종료됩니다.
-
-## 설정
-
-AppGuard 웹 콘솔 정책 메뉴에서 변경 이력을 남길 수 있도록 설정할 수 있습니다.
-
-![appguard_11_201908](https://static.toastoven.net/prod_appguard/appguard_11_201908.png)
+* 재등록된 블랙리스트 아이디로 앱을 실행하면 차단기간동안 NHN AppGuard 안내 창이 나타나고 앱이 종료됩니다.
