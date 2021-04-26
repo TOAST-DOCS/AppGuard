@@ -3,31 +3,31 @@
 ### April 27, 2021
 
 #### Feature Updates
-* 서비스명 변경 (AppGuard -> NHN AppGuard)
+* Changed service name (AppGuard -> NHN AppGuard)
 * [Android] 1.8.3.0
-	* NHN AppGuard 엔진 보안성 강화
+	* Reinforced security of NHN AppGuard engine
 * [iOS] 1.0.18
-	* 악성 행위 탐지 후 핸들링 로직 변경
-	* NHN AppGuard 엔진 보안성 강화
-	* NHN AppGuard 엔진 안정화
+	* Changed handling logic after detecting malicious behaviors
+	* Reinforced security of NHN AppGuard engine
+	* Stabilized NHN AppGuard engine
  
 ### April 12, 2021
 
 #### Bug Fixes
 * [iOS] 1.0.17
-    * NHN AppGuard 후킹 탐지 로직 추가
+    * Added the NHN AppGuard hooking detection logic
 
 ### April 9, 2021
 
 #### Bug Fixes
 * [Android] 1.8.2.2
-	* Cocos2d 엔진 에뮬레이터 크래시 이슈 개선
+	* Fixed the crashing issues in the Cocos2d engine emulator
 	
 ### March 31, 2021
 
 #### Bug Fixes
 * [Android] 1.8.2.1
-	* 페이스북 SDK 일부기능 충돌 오류 수정
+	* Fixed the crashing issues in the Facebook SDK
 	
 ### March 23, 2021
 
