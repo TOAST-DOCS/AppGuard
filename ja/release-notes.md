@@ -3,31 +3,31 @@
 ### 2021. 4. 27.
 
 #### 機能改善/変更
-* 서비스명 변경 (AppGuard -> NHN AppGuard)
+* サービス名を変更(AppGuard -> AppOnSecure)
 * [Android] 1.8.3.0
-	* NHN AppGuard 엔진 보안성 강화
+	* AppOnSecureエンジンのセキュリティを強化
 * [iOS] 1.0.18
-	* 악성행위 탐지 후 핸들링 로직 변경
-	* NHN AppGuard 엔진 보안성 강화
-	* NHN AppGuard 엔진 안정화
- 
+	* 不正な行為を検知した後のハンドリングロジックを変更
+	* AppOnSecureエンジンのセキュリティを強化
+	* AppOnSecureエンジンの安定化
+
 ### 2021. 4. 12.
 
 #### バグ修正
-[iOS] 1.0.17
-* NHN AppGuard 후킹 탐지 로직 추가
+* [iOS] 1.0.17
+    * AppOnSecureフッキング検知ロジックを追加
 
 ### 2021. 4. 09.
 
 #### バグ修正
 * [Android] 1.8.2.2
-	* Cocos2d 엔진 에뮬레이터 크래시 이슈 개선
+	* Cocos2dエンジンエミュレータのクラッシュ問題を改善
 	
 ### 2021. 3. 31.
 
 #### バグ修正
 * [Android] 1.8.2.1
-	* 페이스북 SDK 일부기능 충돌 오류 수정
+	* Facebook SDKの一部機能の競合エラーを修正
 	
 ### 2021. 3. 23.
 
