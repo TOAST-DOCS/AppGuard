@@ -1,5 +1,28 @@
-## Security > AppGuard > 릴리스 노트
+## Security > NHN AppGuard > 릴리스 노트
 
+### 2021. 4. 27.
+
+#### 기능 개선/변경
+* 서비스명 변경 (AppGuard -> NHN AppGuard)
+* [Android] 1.8.3.0
+	* NHN AppGuard 엔진 보안성 강화
+* [iOS] 1.0.18
+	* 악성행위 탐지 후 핸들링 로직 변경
+	* NHN AppGuard 엔진 보안성 강화
+	* NHN AppGuard 엔진 안정화
+ 
+### 2021. 4. 12.
+
+#### 버그 수정
+* [iOS] 1.0.17
+    * NHN AppGuard 후킹 탐지 로직 추가
+
+### 2021. 4. 09.
+
+#### 버그 수정
+* [Android] 1.8.2.2
+	* Cocos2d 엔진 에뮬레이터 크래시 이슈 개선
+	
 ### 2021. 3. 31.
 
 #### 버그 수정
@@ -10,20 +33,20 @@
 
 #### 기능 개선/변경
 * [Android] 1.8.2.0
-	* AppGuard 엔진 보안성 강화
+	* NHN AppGuard 엔진 보안성 강화
 * [iOS] 1.0.16
-	* AppGuard 엔진 보안성 강화
+	* NHN AppGuard 엔진 보안성 강화
 
 ### 2021. 2. 23.
 
 #### 기능 개선/변경
 * [Android] 1.8.1.0
 	* CLI 기능 개선
-	* AppGuard 엔진 안정화
-	* AppGuard 엔진 보안성 강화
+	* NHN AppGuard 엔진 안정화
+	* NHN AppGuard 엔진 보안성 강화
 	* 가상환경 패턴 추가 (F1VM)
 * [iOS] 1.0.15
-	* AppGuard 엔진 안정화
+	* NHN AppGuard 엔진 안정화
 
 ### 2021. 1. 26.
 
@@ -35,7 +58,7 @@
 ### 2020. 12. 29.
 
 #### 버그 수정
-* AppGuard 엔진 안정화
+* NHN AppGuard 엔진 안정화
 
 ### 2020. 08. 25.
 
@@ -59,8 +82,8 @@
 ### 2020. 06. 23.
 
 #### 기능 개선/변경
-* AppGuard 용량 축소 개선
-* AppGuard 엔진 보안성 강화
+* NHN AppGuard 용량 축소 개선
+* NHN AppGuard 엔진 보안성 강화
 
 #### 버그 수정
 * Unreal 엔진 보호 버그 수정
@@ -71,7 +94,7 @@
 * 난독화 신청 기능 추가
 
 #### 버그 수정
-* AppGuard 엔진 안정화
+* NHN AppGuard 엔진 안정화
 
 ### 2020. 04. 28.
 
@@ -91,7 +114,7 @@
 ### 2020. 01. 21.
 
 #### 기능 개선/변경
-* AppGuard 엔진 안정화
+* NHN AppGuard 엔진 안정화
 
 ### 2019. 12. 24.
 
@@ -101,7 +124,7 @@
 ### 2019. 11. 26.
 
 #### 기능 개선/변경
-* 앱가드 버전 선택 기능 추가
+* NHN AppGuard 버전 선택 기능 추가
 
 #### 버그 수정
 * 문자열 난독화 버그 수정
@@ -114,21 +137,21 @@
 * 메모리 검색 탐지 기능 추가
 
 #### 버그 수정
-* AppGuard 엔진 안정화
+* NHN AppGuard 엔진 안정화
 
 ### 2019. 09. 24.
 
 #### 기능 개선/변경
-* AppGuard Android Q 안정성 향상
+* NHN AppGuard Android Q 안정성 향상
 
 ### 2019. 08. 27.
 
 #### 기능 개선/변경
 * Android Q 지원
 * 웹 콘솔 조건 차단 및 블랙리스트 기능 추가
-* AppGuard iOS 실시간 정책 설정 기능 추가
+* NHN AppGuard iOS 실시간 정책 설정 기능 추가
 * 기계 학습 기반 Unity 게임 매크로 탐지 기능 추가 및 웹 콘솔 지원
-* AppGuard 모듈 무결성 검증 개선
+* NHN AppGuard 모듈 무결성 검증 개선
 * 웹 콘솔 감사 로그 기능 추가
 
 ### 2019. 07. 23.
@@ -144,12 +167,12 @@
 ### 2019. 06. 25.
 
 #### 기능 개선/변경
-* 앱가드 64비트 라이브러리 보호 기능 강화
-* 앱가드 제어 흐름 난독화 기능 추가
+* NHN AppGuard 64비트 라이브러리 보호 기능 강화
+* NHN AppGuard 제어 흐름 난독화 기능 추가
 * 크래시 리포트 기능 추가
 
 #### 버그 수정
-* 앱가드 경로 권한 변경 검사 버그 수정
+* NHN AppGuard 경로 권한 변경 검사 버그 수정
 
 ### 2019. 05. 28.
 
@@ -169,7 +192,7 @@
 * 유니티 IL2CPP 메소드 암호화 기능 추가
 	* CLI 옵션 "--il2cpp-encryption"으로 적용
 * 유니티 MONO 메소드 암호화 기능 추가
-	* 앱가드 level3으로 적용
+	* NHN AppGuard level3으로 적용
 * 에뮬레이터 탐지 패턴 추가
 	* Memu Player 최신 버전(6.1.1)
 
@@ -180,12 +203,12 @@
 
 #### 기능 개선/변경
 * 유니티 라이브러리 난독화 적용
-* 앱가드 자체 API / Method 난독화 기능 추가
+* NHN AppGuard 자체 API / Method 난독화 기능 추가
 
 ### 2019.02.26
 
 #### 기능 개선/변경
-* 앱가드 자체 모듈 난독화 적용
+* NHN AppGuard 자체 모듈 난독화 적용
 * 유니티 최신버전(2018) 호환성 개선
 	* MONO, IL2CPP 빌드 암호화 기능
 * 에뮬레이터 탐지 패턴 추가
@@ -199,7 +222,7 @@
 ### 2018.12.27
 
 #### 기능 개선/변경
-* 앱가드 자체 보호 기능 강화
+* NHN AppGuard 자체 보호 기능 강화
 * Dex Loader 난독화 기능 추가
 * 후킹 탐지 패턴 추가
 * 루팅 탐지 패턴 추가
@@ -216,14 +239,14 @@
 ### 2018.10.23
 
 #### 기능 개선/변경
-* 앱가드 적용 확인 기능 추가
+* NHN AppGuard 적용 확인 기능 추가
 * 루팅 탐지 기능 강화
 * 디버깅 탐지 기능 강화
 
 ### 2018.08.28
 
 #### 버그수정
-* AppGuard Unity SDK
+* NHN AppGuard Unity SDK
 	* Unity 5 이하 버전에서 에디터 연동 버그 수정
 
 ### 2018.07.24
@@ -236,7 +259,7 @@
 
 #### 기능 개선/변경
 * Android P(9.0) 호환성 개선
-* AppGuard Unity SDK
+* NHN AppGuard Unity SDK
     * UNITY 2018 버전 지원
 
 ### 2018.05.29
@@ -258,7 +281,7 @@
 ### 2018.02.20
 
 #### 버그 수정
-* 모모 앱 플레이어 1.2.1 버전에서 앱가드 Level2가 적용된 앱이 정상 실행되지 않는 오류 수정
+* 모모 앱 플레이어 1.2.1 버전에서 NHN AppGuard Level2가 적용된 앱이 정상 실행되지 않는 오류 수정
 
 ### 2018.01.24
 
@@ -279,7 +302,7 @@
 * 유/무료 선택창 제거(9월 1일 적용)
 * Android 8.0 지원
 #### 버그 수정
-* 앱가드 CLI(AppGuard.exe)를 자동으로 업데이트 해주는 모듈(CLIUpdater.exe) 수정, 업데이트 필수
+* NHN AppGuard CLI(AppGuard.exe)를 자동으로 업데이트 해주는 모듈(CLIUpdater.exe) 수정, 업데이트 필수
 * 최신 SDK의 CLI 사용 필요 (자동 업데이트기능을 원하지 않는 경우 CLI 옵션으로 --noUpdate를 추가)
 
 ### 2017.07.20
@@ -291,10 +314,10 @@
 ### 2017.06.22
 
 #### 기능 개선/변경
-* 64bit 아키텍처 x86_64, arm64-v8a 용 jni 사용시 아키텍쳐에 해당되는 앱가드 모듈이 포함됨
+* 64bit 아키텍처 x86_64, arm64-v8a 용 jni 사용시 아키텍쳐에 해당되는 NHN AppGuard 모듈이 포함됨
 * Android, iOS(Beta) SDK 다운로드 경로 분리
 * iOS(Beta) 버전은 무료로 제공
-* 앱가드 자체 모듈 변조 탐지 기능 강화
+* NHN AppGuard 자체 모듈 변조 탐지 기능 강화
 * Unity3D DLL 파일 암호화 대상 확장
 * 유니티 기본 DLL 파일 및 추가적인 DLL 파일 암호화 (Level3)
 
@@ -315,7 +338,7 @@
 #### 버그 수정
 * 앱변조 방지기능 적용시 일부 앱 설치 문제 수정
 * 앱변조 방지기능 적용시 외부 리소스 사용앱에 대한 호환성 강화
-* Unity3d 5.6 버전에서 앱가드 빌드 오류 수정
+* Unity3d 5.6 버전에서 NHN AppGuard 빌드 오류 수정
 
 ### 2017.04.04
 
@@ -334,7 +357,7 @@
 ### 2017.01.19
 
 #### 기능 개선/변경
-* [SDK] AppGuard iOS SDK 신규 배포
+* [SDK] NHN AppGuard iOS SDK 신규 배포
 * apk 변조 방지 기능 강화
 
 #### 버그 수정
@@ -345,13 +368,13 @@
 
 #### 기능 개선/변경
 * 치팅툴 탐지 패턴 추가
-* [Console] 탐지 로그에 앱가드 엔진 버전 정보 추가
+* [Console] 탐지 로그에 NHN AppGuard 엔진 버전 정보 추가
 
 ### 2016.12.08
 
 #### 기능 개선/변경
 * 루팅 탐지 패턴 추가
-* [SDK] 앱가드에서 차단시 표시되는 메시지 다국어 설정 API 추가
+* [SDK] NHN AppGuard에서 차단시 표시되는 메시지 다국어 설정 API 추가
 
 #### 버그 수정
 * [Console] 보호가 실패하였는데 웹 콘솔상에 성공으로 표시되는 오류 수정
@@ -360,15 +383,15 @@
 
 #### 기능 개선/변경
 
-* [SDK] 앱가드 SDK(tcag.jar) 업데이트
-* [Console] AppGuard Web Console에 공지사항 추가
+* [SDK] NHN AppGuard SDK(tcag.jar) 업데이트
+* [Console] NHN AppGuard Web Console에 공지사항 추가
 
 ### 2016.10.20
 
 #### 기능 개선/변경
 
-* [API] 앱가드 SDK 연동 함수 매개변수 변경
-* [SDK] AppGuard CLI(Command Line Build) 툴 자동 업데이트 기능 추가
+* [API] NHN AppGuard SDK 연동 함수 매개변수 변경
+* [SDK] NHN AppGuard CLI(Command Line Build) 툴 자동 업데이트 기능 추가
 
 ### 2016.09.29
 
