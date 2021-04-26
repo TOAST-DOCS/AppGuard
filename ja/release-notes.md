@@ -3,19 +3,19 @@
 ### 2021. 4. 27.
 
 #### 機能改善/変更
-* サービス名を変更(AppGuard -> AppOnSecure)
+* サービス名を変更(AppGuard -> NHN AppGuard)
 * [Android] 1.8.3.0
-	* AppOnSecureエンジンのセキュリティを強化
+	* NHN AppGuardエンジンのセキュリティを強化
 * [iOS] 1.0.18
 	* 不正な行為を検知した後のハンドリングロジックを変更
-	* AppOnSecureエンジンのセキュリティを強化
-	* AppOnSecureエンジンの安定化
+	* NHN AppGuardエンジンのセキュリティを強化
+	* NHN AppGuardエンジンの安定化
 
 ### 2021. 4. 12.
 
 #### バグ修正
 * [iOS] 1.0.17
-    * AppOnSecureフッキング検知ロジックを追加
+    * NHN AppGuardフッキング検知ロジックを追加
 
 ### 2021. 4. 09.
 

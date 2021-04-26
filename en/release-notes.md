@@ -3,7 +3,7 @@
 ### April 27, 2021
 
 #### Feature Updates
-* Changed service name (AppGuard -> AppOnSecure)
+* Changed service name (AppGuard -> NHN AppGuard)
 * [Android] 1.8.3.0
 	* Reinforced security of NHN AppGuard engine
 * [iOS] 1.0.18
@@ -27,7 +27,7 @@
 
 #### Bug Fixes
 * [Android] 1.8.2.1
-	* 페이스북 SDK 일부기능 충돌 오류 수정
+	* Fixed the crashing issues in the Facebook SDK
 	
 ### March 23, 2021
 
