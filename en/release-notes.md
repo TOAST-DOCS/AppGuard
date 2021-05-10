@@ -1,5 +1,11 @@
 ## Security > NHN AppGuard > Release Notes
 
+### May 11, 2021
+
+#### Feature Updates
+* [Android] 1.8.3.1
+	* 원격제어 탐지기능 추가
+	
 ### April 27, 2021
 
 #### Feature Updates
