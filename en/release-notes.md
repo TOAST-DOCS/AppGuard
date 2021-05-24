@@ -1,5 +1,20 @@
 ## Security > NHN AppGuard > Release Notes
 
+### May 25, 2021
+
+#### Feature Updates
+* [iOS] 1.1.0
+    * 엔진 성능 개선
+    * 엔진 안정화
+
+### May 24, 2021
+
+#### Feature Updates
+* [Android] 1.8.4.0
+    * 엔진 보안성 강화
+    * 엔진 안정화
+    * 유니티 2020 특정버전 크래시 이슈 개선
+    
 ### May 11, 2021
 
 #### Feature Updates
