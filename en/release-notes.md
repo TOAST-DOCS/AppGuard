@@ -4,16 +4,16 @@
 
 #### Feature Updates
 * [iOS] 1.1.0
-    * 엔진 성능 개선
-    * 엔진 안정화
+    * Improvements in engine performance
+    * Engine stability
 
 ### May 24, 2021
 
 #### Feature Updates
 * [Android] 1.8.4.0
-    * 엔진 보안성 강화
-    * 엔진 안정화
-    * 유니티 2020 특정버전 크래시 이슈 개선
+    * Strengthening engine security
+    * Engine stability
+    * mprovements with the issue of certain versions of Unity 2020 crashing
     
 ### May 11, 2021
 
