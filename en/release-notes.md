@@ -1,5 +1,20 @@
 ## Security > NHN AppGuard > Release Notes
 
+### May 25, 2021
+
+#### Feature Updates
+* [iOS] 1.1.0
+    * Improvements in engine performance
+    * Engine stability
+
+### May 24, 2021
+
+#### Feature Updates
+* [Android] 1.8.4.0
+    * Strengthening engine security
+    * Engine stability
+    * mprovements with the issue of certain versions of Unity 2020 crashing
+    
 ### May 11, 2021
 
 #### Feature Updates
