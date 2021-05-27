@@ -19,7 +19,7 @@
 
 #### Feature Updates
 * [Android] 1.8.3.1
-	* 원격제어 탐지기능 추가
+	* Added the remote control detecting function
 	
 ### April 27, 2021
 
