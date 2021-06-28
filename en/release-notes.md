@@ -1,5 +1,18 @@
 ## Security > NHN AppGuard > Release Notes
 
+### June 25, 2021
+
+#### Feature Updates
+* [Android] 1.8.5.0
+  * Strengthening engine security
+  * Improved the security features of Unity
+  * Improved CLI error handling
+  
+* [iOS] 1.1.1
+  * Strengthened engine security
+  * Added IAP abusing detection
+  * Improved internal test logic
+  
 ### May 25, 2021
 
 #### Feature Updates
@@ -19,7 +32,7 @@
 
 #### Feature Updates
 * [Android] 1.8.3.1
-	* 원격제어 탐지기능 추가
+	* Added the remote control detecting function
 	
 ### April 27, 2021
 
