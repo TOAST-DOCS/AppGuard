@@ -1,6 +1,6 @@
 ## Security > NHN AppGuard > Release Notes
 
-### June 25, 2021
+### June 29, 2021
 
 #### Feature Updates
 * [Android] 1.8.5.0
