@@ -1,17 +1,37 @@
 ## Security > NHN AppGuard > Release Notes
 
+### July 27, 2021
+
+#### Feature Updates
+* [Android] 1.8.6.0
+    * Strengthened engine security
+    * Improve Unreal security features
+  
+* [iOS] 1.1.2
+    * Strengthened engine security
+    * Project update
+    
+* Change web console page
+    * The app protection operation has been changed to asynchronous.
+
+### July 13, 2021
+
+#### Feature Updates
+* [Android] 1.8.5.1
+    * Improve the feature for app support that applies Google Play Asset Delivery 
+    
 ### June 29, 2021
 
 #### Feature Updates
 * [Android] 1.8.5.0
-  * Strengthening engine security
-  * Improved the security features of Unity
-  * Improved CLI error handling
+    * Strengthening engine security
+    * Improved the security features of Unity
+    * Improved CLI error handling
   
 * [iOS] 1.1.1
-  * Strengthened engine security
-  * Added IAP abusing detection
-  * Improved internal test logic
+    * Strengthened engine security
+    * Added IAP abusing detection
+    * Improved internal test logic
   
 ### May 25, 2021
 
