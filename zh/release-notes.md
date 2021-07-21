@@ -18,7 +18,7 @@
 
 #### Feature Updates
 * [Android] 1.8.5.1
-    * 구글 Play Asset Delivery 적용 앱 지원 기능 개선
+    * Improve the feature for app support that applies Google Play Asset Delivery 
     
 ### 2021. 6. 29.
 
