@@ -3,10 +3,6 @@
 ### July 27, 2021
 
 #### Feature Updates
-* [Android] 1.8.6.0
-    * Strengthened engine security
-    * Improve Unreal security features
-  
 * [iOS] 1.1.2
     * Strengthened engine security
     * Project update
