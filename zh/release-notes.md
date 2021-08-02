@@ -1,5 +1,14 @@
 ## Security > NHN AppGuard > Release Notes
 
+### 2021. 8. 4.
+
+#### Feature Updates 
+* [Android] 1.8.6.0
+    * 엔진 보안성 강화
+    * Unreal 보안 기능 개선
+    * 보호작업 시간 개선
+    * CLI macOS M1 지원
+    
 ### 2021. 7. 27.
 
 #### Feature Updates 
