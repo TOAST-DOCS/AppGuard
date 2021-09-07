@@ -1,5 +1,24 @@
 ## Security > NHN AppGuard > Release Notes
 
+### September 28, 2021
+
+#### Feature Updates 
+* [Android] 1.8.7.0
+    * 엔진 보안성 강화
+    * 구글 SafetyNet 악성앱 탐지기능 추가
+
+#### Feature Updates 
+* [iOS] 1.1.4
+    * 엔진 보안성 강화
+    * 앱가드 프로텍터를 통한 보호 기능 강화
+
+### September 1, 2021
+
+#### Bug Fixes
+* [Android] 1.8.6.1
+    * SQLite를 사용하는 Unity 크래시 수정
+    * Unreal 일부 보안기능 수정
+    
 ### August 24, 2021
 
 #### Feature Updates 
