@@ -4,35 +4,35 @@
 
 #### Feature Updates 
 * [Android] 1.8.7.0
-    * 엔진 보안성 강화
-    * 구글 SafetyNet 악성앱 탐지기능 추가
+    * Enhanced the security of the engine
+    * Added Google SafetyNet malicious app detection
 
 #### Feature Updates 
 * [iOS] 1.1.4
-    * 엔진 보안성 강화
-    * 앱가드 프로텍터를 통한 보호 기능 강화
+    * Enhanced the security of the engine    * 
+    * Reinforced protection feature through AppGuard protector
 
 ### September 1, 2021
 
 #### Bug Fixes
 * [Android] 1.8.6.1
-    * SQLite를 사용하는 Unity 크래시 수정
-    * Unreal 일부 보안기능 수정
+    * Fixed the crash on Unity using SQLite
+    * Modified security features of Unreal
     
 ### August 24, 2021
 
 #### Feature Updates 
 * [Android] 1.8.6.0
-    * 엔진 보안성 강화
-    * Unreal 보안 기능 개선
-    * 보호작업 시간 개선
-    * CLI macOS M1 지원
+    * Enhanced the security of the engine
+    * Improved security features of Unreal
+    * Improved the speed of protection tasks
+    * Supports CLI macOS M1
     
 ### July 27, 2021
 
 #### Feature Updates
 * [iOS] 1.1.2
-    * Strengthened engine security
+    * Enhanced the security of the engine
     * Project update
     
 * Change web console page
@@ -48,12 +48,12 @@
 
 #### Feature Updates
 * [Android] 1.8.5.0
-    * Strengthening engine security
+    * Enhanced the security of the engine
     * Improved the security features of Unity
     * Improved CLI error handling
   
 * [iOS] 1.1.1
-    * Strengthened engine security
+    * Enhanced the security of the engine
     * Added IAP abusing detection
     * Improved internal test logic
   
@@ -68,9 +68,9 @@
 
 #### Feature Updates
 * [Android] 1.8.4.0
-    * Strengthening engine security
+    * Enhanced the security of the engine
     * Engine stability
-    * mprovements with the issue of certain versions of Unity 2020 crashing
+    * Improvements with the issue of certain versions of Unity 2020 crashing
     
 ### May 11, 2021
 
@@ -83,10 +83,10 @@
 #### Feature Updates
 * Changed service name (AppGuard -> NHN AppGuard)
 * [Android] 1.8.3.0
-	* Reinforced security of NHN AppGuard engine
+	* Enhanced the security of NHN AppGuard engine
 * [iOS] 1.0.18
 	* Changed handling logic after detecting malicious behaviors
-	* Reinforced security of NHN AppGuard engine
+	* Enhanced the security of NHN AppGuard engine
 	* Stabilized NHN AppGuard engine
  
 ### April 12, 2021
