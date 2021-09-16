@@ -4,29 +4,29 @@
 
 #### Feature Updates 
 * [Android] 1.8.7.0
-    * 엔진 보안성 강화
-    * 구글 SafetyNet 악성앱 탐지기능 추가
+    * Enhanced the security of the engine
+    * Added Google SafetyNet malicious app detection
 
 #### Feature Updates 
 * [iOS] 1.1.4
-    * 엔진 보안성 강화
-    * 앱가드 프로텍터를 통한 보호 기능 강화
+    * Enhanced the security of the engine
+    * Reinforced protection feature through AppGuard protector
 
 ### 2021. 9. 1.
 
 #### Bug Fixes
 * [Android] 1.8.6.1
-    * SQLite를 사용하는 Unity 크래시 수정
-    * Unreal 일부 보안기능 수정
+    * Fixed the crash on Unity using SQLite
+    * Modified security features of Unreal
     
 ### 2021. 8. 24.
 
 #### Feature Updates 
 * [Android] 1.8.6.0
-    * 엔진 보안성 강화
-    * Unreal 보안 기능 개선
-    * 보호작업 시간 개선
-    * CLI macOS M1 지원
+    * Enhanced the security of the engine
+    * Improved security features of Unreal
+    * Improved the speed of protection tasks
+    * Supports CLI macOS M1
     
 ### 2021. 7. 27.
 

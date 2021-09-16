@@ -9,7 +9,7 @@
 
 #### Feature Updates 
 * [iOS] 1.1.4
-    * Enhanced the security of the engine    * 
+    * Enhanced the security of the engine
     * Reinforced protection feature through AppGuard protector
 
 ### September 1, 2021
