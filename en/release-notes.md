@@ -1,18 +1,5 @@
 ## Security > NHN AppGuard > Release Notes
 
-### October 26, 2021
-
-#### 기능 개선/변경
-* [Android] 1.8.8.0
-    * 엔진 보안성 강화
-    * 암호화 API 기능 개선
-
-### October 8, 2021
-
-#### Bug Fixes
-* [Android] 1.8.7.1
-    * 구글 Play Asset Delivery 지원기능 오류 수정
-    
 ### September 28, 2021
 
 #### Feature Updates 
