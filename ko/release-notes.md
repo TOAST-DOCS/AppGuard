@@ -12,7 +12,6 @@
 * [Android Plugin] 0.1.0
     * 앱가드 플러그인 신규 출시
     * CLI를 통한 앱가드 보호작업 적용
-    * Firebase Crashlytics 난독화 클래스 매핑 테이블 지원
 
 * [iOS] 1.1.7
     * 엔진 보안성 강화
