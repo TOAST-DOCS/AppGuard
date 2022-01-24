@@ -8,6 +8,9 @@
     * 해킹툴 탐지 기능 강화
     * 변조 탐지 기능 강화
 
+* [Gradle Plugin] 0.1.0
+    * NHN AppGuard Gradle Plugin 신규 출시
+
 ### 2021. 12. 28.
 
 #### 기능 개선/변경
