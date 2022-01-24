@@ -8,13 +8,12 @@
     * 해킹툴 탐지 기능 강화
     * 변조 탐지 기능 강화
 
-* [Gradle Plugin] 0.1.0
-    * NHN AppGuard Gradle Plugin 신규 출시
-
 * [iOS] 1.1.8
     * 클래스 난독화 신규 기능 추가
     * 블랙리스트 기능 개선
 
+* [Gradle Plugin] 0.1.0
+    * NHN AppGuard Gradle Plugin 신규 출시
 
 ### 2021. 12. 28.
 
