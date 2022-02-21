@@ -11,6 +11,10 @@
     * 실시간 정책 탐지 버그 수정
     * 보호작업 실패 이슈 수정
 
+* [iOS] 1.1.9
+    * 버전 확인 관련 기능 개선
+    * 가이드문서 수정
+
 * [Gradle Plugin] 0.2.0
     * 그래들 buildTypes, productFlavors, variants 별 옵션 지원
     * overrideOutputFile 옵션 추가
