@@ -1,5 +1,20 @@
 ## Security > NHN AppGuard > 릴리스 노트
 
+### 2022. 02. 22.
+
+#### 기능 개선/변경
+* [Android] 1.9.2.0
+    * 어뷰징앱 탐지 기능 강화
+    * 대용량 앱 보호작업 개선
+    * 매크로툴 상세 정보 노출
+    * CLI 버그 수정
+    * 실시간 정책 탐지 버그 수정
+    * 보호작업 실패 이슈 수정
+
+* [Gradle Plugin] 0.2.0
+    * 그래들 buildTypes, productFlavors, variants 별 옵션 지원
+    * overrideOutputFile 옵션 추가
+
 ### 2022. 01. 25.
 
 #### 기능 개선/변경
