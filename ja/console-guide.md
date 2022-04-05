@@ -13,7 +13,7 @@ NHN AppGuardの使用するための適用段階は次のとおりです。
 
 アプリ保護作業が完了したアプリをアプリストアに配布し、アビューズユーザーが探知されると、下図の**ダッシュボード** タブで現況を確認できます。
 
-![appguard_01_202104_ja](https://static.toastoven.net/prod_appguard/appguard_01_202104_ja.png)
+![appguard_01_202104](http://image.toast.com/aaaaaha/console-guide/1_1_%EB%8C%80%EC%8B%9C%EB%B3%B4%EB%93%9C_jp.png)
 
 - **異常行為の検知状況**は、NHN AppGuardが検知したアビューズユーザーのログ検知パターン、期間別の試行順序を確認できます。
 - **異常行為検知状況の結果**は、右上のレポートダウンロード(Excel)ボタンをクリックしてダウンロードできます。
@@ -38,7 +38,7 @@ SDKをダウンロードした後、添付されているマニュアルに沿�
 
 **アプリ保護** メニュー選択後、**+ アプリ保護** ボタンをクリックすると、次のような画面が表示されます。
 
-![appguard_02_202104_ja](https://static.toastoven.net/prod_appguard/appguard_02_202104_ja.png)
+![appguard_02_202104](http://image.toast.com/aaaaaha/console-guide/2_1_%EC%95%B1%EB%B3%B4%ED%98%B8_jp.png)
 
 * [証明書]ファイルを選択します。 AndroidはKeyStoreファイルです。
 * [マスターパスワード]を入力し、 [有効性検査]ボタンをクリックして証明書ファイルの有効性を検査します。
@@ -60,7 +60,7 @@ SDKをダウンロードした後、添付されているマニュアルに沿�
 
 NHN AppGuard作動中、コード、メモリ、速度操作試行を検知した時、取るべき遮断ポリシーを設定でき、'条件遮断'の場合、しきい値で遮断条件を設定できます。
 
-![appguard_03_202104_ja](https://static.toastoven.net/prod_appguard/appguard_03_202104_ja.png)
+![appguard_03_202104](http://image.toast.com/aaaaaha/console-guide/3_1_%EC%A0%95%EC%B1%85_jp.png)
 
 全体遮断'に設定されたポリシーで検知された場合、NHN AppGuard案内ウィンドウが表示され、アプリが終了します。
 条件遮断'に設定された条件で検知された場合、NHN AppGuard案内ウィンドウが表示され、アプリが終了します。
@@ -68,11 +68,11 @@ NHN AppGuard作動中、コード、メモリ、速度操作試行を検知し�
 
 ### 変更履歴
 ポリシーを変更、保存する時、いつ、誰が、どのように変更したのか、その履歴を管理できます。
-![appguard_04_202104_ja](https://static.toastoven.net/prod_appguard/appguard_04_202104_ja.png)
+![appguard_04_202104](http://image.toast.com/aaaaaha/console-guide/3_2_%EC%A0%95%EC%B1%85%20%EB%B3%80%EA%B2%BD%EC%9D%B4%EB%A0%A5_jp.png)
 
 ### 条件追加
 ポリシーメニュー選択後、各検知種類別の条件遮断ボタンをクリックすると、次のような画面が表示されます。
-![appguard_05_202104_ja](https://static.toastoven.net/prod_appguard/appguard_05_202104_ja.png)
+![appguard_05_202104](http://image.toast.com/aaaaaha/console-guide/3_3_%EC%A0%95%EC%B1%85%20%EC%A1%B0%EA%B1%B4%EC%B6%94%EA%B0%80_jp.png)
 
 * 遮断基準を選択します。
 * 国情報を選択します。
@@ -86,7 +86,7 @@ NHN AppGuard作動中、コード、メモリ、速度操作試行を検知し�
 
 ### 条件確認
 
-![appguard_06_202104_ja](https://static.toastoven.net/prod_appguard/appguard_06_202104_ja.png)
+![appguard_06_202104](http://image.toast.com/aaaaaha/console-guide/3_4_%EC%A0%95%EC%B1%85%20%EC%A1%B0%EA%B1%B4%ED%99%95%EC%9D%B8_jp.png)
 
 条件遮断ボタン横の▼ボタンをクリックして、追加された条件を確認できます。
 
@@ -95,14 +95,14 @@ NHN AppGuard作動中、コード、メモリ、速度操作試行を検知し�
 
 NHN AppGuardで提供するデバイスIDとSDK連携すると使用できるユーザーIDを登録して、特定端末とユーザーをブラックリストで管理します。
 
-![appguard_07_202104_ja](https://static.toastoven.net/prod_appguard/appguard_07_202104_ja.png)
+![appguard_07_202104](http://image.toast.com/aaaaaha/console-guide/4_1_%EB%B8%94%EB%9E%99%EB%A6%AC%EC%8A%A4%ED%8A%B8_jp.png)
 
 
 ### ブラックリスト登録
 
 ブラックリストメニュー選択後、登録ボタンをクリックすると、次のような画面が表示されます。
 
-![appguard_08_202104_ja](https://static.toastoven.net/prod_appguard/appguard_08_202104_ja.png)
+![appguard_08_202104](http://image.toast.com/aaaaaha/console-guide/4_2_%EB%B8%94%EB%9E%99%EB%A6%AC%EC%8A%A4%ED%8A%B8%20%EB%93%B1%EB%A1%9D_jp.png)
 
 * 登録IDを選択します。
 * IDタイプを選択します。
@@ -115,7 +115,7 @@ NHN AppGuardで提供するデバイスIDとSDK連携すると使用できるユ
 
 ブラックリストメニュー選択後、登録されたブラックリストの解除ボタンをクリックすると、次のような画面が表示されます。
 
-![appguard_09_202104_ja](https://static.toastoven.net/prod_appguard/appguard_09_202104_ja.png)
+![appguard_09_202104](http://image.toast.com/aaaaaha/console-guide/4_3_%EB%B8%94%EB%9E%99%EB%A6%AC%EC%8A%A4%ED%8A%B8%20%ED%95%B4%EC%A0%9C_jp.png)
 
 * 解除ボタンをクリックして登録されたブラックリストを解除します。
 * 解除されたブラックリストIDでアプリを実行すると、NHN AppGuardでアプリを終了させません。
@@ -124,7 +124,7 @@ NHN AppGuardで提供するデバイスIDとSDK連携すると使用できるユ
 
 メニュー選択後、解除されたブラックリストの再登録ボタンをクリックすると、次のような画面が表示されます。
 
-![appguard_10_202104_ja](https://static.toastoven.net/prod_appguard/appguard_10_202104_ja.png)
+![appguard_10_202104](http://image.toast.com/aaaaaha/console-guide/4_4_%EB%B8%94%EB%9E%99%EB%A6%AC%EC%8A%A4%ED%8A%B8%20%EC%9E%AC%EB%93%B1%EB%A1%9D_jp.png)
 
 * 登録理由と遮断期間(日)を修正します。
 * 登録ボタンをクリックして、ブラックリストを修正した内容で登録します。
