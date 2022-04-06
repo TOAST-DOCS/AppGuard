@@ -8,9 +8,9 @@
 
 ### 지원 환경
 
-AGP (Android Gradle Plugin) 3.0.1 이상
+* AGP (Android Gradle Plugin) 3.0.1 이상
 
-firebase-crashlytics-gradle 2.2.0 ~ 2.8.0
+* firebase-crashlytics-gradle 2.2.0 ~ 2.8.0
 
 ### 라이브러리 설정
 
