@@ -13,7 +13,7 @@ NHN AppGuard의 사용을 위한 적용 단계는 다음과 같습니다.
 
 앱 보호 작업이 완료된 앱을 앱 스토어에 배포 후 어뷰징 유저가 탐지되면 밑 그림의 **대시보드** 탭에서 현황을 확인 할 수 있습니다.
 
-![appguard_01_202104](https://static.toastoven.net/prod_appguard/appguard_01_202104.png)
+![appguard_01_202104](http://image.toast.com/aaaaaha/console-guide/1_1_%EB%8C%80%EC%8B%9C%EB%B3%B4%EB%93%9C_ko.png)
 
 - **이상 행위 탐지 현황** 은 NHN AppGuard가 탐지한 어뷰징 사용자를 **로그 탐지 패턴**, **기간별** 기준 시도 순서로 확인할 수 있습니다.
 - **이상 행위 탐지 현황** 의 결과는 우측 상단의 **보고서 다운로드(Excel)** 버튼을 클릭하여 다운로드할 수 있습니다.
@@ -38,7 +38,7 @@ SDK를 다운로드 받은 후 첨부 되어 있는 매뉴얼에 따라 연동�
 
 **앱 보호** 메뉴 선택 후 **+ 앱 보호** 버튼을 클릭하면 다음과 같은 화면이 나옵니다.
 
-![appguard_02_202104](https://static.toastoven.net/prod_appguard/appguard_02_202104.png)
+![appguard_02_202104](http://image.toast.com/aaaaaha/console-guide/2_1_%EC%95%B1%EB%B3%B4%ED%98%B8_ko.png)
 
 * [인증서] 파일을 선택합니다. 안드로이드는 KeyStore파일입니다.
 * [마스터 비밀번호]를 입력하고 [유효성 검사] 버튼을 클릭하여 인증서 파일의 유효성을 검사합니다.
@@ -60,7 +60,7 @@ SDK를 다운로드 받은 후 첨부 되어 있는 매뉴얼에 따라 연동�
 
 NHN AppGuard 작동 중 코드, 메모리, 속도 조작 시도 탐지 시 취해야 할 차단 정책을 설정할 수 있으며, '조건 차단' 시 임계치 기반으로 차단 조건을 설정할 수 있습니다.
 
-![appguard_03_202104](https://static.toastoven.net/prod_appguard/appguard_03_202104.png)
+![appguard_03_202104](http://image.toast.com/aaaaaha/console-guide/3_1_%EC%A0%95%EC%B1%85_ko.png)
 
 '전체 차단'으로 설정된 정책으로 탐지될 경우, NHN AppGuard 안내 창이 나타나고 앱이 종료됩니다.
 '조건 차단'시 설정한 조건으로 탐지될 경우, NHN AppGuard 안내 창이 나타나고 앱이 종료됩니다.
@@ -70,13 +70,13 @@ NHN AppGuard 작동 중 코드, 메모리, 속도 조작 시도 탐지 시 취�
 
 정책을 변경하고 저장할 때, 언제 누가 어떻게 변경했는지 이력을 관리할 수 있습니다.
 
-![appguard_04_202104](https://static.toastoven.net/prod_appguard/appguard_04_202104.png)
+![appguard_04_202104](http://image.toast.com/aaaaaha/console-guide/3_2_%EC%A0%95%EC%B1%85%20%EB%B3%80%EA%B2%BD%EC%9D%B4%EB%A0%A5_ko.png)
 
 ### 조건 추가
 
 **정책** 메뉴 선택 후, 각 탐지 종류별 **조건 차단** 버튼을 클릭하면 다음과 같은 화면이 나타납니다.
 
-![appguard_05_202104](https://static.toastoven.net/prod_appguard/appguard_05_202104.png)
+![appguard_05_202104](http://image.toast.com/aaaaaha/console-guide/3_3_%EC%A0%95%EC%B1%85%20%EC%A1%B0%EA%B1%B4%EC%B6%94%EA%B0%80_ko.png)
 
 * **차단 기준** 을 선택합니다.
 * **국가 정보** 를 선택합니다.
@@ -90,7 +90,7 @@ NHN AppGuard 작동 중 코드, 메모리, 속도 조작 시도 탐지 시 취�
 
 ### 조건 확인
 
-![appguard_06_202104](https://static.toastoven.net/prod_appguard/appguard_06_202104.png)
+![appguard_06_202104](http://image.toast.com/aaaaaha/console-guide/3_4_%EC%A0%95%EC%B1%85%20%EC%A1%B0%EA%B1%B4%ED%99%95%EC%9D%B8_ko.png)
 
 * **조건 차단** 버튼 옆 **▼** 버튼을 클릭하여 추가된 조건을 확인할 수 있습니다.
 
@@ -98,13 +98,13 @@ NHN AppGuard 작동 중 코드, 메모리, 속도 조작 시도 탐지 시 취�
 
 NHN AppGuard에서 제공하는 디바이스 ID와 SDK 연동 시 사용할 수 있는 유저 ID를 등록하여, 특정 기기와 사용자를 블랙리스트로 관리합니다.
 
-![appguard_07_202104](https://static.toastoven.net/prod_appguard/appguard_07_202104.png)
+![appguard_07_202104](http://image.toast.com/aaaaaha/console-guide/4_1_%EB%B8%94%EB%9E%99%EB%A6%AC%EC%8A%A4%ED%8A%B8_ko.png)
 
 ### 블랙리스트 등록
 
 **블랙리스트** 메뉴 선택 후, **등록** 버튼을 클릭하면 다음과 같은 화면이 나타납니다.
 
-![appguard_08_202104](https://static.toastoven.net/prod_appguard/appguard_08_202104.png)
+![appguard_08_202104](http://image.toast.com/aaaaaha/console-guide/4_2_%EB%B8%94%EB%9E%99%EB%A6%AC%EC%8A%A4%ED%8A%B8%20%EB%93%B1%EB%A1%9D_ko.png)
 
 * **등록 아이디** 를 선택합니다.
 * **아이디 유형** 을 선택합니다.
@@ -117,7 +117,7 @@ NHN AppGuard에서 제공하는 디바이스 ID와 SDK 연동 시 사용할 수 
 
 **블랙리스트** 메뉴 선택 후, 등록된 블랙리스트의 **해제** 버튼을 클릭하면 다음과 같은 화면이 나타납니다.
 
-![appguard_09_202104](https://static.toastoven.net/prod_appguard/appguard_09_202104.png)
+![appguard_09_202104](http://image.toast.com/aaaaaha/console-guide/4_3_%EB%B8%94%EB%9E%99%EB%A6%AC%EC%8A%A4%ED%8A%B8%20%ED%95%B4%EC%A0%9C_ko.png)
 
 * **해제** 버튼을 클릭하여 등록된 블랙리스트를 해제합니다.
 * 해제된 블랙리스트 아이디로 앱을 실행하면 NHN AppGuard에서 앱을 종료하지 않습니다.
@@ -126,7 +126,7 @@ NHN AppGuard에서 제공하는 디바이스 ID와 SDK 연동 시 사용할 수 
 
 **블랙리스트** 메뉴 선택 후, 해제된 블랙리스트의 **재등록** 버튼을 클릭하면 다음과 같은 화면이 나타납니다.
 
-![appguard_10_202104](https://static.toastoven.net/prod_appguard/appguard_10_202104.png)
+![appguard_10_202104](http://image.toast.com/aaaaaha/console-guide/4_4_%EB%B8%94%EB%9E%99%EB%A6%AC%EC%8A%A4%ED%8A%B8%20%EC%9E%AC%EB%93%B1%EB%A1%9D_ko.png)
 
 * **등록 사유** 와 **차단기간(일)** 을 수정합니다.
 * **등록** 버튼을 클릭하여 블랙리스트를 수정한 내용으로 등록합니다.
