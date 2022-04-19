@@ -38,8 +38,7 @@ apply plugin: 'com.nhncloud.android.appguard'
 
 플러그인 기능을 사용하려면 Appkey와 NHN AppGuard 버전을 반드시 명시해야 합니다.
 
-콘솔에서 다운로드한 SDK 폴더를 지정할 수 있습니다. 해당 경로에 NHN AppGuard SDK가  
-설치되어 있지 않으면 지정된 폴더 경로에 NHN AppGuard SDK을 다운로드하고 압축을 해제합니다. 옵션이 지정돼 있지 않으면 프로젝트의 상대 경로 appguard 폴더에 NHN AppGuard SDK를 설치합니다.
+콘솔에서 다운로드한 SDK 폴더를 지정할 수 있습니다. 해당 경로에 NHN AppGuard SDK가 설치되어 있지 않으면 지정된 폴더 경로에 NHN AppGuard SDK을 다운로드하고 압축을 해제합니다. 옵션이 지정돼 있지 않으면 프로젝트의 상대 경로 appguard 폴더에 NHN AppGuard SDK를 설치합니다.
 
 보호된 파일의 다운로드 경로를 지정하지 않으면, 빌드된 Android 앱 파일을 덮어씁니다.
 
