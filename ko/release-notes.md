@@ -10,7 +10,7 @@
     * 엔진 보안성 강화
 
 * [iOS] 1.2.1
-    * 앱가드 iOS CLI 개발
+    * NHN AppGuard iOS CLI 추가
 
 * [Console] 탐지 로그 검색 가능 기간 변경(30일 -> 90일)
 
