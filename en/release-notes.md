@@ -1,40 +1,40 @@
 ## Security > NHN AppGuard > Release Notes
 
-### 2022. 05. 24.
+### May 24, 2022
 
-#### 기능 개선/변경
+#### Feature Updates
 * [Android] 1.9.5.0
-    * 블랙리스트 차단 기능 개선
-    * 일부 크래시 이슈 수정
-    * 블루스택(BlueStacks) 에뮬레이터 검증 강화
-    * 엔진 보안성 강화
+    * Improved the blacklist blocking function
+    * Fixed some crash issues
+    * Enhanced validation for the BlueStacks emulator
+    * Enhanced the security of the engine
 
 * [iOS] 1.2.1
-    * NHN AppGuard iOS CLI 추가
+    * Added the NHN AppGuard iOS CLI
 
-* [Console] 탐지 로그 검색 가능 기간 변경(30일 -> 90일)
+* [Console] Changed the allowed search period of the detection log (30 days -> 90 days)
 
-### 2022. 05. 10.
+### May 10, 2022
 
-#### 기능 개선/변경
+#### Feature Updates
 * [Android] 1.9.4.1
-    * ANR 및 크래시 이슈 개선
-    * 콜백 데이터 개선
-    * 에뮬레이터 탐지 기능 강화
-    * 엔진 보안성 강화
+    * Improved ANR and crash issues
+    * Improved callback data
+    * Enhanced the emulator detection function
+    * Enhanced the security of the engine
 
-### 2022. 04. 26.
+### April 26, 2022
 
-#### 기능 개선/변경
+#### Feature Updates
 * [Android] 1.9.4.0
-    * 해당 버전 제거
+    * Removed the version
 
 * [iOS] 1.2.0
-    * 유니티 프레임워크 관련 보안성 강화
-    * 엔진 보안성 강화
+    * Enhanced the security related to Unity framework
+    * Enhanced the security of the engine
 
 * [Gradle Plugin] 1.0.0
-    * groupId, 패키지명 변경
+    * Changed the groupId and package name
 
 ### March 29, 2022
 
