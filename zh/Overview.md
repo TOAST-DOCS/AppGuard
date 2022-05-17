@@ -1,46 +1,46 @@
 ## Security > NHN AppGuard > Overview
 
-NHN AppGuard可防止应用程序编码造假。并且，将内存或速度、代码进行造假的各种工具用模式或探索方法检测到后，将对此进行制裁。.
+NHN AppGuard helps prevent manipulating application codes. It also detects and prohibits any tools which try to manipulate memory, speed or codes through patterned or heuristic method.
 
-## 特/优点
+## Feature/Advantage
 
-* 可从根源上防止代码造假。
-* 以各种造假工具用模式或难以迂回的行为基础进行检测到后，会得到制裁。
-* 通过NHN AppGuard探知到的信息，在通过Console的确认后，提供可制裁的依据。.
-* 用简便的关联和简单的App保护工作即可强力保护App。
-* 适用于游戏、购物、快捷支付等约100多种多样化服务，活用于有关各种Abusing、App造假的保护效果中。
+* Blocks code manipulation from the root stage.
+* Detects and prohibits various fabricating tools through pattern- or act-oriented method.
+* Checks information detected by NHN AppGuard through Console so as to provide cause for restriction.
+* Protects application with easy but strong means
+* Currently in use for about 100 services, including game, shopping, and simple payment, to serve as a protective measure against abusive acts or application manipulation.
 
-## 主要功能
+## Main Function
 
-提供如下功能。
+Functions are provided as follows:
 
-* 用通过网络终端的应用程序保护来提供便利的反编译防止功能
-* 通过文件的完整性，检测应用程序造假
-* Rooting、仿真等Abusing环境检测
-* 速度造假检测
-* 由各种造假工作的模式及行为基础引起的检测
-* 不是基于运营者加入许多资源的手动制裁，而是基于系统的低费用的自动制裁(近期内将提供)
+* Easily blocks decompiling by protecting applications through web consoles
+* Detects manipulated applications by checking integrity of files
+* Detects abusive acts, such as rooting or emulation.
+* Detects speed hack.
+* Detects by pattern or act of each manipulative tool.
+* Provides low-cost automatic sanctions, unlike resource-wasting manual system (to be updated soon)
 
-## 服务词汇
+## Glossary
 
-在NHN AppGuard中使用 [表 1]的词汇。
+For the NHN AppGuard service, please refer to the glossary on Table 1.
 
-[表 1] NHN AppGuard 服务词汇
+[Table 1] Glossary for NHN AppGuard
 
-| 词汇           | 说明|
-|--------------- | ------------------------------------------------------------------------|
-|探索法检测    |  用普通方法检测如作弊工具一般的对象，难以迂回的检测方法|
-|代码造假      |  通过反编译等分析代码，以获利为目的的造假行为|
-|反编译       |   为浅析编译代码，转换为高级语言的行为|
-|文件完整性      |由于代码造假等原因，需要确认原始文件是否发生更改|
-|Rooting、越狱  | 用顶尖root权限提升智能手机的限制权利，系统的所有部分毫无限制，皆可访问|
-|行为基础检测   | 作弊工具，利用作弊行为来检测的方法|
-|系统制裁       | 并不是通过检测到的日志，由运营者来作出制裁，而是由系统自动执行制裁|
+| Term       | Description                                                             |
+| -------- | ----------------------------------------------------------------------- |
+| Heuristic Detection      | A method of general detection on cheating tools which prevents taking a bypass |
+| Code Manipulation        | A manipulative act by analyzing code decompiling to gain profits |
+| Decompile                | An act of converting compiled codes to high-level language for easy analysis |
+| File integrity           | An act of checking if original files are changed due to code manipulation |
+| Rooting, Jail Break      | Upgrading smartphone user’s restricted authority to the highest root level so as to gain access to all system parts without a hitch |
+| Behavior Based Detection | A method of detection by copying how a cheating tool does to cheat |
+| System Restriction       | Sanctions on detected logs automatically posed by a system, not by an operator’s manual act |
 
-## 服务结构
+## Service Structure
 
-NHN AppGuard的结构如 [图 1\]。<br>
-通过NHN AppGuard的SDK，在App上关联代码(选项)后，利用Console或CLI(Command Line Interface)工具，发布App保护(必选项)工作。NHN AppGuard Engine探知到Abusing后，对其进行阻止或用服务器发送可制裁的日志。
+Figure 1 displays how NHN AppGuard flows:
+Using NHN AppGuard’s SDK, the code is integrated with the application (optional), and then app protection service (required) is completed and deployed on a console or Command Line Interface (CLI). The NHN AppGuard Engine sends a detective log to a server so as to block or sanction against abuses.
 
-![[图 1] NHN AppGuard 服务结构](http://static.toastoven.net/prod_appguard/AppGuard_2_overview01_en.png)
-<center>[图 1] NHN AppGuard 服务结构</center>
+![[Figure 1] Flow of NHN AppGuard](http://static.toastoven.net/prod_appguard/AppGuard_2_overview01_en.png)
+<center>[Figure 1] Flow of NHN AppGuard</center>

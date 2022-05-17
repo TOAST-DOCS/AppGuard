@@ -15,7 +15,7 @@ When an abusive user is detected, you can check detection status by clicking on 
 ![appguard_01_202104](http://image.toast.com/aaaaaha/console-guide/1_1_%EB%8C%80%EC%8B%9C%EB%B3%B4%EB%93%9C_en.png)
 
 - **Status of abnormal behavior** can be found among abusive users as detected by NHN AppGuard in the order of trials by **log detection pattern** or **period**.
-- Click **Download Reports (Excel)** on top-right of the page to download the detection result of abnormal behavior.  
+- Click **Download Reports (Excel)** on top-right of the page to download the detection result of abnormal behavior.
 - **Dashboard** tab shows statistical graphs and the list of abusive users detected by NHN AppGuard.
 	- For rooting, you may check detection or sanction logs on dashboard, once a day since app is installed.
 - You can **Search** by [User ID], [Device ID], [Detection Log Count], [Log Pattern], and [Search Period].
@@ -52,7 +52,7 @@ Select **App Protection** and click **+ Protect App**.
 	- Level3 : Level2 + Fortified security functions (Recommended for game apps)
 - Select [Release Versions]
 - Click **Ok** to start Protect App
-    - When completed, you can download the protected application. Now, you're ready to upload protected apps on each Appstore for deployment.
+	- When completed, you can download the protected application. Now, you're ready to upload protected apps on each Appstore for deployment.
 - Methods of app protection: Console or CLI(Command Line Interface)
 
 ## Policy
@@ -79,12 +79,12 @@ Select **Policy** and click **Block by Condition** by each detection type, and t
 * Select **Blocking Criteria**.
 * Select **Country Information**.
 * Enter **Number of Detections**.
-    - For rooting, detection is set one-time.
+	- For rooting, detection is set one-time.
 * Select a **Blocking Period (day)**.
 * Click **Add** to add more conditions.
 * While **Block by Condition** is enabled, click **Save** to apply the conditions.
-    - Conditions are applied based on detection logs accumulated on the previous day, and it takes up to 10 minutes to apply initially.
-    - Conditions are newly applied upon detection logs accumulated on the previous day, as of 05 of 00 every day.
+	- Conditions are applied based on detection logs accumulated on the previous day, and it takes up to 10 minutes to apply initially.
+	- Conditions are newly applied upon detection logs accumulated on the previous day, as of 05 of 00 every day.
 
 ### Check Conditions
 
@@ -109,7 +109,7 @@ Select **Blacklist** and click **Register**, and the page shows as follows:
 * Enter **Cause of Registration**.
 * Select **Blocking Period (day)**.
 * Click **Register** to register it on the Blacklist.
-* Execute the app with registered blacklist ID and guide for NHN AppGuard shows during specified blocking period and app is closed.  
+* Execute the app with registered blacklist ID and guide for NHN AppGuard shows during specified blocking period and app is closed.
 
 ### Un-blacklist
 

@@ -1,5 +1,41 @@
 ## Security > NHN AppGuard > Release Notes
 
+### May 24, 2022
+
+#### Feature Updates
+* [Android] 1.9.5.0
+    * Improved the blacklist blocking function
+    * Fixed some crash issues
+    * Enhanced validation for the BlueStacks emulator
+    * Enhanced the security of the engine
+
+* [iOS] 1.2.1
+    * Added the NHN AppGuard iOS CLI
+
+* [Console] Changed the allowed search period of the detection log (30 days -> 90 days)
+
+### May 10, 2022
+
+#### Feature Updates
+* [Android] 1.9.4.1
+    * Improved ANR and crash issues
+    * Improved callback data
+    * Enhanced the emulator detection function
+    * Enhanced the security of the engine
+
+### April 26, 2022
+
+#### Feature Updates
+* [Android] 1.9.4.0
+    * Removed the version
+
+* [iOS] 1.2.0
+    * Enhanced the security related to Unity framework
+    * Enhanced the security of the engine
+
+* [Gradle Plugin] 1.0.0
+    * Changed the groupId and package name
+
 ### March 29, 2022
 
 #### Feature Updates
