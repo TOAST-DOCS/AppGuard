@@ -23,7 +23,7 @@ buildscript {
         // ...
 
         // Add the NHN Cloud AppGuard Gradle Plugin
-        classpath 'com.nhncloud.android:appguard-gradle-plugin:1.0.0'
+        classpath 'com.nhncloud.android:appguard-gradle-plugin:1.0.1'
     }
 }
 ```
@@ -86,7 +86,7 @@ appguard {
 
 ### 보호된 파일 경로 설정
 
-variants별로 보호된 파일 저장 위치 설정이 가능합니다.
+1.0.1 버전부터 variants별로 보호된 파일 저장 위치 설정이 가능합니다.
 
 **(root, buildTypes, productFlavors Scope에선 설정이 불가합니다.)**
 
