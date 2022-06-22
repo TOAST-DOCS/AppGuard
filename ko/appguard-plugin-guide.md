@@ -44,21 +44,24 @@ apply plugin: 'com.nhncloud.android.appguard'
 
 앱 번들 적용 여부, NHN AppGuard 난독화 적용 여부, 난독화 레벨, 기타 옵션도 설정할 수 있습니다. 옵션은 다음과 같습니다.
 
-| 옵션                    | 설명                       | 필수 여부 |
-| --------------------- | ------------------------ | ----- |
-| enabled               | 앱가드 그래들 플러그인 적용 여부       | Y     |
-| appBundle             | 앱 번들 적용 여부               | Y     |
-| obfuscate             | 앱가드 난독화 적용 여부            | Y     |
-| level                 | 난독화 레벨                   | Y     |
-| appKey                | 콘솔에서 확인할 수 있는 Appkey     | Y     |
-| version               | 앱가드 버전                   | Y     |
-| appGuardSDKFolderPath | 앱가드 SDK 폴더 경로            | N     |
-| overrideOutputFile    | 보호된 파일 덮어쓰기 여부           | N     |
-| extraOptions          | CLI에서 사용하던 옵션 추가(필요시 문의) | N     |
+| 옵션                    | 설명                            | 필수 여부 |
+| --------------------- | ----------------------------- | ----- |
+| enabled               | 앱가드 그래들 플러그인 적용 여부            | Y     |
+| appBundle             | 앱 번들 적용 여부                    | Y     |
+| obfuscate             | 앱가드 난독화 적용 여부                 | Y     |
+| level                 | 난독화 레벨                        | Y     |
+| appKey                | 콘솔에서 확인할 수 있는 Appkey          | Y     |
+| version               | 앱가드 버전                        | Y     |
+| appGuardSDKFolderPath | 앱가드 SDK 폴더 경로                 | N     |
+| overrideOutputFile    | 보호된 파일 덮어쓰기 여부                | N     |
+| extraOptions          | CLI에서 사용하던 옵션 추가(필요시 문의)      | N     |
+| outputFilePath        | 보호된 파일 저장 경로 (variants scope) | N     |
 
 ### NHN AppGuard Gradle Plugin 옵션 설정
 
 앱 수준의 build.gradle 파일에 appguard 옵션을 작성합니다.
+
+필수가 아닌 옵션은 생략 가능합니다.
 
 ```groovy
 appguard {
@@ -68,10 +71,39 @@ appguard {
     level = 3
     appKey = "웹 콘솔에서 발급받은 Appkey"
     version = "프로텍터 버전"
-
+ /*   
     appGuardSDKFolderPath = "앱가드 SDK 폴더 경로" // optional
     overrideOutputFile = false // optional
     extraOptions = "" // optional
+    variants {
+        alphaRelease {
+            outputFilePath = "~/A/B/C/example.apk"
+        }
+    }
+*/
+}
+```
+
+### 보호된 파일 경로 설정
+
+variants별로 보호된 파일 저장 위치 설정이 가능합니다.
+
+**(root, buildTypes, productFlavors Scope에선 설정이 불가합니다.)**
+
+outputFilePath가 설정되지 않은 variants의 경우 overrideOutputFile 옵션에 따라, 원본 파일을 덮어쓰거나 _protected가 붙은 파일로 저장됩니다.
+
+```groovy
+def outputFolderPath = "~~/A/B/C/"
+appguard{
+    // ...
+    variants {
+          AlphaRelease {
+              outputFilePath = outputFolderPath + "alpha-release.apk"
+          }     
+          BetaRelease {
+              outputFilePath = outputFolderPath + "beta-release.apk"
+          }  
+    }     
 }
 ```
 
