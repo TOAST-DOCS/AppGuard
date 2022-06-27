@@ -23,7 +23,7 @@ buildscript {
         // ...
 
         // Add the NHN Cloud AppGuard Gradle Plugin
-        classpath 'com.nhncloud.android:appguard-gradle-plugin:1.0.0'
+        classpath 'com.nhncloud.android:appguard-gradle-plugin:1.0.1'
     }
 }
 ```
@@ -44,21 +44,24 @@ apply plugin: 'com.nhncloud.android.appguard'
 
 アプリバンドルを適用するかどうか、NHN AppGuard難読化を適用するかどうか、難読化レベル、その他オプションも設定できます。オプションは次のとおりです。
 
-| オプション                  | 説明                     | 必須かどうか |
-| --------------------- | ------------------------ | ----- |
-| enabled               | AppGuard Gradleプラグインを適用するかどうか      | Y     |
-| appBundle             | アプリバンドルを適用するかどうか              | Y     |
-| obfuscate             | AppGuard難読化を適用するかどうか           | Y     |
-| level                 | 難読化レベル                 | Y     |
-| appKey                | コンソールで確認できるAppkey     | Y     |
-| version               | AppGuardバージョン                 | Y     |
-| appGuardSDKFolderPath | AppGuard SDKフォルダパス          | N     |
-| overrideOutputFile    | 保護されたファイルを上書きするかどうか          | N     |
-| extraOptions          | CLIで使用していたオプションを追加(必要なときはお問い合わせください) | N     |
+| オプション                  | 説明                          | 必須かどうか |
+| --------------------- | ----------------------------- | ----- |
+| enabled               | AppGuard Gradleプラグインを適用するかどうか           | Y     |
+| appBundle             | アプリバンドルを適用するかどうか                   | Y     |
+| obfuscate             | AppGuard難読化を適用するかどうか                | Y     |
+| level                 | 難読化レベル                      | Y     |
+| appKey                | コンソールで確認できるAppkey          | Y     |
+| version               | AppGuardバージョン                      | Y     |
+| appGuardSDKFolderPath | AppGuard SDKフォルダパス               | N     |
+| overrideOutputFile    | 保護されたファイルを上書きするかどうか               | N     |
+| extraOptions          | CLIで使用していたオプションを追加(必要なときはお問い合わせください)      | N     |
+| outputFilePath        | 保護されたファイルの保存パス(variants scope) | N     |
 
 ### NHN AppGuard Gradle Pluginオプション設定
 
 アプリレベルのbuild.gradleファイルにappguardオプションを作成します。
+
+必須ではないオプションは省略可能です。
 
 ```groovy
 appguard {
@@ -68,31 +71,36 @@ appguard {
     level = 3
     appKey = "Webコンソールで発行されたAppkey"
     version = "プロテクターのバージョン"
-
+ /*   
     appGuardSDKFolderPath = "AppGuard SDKフォルダパス" // optional
     overrideOutputFile = false // optional
     extraOptions = "" // optional
+    variants {
+        alphaRelease {
+            outputFilePath = "~/A/B/C/example.apk"
+        }
+    }
+*/
 }
 ```
 
-### ProguardとFirebase Crashlyticsを使用する場合の難読化適用
+### 保護されたファイルのパス設定
 
-#### 事前準備
+1.0.1バージョンからvariantsごとに保護されたファイルの保存位置設定が可能です。
 
-1. プロジェクトでAppGuard難読化を使用している必要があります。
+**(root, buildTypes, productFlavors Scopeでは設定ができません。)**
 
-2. Androidプロジェクトで[Proguard](https://www.guardsquare.com/manual/home)を使用している必要があります。
-
-3. [FireBase Crashlytics](https://firebase.google.com/docs/crashlytics)アップロード機能を使用している必要があります。使用していなくても難読化は適用できます。
-
-#### 適用方法
-
-アプリレベルのbuild.gradleファイルに次のようにappguardオプションを作成します。
+outputFilePathが設定されていないvariantsの場合、overrideOutputFileオプションによって、原本ファイルを上書きするか、_protectedがついたファイルとして保存されます。
 
 ```groovy
-appguard {
+def outputFolderPath = "~~/A/B/C/"
+appguard{
     // ...
-    enabled = true
-    obfuscate = true
-}
-```
+    variants {
+          AlphaRelease {
+              outputFilePath = outputFolderPath + "alpha-release.apk"
+          }     
+          BetaRelease {
+              outputFilePath = outputFolderPath + "beta-release.apk"
+          }  
+    }  
