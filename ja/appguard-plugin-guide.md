@@ -104,3 +104,27 @@ appguard{
               outputFilePath = outputFolderPath + "beta-release.apk"
           }  
     }  
+}
+```
+
+### ProguardとFirebase Crashlyticsを使用する場合の難読化適用
+
+#### 事前準備
+
+1. プロジェクトでAppGuard難読化を使用している必要があります。
+
+2. Androidプロジェクトで[Proguard](https://www.guardsquare.com/manual/home)を使用している必要があります。
+
+3. [FireBase Crashlytics](https://firebase.google.com/docs/crashlytics)アップロード機能を使用している必要があります。使用していなくても難読化は適用できます。
+
+#### 適用方法
+
+アプリレベルのbuild.gradleファイルに次のようにappguardオプションを作成します。
+
+```groovy
+appguard {
+    // ...
+    enabled = true
+    obfuscate = true
+}
+```
