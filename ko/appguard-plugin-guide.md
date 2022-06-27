@@ -55,7 +55,7 @@ apply plugin: 'com.nhncloud.android.appguard'
 | appGuardSDKFolderPath | 앱가드 SDK 폴더 경로                 | N     |
 | overrideOutputFile    | 보호된 파일 덮어쓰기 여부                | N     |
 | extraOptions          | CLI에서 사용하던 옵션 추가(필요시 문의)      | N     |
-| outputFilePath        | 보호된 파일 저장 경로 (variants scope) | N     |
+| outputFilePath        | 보호된 파일 저장 경로(variants scope) | N     |
 
 ### NHN AppGuard Gradle Plugin 옵션 설정
 
@@ -88,7 +88,7 @@ appguard {
 
 1.0.1 버전부터 variants별로 보호된 파일 저장 위치 설정이 가능합니다.
 
-**(root, buildTypes, productFlavors Scope에선 설정이 불가합니다.)**
+**(root, buildTypes, productFlavors Scope에서는 설정이 불가합니다.)**
 
 outputFilePath가 설정되지 않은 variants의 경우 overrideOutputFile 옵션에 따라, 원본 파일을 덮어쓰거나 _protected가 붙은 파일로 저장됩니다.
 
