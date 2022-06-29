@@ -1,5 +1,21 @@
 ## Security > NHN AppGuard > Release Notes
 
+### June 30, 2022
+
+#### Feature Updates
+* [Android] 1.9.6.0
+    * Fixed some ANR issues
+    * Enhanced the security of the engine
+
+* [iOS] 1.2.2
+    * Enhanced detection of tampering
+    * Added a Unity-specific security API
+    * Enhanced the security of the engine
+
+* [Gradle Plugin] 1.0.1
+    * Added an option to set the storage path for the protected file by variants
+    * Made improvements so that whitespaces are allowed in the signing key password and alias
+
 ### May 24, 2022
 
 #### Feature Updates
