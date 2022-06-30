@@ -1,5 +1,21 @@
 ## Security > NHN AppGuard > Release Notes
 
+### June 30, 2022
+
+#### Feature Updates
+* [Android] 1.9.6.0
+    * Fixed some ANR issues
+    * Enhanced the security of the engine
+
+* [iOS] 1.2.2
+    * Enhanced detection of tampering
+    * Added a Unity-specific security API
+    * Enhanced the security of the engine
+
+* [Gradle Plugin] 1.0.1
+    * Added an option to set the storage path for the protected file by variants
+    * Made improvements so that whitespaces are allowed in the signing key password and alias
+
 ### May 24, 2022
 
 #### Feature Updates
@@ -171,14 +187,14 @@
     * Improved security features of Unreal
     * Improved the speed of protection tasks
     * Supports CLI macOS M1
-
+    
 ### July 27, 2021
 
 #### Feature Updates
 * [iOS] 1.1.2
     * Enhanced the security of the engine
     * Project update
-
+    
 * Change web console page
     * The app protection operation has been changed to asynchronous.
 
@@ -195,12 +211,12 @@
     * Enhanced the security of the engine
     * Improved the security features of Unity
     * Improved CLI error handling
-
+  
 * [iOS] 1.1.1
     * Enhanced the security of the engine
     * Added IAP abusing detection
     * Improved internal test logic
-
+  
 ### May 25, 2021
 
 #### Feature Updates
@@ -215,24 +231,24 @@
     * Enhanced the security of the engine
     * Improved the stability of the engine
     * Improved the crash issue with certain versions of Unity 2020
-
+     
 ### May 11, 2021
 
 #### Feature Updates
 * [Android] 1.8.3.1
-    * Added the remote control detecting function
-
+	* Added the remote control detecting function
+	
 ### April 27, 2021
 
 #### Feature Updates
 * Changed service name (AppGuard -> NHN AppGuard)
 * [Android] 1.8.3.0
-    * Enhanced the security of NHN AppGuard Engine
+	* Enhanced the security of NHN AppGuard Engine
 * [iOS] 1.0.18
-    * Changed handling logic after detecting malicious behaviors
-    * Enhanced the security of NHN AppGuard Engine
-    * Improved the stability of NHN AppGuard Engine
-
+	* Changed handling logic after detecting malicious behaviors
+	* Enhanced the security of NHN AppGuard Engine
+	* Improved the stability of NHN AppGuard Engine
+ 
 ### April 12, 2021
 
 #### Bug Fixes
@@ -243,39 +259,39 @@
 
 #### Bug Fixes
 * [Android] 1.8.2.2
-    * Fixed the crashing issues in the Cocos2d engine emulator
-
+	* Fixed the crashing issues in the Cocos2d engine emulator
+	
 ### March 31, 2021
 
 #### Bug Fixes
 * [Android] 1.8.2.1
-    * Fixed the crashing issues in the Facebook SDK
-
+	* Fixed the crashing issues in the Facebook SDK
+	
 ### March 23, 2021
 
 #### Feature Updates
 * [Android] 1.8.2.0
-    * Enhanced the security of NHN AppGuard Engine
+	* Enhanced the security of NHN AppGuard Engine
 * [iOS] 1.0.16
-    * Enhanced the security of NHN AppGuard Engine
+	* Enhanced the security of NHN AppGuard Engine
 
 ### February 23, 2021
 
 #### Feature Updates
 * [Android] 1.8.1.0
-    * CLI feature improved
-    * Improved the stability of NHN AppGuard Engine
-    * Enhanced the security of NHN AppGuard Engine
-    * Added a virtual environment pattern (F1VM)
+	* CLI feature improved
+	* Improved the stability of NHN AppGuard Engine
+	* Enhanced the security of NHN AppGuard Engine
+	* Added a virtual environment pattern (F1VM)
 * [iOS] 1.0.15
-    * Improved the stability of NHN AppGuard Engine
+	* Improved the stability of NHN AppGuard Engine
 
 ### January 26, 2021
 
 #### Feature Updates
 * [Android] 1.8.0.1
-    * Third party store support
-    * Upgraded detection of game hacks
+	* Third party store support
+	* Upgraded detection of game hacks
 
 ### December 29, 2020
 
@@ -400,8 +416,8 @@
 
 #### Feature Updates
 * Changed to add 64-bit library as default, according to Google guides
-    * Before Change: 32 or 64-bit library was added depending on user's ABI
-    * Now: Both 32 and 64-bit library are available
+	* Before Change: 32 or 64-bit library was added depending on user's ABI
+	* Now: Both 32 and 64-bit library are available
 * Upgraded macro detection
 
 #### Bug Fixes
@@ -412,11 +428,11 @@
 
 #### Feature Updates
 * Added the Unity IL2CPP method encryption feature
-    * Applied with CLI option "--il2cpp-encryption"
+	* Applied with CLI option "--il2cpp-encryption"
 * Added the Unity MONO method encryption feature
-    * Applied with NHN AppGuard level3
+	* Applied with NHN AppGuard level3
 * Added emulator detection pattern
-    * The latest Memu Player version(6.1.1)
+	* The latest Memu Player version(6.1.1)
 
 #### Bug Fixes
 * Fixed error in duplicate multi-dex installation on Android OS 4.X version
@@ -432,9 +448,9 @@
 #### Feature Updates
 * Applies NHN AppGuard self-obfuscation
 * Upgraded the compatibility for the latest Unity version(2018)
-    * Build encryption for MONO and IL2CPP
+	* Build encryption for MONO and IL2CPP
 * Added emulator detection pattern
-    * The latest NOX version(6.2.7.0)
+	* The latest NOX version(6.2.7.0)
 
 ### January 29, 2019
 
@@ -450,7 +466,7 @@
 * Added rooting detection pattern
 * Added emulator detection pattern
 * Enhanced the Unity IL2CPP build protection feature
-    * IL2CPP Dumper Tool Prevention
+	* IL2CPP Dumper Tool Prevention
 
 ### November 27, 2018
 
@@ -469,13 +485,13 @@
 
 #### Bug Fixes
 * NHN AppGuard Unity SDK
-    * Fixed integration bugs for Unity 5 or lower versions
+	* Fixed integration bugs for Unity 5 or lower versions
 
 ### July 24, 2018
 
 #### Feature Updates
 * Supports Unreal Engine 4
-    * Supports protection of game codes for Unreal Engine 4
+	* Supports protection of game codes for Unreal Engine 4
 
 ### June 26, 2018
 

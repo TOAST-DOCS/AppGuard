@@ -23,7 +23,7 @@ buildscript {
         // ...
 
         // Add the NHN Cloud AppGuard Gradle Plugin
-        classpath 'com.nhncloud.android:appguard-gradle-plugin:1.0.0'
+        classpath 'com.nhncloud.android:appguard-gradle-plugin:1.0.1'
     }
 }
 ```
@@ -38,28 +38,30 @@ apply plugin: 'com.nhncloud.android.appguard'
 
 To use the plugin functions, you must specify the Appkey and NHN AppGuard version.
 
-You can specify the folder of SDK downloaded from the console. If the NHN AppGuard SDK is not installed in that path, download and unzip the NHN AppGuard SDK to the specified folder path. If no option is specified, install the NHN AppGuard SDK in the appguard folder relative to your project root.  
-
+You can specify the folder of SDK downloaded from the console. If the NHN AppGuard SDK is not installed in that path, download and unzip the NHN AppGuard SDK to the specified folder path. If no option is specified, install the NHN AppGuard SDK in the appguard folder relative to your project root.
 
 If you do not specify a download path for protected files, the built Android app files will be overwritten.
 
 You can also set whether to apply the app bundle, whether to apply NHN AppGuard obfuscation, the level of obfuscation, and other options. The options are as follows:
 
-| Option                    | Description                       | Required |
-| --------------------- | ------------------------ | ----- |
-| enabled               | Whether to apply the AppGuard Gradle plugin       | Y     |
-| appBundle             | Whether to apply the app bundle               | Y     |
-| obfuscate             | Whether to apply AppGuard obfuscation            | Y     |
-| level                 | Obfuscation level                   | Y     |
-| appKey                | Appkey that can be found in the console     | Y     |
-| version               | AppGuard version                   | Y     |
-| appGuardSDKFolderPath | AppGuard SDK folder path            | N     |
-| overrideOutputFile    | Whether to overwrite protected files           | N     |
-| extraOptions          | Add options used in CLI (contact us if necessary) | N     |
+| Option                    | Description                            | Required |
+| --------------------- | ----------------------------- | ----- |
+| enabled               | Whether to apply the AppGuard Gradle plugin            | Y     |
+| appBundle             | Whether to apply the app bundle                    | Y     |
+| obfuscate             | Whether to apply AppGuard obfuscation                 | Y     |
+| level                 | Obfuscation level                        | Y     |
+| appKey                | Appkey that can be found in the console          | Y     |
+| version               | AppGuard version                        | Y     |
+| appGuardSDKFolderPath | AppGuard SDK folder path                 | N     |
+| overrideOutputFile    | Whether to overwrite protected files                | N     |
+| extraOptions          | Add options used in CLI (contact us if necessary)      | N     |
+| outputFilePath        | Storage path for the protected file (variants scope) | N     |
 
 ### Setting the NHN AppGuard Gradle Plugin Options
 
 Write appguard options in your app-level build.gradle file.
+
+Options that are not required can be omitted.
 
 ```groovy
 appguard {
@@ -69,10 +71,39 @@ appguard {
     level = 3
     appKey = "Appkey issued from the web console"
     version = "Protector version"
-
+ /*   
     appGuardSDKFolderPath = "AppGuard SDK folder path" // optional
     overrideOutputFile = false // optional
     extraOptions = "" // optional
+    variants {
+        alphaRelease {
+            outputFilePath = "~/A/B/C/example.apk"
+        }
+    }
+*/
+}
+```
+
+### Setting the Protected File Path
+
+From version 1.0.1, you can set a protected file storage location for each variants.
+
+**(It cannot be set in root, buildTypes, and productFlavors scope.)**
+
+For variants with outputFilePath unset, the original file will be overwritten or the protected file is saved as a file with `_protected` appended, depending on the value of the overrideOutputFile option.
+
+```groovy
+def outputFolderPath = "~~/A/B/C/"
+appguard{
+    // ...
+    variants {
+          AlphaRelease {
+              outputFilePath = outputFolderPath + "alpha-release.apk"
+          }     
+          BetaRelease {
+              outputFilePath = outputFolderPath + "beta-release.apk"
+          }  
+    }     
 }
 ```
 

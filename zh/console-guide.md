@@ -10,6 +10,7 @@ Following diagram shows the NHN AppGuard application process.
 ![[Figure 1] How to apply NHN AppGuard](http://static.toastoven.net/prod_appguard/figure1.png)
 
 ## Dashboard
+
 When an abusive user is detected, you can check detection status by clicking on the **Dashboard** tab.
 
 ![appguard_01_202104](http://image.toast.com/aaaaaha/console-guide/1_1_%EB%8C%80%EC%8B%9C%EB%B3%B4%EB%93%9C_en.png)
@@ -17,9 +18,9 @@ When an abusive user is detected, you can check detection status by clicking on 
 - **Status of abnormal behavior** can be found among abusive users as detected by NHN AppGuard in the order of trials by **log detection pattern** or **period**.
 - Click **Download Reports (Excel)** on top-right of the page to download the detection result of abnormal behavior.
 - **Dashboard** tab shows statistical graphs and the list of abusive users detected by NHN AppGuard.
-	- For rooting, you may check detection or sanction logs on dashboard, once a day since app is installed.
+    - For rooting, you may check detection or sanction logs on dashboard, once a day since app is installed.
 - You can **Search** by [User ID], [Device ID], [Detection Log Count], [Log Pattern], and [Search Period].
-	- Multiple [User ID] and [Device ID] can be added with comma as a delimiter.
+    - Multiple [User ID] and [Device ID] can be added with comma as a delimiter.
 - In the statistical detection graph, you can check 'Detection Distribution by Pattern' and 'Change status of detection logs'.
 - The detection list shows User ID, Device ID, Host IP, OS, Logs, App Information, and Detection Time.
 - You may click **Download Report (Excel)** to download the query result.
@@ -31,29 +32,29 @@ When an abusive user is detected, you can check detection status by clicking on 
 Select **App Protection** and click **Download SDK** to download SDK by OS.
 
 Then, follow the attached manual to work with SDKs.
-(In case of iOS, no further steps are required once the applicaiton is integrated with the SDK).
+(In case of iOS, no further steps are required once the application is integrated with the SDK).
 
 ### App Protection Menu
 
-Select **App Protection** and click **+ Protect App**.
+Select **App Protection** and click **\+ Protect App**.
 
 ![appguard_02_202104](http://image.toast.com/aaaaaha/console-guide/2_1_%EC%95%B1%EB%B3%B4%ED%98%B8_en.png)
 
-- Choose a [Certificate] KeyStore file.
-- Enter [Master Password] and Click [Validation] to check validation of the chosen file.
-	- This process is required to validate KeyStore and to choose an appropriate Alias.
-	- When validation fails, be sure to check the status of the certificate file and the master password.
-- Select the name of [Alias].
-- Enter [Alias Password].
-- Choose an [APK]
-- Select the level of protection
-	- Level1 : Basic level of pattern-oriented and abnormal acts protection on application
-	- Level2 : Level1 + Advanced security functions such as, code encryption and preventing app manipulation (Recommended for general apps)
-	- Level3 : Level2 + Fortified security functions (Recommended for game apps)
-- Select [Release Versions]
-- Click **Ok** to start Protect App
-	- When completed, you can download the protected application. Now, you're ready to upload protected apps on each Appstore for deployment.
-- Methods of app protection: Console or CLI(Command Line Interface)
+* Choose a [Certificate] KeyStore file.
+* Enter [Master Password] and Click [Validation] to check validation of the chosen file.
+    - This process is required to validate KeyStore and to choose an appropriate Alias.
+    - When validation fails, be sure to check the status of the certificate file and the master password.
+* Select the name of [Alias].
+* Enter [Alias Password].
+* Choose an [APK]
+* Select the level of protection
+    - Level1 : Basic level of pattern-oriented and abnormal acts protection on application
+    - Level2 : Level1 + Advanced security functions such as, code encryption and preventing app manipulation (Recommended for general apps)
+    - Level3 : Level2 + Fortified security functions (Recommended for game apps)
+* Select [Release Versions]
+* Click **Ok** to start Protect App
+    - When completed, you can download the protected application. Now, you're ready to upload protected apps on each Appstore for deployment.
+* Methods of app protection: Console or CLI(Command Line Interface)
 
 ## Policy
 
@@ -76,15 +77,16 @@ History can be managed, regarding by who and when policy was changed and saved.
 Select **Policy** and click **Block by Condition** by each detection type, and the page shows as follows:
 
 ![appguard_05_202104](http://image.toast.com/aaaaaha/console-guide/3_3_%EC%A0%95%EC%B1%85%20%EC%A1%B0%EA%B1%B4%EC%B6%94%EA%B0%80_en.png)
+
 * Select **Blocking Criteria**.
 * Select **Country Information**.
 * Enter **Number of Detections**.
-	- For rooting, detection is set one-time.
-* Select a **Blocking Period (day)**.
+    - For rooting, detection is set one-time.
+* Select **Blocking Period (day)**.
 * Click **Add** to add more conditions.
 * While **Block by Condition** is enabled, click **Save** to apply the conditions.
-	- Conditions are applied based on detection logs accumulated on the previous day, and it takes up to 10 minutes to apply initially.
-	- Conditions are newly applied upon detection logs accumulated on the previous day, as of 05 of 00 every day.
+    - Conditions are applied based on detection logs accumulated on the previous day, and it takes up to 10 minutes to apply initially.
+    - Conditions are newly applied upon detection logs accumulated on the previous day, as of 05 of 00 every day.
 
 ### Check Conditions
 
@@ -127,5 +129,5 @@ Select **Blacklist** and click **Re-blacklist** for a blacklist which has been u
 ![appguard_10_202104](http://image.toast.com/aaaaaha/console-guide/4_4_%EB%B8%94%EB%9E%99%EB%A6%AC%EC%8A%A4%ED%8A%B8%20%EC%9E%AC%EB%93%B1%EB%A1%9D_en.png)
 
 * Modify **Cause of Registration** and **Blocking Period (day)**.
-* Click **Register** to register the upadated blacklist.
+* Click **Register** to register the updated blacklist.
 * Execute the app with re-registered blacklist ID and guide for NHN AppGuard shows during specified blocking period and app is closed.

@@ -10,7 +10,7 @@ NHN AppGuard helps prevent manipulating application codes. It also detects and p
 * Protects application with easy but strong means
 * Currently in use for about 100 services, including game, shopping, and simple payment, to serve as a protective measure against abusive acts or application manipulation.
 
-## Main Function
+## Main Features
 
 Functions are provided as follows:
 
@@ -27,19 +27,19 @@ For the NHN AppGuard service, please refer to the glossary on Table 1.
 
 [Table 1] Glossary for NHN AppGuard
 
-| Term       | Description                                                             |
+| Term       | Description                                                                      |
 | -------- | ----------------------------------------------------------------------- |
-| Heuristic Detection      | A method of general detection on cheating tools which prevents taking a bypass |
-| Code Manipulation        | A manipulative act by analyzing code decompiling to gain profits |
-| Decompile                | An act of converting compiled codes to high-level language for easy analysis |
-| File integrity           | An act of checking if original files are changed due to code manipulation |
-| Rooting, Jail Break      | Upgrading smartphone user’s restricted authority to the highest root level so as to gain access to all system parts without a hitch |
-| Behavior Based Detection | A method of detection by copying how a cheating tool does to cheat |
-| System Restriction       | Sanctions on detected logs automatically posed by a system, not by an operator’s manual act |
+| Heuristic Detection  | A method of general detection on cheating tools which prevents taking a bypass                               |
+| Code Manipulation    | A manipulative act by analyzing code decompiling to gain profits                              |
+| Decompile     | An act of converting compiled codes to high-level language for easy analysis                                       |
+| File integrity   | An act of checking if original files are changed due to code manipulation                                     |
+| Rooting, Jail Break   | Upgrading smartphone user’s restricted authority to the highest root level so as to gain access to all system parts without a hitch |
+| Behavior Based Detection | A method of detection by copying how a cheating tool does to cheat                                   |
+| System Restriction   | Sanctions on detected logs automatically posed by a system, not by an operator’s manual act                   |
 
 ## Service Structure
 
-Figure 1 displays how NHN AppGuard flows:
+Figure 1 displays how NHN AppGuard works:
 Using NHN AppGuard’s SDK, the code is integrated with the application (optional), and then app protection service (required) is completed and deployed on a console or Command Line Interface (CLI). The NHN AppGuard Engine sends a detective log to a server so as to block or sanction against abuses.
 
 ![[Figure 1] Flow of NHN AppGuard](http://static.toastoven.net/prod_appguard/AppGuard_2_overview01_en.png)
