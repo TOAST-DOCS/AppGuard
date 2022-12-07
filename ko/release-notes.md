@@ -1,5 +1,11 @@
 ## Security > NHN AppGuard > 릴리스 노트
 
+### 2022. 12. 13
+* [Android] 1.9.11.2
+    * API 노출 이슈 수정
+    * LifecycleCallback 이슈 수정
+    * 특정 기능 크래시 이슈 수정
+
 ### 2022. 12. 07
 * [Android] 1.9.11.1
     * 변조 오탐 이슈 수정
