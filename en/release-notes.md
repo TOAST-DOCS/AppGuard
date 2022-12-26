@@ -1,108 +1,105 @@
 ## Security > NHN AppGuard > Release Notes
 
-### 2022. 12. 27.
+### December 27, 2022
 * [Android] 1.9.12.0
-    * 클라이언트 정책 지원 종료
-    * 기본 정책 기능 추가
-    * 경고 창 미 발생 이슈 
-    * 덱스 암호화 크래시 이슈 수정
+    * Ended support for client policies
+    * Added default policy features
+    * Fixed an issue where the warning screen id not displayed 
 
-### 2022. 12. 13.
+### December 13, 2022
 * [Android] 1.9.11.2
-    * API 노출 이슈 수정
-    * LifecycleCallback 이슈 수정
-    * 특정 보호 기능 크래시 및 오탐 이슈 수정
-    * x86 크래시 이슈 수정
+    * Fixed API exposure issues
+    * Fixed LifecycleCallback issues
+    * Fixed crash issues and false positives in specific protection feature
+    * Fixed x86 crash issues
 
-### 2022. 12. 07.
+### December 7, 2022
 * [Android] 1.9.11.1
-    * 변조 오탐 이슈 수정
+    * Fixed false positives related to tampering
 
-### 2022. 11. 29.
+### November 29, 2022
 * [Android] 1.9.11.0
-    * 프레임 드롭 이슈 수정
-    * SSL 피닝 우회 미 탐지 이슈 수정
-    * Google Play 게임즈 지원
-    * 크래시 이슈 수정
+    * Fixed frame drop issues
+    * Fixed an issue of not detecting SSL pinning bypass
+    * Added support for Google Play Games
+    * Fixed crash issues
 
 * [iOS] 1.2.7
-    * API 후킹 탐지 로직 강화
-    * 정책 관련 이슈 해결
-    * AppGuard CLI 기능 개선
+    * Enhanced API hooking detection logics
+    * Fixed issues related to policies
+    * Improved AppGuard CLI feature
 
-### 2022.11.09.
-
+### November 9, 2022
 * [Android] 1.9.10.2
-    * 백그라운드 크래시 이슈 수정
+    * Fixed background crash issues
 
-### 2022.11.02.
-
+### November 2, 2022
 * [Android] 1.9.10.1
-    * 크래시 이슈 수정
+    * Fixed crash issues
 
-### 2022. 10. 28.
+### October 28, 2022
 * [iOS] 1.2.6
-    * 엔진 보안성 강화
+    * Enhanced the security of the engine
 
-### 2022. 10. 25.
+### October 25, 2022
 * [Android] 1.9.10.0
-    * 에뮬레이터 탐지 기능 강화
-    * 치팅 툴 탐지 기능 강화
+    * Enhanced the emulator detection function
+    * Enhanced detection of hacking tools
 
-### 2022. 10. 14.
+### October 14, 2022
 * [Android] 1.9.9.2
-    * LDPlayer4 64bit 에뮬레이터 지원
-    * 한국어 경고 창 추가
-    * 초기화 속도 개선
-    * 에뮬레이터 크래시 이슈 수정
-    * 엔진 보안성 강화
+    * Added support for LDPlayer4 64bit emulator
+    * Added a Korean warning screen
+    * Improved the speed of initialization
+    * Fixed a crash issue with emulators
+    * Enhanced the security of the engine
 
-### 2022. 10. 07.
+### October 7, 2022
 * [Android] 1.9.9.1
-    * 해당 버전 제거
+    * Removed the version
 
-### 2022. 10. 04.
+### October 4, 2022
 * [Android] 1.9.9.0
-    * 해당 버전 제거
+    * Removed the version
 
 * [iOS] 1.2.5
-    * 엔진 보안성 강화
-    * 네트워크 관련 버그 패치
-    * 리패키징 관련 보안성 강화
+    * Enhanced the security of the engine
+    * Fixed network-related bugs
+    * Enhanced the security related to repackaging
 
-### 2022. 09.08.
+### September 8, 2022
 * [Android] 1.9.8.1
-    * 메니페스트 이슈 수정
+    * Fixed manifest issue
 
-### 2022. 08. 23.
+### August 23, 2022
 * [Android] 1.9.8.0
-    * 크레마 단말기 지원 
-    * 블루스택, 녹스, LDPlayer9 64bit 에뮬레이터 지원
-    * SafetyNet 지원 중단
-    * 엔진 보안성 강화
-    * 유니티 보호작업 이슈 수정
+    * Added support for Crema device 
+    * Added support for BluesStacks, Nox, LDPlayer9 64-bit emulators
+    * Stopped support for SafetyNet
+    * Enhanced the security of the engine
+    * Fixed Unity protection operation issues
 
 * [iOS] 1.2.4
-    * 엔진 보안성 강화
-    * 트윅 탐지 기능 추가
+    * Enhanced the security of the engine
+    * Added tweak detection feature
 
-### 2022. 07. 26.
+### July 26, 2022
 * [Android] 1.9.7.0
-    * 엔진 보안성 강화
-    * 메니페스트 버그 수정
-    * 미탐 버그 수정
+    * Enhanced the security of the engine
+    * Fixed manifest bug
+    * Fixed undetected bug
 
 * [iOS] 1.2.3
-    * 엔진 보안성 강화
-    * Device ID 관련 API 추가
+    * Enhanced the security of the engine
+    * Added API related Device ID
 
 * [Gradle Plugin] 1.0.2
-    * CLI 콘솔 로그 출력
+    * Print out CLI console logs
 
-### 2022. 07. 06.
+### July 6, 2022
 * [Android] 1.9.6.1
-    * ANR 이슈 수정
-    * 엔진 보안성 강화
+    * Fixed ANR issue
+    * Enhanced the security of the engine
 
 ### June 30, 2022
 
