@@ -1,10 +1,28 @@
 ## Security > NHN AppGuard > Release Notes
 
+### 2023. 01. 31.
+* [Android] 1.9.13.0
+    * 암호화 API 헤더 변경
+    * 앱번들 이슈 수정
+    * 보안 기능 강화
+    * x86, x86_64 이슈 수정
+    
+* [iOS] 1.2.9
+    * 기본 정책 기능 추가
+    * 엔진 보안성 강화
+    * 시뮬레이터 오탐 개선
+    * xcframework 지원
+    * AppGuard CLI 기능 개선
+
 ### December 27, 2022
 * [Android] 1.9.12.0
     * Ended support for client policies
     * Added default policy features
     * Fixed an issue where the warning screen id not displayed 
+
+* [iOS] 1.2.8
+    * 엔진 보안성 강화
+    * iOS 16 호환성 개선
 
 ### December 13, 2022
 * [Android] 1.9.11.2
