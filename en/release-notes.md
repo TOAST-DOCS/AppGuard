@@ -1,5 +1,9 @@
 ## Security > NHN AppGuard > Release Notes
 
+### 2023. 02. 08.
+* [Android] 1.9.13.1
+    * 덱스 난독화 이슈 수정
+
 ### January 31, 2023
 * [Android] 1.9.13.0
     * Changed encryption API header
