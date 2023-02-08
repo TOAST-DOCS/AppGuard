@@ -1,5 +1,124 @@
 ## Security > NHN AppGuard > Release Notes
 
+### January 31, 2023
+* [Android] 1.9.13.0
+    * Changed encryption API header
+    * Fixed app bundle issue
+    * Enhanced security function
+    * Fixed x86 and x86_64 issues
+
+* [iOS] 1.2.9
+    * Added default policy features
+    * Enhanced the security of the engine
+    * Fix simulator false positive issues
+    * Supported xcframework
+    * Improved AppGuard CLI feature
+
+### December 27, 2022
+* [Android] 1.9.12.0
+    * Ended support for client policies
+    * Added default policy features
+    * Fixed an issue where the warning screen id not displayed 
+
+* [iOS] 1.2.8
+    * Enhanced the security of the engine
+    * Improved the compatibility for iOS 16
+
+### December 13, 2022
+* [Android] 1.9.11.2
+    * Fixed API exposure issues
+    * Fixed LifecycleCallback issues
+    * Fixed crash issues and false positives in specific protection feature
+    * Fixed x86 crash issues
+
+### December 7, 2022
+* [Android] 1.9.11.1
+    * Fixed false positives related to tampering
+
+### November 29, 2022
+* [Android] 1.9.11.0
+    * Fixed frame drop issues
+    * Fixed an issue of not detecting SSL pinning bypass
+    * Added support for Google Play Games
+    * Fixed crash issues
+
+* [iOS] 1.2.7
+    * Enhanced API hooking detection logics
+    * Fixed issues related to policies
+    * Improved AppGuard CLI feature
+
+### November 9, 2022
+* [Android] 1.9.10.2
+    * Fixed background crash issues
+
+### November 2, 2022
+* [Android] 1.9.10.1
+    * Fixed crash issues
+
+### October 28, 2022
+* [iOS] 1.2.6
+    * Enhanced the security of the engine
+
+### October 25, 2022
+* [Android] 1.9.10.0
+    * Enhanced the emulator detection function
+    * Enhanced detection of hacking tools
+
+### October 14, 2022
+* [Android] 1.9.9.2
+    * Added support for LDPlayer4 64bit emulator
+    * Added a Korean warning screen
+    * Improved the speed of initialization
+    * Fixed a crash issue with emulators
+    * Enhanced the security of the engine
+
+### October 7, 2022
+* [Android] 1.9.9.1
+    * Removed the version
+
+### October 4, 2022
+* [Android] 1.9.9.0
+    * Removed the version
+
+* [iOS] 1.2.5
+    * Enhanced the security of the engine
+    * Fixed network-related bugs
+    * Enhanced the security related to repackaging
+
+### September 8, 2022
+* [Android] 1.9.8.1
+    * Fixed manifest issue
+
+### August 23, 2022
+* [Android] 1.9.8.0
+    * Added support for Crema device 
+    * Added support for BluesStacks, Nox, LDPlayer9 64-bit emulators
+    * Stopped support for SafetyNet
+    * Enhanced the security of the engine
+    * Fixed Unity protection operation issues
+
+* [iOS] 1.2.4
+    * Enhanced the security of the engine
+    * Added tweak detection feature
+
+### July 26, 2022
+* [Android] 1.9.7.0
+    * Enhanced the security of the engine
+    * Fixed manifest bug
+    * Fixed undetected bug
+
+* [iOS] 1.2.3
+    * Enhanced the security of the engine
+    * Added API related Device ID
+
+* [Gradle Plugin] 1.0.2
+    * Print out CLI console logs
+
+### July 6, 2022
+* [Android] 1.9.6.1
+    * Fixed ANR issue
+    * Enhanced the security of the engine
+
 ### June 30, 2022
 
 #### Feature Updates
