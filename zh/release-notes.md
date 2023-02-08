@@ -1,5 +1,12 @@
 ## Security > NHN AppGuard > Release Notes
 
+### 2023. 03. 01.
+* 요금 정책 개편
+
+### 2023. 02. 28.
+* [Console]
+    * Unity SDK 다운로드 기능 추가
+
 ### January 31, 2023
 * [Android] 1.9.13.0
     * Changed encryption API header
