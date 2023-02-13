@@ -1,5 +1,9 @@
 ## Security > NHN AppGuard > Release Notes
 
+### 2023. 02. 13.
+* [Android] 1.9.13.2
+    * 어뷰징 앱 탐지 이슈 수정
+
 ### February 8, 2023    
 * [Android] 1.9.13.1
     * Fixed DEX obfuscation issues
