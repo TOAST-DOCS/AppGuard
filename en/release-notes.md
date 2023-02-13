@@ -1,6 +1,6 @@
 ## Security > NHN AppGuard > Release Notes
 
-### 2023. 02. 13.
+### 2023. 02. 14.
 * [Android] 1.9.13.2
     * 어뷰징 앱 탐지 이슈 수정
 
