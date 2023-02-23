@@ -6,6 +6,9 @@
 ### 2023. 02. 28.
 * [Console]
     * Unity SDK 다운로드 기능 추가
+### February 8, 2023    
+* [Android] 1.9.13.1
+    * Fixed DEX obfuscation issues
 
 ### January 31, 2023
 * [Android] 1.9.13.0

@@ -8,20 +8,21 @@
     * Unity SDK 다운로드 기능 추가
 
 ### 2023. 02. 08.
+### February 8, 2023    
 * [Android] 1.9.13.1
-    * 덱스 난독화 이슈 수정
+    * Fixed DEX obfuscation issues
 
 ### January 31, 2023
 * [Android] 1.9.13.0
     * Changed encryption API header
-    * Fixed app bundle issue
+    * Fixed app bundle issues
     * Enhanced security function
     * Fixed x86 and x86_64 issues
 
 * [iOS] 1.2.9
     * Added default policy features
     * Enhanced the security of the engine
-    * Fix simulator false positive issues
+    * Fixed simulator false positive issues
     * Supported xcframework
     * Improved AppGuard CLI feature
 
@@ -98,7 +99,7 @@
 
 ### September 8, 2022
 * [Android] 1.9.8.1
-    * Fixed manifest issue
+    * Fixed manifest issues
 
 ### August 23, 2022
 * [Android] 1.9.8.0
@@ -127,7 +128,7 @@
 
 ### July 6, 2022
 * [Android] 1.9.6.1
-    * Fixed ANR issue
+    * Fixed ANR issues
     * Enhanced the security of the engine
 
 ### June 30, 2022
