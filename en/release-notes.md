@@ -1,5 +1,16 @@
 ## Security > NHN AppGuard > Release Notes
 
+### February 28, 2023
+* [Android] 1.9.13.5
+    * Improved detection of abusing app licenses
+    * Fixed an issue where conditional block policy is not applied
+    * Fixed crash issues when launching a Unity app
+    * Fixed false positives in Unity integrity checks (405_49_0)
+    
+* [iOS] 1.2.10
+    * Enhanced the security of the engine
+    * Improved the compatibility for iOS 15
+
 ### February 8, 2023    
 * [Android] 1.9.13.1
     * Fixed DEX obfuscation issues
