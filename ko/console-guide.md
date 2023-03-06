@@ -7,7 +7,7 @@ iOS 버전의 경우 SDK 연동(필수 사항)을 통해 적용되며, 별도의
 
 NHN AppGuard의 사용을 위한 적용 단계는 다음과 같습니다.
 
-![[그림 1] NHN AppGuard 적용 방법](http://static.toastoven.net/prod_appguard/figure1.png)
+![[그림 1] NHN AppGuard 적용 방법](http://static.toastoven.net/prod_appguard/AppGuard_3_overview01.png)
 
 ## 대시보드
 

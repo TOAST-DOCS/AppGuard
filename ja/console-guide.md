@@ -7,7 +7,7 @@ iOSバージョンの場合、SDK連携(必須事項)を通して適用され、
 
 NHN AppGuardの使用するための適用段階は次のとおりです。
 
-![[図1] NHN AppGuard適用方法](http://static.toastoven.net/prod_appguard/figure1.png)
+![[図1] NHN AppGuard適用方法](http://static.toastoven.net/prod_appguard/AppGuard_3_overview01.png)
 
 ## ダッシュボード
 

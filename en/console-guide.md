@@ -7,7 +7,7 @@ For iOS users, it is applied when the application files are created with SDK int
 
 Following diagram shows the NHN AppGuard application process.
 
-![[Figure 1] How to apply NHN AppGuard](http://static.toastoven.net/prod_appguard/figure1.png)
+![[Figure 1] How to apply NHN AppGuard](http://static.toastoven.net/prod_appguard/AppGuard_3_overview01.png)
 
 ## Dashboard
 
