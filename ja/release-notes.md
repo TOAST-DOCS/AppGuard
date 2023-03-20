@@ -1,5 +1,11 @@
 ## Security > NHN AppGuard > リリースノート
 
+### 2023. 03. 28.
+* [iOS] 1.3.10
+    * 엔진 보안성 강화
+    * 플랜 적용 대응(Business, Enterprise, Game)
+    * AppGuard CLI 플랜 적용 옵션 추가(--business, --enterprise, --game)
+    
 ### 2023. 02. 28.
 * [Android] 1.9.13.5
     * アビューズアプリライセンス検出の改善
