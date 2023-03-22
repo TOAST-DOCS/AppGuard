@@ -49,7 +49,7 @@ You can also set whether to apply the app bundle, whether to apply NHN AppGuard 
 | enabled               | Whether to apply the AppGuard Gradle plugin            | Y     |
 | appBundle             | Whether to apply the app bundle                    | Y     |
 | obfuscate             | Whether to apply AppGuard obfuscation                 | Y     |
-| level                 | Obfuscation level                        | Y     |
+| plan                  | 보호 플랜(business, enterprise, game)  | Y     |
 | appKey                | Appkey that can be found in the console          | Y     |
 | version               | AppGuard version                        | Y     |
 | appGuardSDKFolderPath | AppGuard SDK folder path                 | N     |
@@ -68,7 +68,7 @@ appguard {
     enabled = true
     appBundle = true
     obfuscate = false
-    level = 3
+    plan = game
     appKey = "Appkey issued from the web console"
     version = "Protector version"
  /*   
