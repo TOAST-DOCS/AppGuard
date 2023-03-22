@@ -4,10 +4,11 @@ NHN AppGuardは、AndroidバージョンとiOSバージョンがあります。
 
 Androidバージョンは、SDK連携(選択事項)後、ビルドされたapkファイルをWeb ConsoleまたはCLIを通してアプリ保護作業(必須事項)を行うと適用されます。
 iOSバージョンの場合、SDK連携(必須事項)を通して適用され、別途の保護作業はありません。
+Unity 버전은 Android/iOS 앱을 손쉽게 보호할 수 있는 편의 기능을 제공합니다.
 
 NHN AppGuardの使用するための適用段階は次のとおりです。
 
-![[図1] NHN AppGuard適用方法](http://static.toastoven.net/prod_appguard/figure1.png)
+![[図1] NHN AppGuard適用方法](http://static.toastoven.net/prod_appguard/AppGuard_3_overview01.png)
 
 ## ダッシュボード
 
