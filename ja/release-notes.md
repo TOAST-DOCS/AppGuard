@@ -10,10 +10,10 @@
     * 요금 플랜 변경(Business, Enterprise, Game)
 
 * [Unity] 0.1.0
-    * AppGuard Unity SDK 출시
+    * NHN AppGuard Unity SDK 출시
 
 * [Gradle Plugin] 1.1.0
-    * 요금 플랜 옵션 변경(enterprise, business, game)
+    * 요금 플랜 옵션 변경(Business, Enterprise, Game)
 
 ### 2023. 02. 28.
 * [Android] 1.9.13.5
