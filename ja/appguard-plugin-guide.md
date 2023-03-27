@@ -10,6 +10,8 @@ NHN AppGuard Gradle PluginではAndroid Gradleビルド段階に保護作業が�
 
 - firebase-crashlytics-gradle 2.2.0~2.8.0
 
+- Unity環境ではGradle Plugin方式をサポートしません。
+
 ### ライブラリ設定
 
 プロジェクトレベルのbuild.gradleファイルにNHN AppGuard Gradle Pluginをbuildscript依存関係項目に追加します。
@@ -49,7 +51,7 @@ apply plugin: 'com.nhncloud.android.appguard'
 | enabled               | AppGuard Gradleプラグインを適用するかどうか           | Y     |
 | appBundle             | アプリバンドルを適用するかどうか                   | Y     |
 | obfuscate             | AppGuard難読化を適用するかどうか                | Y     |
-| level                 | 難読化レベル                      | Y     |
+| plan                  | 保護プラン(business, enterprise, game)  | Y     |
 | appKey                | コンソールで確認できるAppkey          | Y     |
 | version               | AppGuardバージョン                      | Y     |
 | appGuardSDKFolderPath | AppGuard SDKフォルダパス               | N     |
@@ -68,7 +70,7 @@ appguard {
     enabled = true
     appBundle = true
     obfuscate = false
-    level = 3
+    plan = game
     appKey = "Webコンソールで発行されたAppkey"
     version = "プロテクターのバージョン"
  /*   
