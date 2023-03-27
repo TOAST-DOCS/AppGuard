@@ -1,5 +1,20 @@
 ## Security > NHN AppGuard > リリースノート
 
+### 2023. 03. 28.
+* [Android] 1.10.0.0
+    * 外部攻撃検出時のアプリ終了ロジックを改善
+    * 料金プラン変更(Business、Enterprise、Game)
+
+* [iOS] 1.3.10
+    * エンジンセキュリティの強化
+    * 料金プラン変更(Business, Enterprise, Game)
+
+* [Unity] 0.1.0
+    * NHN AppGuard Unity SDKリリース
+
+* [Gradle Plugin] 1.1.0
+    * 料金プランオプション変更(Business, Enterprise, Game)
+
 ### 2023. 02. 28.
 * [Android] 1.9.13.5
     * アビューズアプリライセンス検出の改善
