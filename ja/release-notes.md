@@ -2,18 +2,18 @@
 
 ### 2023. 03. 28.
 * [Android] 1.10.0.0
-    * 외부 공격 탐지 시 앱 종료 로직 개선
-    * 요금 플랜 변경(Business, Enterprise, Game)
+    * 外部攻撃検出時のアプリ終了ロジックを改善
+    * 料金プラン変更(Business、Enterprise、Game)
 
 * [iOS] 1.3.10
-    * 엔진 보안성 강화
-    * 요금 플랜 변경(Business, Enterprise, Game)
+    * エンジンセキュリティの強化
+    * 料金プラン変更(Business, Enterprise, Game)
 
 * [Unity] 0.1.0
-    * NHN AppGuard Unity SDK 출시
+    * NHN AppGuard Unity SDKリリース
 
 * [Gradle Plugin] 1.1.0
-    * 요금 플랜 옵션 변경(Business, Enterprise, Game)
+    * 料金プランオプション変更(Business, Enterprise, Game)
 
 ### 2023. 02. 28.
 * [Android] 1.9.13.5
