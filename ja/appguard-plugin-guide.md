@@ -25,7 +25,7 @@ buildscript {
         // ...
 
         // Add the NHN Cloud AppGuard Gradle Plugin
-        classpath 'com.nhncloud.android:appguard-gradle-plugin:1.0.1'
+        classpath 'com.nhncloud.android:appguard-gradle-plugin:1.1.0'
     }
 }
 ```
@@ -51,7 +51,7 @@ apply plugin: 'com.nhncloud.android.appguard'
 | enabled               | AppGuard Gradleプラグインを適用するかどうか           | Y     |
 | appBundle             | アプリバンドルを適用するかどうか                   | Y     |
 | obfuscate             | AppGuard難読化を適用するかどうか                | Y     |
-| plan                  | 保護プラン(business, enterprise, game)  | Y     |
+| plan                  | 保護プラン(Business, Enterprise, Game)  | Y     |
 | appKey                | コンソールで確認できるAppkey          | Y     |
 | version               | AppGuardバージョン                      | Y     |
 | appGuardSDKFolderPath | AppGuard SDKフォルダパス               | N     |
