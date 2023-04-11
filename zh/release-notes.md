@@ -1,5 +1,11 @@
 ## Security > NHN AppGuard > Release Notes
 
+### 2023. 04. 25.
+* [iOS] 1.3.1
+    * 엔진 보안성 강화
+    * 조건 차단 정책 연동
+    * framework의 info.plist 제거
+
 ### 2023. 04. 10.
 * [Android] 1.10.0.1
     * 문자열 암호화 오류 수정
