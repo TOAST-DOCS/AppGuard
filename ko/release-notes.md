@@ -13,7 +13,7 @@
     * 외부 공격 탐지 시 앱 종료 로직 개선
     * 요금 플랜 변경(Business, Enterprise, Game)
 
-* [iOS] 1.3.10
+* [iOS] 1.3.0
     * 엔진 보안성 강화
     * 요금 플랜 변경(Business, Enterprise, Game)
 

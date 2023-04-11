@@ -9,7 +9,7 @@
     * Improved application shutdown logic when external attacks are detected
     * Changed pricing plans (Business, Enterprise, Game)
 
-* [iOS] 1.3.10
+* [iOS] 1.3.0
     * Enhanced engine security
     * Changed pricing plans (Business, Enterprise, Game)
 
