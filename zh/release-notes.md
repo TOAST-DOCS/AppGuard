@@ -1,24 +1,29 @@
 ## Security > NHN AppGuard > Release Notes
 
-### 2023. 04. 10.
-* [Android] 1.10.0.1
-    * 문자열 암호화 오류 수정
+## 2023. 04. 14.
+* [Android] 1.10.0.2
+    * 32bit 에뮬레이터에서 비정상 종료 이슈 수정
+    * 문자열 난독화 개선
 
-### 2023. 03. 28.
+### April 10, 2023
+* [Android] 1.10.0.1
+    * Fixed string encryption errors
+
+### March 28, 2023
 * [Android] 1.10.0.0
-    * 외부 공격 탐지 시 앱 종료 로직 개선
-    * 요금 플랜 변경(Business, Enterprise, Game)
+    * Improved application shutdown logic when external attacks are detected
+    * Changed pricing plans (Business, Enterprise, Game)
 
 * [iOS] 1.3.10
-    * 엔진 보안성 강화
-    * 요금 플랜 변경(Business, Enterprise, Game)
+    * Enhanced engine security
+    * Changed pricing plans (Business, Enterprise, Game)
 
 * [Unity] 0.1.0
-    * NHN AppGuard Unity SDK 출시
+    * Released NHN AppGuard Unity SDK 
 
 * [Gradle Plugin] 1.1.0
-    * 요금 플랜 옵션 변경(Business, Enterprise, Game)
-    
+    * Changed pricing plan options (Business, Enterprise, Game)
+
 ### February 28, 2023
 * [Android] 1.9.13.5
     * Improved detection of abusing app licenses
