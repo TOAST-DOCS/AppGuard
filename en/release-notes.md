@@ -1,5 +1,9 @@
 ## Security > NHN AppGuard > Release Notes
 
+### April 10, 2023
+* [Android] 1.10.0.1
+    * Fixed string encryption errors
+        
 ### March 28, 2023
 * [Android] 1.10.0.0
     * Improved application shutdown logic when external attacks are detected
