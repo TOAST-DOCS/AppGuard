@@ -1,5 +1,10 @@
 ## Security > NHN AppGuard > Release Notes
 
+## April 14, 2023
+* [Android] 1.10.0.2
+    * Fixed abnormal shutdown issues on 32 bit emulators
+    * Fixed string obfuscation issues
+
 ### April 10, 2023
 * [Android] 1.10.0.1
     * Fixed string encryption errors
