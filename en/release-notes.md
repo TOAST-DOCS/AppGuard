@@ -1,9 +1,9 @@
 ## Security > NHN AppGuard > Release Notes
 
-## 2023. 04. 14.
+## April 14, 2023
 * [Android] 1.10.0.2
-    * 32bit 에뮬레이터에서 비정상적으로 종료되는 오류 수정
-    * 문자열 난독화 개선
+    * Fixed abnormal shutdown issues on 32 bit emulators
+    * Fixed string obfuscation issues
 
 ### April 10, 2023
 * [Android] 1.10.0.1
