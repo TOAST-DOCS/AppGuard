@@ -9,8 +9,16 @@
 ### 2023. 04. 10.
 * [Android] 1.10.0.1
     * 문자열 암호화 오류 수정
+## 2023. 04. 14.
+* [Android] 1.10.0.2
+    * 32bit 에뮬레이터에서 비정상적으로 종료되는 오류 수정
+    * 문자열 난독화 개선
 
-### 2023. 03. 28.
+### April 10, 2023
+* [Android] 1.10.0.1
+    * Fixed string encryption errors
+
+### March 28, 2023
 * [Android] 1.10.0.0
     * Improved application shutdown logic when external attacks are detected
     * Changed pricing plans (Business, Enterprise, Game)
@@ -20,7 +28,7 @@
     * Changed pricing plans (Business, Enterprise, Game)
 
 * [Unity] 0.1.0
-    * NHN AppGuard Unity SDK 출시
+    * Released NHN AppGuard Unity SDK 
 
 * [Gradle Plugin] 1.1.0
     * Changed pricing plan options (Business, Enterprise, Game)
