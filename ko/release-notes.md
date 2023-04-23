@@ -1,13 +1,28 @@
 ## Security > NHN AppGuard > 릴리스 노트
 
+### 2023. 04. 25.
+* [Android] 1.10.0.3
+    * AndroidManifest.txt의 android:debuggable 속성 변조 탐지 추가
+    * 라이브러리 패킹 오류 수정
+    * 비정상 행위 차단 시 앱 종료 로직 개선
+    * [CLI] 보호 작업 실패 처리 개선
+    * [CLI] 보호된 앱 다운로드 개선
+    * [Unity] il2cpp 암호화 개선
+    * [Unity] 게임 메모리 무결성 검증 개선
+    * [Cocos2d] Crashlyitcs에서 심볼 분석이 되지 않는 이슈 수정
+
+* [iOS] 1.3.1
+    * 엔진 보안성 강화
+    * 조건 차단 정책 연동
+    * framework의 info.plist 제거
+
+* [Unity] 0.1.2
+    * iOS SDK 1.3.1 업데이트
+
 ## 2023. 04. 14.
 * [Android] 1.10.0.2
     * 32bit 에뮬레이터에서 비정상적으로 종료되는 오류 수정
     * 문자열 난독화 개선
-
-### 2023. 04. 10.
-* [Android] 1.10.0.1
-    * 문자열 암호화 오류 수정
 
 ### 2023. 04. 10.
 * [Android] 1.10.0.1
@@ -18,7 +33,7 @@
     * 외부 공격 탐지 시 앱 종료 로직 개선
     * 요금 플랜 변경(Business, Enterprise, Game)
 
-* [iOS] 1.3.10
+* [iOS] 1.3.0
     * 엔진 보안성 강화
     * 요금 플랜 변경(Business, Enterprise, Game)
 

@@ -33,7 +33,7 @@
     * 外部攻撃検出時のアプリ終了ロジックを改善
     * 料金プラン変更(Business、Enterprise、Game)
 
-* [iOS] 1.3.10
+* [iOS] 1.3.0
     * エンジンセキュリティの強化
     * 料金プラン変更(Business, Enterprise, Game)
 
