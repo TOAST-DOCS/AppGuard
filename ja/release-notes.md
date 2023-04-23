@@ -2,22 +2,22 @@
 
 ### 2023. 04. 25.
 * [Android] 1.10.0.3
-    * AndroidManifest.txt의 android:debuggable 속성 변조 탐지 추가
-    * 라이브러리 패킹 오류 수정
-    * 비정상 행위 차단 시 앱 종료 로직 개선
-    * [CLI] 보호 작업 실패 처리 개선
-    * [CLI] 보호된 앱 다운로드 개선
-    * [Unity] il2cpp 암호화 개선
-    * [Unity] 게임 메모리 무결성 검증 개선
-    * [Cocos2d] Crashlyitcs에서 심볼 분석이 되지 않는 이슈 수정
+    * AndroidManifest.txtのandroid:debuggableプロパティ改ざん検出を追加
+    * ライブラリパッキングエラーを修正
+    * 異常行為ブロック時のアプリ終了ロジックを改善
+    * [CLI]保護作業失敗処理の改善
+    * [CLI]保護されたアプリのダウンロードを改善
+    * [Unity] il2cpp暗号化の改善
+    * [Unity]ゲームメモリ整合性検証を改善
+    * [Cocos2d] Crashlyitcsでシンボル分析ができない問題を修正
 
 * [iOS] 1.3.1
-    * 엔진 보안성 강화
-    * 조건 차단 정책 연동
-    * framework의 info.plist 제거
+    * エンジンセキュリティの強化
+    * 条件ブロックポリシーの連動
+    * frameworkのinfo.plistの除去
 
 * [Unity] 0.1.2
-    * iOS SDK 1.3.1 업데이트
+    * iOS SDK 1.3.1アップデート
 
 ## 2023. 04. 14.
 * [Android] 1.10.0.2
