@@ -3,8 +3,9 @@
 NHN AppGuard is provided in two versions: Android and iOS.
 
 For Android users, NHN AppGuard is applied when apk files built on SDK integration (optional) go through application protection process (required) on a web console or command line interface(CLI).
-For iOS users, it is applied when the application files are created with SDK integration (required) and no further protection process is required.
-For Unity users, a feature to easily secure Android and iOS apps is provided.
+For iOS, the SDK integration (required) and the built IPA file can be applied through the protection operation (optional) in the web console or CLI. You can enable some protection features (integrity verification, signer verification, default policy enforcement, obfuscation, plan application) only if you use the web console or CLI to perform protection.
+* If you do not perform protection, the Business plan operates.
+
 
 Following diagram shows the NHN AppGuard application process.
 
@@ -33,7 +34,6 @@ When an abusive user is detected, you can check detection status by clicking on 
 Select **App Protection** and click **Download SDK** to download SDK by OS.
 
 Then, follow the attached manual to work with SDKs.
-(In case of iOS, no further steps are required once the application is integrated with the SDK).
 
 ### App Protection Menu
 
