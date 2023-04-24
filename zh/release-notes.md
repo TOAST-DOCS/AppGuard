@@ -19,7 +19,7 @@
 * [Unity] 0.1.2
     * Updated to iOS SDK 1.3.1
 
-## 2023. 04. 14.
+## April 14, 2023
 * [Android] 1.10.0.2
     * Fixed abnormal shutdown issues on 32 bit emulators
     * Fixed string obfuscation issues
