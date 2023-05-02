@@ -1,6 +1,6 @@
 ## Security > NHN AppGuard > Release Notes
 
-### 2023. 05.02
+### 2023. 05.02.
 * [Android] 1.10.0.4
     * 권한 변조(400_106_0) 오탐 이슈 수정
 
