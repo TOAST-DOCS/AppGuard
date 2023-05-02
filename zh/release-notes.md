@@ -1,6 +1,6 @@
 ## Security > NHN AppGuard > Release Notes
 
-### 2023. 05.02.
+### 2023. 05. 02.
 * [Android] 1.10.0.4
     * 권한 변조(400_106_0) 오탐 이슈 수정
 
@@ -20,7 +20,7 @@
     * Integrated with conditional block policy
     * Removed info.plist of framework
 
-* [Unity] 0.1.2
+* [Unity] 0.1.1
     * Updated to iOS SDK 1.3.1
 
 ### April 14, 2023
