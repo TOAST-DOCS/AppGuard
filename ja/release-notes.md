@@ -1,8 +1,12 @@
 ## Security > NHN AppGuard > リリースノート
 
+### 2023. 05.02
+* [Android] 1.10.0.4
+    * 권한 변조(400_106_0) 오탐 이슈 수정
+
 ### 2023. 04. 25.
 * [Android] 1.10.0.3
-    * AndroidManifest.txtのandroid:debuggableプロパティ改ざん検出を追加
+    * AndroidManifest.xmlのandroid:debuggableプロパティ改ざん検出を追加
     * ライブラリパッキングエラーを修正
     * 異常行為ブロック時のアプリ終了ロジックを改善
     * [CLI]保護作業失敗処理の改善
