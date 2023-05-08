@@ -2,7 +2,7 @@
 
 ### May 2, 2023
 * [Android] 1.10.0.4
-    * Fixed false positives in permission tampersing (400_106_0)
+    * Fixed false positives in permission tampering (400_106_0)
 
 ### April 25, 2023
 * [Android] 1.10.0.3
