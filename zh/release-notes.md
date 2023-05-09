@@ -1,8 +1,12 @@
 ## Security > NHN AppGuard > Release Notes
 
+### May 2, 2023
+* [Android] 1.10.0.4
+    * Fixed false positives in permission tampering (400_106_0)
+
 ### April 25, 2023
 * [Android] 1.10.0.3
-    * Added detection of tampering with the android:debuggable property in AndroidManifest.txt
+    * Added detection of tampering with the android:debuggable property in AndroidManifest.xml
     * Fixed library packing errors
     * Improved application shutdown logic when abnormal behaviors are blocked
     * [CLI] Improved handling of protection task failures
@@ -16,10 +20,10 @@
     * Integrated with conditional block policy
     * Removed info.plist of framework
 
-* [Unity] 0.1.2
+* [Unity] 0.1.1
     * Updated to iOS SDK 1.3.1
 
-## April 14, 2023
+### April 14, 2023
 * [Android] 1.10.0.2
     * Fixed abnormal shutdown issues on 32 bit emulators
     * Fixed string obfuscation issues
