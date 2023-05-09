@@ -1,12 +1,8 @@
 ## Security > NHN AppGuard > Release Notes
 
-### 2023. 05.09.
-* [Unity] 0.1.2
-    * iOS SDK 1.3.2 업데이트
-
-### 2023. 05. 02.
+### May 2, 2023
 * [Android] 1.10.0.4
-    * 권한 변조(400_106_0) 오탐 이슈 수정
+    * Fixed false positives in permission tampering (400_106_0)
 
 ### April 25, 2023
 * [Android] 1.10.0.3
