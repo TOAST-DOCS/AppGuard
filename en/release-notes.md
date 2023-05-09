@@ -1,6 +1,9 @@
 ## Security > NHN AppGuard > Release Notes
 
-### 2023. 05.09.
+### 2023. 05. 11.
+* [iOS] 1.3.2
+    * 엔진 보안성 강화(Unity)
+
 * [Unity] 0.1.2
     * iOS SDK 1.3.2 업데이트
 
