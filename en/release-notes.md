@@ -112,6 +112,9 @@
 ### November 9, 2022
 * [Android] 1.9.10.2
     * Fixed background crash issues
+### 2023. 05.09.
+* [Unity] 0.1.2
+    * iOS SDK 1.3.2 업데이트
 
 ### November 2, 2022
 * [Android] 1.9.10.1
