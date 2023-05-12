@@ -1,5 +1,6 @@
 ## Security > NHN AppGuard > Release Notes
 
+
 ### May 11, 2023
 * [iOS] 1.3.2
     * Enhanced engine security (Unity)
