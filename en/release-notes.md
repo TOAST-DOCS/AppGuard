@@ -1,11 +1,11 @@
 ## Security > NHN AppGuard > Release Notes
 
-### 2023. 05. 30.
+### May 30, 2023
 * [Android] 1.10.0.5
-    * 식별자 난독화 오류 수정
+    * Fixed identifier obfuscation errors
 
 * [Gradle Plugin] 1.1.1
-    * extraOptions 오류 수정
+    * Fixed extraOptions errors
 
 ### May 11, 2023
 * [iOS] 1.3.2
