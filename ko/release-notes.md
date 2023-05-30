@@ -1,5 +1,12 @@
 ## Security > NHN AppGuard > 릴리스 노트
 
+### 2023. 05. 30.
+* [Android] 1.10.0.5
+    * 식별자 난독화 오류 수정
+
+* [Gradle Plugin] 1.1.1
+    * extraOptions 오류 수정
+
 ### 2023. 05. 11.
 * [iOS] 1.3.2
     * 엔진 보안성 강화(Unity)
