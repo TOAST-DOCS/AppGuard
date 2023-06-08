@@ -13,7 +13,7 @@
     * AdSupport.framework 필수 프레임워크 제외
 * [Unity] 0.1.3
     * Xcode 라이브러리 의존성 제거
-    * AdSupport.framework 필수 프레임워크 제외
+    * AdSupport.framework 필수 프레임워크 제외 반영
     * iOS SDK 1.3.3 업데이트
 
 ### 2023. 05. 30.
