@@ -1,20 +1,22 @@
 ## Security > NHN AppGuard > Release Notes
 
-### 2023. 06. 13.
+### June 13, 2023
 * [Android] 1.10.1.0
-    * 매크로툴 탐지 개선
-    * 아마존 앱스토어 지원
+    * Improved detection performance of the macro tool
+    * Added support for Amazon Appstore
+
 * [iOS] 1.3.3
-    * 리소스 변조 탐지 기능 추가(Info.plist 변조 대응)
-    * 탐지 콜백 데이터 형식 개선(사용자 가이드 참조)
-    * 탐지 코드 형식 개선(사용자 가이드 참조)
-    * 재서명 스크립트 실행 시 경로에 공백이 포함된 경우 재서명 실패 버그 수정
-    * 엔진 보안성 개선
-    * AdSupport.framework 필수 프레임워크 제외
+    * Added resource tampering detection feature (Info.plist tempering response)
+    * Improved detection callback data format (Refer to the user guide)
+    * Improved detection code format (Refer to the user guide)
+    * Fixed a bug where, when running the re-signing script, re-signing fails if the path contains spaces
+    * Improved engine security
+    * Excluded the AdSupport.framework
+    
 * [Unity] 0.1.3
-    * Xcode 라이브러리 의존성 제거
-    * AdSupport.framework 필수 프레임워크 제외 반영
-    * iOS SDK 1.3.3 업데이트
+    * Removed Xcode library dependencies
+    * Excluded the AdSupport.framework
+    * Updated to iOS SDK 1.3.3
 
 ### May 30, 2023
 * [Android] 1.10.0.5
