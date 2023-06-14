@@ -3,7 +3,9 @@
 ### 2023. 06. 15.
 * [iOS] 1.3.4
     * 엔진 보안성 강화
-    
+* [Unity] 0.1.4
+    * Updated to iOS SDK 1.3.4
+
 ### June 13, 2023
 * [Android] 1.10.1.0
     * Improved detection performance of the macro tool
