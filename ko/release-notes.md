@@ -2,7 +2,7 @@
 
 ### 2023. 06. 15.
 * [iOS] 1.3.4
-    * 엔진 보안성 강화
+    * Enhanced engine security
 * [Unity] 0.1.4
     * iOS SDK 1.3.4 업데이트
 
