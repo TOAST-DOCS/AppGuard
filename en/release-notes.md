@@ -5,6 +5,8 @@
     * Info.plist 변조 오탐 개선
 * [iOS] 1.3.4
     * Enhanced engine security
+* [Unity] 0.1.5
+    * Updated to iOS SDK 1.3.5
 * [Unity] 0.1.4
     * Updated to iOS SDK 1.3.4
 
