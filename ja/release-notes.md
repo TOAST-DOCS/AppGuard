@@ -1,6 +1,8 @@
 ## Security > NHN AppGuard > リリースノート
 
 ### 2023. 06. 15.
+* [iOS] 1.3.5
+    * Info.plist 변조 오탐 수정
 * [iOS] 1.3.4
     * エンジンセキュリティの強化
 * [Unity] 0.1.4
