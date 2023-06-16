@@ -4,7 +4,7 @@
 * [Unity] 0.1.5
     * Updated to iOS SDK 1.3.5
 
-### 2023. 06. 15.
+### June 15, 2023
 * [iOS] 1.3.5
     * Info.plist 변조 오탐 수정
 * [iOS] 1.3.4
