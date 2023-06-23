@@ -1,6 +1,12 @@
 ## Security > NHN AppGuard > Release Notes
 
-### 2023. 06. 15.
+### June 16, 2023
+* [Unity] 0.1.5
+    * Updated to iOS SDK 1.3.5
+
+### June 15, 2023
+* [iOS] 1.3.5
+    * Enhanced detection of Info.plist tampering
 * [iOS] 1.3.4
     * Enhanced engine security
 * [Unity] 0.1.4
