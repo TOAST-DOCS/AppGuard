@@ -1,5 +1,11 @@
 ## Security > NHN AppGuard > 릴리스 노트
 
+### 2023. 06. 15.
+* [iOS] 1.3.4
+    * Enhanced engine security
+* [Unity] 0.1.4
+    * iOS SDK 1.3.4 업데이트
+
 ### 2023. 06. 13.
 * [Android] 1.10.1.0
     * 매크로툴 탐지 개선
