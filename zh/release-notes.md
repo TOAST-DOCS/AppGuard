@@ -1,5 +1,10 @@
 ## Security > NHN AppGuard > Release Notes
 
+### 2023.06. 30.
+* [Android] 1.10.1.1
+    * 루팅 탐지 기능 강화
+    * 안정성 개선
+
 ### June 16, 2023
 * [Unity] 0.1.5
     * Updated to iOS SDK 1.3.5
