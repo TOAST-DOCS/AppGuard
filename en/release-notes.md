@@ -1,6 +1,14 @@
 ## Security > NHN AppGuard > Release Notes
 
-### July 30, 2023
+### 2023. 07. 11.
+* [iOS] 1.3.6
+    * 엔진 보안성 강화
+    * Info.plist 변조 탐지 개선
+    * 앱 복호화 방지 기능 추가
+    * 기본 정책 기능 개선
+    * f 함수 Deprecated
+
+### June 30, 2023
 * [Android] 1.10.1.1
     * Enhanced rooting detection
     * Improved stability
