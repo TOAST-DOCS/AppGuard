@@ -5,7 +5,6 @@
     * 어뷰징앱 탐지 기능 강화
     * 앱가드 기본 정책 개선
     * 블랙리스트 버그 수정
-    * 루팅 탐지 버그 수정
 * [Gradle Plugin] 1.1.2
     * Firebase Crashlytics Gradle 2.8.1 이상에서 mapping.txt 파일이 업로드되지 않는 이슈 수정
 * [iOS] 1.3.6
@@ -16,6 +15,10 @@
     * f 함수 Deprecated
 * [Unity] 0.1.6
     * 안정성 개선
+
+### 2023. 07. 06
+* [Android] 1.10.1.2
+    * 루팅 탐지 버그 수정
 
 ### June 30, 2023
 * [Android] 1.10.1.1
