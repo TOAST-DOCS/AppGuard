@@ -1,6 +1,18 @@
 ## Security > NHN AppGuard > Release Notes
 
-### 2023. 06. 15.
+
+### July 30, 2023
+* [Android] 1.10.1.1
+    * Enhanced rooting detection
+    * Improved stability
+
+### June 16, 2023
+* [Unity] 0.1.5
+    * Updated to iOS SDK 1.3.5
+
+### June 15, 2023
+* [iOS] 1.3.5
+    * Info.plist 변조 오탐 수정
 * [iOS] 1.3.4
     * Enhanced engine security
 * [Unity] 0.1.4
