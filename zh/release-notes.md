@@ -1,12 +1,21 @@
 ## Security > NHN AppGuard > Release Notes
 
 ### 2023. 07. 11.
+* [Android] 1.10.2.0
+    * 어뷰징앱 탐지 기능 강화
+    * 앱가드 기본 정책 개선
+    * 블랙리스트 버그 수정
+    * 루팅 탐지 버그 수정
+* [Gradle Plugin] 1.1.2
+    * Firebase Crashlytics Gradle 2.8.1 이상에서 mapping.txt 파일이 업로드되지 않는 이슈 수정
 * [iOS] 1.3.6
     * 엔진 보안성 강화
     * Info.plist 변조 탐지 개선
     * 앱 복호화 방지 기능 추가
     * 기본 정책 기능 개선
     * f 함수 Deprecated
+* [Unity] 0.1.6
+    * 안정성 개선
 
 ### June 30, 2023
 * [Android] 1.10.1.1
