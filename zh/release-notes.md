@@ -20,11 +20,6 @@
 * [Android] 1.10.1.2
     * 루팅 탐지 버그 수정
 
-### June 30, 2023
-* [Android] 1.10.1.1
-    * Enhanced rooting detection
-    * Improved stability
-
 ### June 16, 2023
 * [Unity] 0.1.5
     * Updated to iOS SDK 1.3.5
