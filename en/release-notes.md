@@ -1,14 +1,28 @@
 ## Security > NHN AppGuard > Release Notes
 
-### July 30, 2023
-* [Android] 1.10.1.1
-    * Enhanced rooting detection
+### July 11, 2023
+* [Android] 1.10.2.0
+    * Enhanced abusing app detection
+    * Improved NHN AppGuard default policy
+    * Fixed blacklist bug
+* [Gradle Plugin] 1.1.2
+    * Fixed an issue where the mapping.txt file is not uploaded in Firebase Crashlytics Gradle 2.8.1 or higher
+* [iOS] 1.3.6
+    * Enhanced engine security
+    * Enhanced detection of Info.plist tampering
+    * Added app decryption prevention
+    * Improved default policy feature
+    * Deprecated f function
+* [Unity] 0.1.6
     * Improved stability
+
+### July 6, 2023
+* [Android] 1.10.1.2
+    * Fixed rooting detection bug
 
 ### June 16, 2023
 * [Unity] 0.1.5
     * Updated to iOS SDK 1.3.5
-
 
 ### June 15, 2023
 * [iOS] 1.3.5
