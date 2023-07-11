@@ -14,7 +14,7 @@
 * 유/무료 선택창 제거(9월 1일 적용)
 * Android 8.0 지원
 #### 버그 수정
-* 앱가드 CLI(AppGuard.exe)를 자동으로 업데이트 해주는 모듈(CLIUpdater.exe) 수정, 업데이트 필수
+* NHN AppGuard CLI(AppGuard.exe)를 자동으로 업데이트 해주는 모듈(CLIUpdater.exe) 수정, 업데이트 필수
     * 최신 SDK의 CLI 사용 필요 (자동 업데이트기능을 원하지 않는 경우 CLI 옵션으로 --noUpdate를 추가)
 
 ### 2017.07.20
@@ -26,10 +26,10 @@
 ### 2017.06.22
 
 #### 기능 개선/변경
-* 64bit 아키텍처 x86_64, arm64-v8a 용 jni 사용시 아키텍쳐에 해당되는 앱가드 모듈이 포함됨
+* 64bit 아키텍처 x86_64, arm64-v8a 용 jni 사용시 아키텍쳐에 해당되는 NHN AppGuard 모듈이 포함됨
 * Android, iOS(Beta) SDK 다운로드 경로 분리
 * iOS(Beta) 버전은 무료로 제공
-* 앱가드 자체 모듈 변조 탐지 기능 강화
+* NHN AppGuard 자체 모듈 변조 탐지 기능 강화
 * Unity3D DLL 파일 암호화 대상 확장
     * 유니티 기본 DLL 파일 및 추가적인 DLL 파일 암호화 (Level3)
 
@@ -50,7 +50,7 @@
 #### 버그 수정
 * 앱변조 방지기능 적용시 일부 앱 설치 문제 수정
 * 앱변조 방지기능 적용시 외부 리소스 사용앱에 대한 호환성 강화
-* Unity3d 5.6 버전에서 앱가드 빌드 오류 수정
+* Unity3d 5.6 버전에서 NHN AppGuard 빌드 오류 수정
 
 ### 2017.04.04
 
@@ -80,13 +80,13 @@
 
 #### 기능 개선/변경
 * 치팅툴 탐지 패턴 추가
-* [Console] 탐지 로그에 앱가드 엔진 버전 정보 추가
+* [Console] 탐지 로그에 NHN AppGuard 엔진 버전 정보 추가
 
 ### 2016.12.08
 
 #### 기능 개선/변경
 * 루팅 탐지 패턴 추가
-* [SDK] 앱가드에서 차단시 표시되는 메시지 다국어 설정 API 추가
+* [SDK] NHN AppGuard에서 차단시 표시되는 메시지 다국어 설정 API 추가
 
 #### 버그 수정
 * [Console] 보호가 실패하였는데 웹 콘솔상에 성공으로 표시되는 오류 수정
@@ -95,14 +95,14 @@
 
 #### 기능 개선/변경
 
-* [SDK] 앱가드 SDK(tcag.jar) 업데이트
+* [SDK] NHN AppGuard SDK(tcag.jar) 업데이트
 * [Console] AppGuard Web Console에 공지사항 추가
 
 ### 2016.10.20
 
 #### 기능 개선/변경
 
-* [API] 앱가드 SDK 연동 함수 매개변수 변경
+* [API] NHN AppGuard SDK 연동 함수 매개변수 변경
 * [SDK] AppGuard CLI(Command Line Build) 툴 자동 업데이트 기능 추가
 
 ### 2016.09.29

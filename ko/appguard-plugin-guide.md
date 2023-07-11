@@ -48,13 +48,13 @@ apply plugin: 'com.nhncloud.android.appguard'
 
 | 옵션                    | 설명                            | 필수 여부 |
 | --------------------- | ----------------------------- | ----- |
-| enabled               | 앱가드 그래들 플러그인 적용 여부            | Y     |
+| enabled               | NHN AppGuard 그래들 플러그인 적용 여부            | Y     |
 | appBundle             | 앱 번들 적용 여부                    | Y     |
-| obfuscate             | 앱가드 난독화 적용 여부                 | Y     |
+| obfuscate             | NHN AppGuard 난독화 적용 여부                 | Y     |
 | plan                  | 보호 플랜(Business, Enterprise, Game)  | Y     |
 | appKey                | 콘솔에서 확인할 수 있는 Appkey          | Y     |
-| version               | 앱가드 버전                        | Y     |
-| appGuardSDKFolderPath | 앱가드 SDK 폴더 경로                 | N     |
+| version               | NHN AppGuard 버전                        | Y     |
+| appGuardSDKFolderPath | NHN AppGuard SDK 폴더 경로                 | N     |
 | overrideOutputFile    | 보호된 파일 덮어쓰기 여부                | N     |
 | extraOptions          | CLI에서 사용하던 옵션 추가(필요시 문의)      | N     |
 | outputFilePath        | 보호된 파일 저장 경로(variants scope) | N     |
@@ -74,7 +74,7 @@ appguard {
     appKey = "웹 콘솔에서 발급받은 Appkey"
     version = "프로텍터 버전"
  /*   
-    appGuardSDKFolderPath = "앱가드 SDK 폴더 경로" // optional
+    appGuardSDKFolderPath = "NHN AppGuard SDK 폴더 경로" // optional
     overrideOutputFile = false // optional
     extraOptions = "" // optional
     variants {
@@ -113,7 +113,7 @@ appguard{
 
 #### 사전 준비
 
-1. 프로젝트에서 앱가드 난독화를 사용중이어야 합니다.
+1. 프로젝트에서 NHN AppGuard 난독화를 사용중이어야 합니다.
 
 2. 안드로이드 프로젝트에서 [Proguard](https://www.guardsquare.com/manual/home)를 사용중이여야 합니다.
 
