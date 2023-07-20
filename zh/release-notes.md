@@ -1,11 +1,11 @@
 ## Security > NHN AppGuard > Release Notes
 
-### 2023. 07. 21.
+### July 21, 2023
 * [Android] 1.10.2.1
-    * 앱 실행 시 비정상 종료 이슈 수정
-    * 난독화 개선
-        * 난독화 대상 메서드가 65K를 초과 시 보호 작업에 실패하는 이슈 대응
-    * 정책 변조 대응 개선
+    * Fixed abnormal termination error on app launch
+    * Improved obfuscation
+        * Fixed an issue where protection fails when the method for obfuscation exceeds 65K
+    * Improved response against policy tempering
 
 ### July 11, 2023
 * [Android] 1.10.2.0
