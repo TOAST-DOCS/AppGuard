@@ -1,5 +1,12 @@
 ## Security > NHN AppGuard > Release Notes
 
+### July 21, 2023
+* [Android] 1.10.2.1
+    * Fixed abnormal termination error on app launch
+    * Improved obfuscation
+        * Fixed an issue where protection fails when the method for obfuscation exceeds 65K
+    * Improved response against policy tempering
+
 ### July 11, 2023
 * [Android] 1.10.2.0
     * Enhanced abusing app detection
