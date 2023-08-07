@@ -1,5 +1,13 @@
 ## Security > NHN AppGuard > 릴리스 노트
 
+### 2023. 08. 16.
+* [iOS] 1.3.7
+    * 엔진 보안성 강화
+    * 앱 복호화 기능 강화
+    * Re-Signer 스크립트 Deprecated
+    * CLI에서 재서명이 가능하도록 codesign 명령어 추가
+
+
 ### 2023. 07. 21.
 * [Android] 1.10.2.1
     * 앱 실행 시 비정상 종료 이슈 수정
