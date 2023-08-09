@@ -1,5 +1,18 @@
 ## Security > NHN AppGuard > Release Notes
 
+### August 16, 2023
+* [Android] 1.10.2.2
+    * Enhanced hooking detection
+    * Improved engine stability
+    * [Unity] Fixed abnormal shutdown issues on Android 4.4(API 19)
+* [iOS] 1.3.7
+    * Enhanced engine security
+    * Enhanced app decryption prevention
+    * Added the resigning feautre to CLI
+        * The existing re-sign script is no longer available.
+* [Unity] 0.1.7
+    * Updated to iOS SDK 1.3.7
+
 ### July 21, 2023
 * [Android] 1.10.2.1
     * Fixed abnormal termination error on app launch
@@ -22,6 +35,7 @@
     * Deprecated f function
 * [Unity] 0.1.6
     * Improved stability
+    * Updated to iOS SDK 1.3.6
 
 ### July 6, 2023
 * [Android] 1.10.1.2
