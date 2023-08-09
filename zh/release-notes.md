@@ -1,17 +1,17 @@
 ## Security > NHN AppGuard > Release Notes
 
-### 2023. 08. 16.
+### August 16, 2023
 * [Android] 1.10.2.2
-    * 후킹 탐지 기능 강화
-    * 엔진 안정성 개선
-    * [Unity] Android 4.4(API 19)에서 비정상적으로 종료되는 오류 수정
+    * Enhanced hooking detection
+    * Improved engine stability
+    * [Unity] Fixed abnormal shutdown issues on Android 4.4(API 19)
 * [iOS] 1.3.7
-    * 엔진 보안성 강화
-    * 앱 복호화 방지 기능 강화
-    * CLI에 재서명 기능 추가
-        * 기존 제공되던 재서명 스크립트는 더 이상 제공되지 않습니다.
+    * Enhanced engine security
+    * Enhanced app decryption prevention
+    * Added the resigning feautre to CLI
+        * The existing re-sign script is no longer available.
 * [Unity] 0.1.7
-    * iOS SDK 1.3.7 업데이트
+    * Updated to iOS SDK 1.3.7
 
 ### July 21, 2023
 * [Android] 1.10.2.1
