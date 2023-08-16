@@ -39,7 +39,8 @@
 
 ### July 6, 2023
 * [Android] 1.10.1.2
-    * Fixed rooting detection bug
+    * Enhanced rooting detection
+    * Improved stability
 
 ### June 16, 2023
 * [Unity] 0.1.5
