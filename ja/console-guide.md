@@ -5,7 +5,7 @@ NHN AppGuardは、AndroidバージョンとiOSバージョンがあります。
 Androidバージョンは、SDK連携(選択事項)後、ビルドされたapkファイルをWeb ConsoleまたはCLIを通してアプリ保護作業(必須事項)を行うと適用されます。
 iOS는 SDK 연동(필수 사항)과 빌드된 IPA 파일을 Web console 또는 CLI에서 보호 작업(선택 사항)을 통해 적용할 수 있습니다. Web console 또는 CLI를 사용하여 보호 작업을 수행할 경우에만 일부 보호 기능(무결성 검증, 서명자 검증, 기본 정책 적용, 난독화, 플랜 적용)을 활성화할 수 있습니다.
 * 보호 작업을 수행하지 않으면 Business 플랜으로 동작합니다.
-UnityバージョンはAndroid/iOSアプリを簡単に保護できる便利機能を提供します。
+Unity 버전은 Android/iOS 앱을 손쉽게 보호할 수 있는 편의 기능을 제공합니다(Android 앱은 필수 사항, iOS 앱은 선택 사항). 또한 Android SDK와 iOS SDK를 별도로 다운로드 받지 않아도 적용이 가능합니다(Android는 선택 사항, iOS는 필수 사항).
 
 NHN AppGuardの使用するための適用段階は次のとおりです。
 
