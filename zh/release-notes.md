@@ -1,5 +1,11 @@
 ## Security > NHN AppGuard > Release Notes
 
+### September 12, 2023
+* [Android] 1.10.2.2
+* [iOS] 1.3.8
+    * Enhanced engine security
+    * Enhanced app decryption prevention
+
 ### August 17, 2023
 * [Android] 1.10.2.2
     * Enhanced hooking detection
