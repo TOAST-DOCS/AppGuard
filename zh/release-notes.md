@@ -1,5 +1,22 @@
 ## Security > NHN AppGuard > Release Notes
 
+### September 12, 2023
+### 2023. 09. 12.
+* [Android] 1.10.3.0
+    * [CLI] 앱 서명(SHA-256) 추가 옵션을 필수 항목으로 변경
+        * Google Play, 원스토어 등의 스토어 서명 방식을 사용하는 경우 `--as` 옵션 필수
+        * apk 또는 aab에 서명된 정보 외의 서명을 허용하지 않을 경우 `--no-as` 옵션 필수
+    * 디바이스 용량 부족으로 앱 실행 불가 시 메시지 노출
+    * 구글 자동 무결성 보호(Google Automatic Integrity Protection) 지원
+    * 녹스 에뮬레이터 탐지 개선
+    * NHN AppGuard 엔진 보안성 강화
+    * 식별자 난독화 개선
+    * 후킹 탐지 기능 개선
+    * 매크로툴 탐지 개선
+* [iOS] 1.3.8
+    * Enhanced engine security
+    * Enhanced app decryption prevention
+
 ### August 17, 2023
 * [Android] 1.10.2.2
     * Enhanced hooking detection
