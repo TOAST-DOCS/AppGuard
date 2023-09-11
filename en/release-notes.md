@@ -11,7 +11,6 @@
     * Enhanced security of NHN AppGuard engine
     * Improved identifier obfuscation
     * Improved hooking detection
-
 * [iOS] 1.3.8
     * Enhanced engine security
     * Enhanced app decryption prevention
