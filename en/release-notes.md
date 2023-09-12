@@ -1,5 +1,21 @@
 ## Security > NHN AppGuard > Release Notes
 
+### September 12, 2023
+* [Android] 1.10.3.0
+    * [CLI] Changed an aditional option of app signature to a required item
+        * When using signature methods of stores including Google Play and ONE store, the `--as` option is required
+        * When signatures other than the signed information on apk or aab are not allowed, the `--no-as` option is required
+    * Displayed a message when the app cannot run due to low device capacity
+    * Added support for Google Automatic Integrity Protection
+    * Improved Knox emulator detection
+    * Enhanced security of NHN AppGuard engine
+    * Improved identifier obfuscation
+    * Improved hooking detection
+    * Improved safety for low-spec tablets
+* [iOS] 1.3.8
+    * Enhanced engine security
+    * Enhanced app decryption prevention
+
 ### August 17, 2023
 * [Android] 1.10.2.2
     * Enhanced hooking detection
