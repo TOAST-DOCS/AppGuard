@@ -11,9 +11,11 @@
     * Enhanced security of NHN AppGuard engine
     * Improved identifier obfuscation
     * Improved hooking detection
+    * 저사양 디바이스 안정성 개선
 * [iOS] 1.3.8
     * Enhanced engine security
     * Enhanced app decryption prevention
+
 ### August 17, 2023
 * [Android] 1.10.2.2
     * Enhanced hooking detection
