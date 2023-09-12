@@ -1,11 +1,23 @@
 ## Security > NHN AppGuard > Console Guide
 
-NHN AppGuard is provided in two versions: Android and iOS.
+NHN AppGuard supports Android, iOS, and Unity environments.
 
-For Android users, NHN AppGuard is applied when apk files built on SDK integration (optional) go through application protection process (required) on a web console or command line interface(CLI).
-For iOS, the SDK integration (required) and the built IPA file can be applied through the protection operation (optional) in the web console or CLI. You can enable some protection features (integrity verification, signer verification, default policy enforcement, obfuscation, plan application) only if you use the web console or CLI to perform protection.
-* If you do not perform protection, the Business plan operates.
+### Android
 
+* You can apply the AppGuard Android SDK to use even more enhanced features (optional).
+* You can protect apk or aab files built in Android Studio, etc. more conveniently through the web console or CLI (required).
+
+### iOS
+
+* You can apply the AppGuard iOS SDK to protect your app (required).
+* You can protect your app more conveniently through the web console or CLI from ipa files built in Xcode (optional).
+* You must perform protection actions using the web console or CLI to enable features such as integrity verification, signer verification, default policy, obfuscation, and plan selection.
+* If you don't protect your app through the web console or CLI, it runs on the Business plan.
+
+### Unity
+
+* You can easily protect Android/iOS apps through provided features.
+* The Unity SDK includes an Android SDK and an iOS SDK and can be applied through a single interface.
 
 Following diagram shows the NHN AppGuard application process.
 
