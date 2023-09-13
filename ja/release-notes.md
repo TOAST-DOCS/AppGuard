@@ -1,8 +1,6 @@
 ## Security > NHN AppGuard > リリースノート
 
 ### 2023. 09. 13.
-* [Android] 1.10.3.1
-    * 앱 서명 변조 오탐 이슈 수정
 * [Unity] 0.1.8
     * iOS SDK 1.3.8アップデート
 
