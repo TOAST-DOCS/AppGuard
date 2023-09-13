@@ -2,7 +2,7 @@
 
 ### September 13, 2023
 * [Android] 1.10.3.1
-    * 앱 서명 변조 오탐 이슈 수정
+    * Fixed false positives related to tampering of app signature
 * [Unity] 0.1.8
     * Updated to iOS SDK 1.3.8
 
