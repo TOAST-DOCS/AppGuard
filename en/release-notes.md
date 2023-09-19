@@ -1,5 +1,14 @@
 ## Security > NHN AppGuard > Release Notes
 
+### 2023. 09. 26.
+* [Android] 1.10.3.2
+    * 서명 변조 오탐 수정
+        * 앱 보호 시 사용하는 keystore의 서명을 변조로 판단하는 이슈를 수정합니다.
+    * 서명 중복 여부 확인
+        * `--as` 옵션과 keystore의 서명이 동일할 경우 에러를 반환합니다.
+* [Unity] 0.2.0
+    * Certificate Fingerprints 비활성화 옵션 추가
+
 ### September 13, 2023
 * [Android] 1.10.3.1
     * Fixed false positives related to tampering of app signature
