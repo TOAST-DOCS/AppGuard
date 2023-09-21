@@ -2,6 +2,7 @@
 
 ### 2023. 09. 26.
 * [Android] 1.10.3.2
+    * [Plugin] Certificate Fingerprints 옵션 추가
     * 서명 변조 오탐 수정
         * 앱 보호 시 사용하는 keystore의 서명을 변조로 판단하는 문제 수정
     * 서명 중복 여부 확인
