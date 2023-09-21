@@ -46,18 +46,20 @@ apply plugin: 'com.nhncloud.android.appguard'
 
 アプリバンドルを適用するかどうか、NHN AppGuard難読化を適用するかどうか、難読化レベル、その他オプションも設定できます。オプションは次のとおりです。
 
-| オプション                  | 説明                          | 必須かどうか |
-| --------------------- | ----------------------------- | ----- |
-| enabled               | AppGuard Gradleプラグインを適用するかどうか           | Y     |
-| appBundle             | アプリバンドルを適用するかどうか                   | Y     |
-| obfuscate             | AppGuard難読化を適用するかどうか                | Y     |
-| plan                  | 保護プラン(Business, Enterprise, Game)  | Y     |
-| appKey                | コンソールで確認できるAppkey          | Y     |
-| version               | AppGuardバージョン                      | Y     |
-| appGuardSDKFolderPath | AppGuard SDKフォルダパス               | N     |
-| overrideOutputFile    | 保護されたファイルを上書きするかどうか               | N     |
-| extraOptions          | CLIで使用していたオプションを追加(必要なときはお問い合わせください)      | N     |
-| outputFilePath        | 保護されたファイルの保存パス(variants scope) | N     |
+| オプション                       | 説明                                  | 必須かどうか |
+| ----------------------------- | ------------------------------------ | ------ |
+| enabled                       | AppGuard Gradleプラグインを適用するかどうか  | Y      |
+| appBundle                     | アプリバンドルを適用するかどうか              | Y      |
+| obfuscate                     | AppGuard難読化を適用するかどうか            | Y      |
+| plan                          | 保護プラン(Business, Enterprise, Game)  |  Y     |
+| appKey                        | コンソールで確認できるAppkey                | Y      |
+| version                       | AppGuardバージョン                      | Y      |
+| certificateFingerprintEnabled | 앱 서명 무결성 검증 여부 <br> (활성화 기본 설정)    | N      |
+| certificateFingerprints       | 서명 검증을 위한 앱 서명 키(SHA-256)<br>(최대 10개까지 입력 가능)| N <br> (certificateFingerprintEnabled 활성화 시 필수)      |
+| appGuardSDKFolderPath         | AppGuard SDKフォルダパス                  | N      |
+| overrideOutputFile            | 保護されたファイルを上書きするかどうか            | N      |
+| extraOptions                  | CLIで使用していたオプションを追加(必要なときはお問い合わせください)    | N      |
+| outputFilePath                | 保護されたファイルの保存パス(variants scope)   | N      |
 
 ### NHN AppGuard Gradle Pluginオプション設定
 
@@ -73,6 +75,12 @@ appguard {
     plan = game
     appKey = "Webコンソールで発行されたAppkey"
     version = "プロテクターのバージョン"
+    certificateFingerprintEnabled = true // optional, true 기본 설정
+    certificateFingerprints = [
+        "xx:xx:xx..",
+        "xx:xx:xx..",
+        ...
+    ] // optional, certificateFingerprintEnabled = true 설정시 필수
  /*   
     appGuardSDKFolderPath = "AppGuard SDKフォルダパス" // optional
     overrideOutputFile = false // optional
@@ -128,5 +136,30 @@ appguard {
     // ...
     enabled = true
     obfuscate = true
+}
+```
+
+### 앱 서명 무결성 검증 설정
+1.2.0 버전부터 앱 서명 무결성 검증 여부와 검증에 사용될 앱 서명키를 추가할 수 있습니다.<br>
+**앱 서명 무결성 검증 여부는 활성화가 기본값이며, 활성화시에는 앱 서명키를 반드시 입력해야합니다.**
+
+#### 적용 방법
+앱 수준의 build.gradle 파일에 다음과 같이 appguard 옵션을 작성합니다.
+
+- 서명 무결성 검증 활성화 
+```groovy
+appguard {
+    certificateFingerprintEnabled = true 
+    certificateFingerprints = [
+        "xx:xx:xx..",
+        "xx:xx:xx..",
+        ...
+    ]
+}
+```
+- 앱 서명 무결성 검증 비활성화
+```groovy
+appguard {
+    certificateFingerprintEnabled = false
 }
 ```

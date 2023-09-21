@@ -46,18 +46,20 @@ If you do not specify a download path for protected files, the built Android app
 
 You can also set whether to apply the app bundle, whether to apply NHN AppGuard obfuscation, the level of obfuscation, and other options. The options are as follows:
 
-| Option                    | Description                            | Required |
-| --------------------- | ----------------------------- | ----- |
-| enabled               | Whether to apply the AppGuard Gradle plugin            | Y     |
-| appBundle             | Whether to apply the app bundle                    | Y     |
-| obfuscate             | Whether to apply AppGuard obfuscation                 | Y     |
-| plan                  | 보호 플랜(Business, Enterprise, Game)  | Y     |
-| appKey                | Appkey that can be found in the console          | Y     |
-| version               | AppGuard version                        | Y     |
-| appGuardSDKFolderPath | AppGuard SDK folder path                 | N     |
-| overrideOutputFile    | Whether to overwrite protected files                | N     |
-| extraOptions          | Add options used in CLI (contact us if necessary)      | N     |
-| outputFilePath        | Storage path for the protected file (variants scope) | N     |
+| Option                        | Description                            | Required |
+| ----------------------------- | ----------------------------- | ----- |
+| enabled                       | Whether to apply the AppGuard Gradle plugin            | Y     |
+| appBundle                     | Whether to apply the app bundle                    | Y     |
+| obfuscate                     | Whether to apply AppGuard obfuscation                 | Y     |
+| plan                          | 보호 플랜(Business, Enterprise, Game)  | Y     |
+| appKey                        | Appkey that can be found in the console          | Y     |
+| version                       | AppGuard version                        | Y     |
+| certificateFingerprintEnabled | 앱 서명 무결성 검증 여부 <br> (활성화 기본 설정)    | N      |
+| certificateFingerprints       | 서명 검증을 위한 앱 서명 키(SHA-256)<br>(최대 10개까지 입력 가능)| N <br> (certificateFingerprintEnabled 활성화 시 필수)      |
+| appGuardSDKFolderPath         | AppGuard SDK folder path                 | N     |
+| overrideOutputFile            | Whether to overwrite protected files                | N     |
+| extraOptions                  | Add options used in CLI (contact us if necessary)      | N     |
+| outputFilePath                | Storage path for the protected file (variants scope) | N     |
 
 ### Setting the NHN AppGuard Gradle Plugin Options
 
@@ -73,6 +75,12 @@ appguard {
     plan = game
     appKey = "Appkey issued from the web console"
     version = "Protector version"
+    certificateFingerprintEnabled = true // optional, true 기본 설정
+    certificateFingerprints = [
+        "xx:xx:xx..",
+        "xx:xx:xx..",
+        ...
+    ] // optional, certificateFingerprintEnabled = true 설정시 필수
  /*   
     appGuardSDKFolderPath = "AppGuard SDK folder path" // optional
     overrideOutputFile = false // optional
@@ -128,5 +136,30 @@ appguard {
     // ...
     enabled = true
     obfuscate = true
+}
+```
+
+### 앱 서명 무결성 검증 설정
+1.2.0 버전부터 앱 서명 무결성 검증 여부와 검증에 사용될 앱 서명키를 추가할 수 있습니다.<br>
+**앱 서명 무결성 검증 여부는 활성화가 기본값이며, 활성화시에는 앱 서명키를 반드시 입력해야합니다.**
+
+#### 적용 방법
+앱 수준의 build.gradle 파일에 다음과 같이 appguard 옵션을 작성합니다.
+
+- 서명 무결성 검증 활성화 
+```groovy
+appguard {
+    certificateFingerprintEnabled = true 
+    certificateFingerprints = [
+        "xx:xx:xx..",
+        "xx:xx:xx..",
+        ...
+    ]
+}
+```
+- 앱 서명 무결성 검증 비활성화
+```groovy
+appguard {
+    certificateFingerprintEnabled = false
 }
 ```
