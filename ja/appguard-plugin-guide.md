@@ -80,7 +80,7 @@ appguard {
         "xx:xx:xx..",
         "xx:xx:xx..",
         ...
-    ] // optional, certificateFingerprintEnabled = true 설정시 필수
+    ] // optional, certificateFingerprintEnabled = true 설정 시 필수
  /*   
     appGuardSDKFolderPath = "AppGuard SDKフォルダパス" // optional
     overrideOutputFile = false // optional
@@ -140,8 +140,8 @@ appguard {
 ```
 
 ### 앱 서명 무결성 검증을 위한 인증서 지문 설정
-1.2.0 버전부터 인증서 지문 활성화 여부와 검증에 사용될 인증서 지문(SHA-256)를 추가할 수 있습니다.<br>
-**앱 서명 검증을 위한 인증서 지문은 활성화가 기본값이며, 활성화시에는 인증서 지문을 반드시 입력해야합니다.**
+1.2.0 버전부터 인증서 지문 활성화 여부와 검증에 사용될 인증서 지문(SHA-256)을 추가할 수 있습니다.<br>
+**앱 서명 검증을 위한 인증서 지문은 활성화가 기본값이며, 활성화 시에는 인증서 지문을 반드시 입력해야 합니다.**
 
 #### 적용 방법
 앱 수준의 build.gradle 파일에 다음과 같이 appguard 옵션을 작성합니다.

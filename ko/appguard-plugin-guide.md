@@ -51,7 +51,7 @@ apply plugin: 'com.nhncloud.android.appguard'
 | enabled                       | NHN AppGuard 그래들 플러그인 적용 여부   | Y      |
 | appBundle                     | 앱 번들 적용 여부                      | Y      |
 | obfuscate                     | NHN AppGuard 난독화 적용 여부          | Y      |
-| plan                          | 보호 플랜(Business, Enterprise,Game) |  Y     |
+| plan                          | 보호 플랜(Business, Enterprise, Game) |  Y     |
 | appKey                        | 콘솔에서 확인할 수 있는 AppKey           | Y      |
 | version                       | NHN AppGuard 버전                   | Y      |
 | certificateFingerprintEnabled | 앱 서명 검증을 위한 인증서 지문 활성화<br>(활성화 기본 설정)    | N      |
@@ -73,14 +73,14 @@ appguard {
     appBundle = true
     obfuscate = false
     plan = game
-    appKey = "웹 콘솔에서 발급받은 Appkey"
+    appKey = "웹 콘솔에서 발급 받은 Appkey"
     version = "프로텍터 버전"
     certificateFingerprintEnabled = true // optional, true 기본 설정
     certificateFingerprints = [
         "xx:xx:xx..",
         "xx:xx:xx..",
         ...
-    ] // optional, certificateFingerprintEnabled = true 설정시 필수
+    ] // optional, certificateFingerprintEnabled = true 설정 시 필수
  /*   
     appGuardSDKFolderPath = "NHN AppGuard SDK 폴더 경로" // optional
     overrideOutputFile = false // optional
@@ -140,8 +140,8 @@ appguard {
 ```
 
 ### 앱 서명 무결성 검증을 위한 인증서 지문 설정
-1.2.0 버전부터 인증서 지문 활성화 여부와 검증에 사용될 인증서 지문(SHA-256)를 추가할 수 있습니다.<br>
-**앱 서명 검증을 위한 인증서 지문은 활성화가 기본값이며, 활성화시에는 인증서 지문을 반드시 입력해야합니다.**
+1.2.0 버전부터 인증서 지문 활성화 여부와 검증에 사용될 인증서 지문(SHA-256)을 추가할 수 있습니다.<br>
+**앱 서명 검증을 위한 인증서 지문은 활성화가 기본값이며, 활성화 시에는 인증서 지문을 반드시 입력해야 합니다.**
 
 #### 적용 방법
 앱 수준의 build.gradle 파일에 다음과 같이 appguard 옵션을 작성합니다.
