@@ -54,8 +54,8 @@ apply plugin: 'com.nhncloud.android.appguard'
 | plan                          | 保護プラン(Business, Enterprise, Game)  |  Y     |
 | appKey                        | コンソールで確認できるAppkey                | Y      |
 | version                       | AppGuardバージョン                      | Y      |
-| certificateFingerprintEnabled | 앱 서명 검증을 위한 인증서 지문 활성화<br>(활성화 기본 설정)    | N      |
-| certificateFingerprints       | 앱 서명 검증을 위한 인증서 지문 (SHA-256)<br>(최대 10개까지 입력 가능)| N <br> (certificateFingerprintEnabled 활성화 시 필수)      |
+| certificateFingerprintEnabled | アプリ署名検証のための証明書指紋が有効<br>(有効が基本設定)    | N      |
+| certificateFingerprints       | アプリ署名検証のための証明書指紋 (SHA-256)<br>(最大10個まで入力可)| N <br> (certificateFingerprintEnabledが有効の場合は必須)      |
 | appGuardSDKFolderPath         | AppGuard SDKフォルダパス                  | N      |
 | overrideOutputFile            | 保護されたファイルを上書きするかどうか            | N      |
 | extraOptions                  | CLIで使用していたオプションを追加(必要なときはお問い合わせください)    | N      |
@@ -75,12 +75,12 @@ appguard {
     plan = game
     appKey = "Webコンソールで発行されたAppkey"
     version = "プロテクターのバージョン"
-    certificateFingerprintEnabled = true // optional, true 기본 설정
+    certificateFingerprintEnabled = true // optional, true基本設定
     certificateFingerprints = [
         "xx:xx:xx..",
         "xx:xx:xx..",
         ...
-    ] // optional, certificateFingerprintEnabled = true 설정 시 필수
+    ] // optional, certificateFingerprintEnabled = true設定時に必須
  /*   
     appGuardSDKFolderPath = "AppGuard SDKフォルダパス" // optional
     overrideOutputFile = false // optional
@@ -139,14 +139,14 @@ appguard {
 }
 ```
 
-### 앱 서명 무결성 검증을 위한 인증서 지문 설정
-1.2.0 버전부터 인증서 지문 활성화 여부와 검증에 사용될 인증서 지문(SHA-256)을 추가할 수 있습니다.<br>
-**앱 서명 검증을 위한 인증서 지문은 활성화가 기본값이며, 활성화 시에는 인증서 지문을 반드시 입력해야 합니다.**
+### アプリ署名の整合性検証のための証明書指紋設定
+1.2.0バージョンから証明書指紋有効化有無と検証に使用される証明書指紋(SHA-256)を追加できます。<br>
+**アプリ署名検証のための証明書指紋は有効がデフォルト値で、有効化するには証明書指紋を必ず入力する必要があります。**
 
-#### 적용 방법
-앱 수준의 build.gradle 파일에 다음과 같이 appguard 옵션을 작성합니다.
+#### 適用方法
+アプリレベルのbuild.gradleファイルに次のようにappguardオプションを作成します。
 
-- 서명 무결성 검증 활성화 
+- 署名の整合性検証を有効化
 ```groovy
 appguard {
     certificateFingerprintEnabled = true 
@@ -157,7 +157,7 @@ appguard {
     ]
 }
 ```
-- 앱 서명 무결성 검증 비활성화
+- アプリ署名の整合性検証を無効化
 ```groovy
 appguard {
     certificateFingerprintEnabled = false
