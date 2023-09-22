@@ -2,13 +2,14 @@
 
 ### 2023. 09. 26.
 * [Android] 1.10.3.2
-    * [Plugin] Certificate Fingerprintsオプションを追加
     * 署名改ざんの誤検知を修正
         * アプリを保護する際に使用するkeystoreの署名を改ざんとして判断する問題を修正
     * 署名が重複しているかどうかを確認
         * `--as`オプションとkeystoreの署名が同じ場合にエラーを返すように修正
 * [Unity] 0.2.0
     * Certificate Fingerprints無効化オプションを追加
+* [Gradle Plugin] 1.2.0
+        * Certificate Fingerprintsオプションを追加
 
 ### 2023. 09. 13.
 * [Android] 1.10.3.1
