@@ -10,7 +10,6 @@
 * [Unity] 0.2.0
     * Certificate Fingerprints無効化オプションを追加
 
-
 ### 2023. 09. 13.
 * [Android] 1.10.3.1
     * アプリ署名改ざんの誤検知イシューを修正
