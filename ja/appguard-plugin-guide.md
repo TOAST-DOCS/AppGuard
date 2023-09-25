@@ -25,7 +25,7 @@ buildscript {
         // ...
 
         // Add the NHN Cloud AppGuard Gradle Plugin
-        classpath 'com.nhncloud.android:appguard-gradle-plugin:1.1.2'
+        classpath 'com.nhncloud.android:appguard-gradle-plugin:1.2.0'
     }
 }
 ```
@@ -46,18 +46,20 @@ apply plugin: 'com.nhncloud.android.appguard'
 
 アプリバンドルを適用するかどうか、NHN AppGuard難読化を適用するかどうか、難読化レベル、その他オプションも設定できます。オプションは次のとおりです。
 
-| オプション                  | 説明                          | 必須かどうか |
-| --------------------- | ----------------------------- | ----- |
-| enabled               | AppGuard Gradleプラグインを適用するかどうか           | Y     |
-| appBundle             | アプリバンドルを適用するかどうか                   | Y     |
-| obfuscate             | AppGuard難読化を適用するかどうか                | Y     |
-| plan                  | 保護プラン(Business, Enterprise, Game)  | Y     |
-| appKey                | コンソールで確認できるAppkey          | Y     |
-| version               | AppGuardバージョン                      | Y     |
-| appGuardSDKFolderPath | AppGuard SDKフォルダパス               | N     |
-| overrideOutputFile    | 保護されたファイルを上書きするかどうか               | N     |
-| extraOptions          | CLIで使用していたオプションを追加(必要なときはお問い合わせください)      | N     |
-| outputFilePath        | 保護されたファイルの保存パス(variants scope) | N     |
+| オプション                       | 説明                                  | 必須かどうか |
+| ----------------------------- | ------------------------------------ | ------ |
+| enabled                       | AppGuard Gradleプラグインを適用するかどうか  | Y      |
+| appBundle                     | アプリバンドルを適用するかどうか              | Y      |
+| obfuscate                     | AppGuard難読化を適用するかどうか            | Y      |
+| plan                          | 保護プラン(Business, Enterprise, Game)  |  Y     |
+| appKey                        | コンソールで確認できるAppkey                | Y      |
+| version                       | AppGuardバージョン                      | Y      |
+| certificateFingerprintEnabled | アプリ署名検証のための証明書指紋が有効<br>(有効が基本設定)    | N      |
+| certificateFingerprints       | アプリ署名検証のための証明書指紋 (SHA-256)<br>(最大10個まで入力可)| N <br> (certificateFingerprintEnabledが有効の場合は必須)      |
+| appGuardSDKFolderPath         | AppGuard SDKフォルダパス                  | N      |
+| overrideOutputFile            | 保護されたファイルを上書きするかどうか            | N      |
+| extraOptions                  | CLIで使用していたオプションを追加(必要なときはお問い合わせください)    | N      |
+| outputFilePath                | 保護されたファイルの保存パス(variants scope)   | N      |
 
 ### NHN AppGuard Gradle Pluginオプション設定
 
@@ -73,6 +75,12 @@ appguard {
     plan = game
     appKey = "Webコンソールで発行されたAppkey"
     version = "プロテクターのバージョン"
+    certificateFingerprintEnabled = true // optional, true基本設定
+    certificateFingerprints = [
+        "xx:xx:xx..",
+        "xx:xx:xx..",
+        ...
+    ] // optional, certificateFingerprintEnabled = true設定時に必須
  /*   
     appGuardSDKFolderPath = "AppGuard SDKフォルダパス" // optional
     overrideOutputFile = false // optional
@@ -128,5 +136,30 @@ appguard {
     // ...
     enabled = true
     obfuscate = true
+}
+```
+
+### アプリ署名の整合性検証のための証明書指紋設定
+1.2.0バージョンから証明書指紋有効化有無と検証に使用される証明書指紋(SHA-256)を追加できます。<br>
+**アプリ署名検証のための証明書指紋は有効がデフォルト値で、有効化するには証明書指紋を必ず入力する必要があります。**
+
+#### 適用方法
+アプリレベルのbuild.gradleファイルに次のようにappguardオプションを作成します。
+
+- 署名の整合性検証を有効化
+```groovy
+appguard {
+    certificateFingerprintEnabled = true 
+    certificateFingerprints = [
+        "xx:xx:xx..",
+        "xx:xx:xx..",
+        ...
+    ]
+}
+```
+- アプリ署名の整合性検証を無効化
+```groovy
+appguard {
+    certificateFingerprintEnabled = false
 }
 ```
