@@ -25,7 +25,7 @@ buildscript {
         // ...
 
         // Add the NHN Cloud AppGuard Gradle Plugin
-        classpath 'com.nhncloud.android:appguard-gradle-plugin:1.1.2'
+        classpath 'com.nhncloud.android:appguard-gradle-plugin:1.2.0'
     }
 }
 ```
@@ -46,18 +46,20 @@ apply plugin: 'com.nhncloud.android.appguard'
 
 앱 번들 적용 여부, NHN AppGuard 난독화 적용 여부, 난독화 레벨, 기타 옵션도 설정할 수 있습니다. 옵션은 다음과 같습니다.
 
-| 옵션                    | 설명                            | 필수 여부 |
-| --------------------- | ----------------------------- | ----- |
-| enabled               | NHN AppGuard 그래들 플러그인 적용 여부            | Y     |
-| appBundle             | 앱 번들 적용 여부                    | Y     |
-| obfuscate             | NHN AppGuard 난독화 적용 여부                 | Y     |
-| plan                  | 보호 플랜(Business, Enterprise, Game)  | Y     |
-| appKey                | 콘솔에서 확인할 수 있는 Appkey          | Y     |
-| version               | NHN AppGuard 버전                        | Y     |
-| appGuardSDKFolderPath | NHN AppGuard SDK 폴더 경로                 | N     |
-| overrideOutputFile    | 보호된 파일 덮어쓰기 여부                | N     |
-| extraOptions          | CLI에서 사용하던 옵션 추가(필요시 문의)      | N     |
-| outputFilePath        | 보호된 파일 저장 경로(variants scope) | N     |
+| 옵션                           | 설명                                | 필수 여부 |
+| ----------------------------- | ---------------------------------- | ------ |
+| enabled                       | NHN AppGuard 그래들 플러그인 적용 여부   | Y      |
+| appBundle                     | 앱 번들 적용 여부                      | Y      |
+| obfuscate                     | NHN AppGuard 난독화 적용 여부          | Y      |
+| plan                          | 보호 플랜(Business, Enterprise, Game) |  Y     |
+| appKey                        | 콘솔에서 확인할 수 있는 AppKey           | Y      |
+| version                       | NHN AppGuard 버전                   | Y      |
+| certificateFingerprintEnabled | 앱 서명 검증을 위한 인증서 지문 활성화<br>(활성화 기본 설정)    | N      |
+| certificateFingerprints       | 앱 서명 검증을 위한 인증서 지문 (SHA-256)<br>(최대 10개까지 입력 가능)| N <br> (certificateFingerprintEnabled 활성화 시 필수)      |
+| appGuardSDKFolderPath         | NHN AppGuard SDK 폴더 경로           | N      |
+| overrideOutputFile            | 보호된 파일 덮어쓰기 여부                | N      |
+| extraOptions                  | CLI에서 사용하던 옵션 추가(필요시 문의)    | N      |
+| outputFilePath                | 보호된 파일 저장 경로(variants scope)   | N      |
 
 ### NHN AppGuard Gradle Plugin 옵션 설정
 
@@ -71,8 +73,14 @@ appguard {
     appBundle = true
     obfuscate = false
     plan = game
-    appKey = "웹 콘솔에서 발급받은 Appkey"
+    appKey = "웹 콘솔에서 발급 받은 Appkey"
     version = "프로텍터 버전"
+    certificateFingerprintEnabled = true // optional, true 기본 설정
+    certificateFingerprints = [
+        "xx:xx:xx..",
+        "xx:xx:xx..",
+        ...
+    ] // optional, certificateFingerprintEnabled = true 설정 시 필수
  /*   
     appGuardSDKFolderPath = "NHN AppGuard SDK 폴더 경로" // optional
     overrideOutputFile = false // optional
@@ -128,5 +136,30 @@ appguard {
     // ...
     enabled = true
     obfuscate = true
+}
+```
+
+### 앱 서명 무결성 검증을 위한 인증서 지문 설정
+1.2.0 버전부터 인증서 지문 활성화 여부와 검증에 사용될 인증서 지문(SHA-256)을 추가할 수 있습니다.<br>
+**앱 서명 검증을 위한 인증서 지문은 활성화가 기본값이며, 활성화 시에는 인증서 지문을 반드시 입력해야 합니다.**
+
+#### 적용 방법
+앱 수준의 build.gradle 파일에 다음과 같이 appguard 옵션을 작성합니다.
+
+- 서명 무결성 검증 활성화 
+```groovy
+appguard {
+    certificateFingerprintEnabled = true 
+    certificateFingerprints = [
+        "xx:xx:xx..",
+        "xx:xx:xx..",
+        ...
+    ]
+}
+```
+- 앱 서명 무결성 검증 비활성화
+```groovy
+appguard {
+    certificateFingerprintEnabled = false
 }
 ```
