@@ -1,5 +1,16 @@
 ## Security > NHN AppGuard > Release Notes
 
+### September 26, 2023
+* [Android] 1.10.3.2
+    * Fixed false positives related to signature tampering
+        * Fixed an issue where the signature of the keystore used for app protection was determined as tampering
+    * Check for duplicate signatures
+        * Modified to return an error when **the --as option** and the signature of the keystore are the same
+* [Unity] 0.2.0
+    * Added an option to disable Certificate Fingerprints
+* [Gradle Plugin] 1.2.0
+    * Added Certificate Fingerprints option
+
 ### September 13, 2023
 * [Android] 1.10.3.1
     * Fixed false positives related to tampering of app signature

@@ -1,5 +1,16 @@
 ## Security > NHN AppGuard > リリースノート
 
+### 2023. 09. 26.
+* [Android] 1.10.3.2
+    * 署名改ざん誤検知を修正
+        * アプリ保護時に使用するkeystoreの署名を改ざんと判断する問題を修正しました。
+    * 署名の重複を確認
+        * `--as` オプションとkeystoreの署名が同じ場合、エラーを返すように修正
+* [Unity] 0.2.0
+    * Certificate Fingerprints無効化オプションを追加
+* [Gradle Plugin] 1.2.0
+    * Certificate Fingerprintsオプションを追加
+
 ### 2023. 09. 13.
 * [Android] 1.10.3.1
     * アプリ署名改ざんの誤検知イシューを修正
