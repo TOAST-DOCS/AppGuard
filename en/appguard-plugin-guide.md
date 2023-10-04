@@ -10,7 +10,7 @@ NHN AppGuard Gradle Plugin supports build automation so that protection operatio
 
 - firebase-crashlytics-gradle 2.2.0~2.8.0
 
-- Gradle Plugin implementation is not supported in Unity environment.
+- The Gradle Plugin method is not supported in the Unity environment.
 
 ### Library Settings
 
@@ -46,20 +46,20 @@ If you do not specify a download path for protected files, the built Android app
 
 You can also set whether to apply the app bundle, whether to apply NHN AppGuard obfuscation, the level of obfuscation, and other options. The options are as follows:
 
-| Option                        | Description                            | Required |
-| ----------------------------- | ----------------------------- | ----- |
-| enabled                       | Whether to apply the AppGuard Gradle plugin            | Y     |
-| appBundle                     | Whether to apply the app bundle                    | Y     |
-| obfuscate                     | Whether to apply AppGuard obfuscation                 | Y     |
-| plan                          | 보호 플랜(Business, Enterprise, Game)  | Y     |
-| appKey                        | Appkey that can be found in the console          | Y     |
-| version                       | AppGuard version                        | Y     |
-| certificateFingerprintEnabled | 앱 서명 검증을 위한 인증서 지문 활성화<br>(활성화 기본 설정)    | N      |
-| certificateFingerprints       | 앱 서명 검증을 위한 인증서 지문 (SHA-256)<br>(최대 10개까지 입력 가능)| N <br> (certificateFingerprintEnabled 활성화 시 필수)      |
-| appGuardSDKFolderPath         | AppGuard SDK folder path                 | N     |
-| overrideOutputFile            | Whether to overwrite protected files                | N     |
-| extraOptions                  | Add options used in CLI (contact us if necessary)      | N     |
-| outputFilePath                | Storage path for the protected file (variants scope) | N     |
+| Option                           | Description                                | Required |
+| ----------------------------- | ---------------------------------- | ------ |
+| enabled                       | Whether to apply NHN AppGuard Griddle plugin   | Y      |
+| appBundle                     | Whether to apply the app bundle                      | Y      |
+| obfuscate                     | Whether to apply NHN AppGuard obfuscation          | Y      |
+| plan                          | Protection plans (Business, Enterprise, Game) |  Y     |
+| appKey                        | Appkey that can be found in the console           | Y      |
+| version                       | NHN AppGuard version                   | Y      |
+| certificateFingerprintEnabled | Enable certificate fingerprinting for app signature verification<br>(Enabled by default)    | N      |
+| certificateFingerprints       | Certificate fingerprinting (SHA-256) for app signature verification<br>(Up to 10 can be registered)| N <br> (Required when certificateFingerprintEnabled is enabled)      |
+| appGuardSDKFolderPath         | NHN AppGuard SDK folder path           | N      |
+| overrideOutputFile            | Whether to overwrite protected files                | N      |
+| extraOptions                  | Add options used in CLI (contact us if necessary)    | N      |
+| outputFilePath                | Storage path for the protected file (variants scope)   | N      |
 
 ### Setting the NHN AppGuard Gradle Plugin Options
 
@@ -75,14 +75,14 @@ appguard {
     plan = game
     appKey = "Appkey issued from the web console"
     version = "Protector version"
-    certificateFingerprintEnabled = true // optional, true 기본 설정
+    certificateFingerprintEnabled = true // optional, true by default
     certificateFingerprints = [
         "xx:xx:xx..",
         "xx:xx:xx..",
         ...
-    ] // optional, certificateFingerprintEnabled = true 설정 시 필수
- /*   
-    appGuardSDKFolderPath = "AppGuard SDK folder path" // optional
+    ] // optional, required when setting certificateFingerprintEnabled = true
+ /*  
+    appGuardSDKFolderPath = "NHN AppGuard SDK folder path" // optional
     overrideOutputFile = false // optional
     extraOptions = "" // optional
     variants {
@@ -121,7 +121,7 @@ appguard{
 
 #### Prerequisites
 
-1. You must be using AppGuard obfuscation in your project.
+1. You must be using NHN AppGuard obfuscation in your project.
 
 2. You must be using [Proguard](https://www.guardsquare.com/manual/home) in your Android project.
 
@@ -139,14 +139,14 @@ appguard {
 }
 ```
 
-### 앱 서명 무결성 검증을 위한 인증서 지문 설정
-1.2.0 버전부터 인증서 지문 활성화 여부와 검증에 사용될 인증서 지문(SHA-256)를 추가할 수 있습니다.<br>
-**앱 서명 검증을 위한 인증서 지문은 활성화가 기본값이며, 활성화 시에는 인증서 지문을 반드시 입력해야 합니다.**
+### Set up Certificate Fingerprinting to Verify App Signature Integrity
+Starting with version 1.2.0, you can add whether to enable certificate fingerprinting and which certificate fingerprint (SHA-256) will be used for verification.<br>
+**Certificate fingerprinting for app signature verification defaults to Enabled, and you must enter a certificate fingerprint upon activation.**
 
-#### 적용 방법
-앱 수준의 build.gradle 파일에 다음과 같이 appguard 옵션을 작성합니다.
+#### How to Apply
+Write the appguard options in your app-level build.gradle file like the following:
 
-- 서명 무결성 검증 활성화 
+- Enable signature integrity verification 
 ```groovy
 appguard {
     certificateFingerprintEnabled = true 
@@ -157,7 +157,7 @@ appguard {
     ]
 }
 ```
-- 앱 서명 무결성 검증 비활성화
+- Disable app signature integrity verification
 ```groovy
 appguard {
     certificateFingerprintEnabled = false
