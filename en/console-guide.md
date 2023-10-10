@@ -76,7 +76,8 @@ Blocking policy can be set for tampering trials of code, memory or speed, while 
 ![appguard_03_202104](http://image.toast.com/aaaaaha/console-guide/3_1_%EC%A0%95%EC%B1%85_en.png)
 
 When it is detected by policy set as **Block All**, guide for NHN AppGuard shows and the app is closed.
-When it is detected by conditions set as **Block by Condition**, guide for NHN AppGuard shows and the app is ended.
+When the  conditions  set in **Block by Condition** are met, the user is blacklisted, and if the user launches the app, the NHN AppGuard guide window appears and the app is ended.
+
 For further details on the policy, please refer to "NHN AppGuard Developer's Guide" document included in the SDK.
 
 ### Introduction to Block Features
