@@ -75,9 +75,25 @@ Blocking policy can be set for tampering trials of code, memory or speed, while 
 
 ![appguard_03_202104](http://image.toast.com/aaaaaha/console-guide/3_1_%EC%A0%95%EC%B1%85_en.png)
 
-When it is detected by policy set as 'Block All', guide for NHN AppGuard shows and app is closed.
-When it is detected by conditions set as 'Block by Condition', guide for NHN AppGuard shows and app is closed.
+When it is detected by policy set as **Block All**, guide for NHN AppGuard shows and the app is closed.
+When it is detected by conditions set as **Block by Condition**, guide for NHN AppGuard shows and the app is ended.
 For further details on the policy, please refer to "NHN AppGuard Developer's Guide" document included in the SDK.
+
+### Introduction to Block Features
+- **NHN AppGuard** > **Policy** > **Block All**
+    - If set to **Block All**in the NHN AppGuard Policy screen, the app will be ended as soon as the behavior is detected.
+    - Even if the app is shut down due to a policy, you can use the app normally if you relaunch the app without any abnormal behavior.
+    - If you change the policy to Block All or Detect, it will be applied to the app that has restarted after about a minute.
+- **NHN AppGuard** > **Policy** > **Block by Condition**
+    - If you set it to **Block by Condition**on the NHN AppGuard policy screen, it will blacklist users who meet the condition at 00:00 every day.
+    - Whether the conditions are met is determined based on detection logs that occurred between 00:00:00 and 23:59:59 in the last day, and each condition works independently by type.
+    - You can check the blacklist registered as conditional blocking on the NHN AppGuard Blacklist tab.
+    - Users blocked due to blacklisting registered as conditional blocking are not exposed to the NHN AppGuard dashboard tab.
+    - Users blacklisted with conditional blocking will not be able to use the app for the block period you set, even if they launch the app without any abnormal behavior.
+    - If you change a setting or condition with conditional blocking, it will take effect for all users after about 10 minutes.
+- Block through **NHN AppGuard** > **Blacklist**
+    - If you blacklist a user on the NHN AppGuard Blacklist screen and the user launches an app, the app will be ended.
+    - It takes effect when the app is re-launched, starting immediately after blacklisting.
 
 ### Change History
 
