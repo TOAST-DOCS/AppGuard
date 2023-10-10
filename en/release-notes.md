@@ -1,5 +1,13 @@
 ## Security > NHN AppGuard > Release Notes
 
+### 2023. 10. 17.
+* [Android] 1.10.2.2
+* [iOS] 1.3.9
+    * 유니티 앱 보호 강화
+    * User ID 변경 시 탐지로그를 재전송 하도록 개선
+    * CLI에서 재서명 실행 시 출력 메시지 개선
+    * 안정성 개선
+    
 ### September 26, 2023
 * [Android] 1.10.3.2
     * Fixed false positives related to signature tampering
