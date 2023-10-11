@@ -1,13 +1,17 @@
 ## Security > NHN AppGuard > Release Notes
 
 ### 2023. 10. 17.
-* [Android] 1.10.2.2
+* [Android] 1.10.3.3
+    * NHN AppGuard 엔진 보안성 강화
+    * Memu 에뮬레이터 탐지 기능 추가
+    * 저사양 디바이스 안전성 개선
+    * 파일명에 특정 문자열이 포함될 경우 보호 작업이 실패하는 오류 수정
 * [iOS] 1.3.9
     * 유니티 앱 보호 강화
     * User ID 변경 시 탐지로그를 재전송 하도록 개선
     * CLI에서 재서명 실행 시 출력 메시지 개선
     * 안정성 개선
-    
+
 ### September 26, 2023
 * [Android] 1.10.3.2
     * Fixed false positives related to signature tampering
