@@ -1,5 +1,17 @@
 ## Security > NHN AppGuard > Release Notes
 
+### October 17, 2023
+* [Android] 1.10.3.3
+    * Enhanced security of NHN AppGuard engine
+    * Added MEmu emulator detection
+    * Improved safety for low-spec devices
+    * Fixed an error where protection fails if the file name contains certain strings
+* [iOS] 1.3.9
+    * Enhanced Unity app protection
+    * Improved to resend detection logs when User ID changes
+    * Improved output messages when running re-signatures from the CLI
+    * Improved stability
+
 ### September 26, 2023
 * [Android] 1.10.3.2
     * Fixed false positives related to signature tampering
@@ -28,6 +40,7 @@
     * Enhanced security of NHN AppGuard engine
     * Improved identifier obfuscation
     * Improved hooking detection
+    * Add Auto Click Assistant detection
     * Improved safety for low-spec tablets
 * [iOS] 1.3.8
     * Enhanced engine security

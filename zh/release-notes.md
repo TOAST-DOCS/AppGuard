@@ -1,15 +1,27 @@
 ## Security > NHN AppGuard > Release Notes
 
-### 2023. 09. 26.
+### October 17, 2023
+* [Android] 1.10.3.3
+    * Enhanced security of NHN AppGuard engine
+    * Added MEmu emulator detection
+    * Improved safety for low-spec devices
+    * Fixed an error where protection fails if the file name contains certain strings
+* [iOS] 1.3.9
+    * Enhanced Unity app protection
+    * Improved to resend detection logs when User ID changes
+    * Improved output messages when running re-signatures from the CLI
+    * Improved stability
+
+### September 26, 2023
 * [Android] 1.10.3.2
-    * 서명 변조 오탐 수정
-        * 앱 보호 시 사용하는 keystore의 서명을 변조로 판단하는 문제 수정
-    * 서명 중복 여부 확인
-        * `--as` 옵션과 keystore의 서명이 동일할 경우 오류를 반환하도록 수정
+    * Fixed false positives related to signature tampering
+        * Fixed an issue where the signature of the keystore used for app protection was determined as tampering
+    * Check for duplicate signatures
+        * Modified to return an error when **the --as option** and the signature of the keystore are the same
 * [Unity] 0.2.0
-    * Certificate Fingerprints 비활성화 옵션 추가
+    * Added an option to disable Certificate Fingerprints
 * [Gradle Plugin] 1.2.0
-    * Certificate Fingerprints 옵션 추가
+    * Added Certificate Fingerprints option
 
 ### September 13, 2023
 * [Android] 1.10.3.1
@@ -28,6 +40,7 @@
     * Enhanced security of NHN AppGuard engine
     * Improved identifier obfuscation
     * Improved hooking detection
+    * Add Auto Click Assistant detection
     * Improved safety for low-spec tablets
 * [iOS] 1.3.8
     * Enhanced engine security
