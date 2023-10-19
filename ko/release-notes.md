@@ -1,6 +1,6 @@
 ## Security > NHN AppGuard > 릴리스 노트
 
-### 2023. 10. 17.
+### 2023. 10. 19.
 * [Android] 1.10.3.3
     * NHN AppGuard 엔진 보안성 강화
     * MEmu 에뮬레이터 탐지 기능 추가
