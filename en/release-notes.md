@@ -11,6 +11,8 @@
     * Improved to resend detection logs when User ID changes
     * Improved output messages when running re-signatures from the CLI
     * Improved stability
+* [Unity] 0.2.1
+    * Updated to iOS SDK 1.3.9
 
 ### September 26, 2023
 * [Android] 1.10.3.2
