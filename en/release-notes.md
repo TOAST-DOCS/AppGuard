@@ -1,8 +1,10 @@
 ## Security > NHN AppGuard > Release Notes
 
-### 2023. 10. 24.
+
+### October 24, 2023
 * [iOS] 1.3.10
-    * 난독화 플러그인이 적용된 유니티 앱을 보호할 때 보호 실패하는 이슈 수정
+    * Fixed an issue where, when protecting Unity apps with obfuscation plugins applied, protection fails
+
 * [Unity] 0.2.2
     * Updated to iOS SDK 1.3.10
 
