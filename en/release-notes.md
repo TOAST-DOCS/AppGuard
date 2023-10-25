@@ -1,8 +1,10 @@
 ## Security > NHN AppGuard > Release Notes
 
+
 ### October 24, 2023
 * [iOS] 1.3.10
     * Fixed an issue where, when protecting Unity apps with obfuscation plugins applied, protection fails
+
 * [Unity] 0.2.2
     * Updated to iOS SDK 1.3.10
 
