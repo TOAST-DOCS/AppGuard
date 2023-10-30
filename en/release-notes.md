@@ -1,5 +1,13 @@
 ## Security > NHN AppGuard > Release Notes
 
+
+### October 24, 2023
+* [iOS] 1.3.10
+    * Fixed an issue where, when protecting Unity apps with obfuscation plugins applied, protection fails
+
+* [Unity] 0.2.2
+    * Updated to iOS SDK 1.3.10
+
 ### October 19, 2023
 * [Android] 1.10.3.3
     * Enhanced security of NHN AppGuard engine
@@ -11,6 +19,8 @@
     * Improved to resend detection logs when User ID changes
     * Improved output messages when running re-signatures from the CLI
     * Improved stability
+* [Unity] 0.2.1
+    * Updated to iOS SDK 1.3.9
 
 ### September 26, 2023
 * [Android] 1.10.3.2
