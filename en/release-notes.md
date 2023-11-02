@@ -50,7 +50,7 @@
     * Enhanced security of NHN AppGuard engine
     * Improved identifier obfuscation
     * Improved hooking detection
-    * Add Auto Click Assistant detection
+    * Add Auto Click Assistant(Code: 1707) detection
     * Improved safety for low-spec tablets
 * [iOS] 1.3.8
     * Enhanced engine security

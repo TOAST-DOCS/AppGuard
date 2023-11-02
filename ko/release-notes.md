@@ -48,7 +48,7 @@
     * NHN AppGuard 엔진 보안성 강화
     * 식별자 난독화 개선
     * 후킹 탐지 기능 개선
-    * Auto Click Assistant 탐지 추가
+    * Auto Click Assistant(Code: 1707) 탐지 추가
     * 저사양 태블릿 안전성 개선
 * [iOS] 1.3.8
     * 앱 복호화 방지 기능 강화

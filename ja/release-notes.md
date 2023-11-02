@@ -48,7 +48,7 @@
     * NHN AppGuardエンジンセキュリティの強化
     * 識別子難読化の改善
     * フッキング検出機能の改善
-    * Auto Click Assistant検出を追加
+    * Auto Click Assistant(Code: 1707)検出を追加
     * 低仕様タブレットの安全性向上
 * [iOS] 1.3.8
     * エンジンセキュリティの強化
