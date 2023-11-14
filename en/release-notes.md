@@ -9,8 +9,11 @@
     * SecureValue 변조(Code: 409) 탐지 기능 추가
     * DEX 로딩 방식 개선
     * 앱가드 보안 강화
-* [iOS]
-    * 
+* [iOS] 1.3.11
+    * 탈옥 환경 탐지 강화
+    * Unreal Engine용 정적 라이브러리 배포 추함
+    * Unreal Engine 지원 개선
+    * 엔진 보안성 강화
 * [Unity] 0.3.0
     * (Android) SecureValue 변조(Code: 409) 탐지 기능 추가
     * (iOS) iOS SDK 1.3.11 업데이트
