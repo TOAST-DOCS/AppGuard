@@ -2,16 +2,16 @@
 
 ### 2023. 11. 21.
 * [Android] 1.10.4.0
-    * 아마존 스토어 서명 검증 활성화
+    * Amazon Appstore 서명 검증 활성화
         * "--amazon" 옵션을 사용하여 앱 보호 시 앱 서명 검증이 활성화됩니다.
-        * 아마존 스토어는 "--as" 옵션을 사용하여 앱스토어 서명의 SHA-256 Hexadecimal 정보를 설정해야합니다.
-        * 앱스토어 서명은 Amazon Developer > My apps > Appstore Certificate Hashes에서 확인할 수 있습니다.
+        * Amazon Appstore는 "--as" 옵션을 사용하여 Appstore 서명의 SHA-256 Hexadecimal 정보를 설정해야 합니다.
+        * Appstore 서명은 Amazon Developer > My apps > Appstore Certificate Hashes에서 확인할 수 있습니다.
     * SecureValue 변조(Code: 409) 탐지 기능 추가
     * DEX 로딩 방식 개선
-    * 앱가드 보안 강화
+    * NHN AppGuard 보안 강화
 * [iOS] 1.3.11
     * 탈옥 환경 탐지 강화
-    * Unreal Engine용 정적 라이브러리 배포 추함
+    * Unreal Engine용 정적 라이브러리 배포 추가
     * Unreal Engine 지원 개선
     * 엔진 보안성 강화
 * [Unity] 0.3.0
