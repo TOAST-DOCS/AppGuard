@@ -1,5 +1,23 @@
 ## Security > NHN AppGuard > 릴리스 노트
 
+### 2023. 11. 21.
+* [Android] 1.10.4.0
+    * Amazon Appstore 서명 검증 활성화
+        * "--amazon" 옵션을 사용하여 앱 보호 시 앱 서명 검증이 활성화됩니다.
+        * Amazon Appstore는 "--as" 옵션을 사용하여 Appstore 서명의 SHA-256 Hexadecimal 정보를 설정해야 합니다.
+        * Appstore 서명은 Amazon Developer > My apps > Appstore Certificate Hashes에서 확인할 수 있습니다.
+    * SecureValue 변조(Code: 409) 탐지 기능 추가
+    * DEX 로딩 방식 개선
+    * NHN AppGuard 보안 강화
+* [iOS] 1.3.11
+    * 탈옥 환경 탐지 강화
+    * Unreal Engine용 정적 라이브러리 배포 추가
+    * Unreal Engine 지원 개선
+    * 엔진 보안성 강화
+* [Unity] 0.3.0
+    * (Android) SecureValue 변조(Code: 409) 탐지 기능 추가
+    * (iOS) iOS SDK 1.3.11 업데이트
+
 ### 2023. 10. 24.
 * [iOS] 1.3.10
     * 난독화 플러그인이 적용된 유니티 앱을 보호할 때 보호 실패하는 이슈 수정
@@ -48,7 +66,7 @@
     * NHN AppGuard 엔진 보안성 강화
     * 식별자 난독화 개선
     * 후킹 탐지 기능 개선
-    * Auto Click Assistant 탐지 추가
+    * Auto Click Assistant(Code: 1707) 탐지 추가
     * 저사양 태블릿 안전성 개선
 * [iOS] 1.3.8
     * 앱 복호화 방지 기능 강화
