@@ -1,10 +1,26 @@
 ## Security > NHN AppGuard > Release Notes
 
+### November 21, 2023.
+* [Android] 1.10.4.0
+    * Enabled Amazon Appstore signature verification
+        * App signature verification is enabled when protecting apps with the "--amazon" option.
+        * In Amazon Appstore, you must use the "--as" option to set the SHA-256 Hexadecimal information for the Appstore signature.
+        * The Appstore signature can be found in Amazon Developer > My apps > Appstore Certificate Hashes.
+    * Added detection of SecureValue tampering (Code: 409)
+    * Improved the way DEX loads
+    * Enhanced NHN AppGuard security
+* [iOS] 1.3.11
+    * Enhanced jailbreaking environment detection
+    * Added a static library distribution for Unreal Engine
+    * Improved support for Unreal Engine
+    * Enhanced the security of the engine
+* [Unity] 0.3.0
+    * (Android) Added detection of SecureValue tampering (Code: 409)
+    * (iOS) iOS SDK 1.3.11 update
 
 ### October 24, 2023
 * [iOS] 1.3.10
     * Fixed an issue where, when protecting Unity apps with obfuscation plugins applied, protection fails
-
 * [Unity] 0.2.2
     * Updated to iOS SDK 1.3.10
 
@@ -50,7 +66,7 @@
     * Enhanced security of NHN AppGuard engine
     * Improved identifier obfuscation
     * Improved hooking detection
-    * Add Auto Click Assistant detection
+    * Add Auto Click Assistant(Code: 1707) detection
     * Improved safety for low-spec tablets
 * [iOS] 1.3.8
     * Enhanced engine security
