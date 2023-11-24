@@ -1,5 +1,9 @@
 ## Security > NHN AppGuard > Release Notes
 
+### November 24, 2023
+* [Android] 1.10.4.1
+    * Fixed NHN AppGuard security vulnerabilites
+
 ### November 21, 2023.
 * [Android] 1.10.4.0
     * Enabled Amazon Appstore signature verification
