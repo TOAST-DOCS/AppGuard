@@ -1,5 +1,9 @@
 ## Security > NHN AppGuard > リリースノート
 
+### 2023. 11. 24.
+* [Android] 1.10.4.1
+    * NHN AppGuardセキュリティ脆弱性の改善
+
 ### 2023. 11. 21.
 * [Android] 1.10.4.0
     * Amazon Appstore署名検証の有効化
