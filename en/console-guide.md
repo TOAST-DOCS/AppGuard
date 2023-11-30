@@ -60,10 +60,11 @@ Select **App Protection** and click **\+ Protect App**.
 * Select the name of [Alias].
 * Enter [Alias Password].
 * Choose an [APK]
-* Select the level of protection
-    - Level1 : Basic level of pattern-oriented and abnormal acts protection on application
-    - Level2 : Level1 + Advanced security functions such as, code encryption and preventing app manipulation (Recommended for general apps)
-    - Level3 : Level2 + Fortified security functions (Recommended for game apps)
+* Select [Plan].
+    - Business: Basic level of pattern-oriented and abnormal acts protection on application
+    - Enterprise: Business + Dynamic analysis defenses, including Zava code (DEX) encryption + memory manipulation detection (recommended for general apps)
+    - Game: Enterprise + Game engine library static protection + Enhanced dynamic analysis defense security features, including Unity IL2CPP code analysis defense (recommended for game apps)
+    - See the [AppGuard Service Guide](https://www.nhncloud.com/kr/service/security/nhn-appguard) for a complete list of features available with each plan.
 * Select [Release Versions]
 * Click **Ok** to start Protect App
     - When completed, you can download the protected application. Now, you're ready to upload protected apps on each Appstore for deployment.
