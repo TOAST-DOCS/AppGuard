@@ -1,5 +1,11 @@
 ## Security > NHN AppGuard > Release Notes
 
+### December 07, 2023.
+* [iOS] 1.3.12
+    * Enhanced security of NHN AppGuard engine
+* [Unity]
+
+
 ### November 24, 2023
 * [Android] 1.10.4.1
     * Fixed NHN AppGuard security vulnerabilites
