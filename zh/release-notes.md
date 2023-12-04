@@ -4,7 +4,7 @@
 * [iOS] 1.3.12
     * Enhanced security of NHN AppGuard engine
 * [Unity]
-
+    * (iOS) iOS SDK 1.3.12 update
 
 ### November 24, 2023
 * [Android] 1.10.4.1
