@@ -1,5 +1,12 @@
 ## Security > NHN AppGuard > 릴리스 노트
 
+
+### 2023. 12. 06.
+* [iOS] 1.3.12
+    * 엔진 보안성 강화
+* [Unity] 0.3.1
+    * (iOS) iOS SDK 1.3.12 업데이트
+
 ### 2023. 11. 24.
 * [Android] 1.10.4.1
     * NHN AppGuard 보안 취약점 개선

@@ -1,12 +1,19 @@
 ## Security > NHN AppGuard > リリースノート
 
+
+### 2023. 12. 06.
+* [iOS] 1.3.12
+    * エンジンセキュリティの強化
+* [Unity] 0.3.1
+    * (iOS) iOS SDK 1.3.11アップデート
+    
 ### 2023. 11. 24.
 * [Android] 1.10.4.1
     * NHN AppGuardセキュリティ脆弱性の改善
 
 ### 2023. 11. 21.
 * [Android] 1.10.4.0
-    * Amazon Appstore署名検証の有効化
+    * Amazon Appstore署名検証の有効化[Gradle Plugin]
         * "--amazon"オプションを使用してアプリ保護時にアプリ署名検証が有効になります。
         * Amazon Appstoreは"--as"オプションを使用してAppstore署名のSHA-256 Hexadecimal情報を設定する必要があります。
         * Appstore署名はAmazon Developer > My apps > Appstore Certificate Hashesで確認できます。
