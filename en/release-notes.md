@@ -1,6 +1,30 @@
 ## Security > NHN AppGuard > Release Notes
 
- ### December 06, 2023.
+### December 19, 2023
+* [Android] 1.10.4.2
+    * Fixed Android 14-related issues
+        * Fixed an issue that could cause abnormal termination when NHN AppGuard is applied to apps targeting Android 14 (API 34) or later.
+    * Fixed Multiprocess-related issues
+        * Fixed an issue that could cause an intermittent abnormal termination when an application component has the android:process attribute.
+    * armeabi architecture errors
+        * Fixed an abnormal termination error in apps using only the armeabi architecture.
+* [iOS] 1.3.13
+    * Enhanced engine security
+    * Fixed an issue with missing logs when detecting before setting AppKey
+        * Fixed an issue with missing logs when detecting malicious behavior in the Private API before setting AppKey.
+        * Applied when setting protection.
+    * Improved protection operation fails when obfuscating some class symbols
+    * Improved CLI argument
+        * The `--latestVersion` argument is now applied by default.
+* [Unity] 0.4.0
+    * [iOS] Improved NHN AppGuard iOS initialization
+        * The Diresu.D function is no longer available (deprecated).
+    * (iOS) iOS SDK 1.3.13 update
+* [Gradle Plugin] 1.2.1
+    * Fixed errors setting signing key password
+        * Fixed an error where signing fails if the store password and key password do not match.
+
+ ### December 06, 2023
 * [iOS] 1.3.12
     * Enhanced security of NHN AppGuard engine
 * [Unity] 0.3.1
