@@ -16,9 +16,10 @@
     * 일부 클래스 심볼 난독화 시 보호 작업에 실패하는 문제 개선
     * CLI 인자 개선
         * `--latestVersion` 인자가 기본으로 적용됩니다.
-* [Unity] 
+* [Unity] 0.4.0
     * [iOS] NHN AppGuard iOS 초기화 작업 개선
         * Diresu.D 함수는 더 이상 사용되지 않습니다(deprecated).
+    * (iOS) iOS SDK 1.3.13 업데이트
 * [Gradle Plugin] 1.2.1
     * 서명 키 비밀번호 설정 오류 수정
         * 스토어 비밀번호와 키 비밀번호가 다를 경우 서명에 실패하는 오류를 수정했습니다.
