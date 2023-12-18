@@ -1,5 +1,29 @@
 ## Security > NHN AppGuard > Release Notes
 
+### 2023. 12. 19.
+* [Android] 1.10.5.0
+    * Android 14 대응
+        * Android 14(API 34) 이상을 타기팅하는 앱에서 NHN AppGuard 적용 시 비정상 종료될 수 있는 문제를 수정했습니다.
+    * 멀티프로세스 대응
+        * 애플리케이션 구성 요소에 android:process 특성이 있을 때 간헐적으로 비정상 종료되는 오류를 수정했습니다.
+    * armeabi 아키텍처 오류 수정
+        * armeabi 아키텍처만을 사용하는 앱에서 발생하는 비정상 종료 오류를 수정했습니다.
+* [iOS] 1.3.13
+    * 엔진 보안성 강화
+    * AppKey 설정 전 탐지 시 로그가 누락되는 문제 개선
+        * AppKey 설정 전 Private API에서 악성행위 탐지 시 로그가 누락되는 문제가 수정되었습니다.
+        * 보호 작업 설정 시 적용됩니다.
+    * 일부 클래스 심볼 난독화 시 보호 작업에 실패하는 문제 개선
+    * CLI 인자 개선
+        * `--latestVersion` 인자가 기본으로 적용됩니다.
+* [Unity] 0.4.0
+    * [iOS] NHN AppGuard iOS 초기화 작업 개선
+        * Diresu.D 함수는 더 이상 사용되지 않습니다(deprecated).
+    * (iOS) iOS SDK 1.3.13 업데이트
+* [Gradle Plugin] 1.2.1
+    * 서명 키 비밀번호 설정 오류 수정
+        * 스토어 비밀번호와 키 비밀번호가 다를 경우 서명에 실패하는 오류를 수정했습니다.
+
 ### December 06, 2023.
 * [iOS] 1.3.12
     * Enhanced security of NHN AppGuard engine
