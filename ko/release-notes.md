@@ -1,7 +1,7 @@
 ## Security > NHN AppGuard > 릴리스 노트
 
 ### 2023. 12. 19.
-* [Android] 1.10.4.2
+* [Android] 1.10.5.0
     * Android 14 대응
         * Android 14(API 34) 이상을 타기팅하는 앱에서 NHN AppGuard 적용 시 비정상 종료될 수 있는 문제를 수정했습니다.
     * 멀티프로세스 대응

@@ -1,7 +1,7 @@
 ## Security > NHN AppGuard > リリースノート
 
 ### 2023. 12. 19.
-* [Android] 1.10.4.2
+* [Android] 1.10.5.0
     * Android 14対応
         * Android 14(API 34)以上をターゲットとするアプリで、NHN AppGuard適用時に異常終了する問題を修正しました。
     * マルチプロセス対応
