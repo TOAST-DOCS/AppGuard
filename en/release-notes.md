@@ -1,5 +1,9 @@
 ## Security > NHN AppGuard > Release Notes
 
+### 2023. 12. 27.
+* [Android] 1.10.5.1
+    * StackOverflowError 이슈 수정
+
 ### December 19, 2023
 * [Android] 1.10.5.0
     * Fixed Android 14-related issues
