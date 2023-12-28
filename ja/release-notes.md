@@ -2,7 +2,7 @@
 
 ### 2023. 12. 27.
 * [Android] 1.10.5.1
-    * StackOverflowError 이슈 수정
+    * StackOverflowErrorの問題を修正
 
 ### 2023. 12. 19.
 * [Android] 1.10.5.0
