@@ -1,32 +1,32 @@
 ## Security > NHN AppGuard > Release Notes
 
-### 2023. 12. 28.
+### December 28, 2023
 * [Android] 1.10.5.1
-    * StackOverflowError 이슈 수정
+    * Fixed StackOverflowError issues
 
-### 2023. 12. 19.
+### December 19, 2023
 * [Android] 1.10.5.0
-    * Android 14 대응
-        * Android 14(API 34) 이상을 타기팅하는 앱에서 NHN AppGuard 적용 시 비정상 종료될 수 있는 문제를 수정했습니다.
-    * 멀티프로세스 대응
-        * 애플리케이션 구성 요소에 android:process 특성이 있을 때 간헐적으로 비정상 종료되는 오류를 수정했습니다.
-    * armeabi 아키텍처 오류 수정
-        * armeabi 아키텍처만을 사용하는 앱에서 발생하는 비정상 종료 오류를 수정했습니다.
+    * Fixed Android 14-related issues
+        * Fixed an issue that could cause abnormal termination when NHN AppGuard is applied to apps targeting Android 14 (API 34) or later.
+    * Fixed Multiprocess-related issues
+        * Fixed an issue that could cause an intermittent abnormal termination when an application component has the android:process attribute.
+    * armeabi architecture errors
+        * Fixed an abnormal termination error in apps using only the armeabi architecture.
 * [iOS] 1.3.13
-    * 엔진 보안성 강화
-    * AppKey 설정 전 탐지 시 로그가 누락되는 문제 개선
-        * AppKey 설정 전 Private API에서 악성행위 탐지 시 로그가 누락되는 문제가 수정되었습니다.
-        * 보호 작업 설정 시 적용됩니다.
-    * 일부 클래스 심볼 난독화 시 보호 작업에 실패하는 문제 개선
-    * CLI 인자 개선
-        * `--latestVersion` 인자가 기본으로 적용됩니다.
+    * Enhanced engine security
+    * Fixed an issue with missing logs when detecting before setting AppKey
+        * Fixed an issue with missing logs when detecting malicious behavior in the Private API before setting AppKey.
+        * Applied when setting protection.
+    * Improved protection operation fails when obfuscating some class symbols
+    * Improved CLI argument
+        * The `--latestVersion` argument is now applied by default.
 * [Unity] 0.4.0
-    * [iOS] NHN AppGuard iOS 초기화 작업 개선
-        * Diresu.D 함수는 더 이상 사용되지 않습니다(deprecated).
-    * (iOS) iOS SDK 1.3.13 업데이트
+    * [iOS] Improved NHN AppGuard iOS initialization
+        * The Diresu.D function is no longer available (deprecated).
+    * (iOS) iOS SDK 1.3.13 update
 * [Gradle Plugin] 1.2.1
-    * 서명 키 비밀번호 설정 오류 수정
-        * 스토어 비밀번호와 키 비밀번호가 다를 경우 서명에 실패하는 오류를 수정했습니다.
+    * Fixed errors setting signing key password
+        * Fixed an error where signing fails if the store password and key password do not match.
 
 ### December 06, 2023.
 * [iOS] 1.3.12
