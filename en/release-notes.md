@@ -1,5 +1,10 @@
 ## Security > NHN AppGuard > Release Notes
 
+### 2024. 01. 09.
+* [Android] 
+* [iOS] 1.3.14
+    * 엔진 안정성 개선
+
 ### December 28, 2023
 * [Android] 1.10.5.1
     * Fixed StackOverflowError issues
