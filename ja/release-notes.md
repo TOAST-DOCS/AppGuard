@@ -2,17 +2,17 @@
 
 ### 2024. 01. 09.
 * [Android] 1.10.5.2
-    * DEX 암ㆍ복호화 개선
-    * MEmu 에뮬레이터 탐지 개선
-        * MEmu 9.0.9 버전에서도 탐지되도록 개선했습니다.
-    * LDPlayer9 에뮬레이터 탐지 개선
-        * LDPlayer9 9.0.63 버전에서도 탐지되도록 개선했습니다.
-    * 구글 자동 무결성 보호(Google Automatic Integrity Protection) 지원 옵션 추가
-        * 구글 자동 무결성 보호 사용 시 "--google-pairip" 옵션을 사용해야 합니다.
+    * DEX暗号化・復号の改善
+    * MEmuエミュレータ検出の改善
+        * MEmu 9.0.9バージョンでも検出できるように改善しました。
+    * LDPlayer9エミュレータ検出改善
+        * LDPlayer9 9.0.63バージョンでも検出できるように改善しました。
+    * Google自動整合性保護(Google Automatic Integrity Protection)サポートオプション追加
+        * Google自動整合性保護を使用する場合、"--google-pairip"オプションを使用する必要があります。
 * [iOS] 1.3.14
-    * 엔진 안정성 개선
+    * エンジンの安定性の改善
 * [Unity] 0.4.1
-    * (iOS) iOS SDK 1.3.14 업데이트
+    * (iOS) iOS SDK 1.3.14アップデート
     
 ### 2023. 12. 28.
 * [Android] 1.10.5.1
