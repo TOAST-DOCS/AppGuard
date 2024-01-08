@@ -1,5 +1,19 @@
 ## Security > NHN AppGuard > Release Notes
 
+### January 9, 2024
+* [Android] 1.10.5.2
+    * Improved DEX encryption and decryption
+    * Improved MEmu emulator detection
+        * Detection available in Memu 9.0.9.
+    * Improved LDPlayer9 emulator detection
+        * Detection available in LDPlayer9 9.0.63.
+    * Added the option to support Google Automatic Integrity Protection
+        * When using Google Automatic Integrity Protection, must use the "--google-pairip" option.
+* [iOS] 1.3.14
+    * Improved engine stability
+* [Unity] 0.4.1
+    * (iOS) iOS SDK 1.3.14 update
+
 ### December 28, 2023
 * [Android] 1.10.5.1
     * Fixed StackOverflowError issues
