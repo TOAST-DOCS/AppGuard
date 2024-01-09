@@ -1,5 +1,19 @@
 ## Security > NHN AppGuard > 릴리스 노트
 
+### 2024. 01. 09.
+* [Android] 1.10.5.2
+    * DEX 암ㆍ복호화 개선
+    * MEmu 에뮬레이터 탐지 개선
+        * MEmu 9.0.9 버전에서도 탐지되도록 개선했습니다.
+    * LDPlayer9 에뮬레이터 탐지 개선
+        * LDPlayer9 9.0.63 버전에서도 탐지되도록 개선했습니다.
+    * 구글 자동 무결성 보호(Google Automatic Integrity Protection) 지원 옵션 추가
+        * 구글 자동 무결성 보호 사용 시 "--google-pairip" 옵션을 사용해야 합니다.
+* [iOS] 1.3.14
+    * 엔진 안정성 개선
+* [Unity] 0.4.1
+    * (iOS) iOS SDK 1.3.14 업데이트
+
 ### 2023. 12. 28.
 * [Android] 1.10.5.1
     * StackOverflowError 이슈 수정
