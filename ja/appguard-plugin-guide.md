@@ -50,7 +50,7 @@ apply plugin: 'com.nhncloud.android.appguard'
 | ----------------------------- | ------------------------------------ | ------ |
 | enabled                       | AppGuard Gradleプラグインを適用するかどうか  | Y      |
 | appBundle                     | アプリバンドルを適用するかどうか              | Y      |
-| obfuscate                     | AppGuard難読化を適用するかどうか            | Y      |
+| obfuscate                     | AppGuard難読化を適用するかどうか            | N      |
 | plan                          | 保護プラン(Business, Enterprise, Game)  |  Y     |
 | appKey                        | コンソールで確認できるAppkey                | Y      |
 | version                       | AppGuardバージョン                      | Y      |
@@ -72,7 +72,7 @@ appguard {
     enabled = true
     appBundle = true
     obfuscate = false
-    plan = game
+    plan = "game"
     appKey = "Webコンソールで発行されたAppkey"
     version = "プロテクターのバージョン"
     certificateFingerprintEnabled = true // optional, true基本設定
