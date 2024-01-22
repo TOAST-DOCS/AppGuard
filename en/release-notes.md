@@ -1,9 +1,9 @@
 ## Security > NHN AppGuard > Release Notes
 
-### 2024. 01. 23.
+### January 23, 2024
 * [Android] 1.10.5.3
-    * 난독화 기능 개선
-        * 함수 호출 숨김(Hide Call) 기능을 개선합니다.
+    * Improved obfuscation
+        * Improved the feature to hide function calls (Hide Call).
 
 ### January 9, 2024
 * [Android] 1.10.5.2
