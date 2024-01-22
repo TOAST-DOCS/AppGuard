@@ -1,5 +1,10 @@
 ## Security > NHN AppGuard > Release Notes
 
+### January 23, 2024
+* [Android] 1.10.5.3
+    * Improved obfuscation
+        * Improved the feature to hide function calls (Hide Call).
+
 ### January 9, 2024
 * [Android] 1.10.5.2
     * Improved DEX encryption and decryption

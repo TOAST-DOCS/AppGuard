@@ -50,7 +50,7 @@ apply plugin: 'com.nhncloud.android.appguard'
 | ----------------------------- | ---------------------------------- | ------ |
 | enabled                       | NHN AppGuard 그래들 플러그인 적용 여부   | Y      |
 | appBundle                     | 앱 번들 적용 여부                      | Y      |
-| obfuscate                     | NHN AppGuard 난독화 적용 여부          | Y      |
+| obfuscate                     | NHN AppGuard 난독화 적용 여부          | N      |
 | plan                          | 보호 플랜(Business, Enterprise, Game) |  Y     |
 | appKey                        | 콘솔에서 확인할 수 있는 AppKey           | Y      |
 | version                       | NHN AppGuard 버전                   | Y      |
@@ -72,7 +72,7 @@ appguard {
     enabled = true
     appBundle = true
     obfuscate = false
-    plan = game
+    plan = "game"
     appKey = "웹 콘솔에서 발급 받은 Appkey"
     version = "프로텍터 버전"
     certificateFingerprintEnabled = true // optional, true 기본 설정
