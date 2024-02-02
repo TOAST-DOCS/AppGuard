@@ -1,5 +1,13 @@
 ## Security > NHN AppGuard > Release Notes
 
+### 2024. 02. 15.
+* [iOS] 1.3.15
+    * iOS 최소 지원버전 상향(iOS 11 이상)
+    * i386, armv7s, armv7 아키텍쳐 지원 종료
+    * 기본 탐지 알림창 개선
+    * 개인정보 보호 매니페스트 추가
+    * 서명 추가 (NHN Cloud Corp.)
+    
 ### January 23, 2024
 * [Android] 1.10.5.3
     * Improved obfuscation
