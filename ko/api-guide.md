@@ -14,7 +14,7 @@ API를 사용하려면 인증을 위해 User Access Key ID와 Secret Access Key�
 생성된 Key는 요청 Header에 포함해야 합니다.
 
 > [주의]
-> User Access Key ID/Secret Access Key를 가진 멤버가 탈퇴하는 경우 고객의 서비스에 장애가 발생할 수 있으므로 탈퇴 전 유효한 멤버의 키로 교체해야 합니다.
+> API를 호출하는 작업에 연동된 User Access Key ID/Secret Access Key를 가진 멤버가 탈퇴하는 경우 고객의 서비스에 장애가 발생할 수 있으므로 탈퇴 전 유효한 멤버의 키로 교체해야 합니다.
 
 ## 대시보드
 
