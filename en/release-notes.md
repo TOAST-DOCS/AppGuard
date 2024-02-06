@@ -15,7 +15,7 @@
     * 개인정보 보호 매니페스트 추가
     * 서명 추가 (NHN Cloud Corp.)
 * [Unity] 0.4.2
-    * (iOS) iOS SDK 1.3.15 업데이트
+    * (iOS) iOS SDK 1.3.15 update
 
 ### January 23, 2024
 * [Android] 1.10.5.3
