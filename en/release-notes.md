@@ -9,11 +9,11 @@
     * Auto Click - Automatic Clicker(Code: 1708) 탐지 추가
     * Auto Tapper: Auto Clicker(Code: 1709) 탐지 추가
 * [iOS] 1.3.15
-    * iOS 최소 지원버전 상향(iOS 11 이상)
-    * i386, armv7s, armv7 아키텍쳐 지원 종료
+    * iOS 최소 지원 버전 상향(iOS 11 이상)
+    * i386, armv7s, armv7 아키텍처 지원 종료
     * 기본 탐지 알림창 개선
     * 개인정보 보호 매니페스트 추가
-    * 서명 추가 (NHN Cloud Corp.)
+    * 서명 추가(NHN Cloud Corp.)
 * [Unity] 0.4.2
     * (iOS) iOS SDK 1.3.15 update
 
