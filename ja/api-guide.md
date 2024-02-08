@@ -14,7 +14,7 @@ APIを使用するには、認証のためにUser Access Key IDとSecret Access 
 作成されたKeyはリクエストHeaderに含める必要があります。
 
 > [注意]
-> User Access Key ID/Secret Access Keyを持つメンバーが退会する場合、顧客のサービスに障害が発生する可能性があるため、退会前に有効なメンバーのキーに交換する必要があります。
+> APIを呼び出す作業に連動したUser Access Key ID/Secret Access Keyを持つメンバーが退会する場合、顧客のサービスに障害が発生する可能性があるため、退会前に有効なメンバーのキーに交換する必要があります。
 
 ## ダッシュボード
 
