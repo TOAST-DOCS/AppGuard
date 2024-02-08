@@ -50,7 +50,7 @@ You can also set whether to apply the app bundle, whether to apply NHN AppGuard 
 | ----------------------------- | ---------------------------------- | ------ |
 | enabled                       | Whether to apply NHN AppGuard Griddle plugin   | Y      |
 | appBundle                     | Whether to apply the app bundle                      | Y      |
-| obfuscate                     | Whether to apply NHN AppGuard obfuscation          | Y      |
+| obfuscate                     | Whether to apply NHN AppGuard obfuscation          | N      |
 | plan                          | Protection plans (Business, Enterprise, Game) |  Y     |
 | appKey                        | Appkey that can be found in the console           | Y      |
 | version                       | NHN AppGuard version                   | Y      |
@@ -72,7 +72,7 @@ appguard {
     enabled = true
     appBundle = true
     obfuscate = false
-    plan = game
+    plan = "game"
     appKey = "Appkey issued from the web console"
     version = "Protector version"
     certificateFingerprintEnabled = true // optional, true by default

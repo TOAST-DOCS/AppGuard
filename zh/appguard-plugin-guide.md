@@ -50,7 +50,7 @@ You can also set whether to apply the app bundle, whether to apply NHN AppGuard 
 | ----------------------------- | ----------------------------- | ----- |
 | enabled                       | Whether to apply the AppGuard Gradle plugin            | Y     |
 | appBundle                     | Whether to apply the app bundle                    | Y     |
-| obfuscate                     | Whether to apply AppGuard obfuscation                 | Y     |
+| obfuscate                     | Whether to apply AppGuard obfuscation                 | N     |
 | plan                          | 보호 플랜(Business, Enterprise, Game)  | Y     |
 | appKey                        | Appkey that can be found in the console          | Y     |
 | version                       | AppGuard version                        | Y     |
@@ -72,7 +72,7 @@ appguard {
     enabled = true
     appBundle = true
     obfuscate = false
-    plan = game
+    plan = "game"
     appKey = "Appkey issued from the web console"
     version = "Protector version"
     certificateFingerprintEnabled = true // optional, true 기본 설정
