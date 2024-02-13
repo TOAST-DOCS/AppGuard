@@ -14,7 +14,7 @@ User Access Key ID and Secret Access Key are required for authentication to use 
 The created Key must be included in the request Header.
 
 > [Caution]
-If a member with a User Access Key ID/Secret Access Key associated with an operation that calls the API withdraws, it may cause service failure for customers, so you must replace it with a valid member's key before withdrawing.
+> If a member with the User Access Key ID/Secret Access Key linked to the API call withdraws, the customer's service may be interrupted, so the key must be replaced with a valid member's key before withdrawal.
 
 ## Dashboard
 

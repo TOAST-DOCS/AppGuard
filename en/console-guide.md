@@ -52,9 +52,15 @@ Select **App Protection** and click **Download SDK** to download SDK by OS.
 
 Then, follow the attached manual to work with SDKs.
 
+### Apply to Enable Obfuscation
+
+You can apply for code obfuscation for Android OS by selecting **App Protection** and **Enable Obfuscation**.
+Code obfuscation for Android OS requires an additional fee of KRW 1 million per month.
+For iOS, you can choose whether or not to use code obfuscation when protecting your app, and there is no additional charge.
+
 ### App Protection Menu
 
-Select **App Protection** and click **\+ Protect App**.
+Select **App Protection** and click **+ Protect App**.
 
 ![appguard_02_202104](http://image.toast.com/aaaaaha/console-guide/2_1_%EC%95%B1%EB%B3%B4%ED%98%B8_en.png)
 
