@@ -11,8 +11,12 @@ NHN AppGuard supports Android, iOS, and Unity environments.
 
 * You can apply the AppGuard iOS SDK to protect your app (required).
 * You can protect your app more conveniently through the web console or CLI from ipa files built in Xcode (optional).
-* You must perform protection actions using the web console or CLI to enable features such as integrity verification, signer verification, default policy, obfuscation, and plan selection.
 * If you don't protect your app through the web console or CLI, it runs on the Business plan.
+* You must perform protection using the web console or CLI to enable features such as integrity verification, signer verification, default policy, obfuscation, and plan selection.
+    * This protection does not incur additional cost.
+
+> [Caution]
+> If you need to set up a plan other than the Business plan or change plans, you must perform app protection using the web console or CLI. If you do not want to do app protection, request a consultation to proceed.
 
 ### Unity
 
@@ -35,9 +39,10 @@ When an abusive user is detected, you can check detection status by clicking on 
     - For rooting, you may check detection or sanction logs on dashboard, once a day since app is installed.
 - You can **Search** by [User ID], [Device ID], [Detection Log Count], [Log Pattern], and [Search Period].
     - Multiple [User ID] and [Device ID] can be added with comma as a delimiter.
-- In the statistical detection graph, you can check 'Detection Distribution by Pattern' and 'Change status of detection logs'.
+- In the statistical detection graph, you can check **Detection Distribution by Pattern** and **Change status of detection logs**.
 - The detection list shows User ID, Device ID, Host IP, OS, Logs, App Information, and Detection Time.
 - You may click **Download Report (Excel)** to download the query result.
+- The **Abnormal behavior detection status** can also be retrieved in json format through APIs. For more information, see the [API guide](https://docs.nhncloud.com/en/Security/NHN%20AppGuard/en/api-guide/).
 
 ## App Protection
 
