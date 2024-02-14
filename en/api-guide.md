@@ -43,10 +43,10 @@ This API does not require a request body.
 [Parameter]
 
 | Name | Type | Required | Default value | Valid range              | Description                             |
-| --- | --- | ----- | --- |--------------------|--------------------------------|
-| targetType | Integer | Required | - | 0, 1               | Type of ID to output (0=Device ID, 1=User ID) |
-| targetDate | Date | Required | - | (N-90) day ~ (N-1) day | Target date (format=`YYYY-MM-DD`)    |
-| os | Integer | Required | - | 1, 2               | Retrieve target OS (1=Android, 2=iOS)    |
+| --- | --- |----------|---------------|--------------------|--------------------------------|
+| targetType | Integer | Optional | 0             | 0, 1               | Type of ID to output (0=Device ID, 1=User ID) |
+| targetDate | Date | Required | -             | (N-90) day ~ (N-1) day | Target date (format=`YYYY-MM-DD`)    |
+| os | Integer | Required | -             | 1, 2               | Retrieve target OS (1=Android, 2=iOS)    |
 
 <details><summary>Request example</summary>
 
