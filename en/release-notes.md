@@ -1,21 +1,12 @@
 ## Security > NHN AppGuard > Release Notes
 
 ### February 15, 2024
-* [Android] 1.10.5.4
-    * Improved the malicious behavior detection pop-up design
-    * Added NHN AppGuard Application bypass detection feature
-    * Added detection of TeamViewer Host (Code: 1401)
-    * Added detection of AnyDesk (Code: 1403)
-    * Added detection of Auto Click - Automatic Clicker (Code: 1708)
-    * Added detection of Auto Tapper: Auto Clicker (Code: 1709)
 * [iOS] 1.3.15
     * Raised the minimum supported iOS version (iOS 11 or later)
     * Ended support for i386, armv7s, and armv7 architectures
     * Improved the default detection notification screen
     * Added privacy manifest
     * Added signature (NHN Cloud Corp.)
-* [Unity] 0.4.2
-    * (iOS) iOS SDK 1.3.15 update
 
 ### January 23, 2024
 * [Android] 1.10.5.3
