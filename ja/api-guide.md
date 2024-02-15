@@ -43,10 +43,10 @@ APIを使用するには、認証のためにUser Access Key IDとSecret Access 
 [パラメータ]
 
 | 名前 | タイプ | 必須かどうか | デフォルト値 | 有効範囲            | 説明                           |
-| --- | --- | ----- | --- |--------------------|--------------------------------|
-| targetType | Integer | 必須 | - | 0, 1               | 出力するIDタイプ(0=デバイスID, 1=ユーザーID) |
-| targetDate | Date | 必須 | - | (N-90)日～(N-1)日 | 対象日時(format=`YYYY-MM-DD`)    |
-| os | Integer | 必須 | - | 1, 2               | 照会対象OS(1=Android, 2=iOS)    |
+| --- | --- | ----- |--------|--------------------|--------------------------------|
+| targetType | Integer | 任意 | 0      | 0, 1               | 出力するIDタイプ(0=デバイスID, 1=ユーザーID) |
+| targetDate | Date | 必須 | -      | (N-90)日～(N-1)日 | 対象日時(format=`YYYY-MM-DD`)    |
+| os | Integer | 必須 | -      | 1, 2               | 照会対象OS(1=Android, 2=iOS)    |
 
 <details><summary>リクエスト例</summary>
 
