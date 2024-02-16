@@ -9,8 +9,8 @@
     * Auto Click - Automatic Clicker(Code: 1708)検出を追加
     * Auto Tapper: Auto Clicker(Code: 1709)検出を追加
 * [Unity] 0.5.0
-    * (iOS) NHN AppGuard iOS 빌드 이슈 수정
-        * Package Manager 사용 시 iOS 빌드가 실패하는 이슈를 수정하였습니다.
+    * (iOS) NHN AppGuard iOSビルドの問題を修正
+        * Package Manager使用時、iOSビルドが失敗する問題を修正しました。
     * (iOS) iOS SDK 1.3.15アップデート
 
 ### 2024. 02. 15.
