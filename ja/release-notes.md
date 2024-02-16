@@ -8,7 +8,7 @@
     * AnyDesk(Code: 1403)検出を追加
     * Auto Click - Automatic Clicker(Code: 1708)検出を追加
     * Auto Tapper: Auto Clicker(Code: 1709)検出を追加
-* [Unity] 0.5.0
+* [Unity] 0.4.2
     * (iOS) NHN AppGuard iOSビルドの問題を修正
         * Package Manager使用時、iOSビルドが失敗する問題を修正しました。
     * (iOS) iOS SDK 1.3.15アップデート

@@ -8,9 +8,9 @@
     * Added detection of AnyDesk (Code: 1403)
     * Added detection of Auto Click - Automatic Clicker (Code: 1708)
     * Added detection of Auto Tapper: Auto Clicker (Code: 1709)
-* [Unity] 0.5.0
-    * (iOS) NHN AppGuard iOS 빌드 이슈 수정
-        * Package Manager 사용 시 iOS 빌드가 실패하는 이슈를 수정하였습니다.
+* [Unity] 0.4.2
+    * (iOS) Fixed NHN AppGuard iOS build issues
+        * Fixed an issue where, when using Package Manager, iOS build fails.
     * (iOS) iOS SDK 1.3.15 update
 
 ### February 15, 2024
