@@ -1,6 +1,6 @@
 ## Security > NHN AppGuard > リリースノート
 
-### 2024. 02. 16.
+### 2024. 02. 19.
 * [Android] 1.10.5.4
     * 悪性行為検出ポップアップデザイン改善
     * NHN AppGuard Application迂回検出機能を追加
@@ -8,6 +8,8 @@
     * AnyDesk(Code: 1403)検出を追加
     * Auto Click - Automatic Clicker(Code: 1708)検出を追加
     * Auto Tapper: Auto Clicker(Code: 1709)検出を追加
+
+### 2024. 02. 16.
 * [Unity] 0.4.2
     * (iOS) NHN AppGuard iOSビルドの問題を修正
         * Package Manager使用時、iOSビルドが失敗する問題を修正しました。

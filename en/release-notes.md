@@ -1,6 +1,6 @@
 ## Security > NHN AppGuard > Release Notes
 
-### February 16, 2024
+### February 19. 2024
 * [Android] 1.10.5.4
     * Improved the malicious behavior detection pop-up design
     * Added NHN AppGuard Application bypass detection feature
@@ -8,6 +8,8 @@
     * Added detection of AnyDesk (Code: 1403)
     * Added detection of Auto Click - Automatic Clicker (Code: 1708)
     * Added detection of Auto Tapper: Auto Clicker (Code: 1709)
+
+### February 16, 2024
 * [Unity] 0.4.2
     * (iOS) Fixed NHN AppGuard iOS build issues
         * Fixed an issue where, when using Package Manager, iOS build fails.
