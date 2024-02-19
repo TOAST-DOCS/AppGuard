@@ -1,5 +1,20 @@
 ## Security > NHN AppGuard > 릴리스 노트
 
+### 2024. 02. 19.
+* [Android] 1.10.5.4
+    * 악성 행위 탐지 팝업 디자인 개선
+    * NHN AppGuard Application 우회 탐지 기능 추가
+    * TeamViewer Host(Code: 1401) 탐지 추가
+    * AnyDesk(Code: 1403) 탐지 추가
+    * Auto Click - Automatic Clicker(Code: 1708) 탐지 추가
+    * Auto Tapper: Auto Clicker(Code: 1709) 탐지 추가
+
+### 2024. 02. 16.
+* [Unity] 0.4.2
+    * (iOS) NHN AppGuard iOS 빌드 이슈 수정
+        * Package Manager 사용 시 iOS 빌드가 실패하는 이슈를 수정하였습니다.
+    * (iOS) iOS SDK 1.3.15 업데이트
+
 ### 2024. 02. 15.
 * [iOS] 1.3.15
     * iOS 최소 지원버전 상향(iOS 11 이상)
