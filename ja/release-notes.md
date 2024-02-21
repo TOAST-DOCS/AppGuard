@@ -9,11 +9,11 @@
     * Auto Click - Automatic Clicker(Code: 1708)検出を追加
     * Auto Tapper: Auto Clicker(Code: 1709)検出を追加
     * 암호화 적용 시 용량이 크게 증가하는 이슈 수정
+* [iOS] 1.3.16
+    * [Unity] iOS 15 환경에서 앱 실행 시 비정상 종료 이슈 수정
 * [Unity] 0.4.3
     * (iOS) 탐지 알림창이 나타나지 않는 이슈 수정
     * (iOS) iOS SDK 1.3.16アップデート
-* [iOS] 1.3.16
-    * [Unity] iOS 15 환경에서 앱 실행 시 비정상 종료 이슈 수정
 
 ### 2024. 02. 16.
 * [Unity] 0.4.2
