@@ -15,7 +15,6 @@
     * (iOS) 탐지 알림창이 나타나지 않는 이슈 수정
     * (iOS) iOS SDK 1.3.16 업데이트
 
-
 ### 2024. 02. 16.
 * [Unity] 0.4.2
     * (iOS) NHN AppGuard iOS 빌드 이슈 수정
