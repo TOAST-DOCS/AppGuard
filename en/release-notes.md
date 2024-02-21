@@ -4,11 +4,13 @@
 * [Android] 1.10.5.5
     * Improved the malicious behavior detection pop-up design
     * 보안성 개선
-    * Added detection of TeamViewer Host (Code: 1401)
-    * Added detection of AnyDesk (Code: 1403)
-    * Added detection of Auto Click - Automatic Clicker (Code: 1708)
-    * Added detection of Auto Tapper: Auto Clicker (Code: 1709)
-    * 암호화 적용 시 용량이 크게 증가하는 이슈 수정
+    * 매크로툴 탐지 패턴 추가    
+        * Added detection of Auto Click - Automatic Clicker (Code: 1708)
+        * Added detection of Auto Tapper: Auto Clicker (Code: 1709)
+    * 원격제어 탐지 패턴 추가
+        * Added detection of TeamViewer Host (Code: 1401)
+        * Added detection of AnyDesk (Code: 1403)
+    * DEX 암호화 적용 시 용량이 크게 증가하는 문제 수정
 * [iOS] 1.3.16
     * [Unity] iOS 15 환경에서 앱 실행 시 비정상 종료 이슈 수정
 * [Unity] 0.4.3
