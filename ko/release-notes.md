@@ -1,5 +1,10 @@
 ## Security > NHN AppGuard > 릴리스 노트
 
+### 2024. 02. 23.
+* [iOS] 1.3.16
+    * Unity SDK, iOS 15에서 최초 실행 시 Deadlock 이슈 수정 
+
+
 ### 2024. 02. 16.
 * [Unity] 0.4.2
     * (iOS) NHN AppGuard iOS 빌드 이슈 수정
