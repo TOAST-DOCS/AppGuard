@@ -1,5 +1,9 @@
 ## Security > NHN AppGuard > Release Notes
 
+### 2024. 02. 23.
+* [iOS] 1.3.16
+    * [Unity] iOS 15 환경에서 앱 실행 시 비정상 종료 이슈 수정
+
 ### February 16, 2024
 * [Unity] 0.4.2
     * (iOS) Fixed NHN AppGuard iOS build issues
