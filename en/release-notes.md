@@ -1,5 +1,22 @@
 ## Security > NHN AppGuard > Release Notes
 
+### February 23, 2024
+* [Android] 1.10.5.5
+    * Improved the malicious behavior detection pop-up design
+    * Improved security
+    * Added macro detection patterns    
+        * Added detection of Auto Click - Automatic Clicker (Code: 1708)
+        * Added detection of Auto Tapper: Auto Clicker (Code: 1709)
+    * Added remote control detection patterns
+        * Added detection of TeamViewer Host (Code: 1401)
+        * Added detection of AnyDesk (Code: 1403)
+    * Fixed an issue with a large capacity increase when applying DEX encryption
+* [iOS] 1.3.16
+    * [Unity] Fixed an abnormal termination issue when running the app in the iOS 15 environment
+* [Unity] 0.4.3
+    * (iOS) Fixed an issue where the detection notification screen fails to appear
+    * (iOS) iOS SDK 1.3.16 update
+    * 
 ### February 16, 2024
 * [Unity] 0.4.2
     * (iOS) Fixed NHN AppGuard iOS build issues
