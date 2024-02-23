@@ -16,7 +16,7 @@
 * [Unity] 0.4.3
     * (iOS) Fixed an issue where the detection notification screen fails to appear
     * (iOS) iOS SDK 1.3.16 update
-    * 
+
 ### February 16, 2024
 * [Unity] 0.4.2
     * (iOS) Fixed NHN AppGuard iOS build issues
