@@ -3,18 +3,18 @@
 ### February 23, 2024
 * [Android] 1.10.5.5
     * Improved the malicious behavior detection pop-up design
-    * 보안성 개선
-    * 매크로툴 탐지 패턴 추가    
+    * Improved security
+    * Added macro detection patterns    
         * Added detection of Auto Click - Automatic Clicker (Code: 1708)
         * Added detection of Auto Tapper: Auto Clicker (Code: 1709)
-    * 원격제어 탐지 패턴 추가
+    * Added remote control detection patterns
         * Added detection of TeamViewer Host (Code: 1401)
         * Added detection of AnyDesk (Code: 1403)
-    * DEX 암호화 적용 시 용량이 크게 증가하는 문제 수정
+    * Fixed an issue with a large capacity increase when applying DEX encryption
 * [iOS] 1.3.16
-    * [Unity] iOS 15 환경에서 앱 실행 시 비정상 종료 이슈 수정
+    * [Unity] Fixed an abnormal termination issue when running the app in the iOS 15 environment
 * [Unity] 0.4.3
-    * (iOS) 탐지 알림창이 나타나지 않는 이슈 수정
+    * (iOS) Fixed an issue where the detection notification screen fails to appear
     * (iOS) iOS SDK 1.3.16 update
 
 ### February 16, 2024
