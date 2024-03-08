@@ -1,6 +1,9 @@
 ## Security > NHN AppGuard > 릴리스 노트
 
 ### 2024. 03. 12.
+* [iOS] 1.3.17
+    * 탐지 시간 단축
+    * Modulemap 추가
 * [Android] 1.10.6.0
     * 중요 라이브러리(.so) 보호 기능 추가
         * Unity, Unreal 등의 게임 엔진 외 중요 라이브러리(.so)를 보호할 수 있는 기능이 추가되었습니다.
