@@ -1,5 +1,20 @@
 ## Security > NHN AppGuard > 릴리스 노트
 
+### 2024. 03. 12.
+* [iOS] 1.3.17
+    * 탐지 시간 단축
+    * Modulemap 추가
+* [Android] 1.10.6.0
+    * 중요 라이브러리(.so) 보호 기능 추가
+        * Unity, Unreal 등의 게임 엔진 외 중요 라이브러리(.so)를 보호할 수 있는 기능이 추가되었습니다.
+    * HUAWEI AppGallery 지원
+        * CLI 보호 작업 시 "--huawei" 옵션을 사용해야 합니다.
+    * NHN Android AppGuard SDK 연동 후 보호 작업 없이 정상 실행되도록 개선
+    * 탐지 팝업 화면이 깨지는 이슈 수정
+    * 커스텀 팝업 설정 후 탐지 팝업이 나타나는 이슈 수정
+    * Device ID 획득 API 추가
+        * 콘솔 > NHN AppGuard Android SDK 다운로드 화면에서 .aar 파일을 업데이트해야 합니다.
+
 ### 2024. 02. 23.
 * [Android] 1.10.5.5
     * 악성 행위 탐지 팝업 디자인 개선
