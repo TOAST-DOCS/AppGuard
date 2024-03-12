@@ -1,5 +1,22 @@
 ## Security > NHN AppGuard > Release Notes
 
+### March 12, 2024
+* [Android] 1.10.6.0
+    * Added the feature to protect important libraries (.so)
+        * Added the feature to protect important libraries (.so) other than Unity and Unreal.
+    * Added support for HUAWEI AppGallery
+        * When performing CLI protection, must use the "--huawei" option.
+    * Improved normal execution without protection after integrationn with NHN Android AppGuard SDK
+    * Fixed an issue where the detection popup screen is broken
+    * Fixed issue with detection popup appearing after setting custom popups
+    * Added the Device ID acquisition API
+        * Must update the .aar file from the Console > Download NHN AppGuard Android SDK screen.
+* [iOS] 1.3.17
+    * Reduced detection time
+    * Added Modulemap
+* [Unity] 0.4.4
+    * (iOS) iOS SDK 1.3.17 update
+
 ### February 23, 2024
 * [Android] 1.10.5.5
     * Improved the malicious behavior detection pop-up design
