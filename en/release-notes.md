@@ -1,9 +1,6 @@
 ## Security > NHN AppGuard > Release Notes
 
 ### March 12, 2024
-* [iOS] 1.3.17
-    * Reduced detection time
-    * Added Modulemap
 * [Android] 1.10.6.0
     * Added the feature to protect important libraries (.so)
         * Added the feature to protect important libraries (.so) other than Unity and Unreal.
@@ -14,6 +11,11 @@
     * Fixed issue with detection popup appearing after setting custom popups
     * Added the Device ID acquisition API
         * Must update the .aar file from the Console > Download NHN AppGuard Android SDK screen.
+* [iOS] 1.3.17
+    * Reduced detection time
+    * Added Modulemap
+* [Unity] 0.4.4
+    * (iOS) iOS SDK 1.3.17 update
 
 ### February 23, 2024
 * [Android] 1.10.5.5
