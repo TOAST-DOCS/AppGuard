@@ -2,20 +2,20 @@
 
 ### 2024. 03. 12.
 * [Android] 1.10.6.0
-    * 중요 라이브러리(.so) 보호 기능 추가
-        * Unity, Unreal 등의 게임 엔진 외 중요 라이브러리(.so)를 보호할 수 있는 기능이 추가되었습니다.
-    * HUAWEI AppGallery 지원
-        * CLI 보호 작업 시 "--huawei" 옵션을 사용해야 합니다.
-    * NHN Android AppGuard SDK 연동 후 보호 작업 없이 정상 실행되도록 개선
-    * 탐지 팝업 화면이 깨지는 이슈 수정
-    * 커스텀 팝업 설정 후 탐지 팝업이 나타나는 이슈 수정
-    * Device ID 획득 API 추가
-        * 콘솔 > NHN AppGuard Android SDK 다운로드 화면에서 .aar 파일을 업데이트해야 합니다.
+    * 重要ライブラリ(.so)保護機能追加
+        * Unity、Unrealなどのゲームエンジン以外の重要なライブラリ(.so)を保護する機能が追加されました。
+    * HUAWEI AppGalleryをサポート
+        * CLI保護作業時、"-huawei"オプションを使用する必要があります。
+    * NHN Android AppGuard SDK連動後、保護作業なしで正常に実行されるように改善
+    * 検出ポップアップ画面の異常を修正
+    * カスタムポップアップ設定後、検出ポップアップが表示される問題を修正
+    * Device ID取得APIを追加
+        * コンソール > NHN AppGuard Android SDKダウンロード画面で.aarファイルをアップデートする必要があります。
 * [iOS] 1.3.17
-    * 탐지 시간 단축
-    * Modulemap 추가
+    * 検出時間の短縮
+    * Modulemapの追加
 * [Unity] 0.4.4
-    * (iOS) iOS SDK 1.3.17 업데이트
+    * (iOS) iOS SDK 1.3.17アップデート
 
 ### 2024. 02. 23.
 * [Android] 1.10.5.5
