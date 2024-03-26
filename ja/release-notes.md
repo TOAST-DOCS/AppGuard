@@ -1,5 +1,10 @@
 ## Security > NHN AppGuard > リリースノート
 
+### 2024. 04. 02.
+* [Android]
+* [iOS] 1.3.18
+    * React Native 앱 보호 지원
+* [Unity] 
 ### 2024. 03. 12.
 * [Android] 1.10.6.0
     * 重要ライブラリ(.so)保護機能追加
