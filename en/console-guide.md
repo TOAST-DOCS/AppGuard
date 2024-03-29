@@ -31,7 +31,7 @@ Following diagram shows the NHN AppGuard application process.
 
 When an abusive user is detected, you can check detection status by clicking on the **Dashboard** tab.
 
-![appguard_01_202104](http://image.toast.com/aaaaaha/console-guide/1_1_%EB%8C%80%EC%8B%9C%EB%B3%B4%EB%93%9C_en.png)
+![appguard_01_202104](http://image.toast.com/aaaaaha/console-guide/1_1_%EB%8C%80%EC%8B%9C%EB%B3%B4%EB%93%9C_en_240329.png)
 
 - **Status of abnormal behavior** can be found among abusive users as detected by NHN AppGuard in the order of trials by **log detection pattern** or **period**.
 - Click **Download Reports (Excel)** on top-right of the page to download the detection result of abnormal behavior.
@@ -62,7 +62,7 @@ For iOS, you can choose whether or not to use code obfuscation when protecting y
 
 Select **App Protection** and click **+ Protect App**.
 
-![appguard_02_202104](http://image.toast.com/aaaaaha/console-guide/2_1_%EC%95%B1%EB%B3%B4%ED%98%B8_en.png)
+![appguard_02_202104](http://image.toast.com/aaaaaha/console-guide/2_1_%EC%95%B1%EB%B3%B4%ED%98%B8_en_240329.png)
 
 * Choose a [Certificate] KeyStore file.
 * Enter [Master Password] and Click [Validation] to check validation of the chosen file.

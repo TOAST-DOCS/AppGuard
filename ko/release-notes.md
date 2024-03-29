@@ -1,5 +1,8 @@
 ## Security > NHN AppGuard > 릴리스 노트
 
+### 2024. 04. 09.
+* [Console] 정책 탭 개별 차단 기능 추가
+
 ### 2024. 04. 02.
 * [Andorid] 1.11.0.0
     * React Native 앱 보호 기능 추가
