@@ -10,6 +10,8 @@
 * [Unity] 0.4.5
     * (iOS) Improved the NHN AppGuard iOS library to be added to a relative path when added to xcode project
     * (iOS) iOS SDK 1.3.18 update
+* [React Native] 0.1.0
+    * Released NHN AppGuard React Native SDK
 
 ### March 12, 2024
 * [Android] 1.10.6.0
