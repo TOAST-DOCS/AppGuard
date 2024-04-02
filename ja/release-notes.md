@@ -1,5 +1,18 @@
 ## Security > NHN AppGuard > リリースノート
 
+### 2024. 04. 02.
+* [Andorid] 1.11.0.0
+    * React Nativeアプリ保護機能を追加
+        * CLIで保護作業をする時、`--react-native` オプションを追加する必要があります。
+    * アンチデバッグ機能強化
+* [iOS] 1.3.18
+    * React Nativeアプリ保護をサポート
+* [Unity] 0.4.5
+    * (iOS) NHN AppGuard iOSライブラリをxcodeプロジェクトに追加する際、相対パスに追加できるように改善
+    * (iOS) iOS SDK 1.3.18アップデート
+* [React Native] 0.1.0
+    * NHN AppGuard React Native SDKリリース
+
 ### 2024. 03. 12.
 * [Android] 1.10.6.0
     * 重要ライブラリ(.so)保護機能追加

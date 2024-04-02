@@ -31,7 +31,7 @@ NHN AppGuardの使用するための適用段階は次のとおりです。
 
 アプリ保護作業が完了したアプリをアプリストアに配布し、アビューズユーザーが探知されると、下図の**ダッシュボード** タブで現況を確認できます。
 
-![appguard_01_202104](http://image.toast.com/aaaaaha/console-guide/1_1_%EB%8C%80%EC%8B%9C%EB%B3%B4%EB%93%9C_jp.png)
+![appguard_01_202104](http://image.toast.com/aaaaaha/console-guide/1_1_%EB%8C%80%EC%8B%9C%EB%B3%B4%EB%93%9C_jp_240329.png)
 
 - **異常行為の検知状況**は、NHN AppGuardが検知したアビューズユーザーのログ検知パターン、期間別の試行順序を確認できます。
 - **異常行為検知状況の結果**は、右上のレポートダウンロード(Excel)ボタンをクリックしてダウンロードできます。
@@ -62,7 +62,7 @@ iOSはアプリ保護作業時にコード難読化を利用するかどうか�
 
 **アプリ保護** メニュー選択後、**+ アプリ保護** ボタンをクリックすると、次のような画面が表示されます。
 
-![appguard_02_202104](http://image.toast.com/aaaaaha/console-guide/2_1_%EC%95%B1%EB%B3%B4%ED%98%B8_jp.png)
+![appguard_02_202104](http://image.toast.com/aaaaaha/console-guide/2_1_%EC%95%B1%EB%B3%B4%ED%98%B8_jp_240329.png)
 
 * [証明書]ファイルを選択します。 AndroidはKeyStoreファイルです。
 * [マスターパスワード]を入力し、 [有効性検査]ボタンをクリックして証明書ファイルの有効性を検査します。
