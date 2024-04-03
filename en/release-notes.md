@@ -1,5 +1,9 @@
 ## Security > NHN AppGuard > Release Notes
 
+### 2024. 04. 03.
+* [Android] 1.11.0.1
+    * Android 10 디바이스에서 비정상 종료 이슈 수정
+
 ### April 2, 2024
 * [Andorid] 1.11.0.0
     * Added the feature to protect React Native apps
