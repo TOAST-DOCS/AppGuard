@@ -1,5 +1,62 @@
 ## Security > NHN AppGuard > 릴리스 노트
 
+### 2024. 04. 03.
+* [Android] 1.11.0.1
+    * Android 10 디바이스에서 비정상 종료 이슈 수정
+
+### 2024. 04. 02.
+* [Andorid] 1.11.0.0
+    * React Native 앱 보호 기능 추가
+        * CLI로 보호 작업 시 `--react-native` 옵션을 추가해야 합니다.
+    * 안티 디버깅 기능 강화
+* [iOS] 1.3.18
+    * React Native 앱 보호 지원
+* [Unity] 0.4.5
+    * (iOS) NHN AppGuard iOS 라이브러리를 xcode 프로젝트에 추가 시 상대 경로에 추가될 수 있도록 개선
+    * (iOS) iOS SDK 1.3.18 업데이트
+* [React Native] 0.1.0
+    * NHN AppGuard React Native SDK 출시
+
+### 2024. 03. 12.
+* [Android] 1.10.6.0
+    * 중요 라이브러리(.so) 보호 기능 추가
+        * Unity, Unreal 등의 게임 엔진 외 중요 라이브러리(.so)를 보호할 수 있는 기능이 추가되었습니다.
+    * HUAWEI AppGallery 지원
+        * CLI 보호 작업 시 "--huawei" 옵션을 사용해야 합니다.
+    * NHN Android AppGuard SDK 연동 후 보호 작업 없이 정상 실행되도록 개선
+    * 탐지 팝업 화면이 깨지는 이슈 수정
+    * 커스텀 팝업 설정 후 탐지 팝업이 나타나는 이슈 수정
+    * Device ID 획득 API 추가
+        * 콘솔 > NHN AppGuard Android SDK 다운로드 화면에서 .aar 파일을 업데이트해야 합니다.
+* [iOS] 1.3.17
+    * 탐지 시간 단축
+    * Modulemap 추가
+* [Unity] 0.4.4
+    * (iOS) iOS SDK 1.3.17 업데이트
+
+### 2024. 02. 23.
+* [Android] 1.10.5.5
+    * 악성 행위 탐지 팝업 디자인 개선
+    * 보안성 개선
+    * 매크로툴 탐지 패턴 추가
+        * Auto Click - Automatic Clicker(Code: 1708) 탐지 추가
+        * Auto Tapper: Auto Clicker(Code: 1709) 탐지 추가
+    * 원격제어 탐지 패턴 추가
+        * TeamViewer Host(Code: 1401) 탐지 개선
+        * AnyDesk(Code: 1403) 탐지 추가
+    * DEX 암호화 적용 시 용량이 크게 증가하는 문제 수정
+* [iOS] 1.3.16
+    * [Unity] iOS 15 환경에서 앱 실행 시 비정상 종료 이슈 수정
+* [Unity] 0.4.3
+    * (iOS) 탐지 알림창이 나타나지 않는 이슈 수정
+    * (iOS) iOS SDK 1.3.16 업데이트
+
+### 2024. 02. 16.
+* [Unity] 0.4.2
+    * (iOS) NHN AppGuard iOS 빌드 이슈 수정
+        * Package Manager 사용 시 iOS 빌드가 실패하는 이슈를 수정하였습니다.
+    * (iOS) iOS SDK 1.3.15 업데이트
+
 ### 2024. 02. 15.
 * [iOS] 1.3.15
     * iOS 최소 지원버전 상향(iOS 11 이상)

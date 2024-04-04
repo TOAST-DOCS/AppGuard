@@ -1,13 +1,70 @@
 ## Security > NHN AppGuard > Release Notes
 
-### 2024. 02. 15.
+### April 3, 2024
+* [Android] 1.11.0.1
+    *  Fixed an abnormal termination issue when running the app on Android 10
+
+### April 2, 2024
+* [Andorid] 1.11.0.0
+    * Added the feature to protect React Native apps
+        * When performing CLI protection, must use the `--react-native` option.
+    * Enhanced anti-debugging feature
+* [iOS] 1.3.18
+    * Added support for React Native apps
+* [Unity] 0.4.5
+    * (iOS) Improved the NHN AppGuard iOS library to be added to a relative path when added to xcode project
+    * (iOS) iOS SDK 1.3.18 update
+* [React Native] 0.1.0
+    * Released NHN AppGuard React Native SDK
+
+### March 12, 2024
+* [Android] 1.10.6.0
+    * Added the feature to protect important libraries (.so)
+        * Added the feature to protect important libraries (.so) other than Unity and Unreal.
+    * Added support for HUAWEI AppGallery
+        * When performing CLI protection, must use the "--huawei" option.
+    * Improved normal execution without protection after integrationn with NHN Android AppGuard SDK
+    * Fixed an issue where the detection popup screen is broken
+    * Fixed issue with detection popup appearing after setting custom popups
+    * Added the Device ID acquisition API
+        * Must update the .aar file from the Console > Download NHN AppGuard Android SDK screen.
+* [iOS] 1.3.17
+    * Reduced detection time
+    * Added Modulemap
+* [Unity] 0.4.4
+    * (iOS) iOS SDK 1.3.17 update
+
+### February 23, 2024
+* [Android] 1.10.5.5
+    * Improved the malicious behavior detection pop-up design
+    * Improved security
+    * Added macro detection patterns    
+        * Added detection of Auto Click - Automatic Clicker (Code: 1708)
+        * Added detection of Auto Tapper: Auto Clicker (Code: 1709)
+    * Added remote control detection patterns
+        * Added detection of TeamViewer Host (Code: 1401)
+        * Added detection of AnyDesk (Code: 1403)
+    * Fixed an issue with a large capacity increase when applying DEX encryption
+* [iOS] 1.3.16
+    * [Unity] Fixed an abnormal termination issue when running the app in the iOS 15 environment
+* [Unity] 0.4.3
+    * (iOS) Fixed an issue where the detection notification screen fails to appear
+    * (iOS) iOS SDK 1.3.16 update
+
+### February 16, 2024
+* [Unity] 0.4.2
+    * (iOS) Fixed NHN AppGuard iOS build issues
+        * Fixed an issue where, when using Package Manager, iOS build fail
+    * (iOS) iOS SDK 1.3.15 update
+
+### February 15, 2024
 * [iOS] 1.3.15
-    * iOS 최소 지원버전 상향(iOS 11 이상)
-    * i386, armv7s, armv7 아키텍쳐 지원 종료
-    * 기본 탐지 알림창 개선
-    * 개인정보 보호 매니페스트 추가
-    * 서명 추가 (NHN Cloud Corp.)
-    
+    * Raised the minimum supported iOS version (iOS 11 or later)
+    * Ended support for i386, armv7s, and armv7 architectures
+    * Improved the default detection notification screen
+    * Added privacy manifest
+    * Added signature (NHN Cloud Corp.)
+
 ### January 23, 2024
 * [Android] 1.10.5.3
     * Improved obfuscation
