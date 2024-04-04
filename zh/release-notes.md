@@ -1,5 +1,10 @@
 ## Security > NHN AppGuard > Release Notes
 
+### April 16, 2024
+* [Android] 1.11.0.2
+    * Fixed an issue where LDPlayer could not be blocked separately
+* [Console] Added the individual block feature for the policy tab
+
 ### April 3, 2024
 * [Android] 1.11.0.1
     *  Fixed an abnormal termination issue when running the app on Android 10
