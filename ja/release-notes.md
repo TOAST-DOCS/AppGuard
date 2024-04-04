@@ -1,5 +1,61 @@
 ## Security > NHN AppGuard > リリースノート
 
+### 2024. 04. 09.
+* [Console]ポリシータブ個別ブロック機能を追加
+
+### 2024. 04. 02.
+* [Andorid] 1.11.0.0
+    * React Nativeアプリ保護機能を追加
+        * CLIで保護作業をする時、`--react-native` オプションを追加する必要があります。
+    * アンチデバッグ機能強化
+* [iOS] 1.3.18
+    * React Nativeアプリ保護をサポート
+* [Unity] 0.4.5
+    * (iOS) NHN AppGuard iOSライブラリをxcodeプロジェクトに追加する際、相対パスに追加できるように改善
+    * (iOS) iOS SDK 1.3.18アップデート
+* [React Native] 0.1.0
+    * NHN AppGuard React Native SDKリリース
+
+### 2024. 03. 12.
+* [Android] 1.10.6.0
+    * 重要ライブラリ(.so)保護機能追加
+        * Unity、Unrealなどのゲームエンジン以外の重要なライブラリ(.so)を保護する機能が追加されました。
+    * HUAWEI AppGalleryをサポート
+        * CLI保護作業時、"-huawei"オプションを使用する必要があります。
+    * NHN Android AppGuard SDK連動後、保護作業なしで正常に実行されるように改善
+    * 検出ポップアップ画面の異常を修正
+    * カスタムポップアップ設定後、検出ポップアップが表示される問題を修正
+    * Device ID取得APIを追加
+        * コンソール > NHN AppGuard Android SDKダウンロード画面で.aarファイルをアップデートする必要があります。
+* [iOS] 1.3.17
+    * 検出時間の短縮
+    * Modulemapの追加
+* [Unity] 0.4.4
+    * (iOS) iOS SDK 1.3.17アップデート
+
+### 2024. 02. 23.
+* [Android] 1.10.5.5
+    * 悪性行為検出ポップアップデザイン改善
+    * セキュリティの改善
+    * マクロツール検出パターンを追加
+        * Auto Click - Automatic Clicker(Code: 1708)検出を追加
+        * Auto Tapper: Auto Clicker(Code: 1709)検出を追加
+    * 遠隔制御検出パターンヲ追加
+        * TeamViewer Host(Code: 1401)検出を追加
+        * AnyDesk(Code: 1403)検出を追加
+    * DEX暗号化適用時、容量が大きく増加する問題を修正
+* [iOS] 1.3.16
+    * [Unity] iOS 15環境でアプリ実行時に異常終了する問題を修正
+* [Unity] 0.4.3
+    * (iOS) 検出通知ウィンドウが表示されない問題を修正
+    * (iOS) iOS SDK 1.3.16アップデート
+
+### 2024. 02. 16.
+* [Unity] 0.4.2
+    * (iOS) NHN AppGuard iOSビルドの問題を修正
+        * Package Manager使用時、iOSビルドが失敗する問題を修正しました。
+    * (iOS) iOS SDK 1.3.15アップデート
+
 ### 2024. 02. 15.
 * [iOS] 1.3.15
     * iOS最小サポートバージョンのアップ(iOS 11以上)
@@ -7,7 +63,7 @@
     * 基本検出通知ウィンドウの改善
     * 個人情報保護マニフェストを追加
     * 署名の追加(NHN Cloud Corp.)
-    
+
 ### 2024. 01. 23.
 * [Android] 1.10.5.3
     * 難読化機能の改善
