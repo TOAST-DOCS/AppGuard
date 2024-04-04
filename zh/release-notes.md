@@ -1,5 +1,9 @@
 ## Security > NHN AppGuard > Release Notes
 
+### April 3, 2024
+* [Android] 1.11.0.1
+    *  Fixed an abnormal termination issue when running the app on Android 10
+
 ### April 2, 2024
 * [Andorid] 1.11.0.0
     * Added the feature to protect React Native apps
