@@ -1,14 +1,14 @@
 ## Security > NHN AppGuard > Release Notes
 
-### 2024. 04. 09.
+### April 9, 2024
 * [Android] 1.11.0.2
-    * LDPlayer 개별 차단이 적용되지 않는 이슈 수정
-* [Console] 정책 탭 개별 차단 기능 추가
+    * Fixed an issue where LDPlayer could not be blocked separately
+* [Console] Added the individual block feature for the policy tab
 
-### 2024. 04. 03.
+### April 3, 2024
 * [Android] 1.11.0.1
-    * Android 10 디바이스에서 비정상 종료 이슈 수정
-
+    *  Fixed an abnormal termination issue when running the app on Android 10
+      
 ### April 2, 2024
 * [Andorid] 1.11.0.0
     * Added the feature to protect React Native apps
