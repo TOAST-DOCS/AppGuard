@@ -3,7 +3,9 @@
 ### 2024. 04. 16.
 * [Android] 1.11.0.2
     * LDPlayer 개별 차단이 적용되지 않는 이슈 수정
-* [Console] 정책 탭 개별 차단 기능 추가
+* [Console] 
+  * 정책 탭 개별 차단 기능 추가
+  * 보호 탭 SDK 다운로드 내 Flutter SDK 다운로드 추가
 * [iOS] 1.3.19
     * Flutter앱 보호 지원
         * CLI로 보호 작업 시 `--flutter` 옵션을 추가해야 합니다.
