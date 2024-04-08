@@ -186,7 +186,7 @@ Select **Blacklist** and click **Re-blacklist** for a blacklist which has been u
 ## Log Search
 
 You can view the details of the detected logs on the **Log Search** tab.
-![appguard_11](http://image.toast.com/aaaaaha/console-guide/5_1_로그조회_ko_240329.png)
+![appguard_11](http://image.toast.com/aaaaaha/console-guide/5_1_%EB%A1%9C%EA%B7%B8%EC%A1%B0%ED%9A%8C_en_240329.png)
 
 - You can search by **User ID**, Device ID, Detection Log Count, Log Pattern, and Search Period.
     - Multiple **User ID** and **Device ID** can be added with comma as a delimiter.
