@@ -1,5 +1,8 @@
 ## Security > NHN AppGuard > Release Notes
 
+### April 9, 2024
+* [Console] Added the individual block feature for th policy tab
+
 ### April 3, 2024
 * [Android] 1.11.0.1
     *  Fixed an abnormal termination issue when running the app on Android 10
