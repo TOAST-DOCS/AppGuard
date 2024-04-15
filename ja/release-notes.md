@@ -2,26 +2,26 @@
 
 ### 2024. 04. 16.
 * [Android] 1.11.1.0
-    * Flutter 앱 보호 지원
-        * CLI로 보호 작업 시 `--flutter` 옵션을 추가해야 합니다.
-    * LDPlayer 탐지 개선
-    * NHN AppGuard 보안 강화
+    * Flutterアプリ保護をサポート
+        * CLIで保護作業時、`--flutter`オプションを追加する必要があります。
+    * LDPlayer検出の改善
+    * NHN AppGuardのセキュリティ強化
 * [iOS] 1.3.19
-    * Flutter앱 보호 지원
-        * CLI로 보호 작업 시 `--flutter` 옵션을 추가해야 합니다.
+    * Flutterアプリの保護をサポート
+        * CLIで保護作業時、`--flutter`オプションを追加する必要があります。
 * [Unity] 0.4.6
-    * Device ID 획득 API 추가
+    * Device ID取得APIを追加
     * (iOS) iOS SDK 1.3.19アップデート
 * [Flutter] 0.1.0
-    * NHN AppGuard Flutter SDKリリース
-* [Console]
-    * ポリシータブ個別ブロック機能を追加
-    * 보호 탭 SDK 다운로드 내 Flutter SDK 다운로드 추가
+    * NHN AppGuard Flutter SDKをリリース
+* [Console] 
+  * ポリシータブの個別ブロック機能を追加
+  * 保護タブのSDKダウンロード内のFlutter SDKダウンロードを追加
+
 
 ### 2024. 04. 03.
 * [Android] 1.11.0.1
     * Android 10デバイスで異常終了する問題を修正
-
 
 ### 2024. 04. 02.
 * [Andorid] 1.11.0.0
