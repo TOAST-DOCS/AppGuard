@@ -66,29 +66,29 @@ curl -X GET "https://api-appguard.capi.nhncloudservice.com/v1.0/appkeys/{appkey}
 
 [필드]
 
-| 필드 | 타입 | 설명                                                         |
-| --- | --- |------------------------------------------------------------|
-| header | Object | 헤더 영역                                                      |
-| header.isSuccessful | Boolean | 성공 여부                                                      |
-| header.resultCode | Integer | 결과 코드                                                      |
-| header.resultMessage | String | 결과 메시지                                                     |
-| results | List | 유저별 이상행위 탐지 현황 목록                                          |
-| results[0].id | String | 유저 ID 또는 디바이스 ID(path parameter `targetType` 값에 따름)        |
-| results[0].total | Integer | 이상행위 탐지 총계                                                 |
-| results[0].cheatCount | Integer | 치팅툴 탐지 횟수                                                  |
-| results[0].emulatorCount | Integer | 에뮬레이터 탐지 횟수                                                |
-| results[0].modificationCount | Integer | 변조 탐지 횟수                                                   |
-| results[0].debuggerCount | Integer | 디버거 탐지 횟수                                                  |
-| results[0].rootingCount | Integer | 루팅 탐지 횟수(path parameter `os` 값에 따름, Android Only)          |
-| results[0].speedHackCount | Integer | 스피드 조작 탐지 횟수(path parameter `os` 값에 따름, Android Only)      |
-| results[0].networkCount | Integer | SSL Pinning 탐지 횟수(path parameter `os` 값에 따름, Android Only) |
-| results[0].virtualCount | Integer | 가상 환경 탐지 횟수(path parameter `os` 값에 따름, Android Only)       |
-| results[0].remoteCount | Integer | 원격 제어 탐지 횟수(path parameter `os` 값에 따름, Android Only)       |
-| results[0].macroCount | Integer | 매크로툴 탐지 횟수(path parameter `os` 값에 따름, Android Only)        |
-| results[0].blackCount | Integer | 블랙리스트 탐지 횟수(path parameter `os` 값에 따름, Android Only)       |
-| results[0].macroSuspect\_count | Integer | 매크로 의심 사용자 탐지 횟수(path parameter `os` 값에 따름, Android Only) |
-| results[0].jailbreakCount | Integer | 탈옥 탐지 횟수(path parameter `os` 값에 따름, iOS Only)             |
-| results[0].hookCount | Integer | 후킹 탐지 횟수(path parameter `os` 값에 따름, iOS Only)             |
+| 필드                        | 타입 | 설명                                                         |
+|---------------------------| --- |------------------------------------------------------------|
+| header                    | Object | 헤더 영역                                                      |
+| header.isSuccessful       | Boolean | 성공 여부                                                      |
+| header.resultCode         | Integer | 결과 코드                                                      |
+| header.resultMessage      | String | 결과 메시지                                                     |
+| data                      | List | 유저별 이상행위 탐지 현황 목록                                          |
+| data[0].abnormalId        | String | 유저 ID 또는 디바이스 ID(path parameter `targetType` 값에 따름)        |
+| data[0].total             | Integer | 이상행위 탐지 총계                                                 |
+| data[0].cheatCount        | Integer | 치팅툴 탐지 횟수                                                  |
+| data[0].emulatorCount     | Integer | 에뮬레이터 탐지 횟수                                                |
+| data[0].modificationCount | Integer | 변조 탐지 횟수                                                   |
+| data[0].debuggerCount     | Integer | 디버거 탐지 횟수                                                  |
+| data[0].rootingCount      | Integer | 루팅 탐지 횟수(path parameter `os` 값에 따름, Android Only)          |
+| data[0].speedHackCount    | Integer | 스피드 조작 탐지 횟수(path parameter `os` 값에 따름, Android Only)      |
+| data[0].networkCount      | Integer | SSL Pinning 탐지 횟수(path parameter `os` 값에 따름, Android Only) |
+| data[0].virtualCount      | Integer | 가상 환경 탐지 횟수(path parameter `os` 값에 따름, Android Only)       |
+| data[0].remoteCount       | Integer | 원격 제어 탐지 횟수(path parameter `os` 값에 따름, Android Only)       |
+| data[0].macroCount        | Integer | 매크로툴 탐지 횟수(path parameter `os` 값에 따름, Android Only)        |
+| data[0].blackCount        | Integer | 블랙리스트 탐지 횟수(path parameter `os` 값에 따름, Android Only)       |
+| data[0].macroSuspectCount | Integer | 매크로 의심 사용자 탐지 횟수(path parameter `os` 값에 따름, Android Only) |
+| data[0].jailbreakCount    | Integer | 탈옥 탐지 횟수(path parameter `os` 값에 따름, iOS Only)             |
+| data[0].hookCount         | Integer | 후킹 탐지 횟수(path parameter `os` 값에 따름, iOS Only)             |
 
 [응답 본문]
 os=1(Android) 응답 예시
@@ -104,9 +104,9 @@ os=1(Android) 응답 예시
         "resultMessage": "Request success",
         "isSuccessful": true
     },
-    "results": [
+    "data": [
         { 
-            "id": "id123", 
+            "abnormalId": "id123", 
             "total": 12,
             "cheatCount": 1,
             "emulatorCount": 1,
@@ -119,7 +119,7 @@ os=1(Android) 응답 예시
             "remoteCount": 1,
             "macroCount": 1,
             "blackCount": 1,
-            "macroSuspect_count": 1
+            "macroSuspectCount": 1
         }
     ]
 }
@@ -139,9 +139,9 @@ os=1(Android) 응답 예시
         "resultMessage": "Request success",
         "isSuccessful": true
     },
-    "results": [
+    "data": [
         { 
-            "id": "device123", 
+            "abnormalId": "device123", 
             "total": 6,
             "cheatCount": 1,
             "emulatorCount": 1,
