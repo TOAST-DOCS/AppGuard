@@ -1,5 +1,23 @@
 ## Security > NHN AppGuard > 릴리스 노트
 
+### 2024. 04. 16.
+* [Android] 1.11.1.0
+    * Flutter 앱 보호 지원
+        * CLI로 보호 작업 시 `--flutter` 옵션을 추가해야 합니다.
+    * LDPlayer 탐지 개선
+    * NHN AppGuard 보안 강화
+* [iOS] 1.3.19
+    * Flutter 앱 보호 지원
+        * CLI로 보호 작업 시 `--flutter` 옵션을 추가해야 합니다.
+* [Unity] 0.4.6
+    * Device ID 획득 API 추가
+    * (iOS) iOS SDK 1.3.19 업데이트
+* [Flutter] 0.1.0
+    * NHN AppGuard Flutter SDK 출시
+* [Console] 
+  * 정책 탭 개별 차단 기능 추가
+  * 보호 탭 SDK 다운로드 내 Flutter SDK 다운로드 추가
+
 ### 2024. 04. 03.
 * [Android] 1.11.0.1
     * Android 10 디바이스에서 비정상 종료 이슈 수정
