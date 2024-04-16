@@ -1,5 +1,11 @@
 ## Security > NHN AppGuard > 릴리스 노트
 
+| Platform | Version  | Release Date | Status |
+| -------- | -------- | -----------  | ------ |
+| Android  | 1.11.1.0 | 2024.04.16.  | latest |
+| Android  | 1.10.6.0 | 2023.03.12.  | stable |
+| iOS      | 1.3.19   | 2024.04.16.  | latest |
+
 ### 2024. 04. 16.
 * [Android] 1.11.1.0
     * Flutter 앱 보호 지원
