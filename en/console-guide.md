@@ -40,8 +40,6 @@ When an abusive user is detected, you can check detection status by clicking on 
 - You can **Search** by [User ID], [Device ID], [Detection Log Count], [Log Pattern], and [Search Period].
     - Multiple [User ID] and [Device ID] can be added with comma as a delimiter.
 - In the statistical detection graph, you can check **Detection Distribution by Pattern** and **Change status of detection logs**.
-- The detection list shows User ID, Device ID, Host IP, OS, Logs, App Information, and Detection Time.
-- You may click **Download Report (Excel)** to download the query result.
 - The **Abnormal behavior detection status** can also be retrieved in json format through APIs. For more information, see the [API guide](https://docs.nhncloud.com/en/Security/NHN%20AppGuard/en/api-guide/).
 
 ## App Protection
@@ -97,6 +95,10 @@ For further details on the policy, please refer to "NHN AppGuard Developer's Gui
     - If set to **Block All**in the NHN AppGuard Policy screen, the app will be ended as soon as the behavior is detected.
     - Even if the app is shut down due to a policy, you can use the app normally if you relaunch the app without any abnormal behavior.
     - If you change the policy to Block All or Detect, it will be applied to the app that has restarted after about a minute.
+- **NHN AppGuard** > **Policies** > **Individual Block**
+    - Only emulators and macro tools can be blocked per individual tool, not all types.
+    - When set to block in the individual block, the app will be ended upon detection, just like a full block.
+    - The policy is applied to apps that restart approximately one minute after saving the policy.
 - **NHN AppGuard** > **Policy** > **Block by Condition**
     - If you set it to **Block by Condition**on the NHN AppGuard policy screen, it will blacklist users who meet the condition at 00:00 every day.
     - Whether the conditions are met is determined based on detection logs that occurred between 00:00:00 and 23:59:59 in the last day, and each condition works independently by type.
@@ -113,6 +115,13 @@ For further details on the policy, please refer to "NHN AppGuard Developer's Gui
 History can be managed, regarding by who and when policy was changed and saved.
 
 ![appguard_04_202104](http://image.toast.com/aaaaaha/console-guide/3_2_%EC%A0%95%EC%B1%85%20%EB%B3%80%EA%B2%BD%EC%9D%B4%EB%A0%A5_en.png)
+
+### Individual Block
+
+Only emulators and macro tools can be blocked per individual tool, not all types.
+
+- You can **disable**, **detect**, and **block** an individual tool.
+- **Default Policies**allow you to set policies for unidentified types.
 
 ### Add Conditions
 
@@ -170,6 +179,16 @@ Select **Blacklist** and click **Re-blacklist** for a blacklist which has been u
 
 ![appguard_10_202104](http://image.toast.com/aaaaaha/console-guide/4_4_%EB%B8%94%EB%9E%99%EB%A6%AC%EC%8A%A4%ED%8A%B8%20%EC%9E%AC%EB%93%B1%EB%A1%9D_en.png)
 
-* Modify **Cause of Registration** and **Blocking Period (day)**.
+* Modify **Cause of Registration** and <strong>Blocking Period (day)</strong>.
 * Click **Register** to register the updated blacklist.
 * Execute the app with re-registered blacklist ID and guide for NHN AppGuard shows during specified blocking period and app is closed.
+
+## Log Search
+
+You can view the details of the detected logs on the **Log Search** tab.
+![appguard_11](http://image.toast.com/aaaaaha/console-guide/5_1_%EB%A1%9C%EA%B7%B8%EC%A1%B0%ED%9A%8C_en_240329.png)
+
+- You can search by **User ID**, Device ID, Detection Log Count, Log Pattern, and Search Period.
+    - Multiple **User ID** and **Device ID** can be added with comma as a delimiter.
+- User ID, Device ID, Host IP, OS, Logs, App Information, and Detection Time appear.
+- You can download the search results by clicking <strong>Download Report (Excel</strong>).
