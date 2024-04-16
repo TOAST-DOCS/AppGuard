@@ -66,29 +66,29 @@ curl -X GET "https://api-appguard.capi.nhncloudservice.com/v1.0/appkeys/{appkey}
 
 [Field]
 
-| Field | Type | Description                                                         |
-| --- | --- |------------------------------------------------------------|
-| header | Object | Header area                                                      |
-| header.isSuccessful | Boolean | Successful or not                                                      |
-| header.resultCode | Integer | Result code                                                      |
-| header.resultMessage | String | Result message                                                     |
-| results | List | Abnormal behavior detection status list by user                                          |
-| results[0].id | String | User ID or device ID (depending on the value of the path parameter `targetType` )        |
-| results[0].total | Integer | Abnormal behavior detection totals                                                 |
-| results[0].cheatCount | Integer | Cheating tool detection count                                                  |
-| results[0].emulatorCount | Integer | Emulator detection count                                                |
-| results[0].modificationCount | Integer | Temper detection count                                                   |
-| results[0].debuggerCount | Integer | Debugger detection count                                                  |
-| results[0].rootingCount | Integer | Rooting detection count (based on the path parameter `os`, Android Only)          |
-| results[0].speedHackCount | Integer | Speed manipulation detection count (based on the path parameter `os`, Android Only)      |
-| results[0].networkCount | Integer | SSL Pinning detection count (based on the path parameter `os`, Android Only) |
-| results[0].virtualCount | Integer | Virtual environment detection count (based on the path parameter `os`, Android Only)       |
-| results[0].remoteCount | Integer | Remote control detection count (based on path parameter `os`, Android Only)       |
-| results[0].macroCount | Integer | Macro tool detection count (based on the path `parameter` os, Android Only)        |
-| results[0].blackCount | Integer | Blacklist detection count (based on the path parameter `os`, Android Only)       |
-| results[0].macroSuspect_count | Integer | Macro suspect user detection count (based on the path parameter `os`, Android Only) |
-| results[0].jailbreakCount | Integer | Jailbreak detection count (based on the path parameter `os`, iOS Only)             |
-| results[0].hookCount | Integer | Hooking detection count (based on the path parameter `os`, iOS Only)             |
+| Field                     | Type | Description                                                         |
+|---------------------------| --- |------------------------------------------------------------|
+| header                    | Object | Header area                                                      |
+| header.isSuccessful       | Boolean | Successful or not                                                      |
+| header.resultCode         | Integer | Result code                                                      |
+| header.resultMessage      | String | Result message                                                     |
+| data                      | List | Abnormal behavior detection status list by user                                          |
+| data[0].id                | String | User ID or device ID (depending on the value of the path parameter `targetType` )        |
+| data[0].total             | Integer | Abnormal behavior detection totals                                                 |
+| data[0].cheatCount        | Integer | Cheating tool detection count                                                  |
+| data[0].emulatorCount     | Integer | Emulator detection count                                                |
+| data[0].modificationCount | Integer | Temper detection count                                                   |
+| data[0].debuggerCount     | Integer | Debugger detection count                                                  |
+| data[0].rootingCount      | Integer | Rooting detection count (based on the path parameter `os`, Android Only)          |
+| data[0].speedHackCount    | Integer | Speed manipulation detection count (based on the path parameter `os`, Android Only)      |
+| data[0].networkCount      | Integer | SSL Pinning detection count (based on the path parameter `os`, Android Only) |
+| data[0].virtualCount      | Integer | Virtual environment detection count (based on the path parameter `os`, Android Only)       |
+| data[0].remoteCount       | Integer | Remote control detection count (based on path parameter `os`, Android Only)       |
+| data[0].macroCount        | Integer | Macro tool detection count (based on the path `parameter` os, Android Only)        |
+| data[0].blackCount        | Integer | Blacklist detection count (based on the path parameter `os`, Android Only)       |
+| data[0].macroSuspectCount | Integer | Macro suspect user detection count (based on the path parameter `os`, Android Only) |
+| data[0].jailbreakCount    | Integer | Jailbreak detection count (based on the path parameter `os`, iOS Only)             |
+| data[0].hookCount         | Integer | Hooking detection count (based on the path parameter `os`, iOS Only)             |
 
 [Response Body].
 Example os=1 (Android) response
@@ -104,9 +104,9 @@ Example os=1 (Android) response
         "resultMessage": "Request success",
         "isSuccessful": true
     },
-    "results": [
+    "data": [
         { 
-            "id": "id123", 
+            "abnormalId": "id123", 
             "total": 12,
             "cheatCount": 1,
             "emulatorCount": 1,
@@ -119,7 +119,7 @@ Example os=1 (Android) response
             "remoteCount": 1,
             "macroCount": 1,
             "blackCount": 1,
-            "macroSuspect_count": 1
+            "macroSuspectCount": 1
         }
     ]
 }
@@ -139,9 +139,9 @@ Example os=1 (Android) response
         "resultMessage": "Request success",
         "isSuccessful": true
     },
-    "results": [
+    "data": [
         { 
-            "id": "device123", 
+            "abnormalId": "device123", 
             "total": 6,
             "cheatCount": 1,
             "emulatorCount": 1,

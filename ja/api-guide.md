@@ -66,29 +66,29 @@ curl -X GET "https://api-appguard.capi.nhncloudservice.com/v1.0/appkeys/{appkey}
 
 [フィールド]
 
-| フィールド | タイプ | 説明                                                       |
-| --- | --- |------------------------------------------------------------|
-| header | Object | ヘッダ領域                                                    |
-| header.isSuccessful | Boolean | 成否                                                    |
-| header.resultCode | Integer | 結果コード                                                    |
-| header.resultMessage | String | 結果メッセージ                                                   |
-| results | List | ユーザー別異常行為検出現況リスト                                        |
-| results[0].id | String | ユーザーIDまたはデバイスID(path parameter `targetType`値に基づく)        |
-| results[0].total | Integer | 異常行為検出の合計                                                |
-| results[0].cheatCount | Integer | チートツール検出回数                                                |
-| results[0].emulatorCount | Integer | エミュレータ検出回数                                              |
-| results[0].modificationCount | Integer | 改ざん検出回数                                                 |
-| results[0].debuggerCount | Integer | デバッガ検出回数                                                |
-| results[0].rootingCount | Integer | ルート化検出回数(path parameter `os`値に基づく、 Android Only)          |
-| results[0].speedHackCount | Integer | スピード操作検出回数(path parameter `os`値に基づく、 Android Only)      |
-| results[0].networkCount | Integer | SSL Pinning検出回数(path parameter `os`値に基づく、 Android Only) |
-| results[0].virtualCount | Integer | 仮想環境検出回数(path parameter `os`値に基づく、 Android Only)       |
-| results[0].remoteCount | Integer | 遠隔制御検出回数(path parameter `os`値に基づく、 Android Only)       |
-| results[0].macroCount | Integer | マクロツール検出回数(path parameter `os`値に基づく、 Android Only)        |
-| results[0].blackCount | Integer | ブラックリスト検出回数(path parameter `os`値に基づく、 Android Only)       |
-| results[0].macroSuspect\_count | Integer | マクロ疑惑ユーザー検出回数(path parameter `os`値に基づく、 Android Only) |
-| results[0].jailbreakCount | Integer | 脱獄検出回数(path parameter `os`値に基づく、 iOS Only)             |
-| results[0].hookCount | Integer | フックの検出回数(path parameter `os`値に基づく、 iOS Only)             |
+| フィールド                     | タイプ | 説明                                                       |
+|---------------------------| --- |------------------------------------------------------------|
+| header                    | Object | ヘッダ領域                                                    |
+| header.isSuccessful       | Boolean | 成否                                                    |
+| header.resultCode         | Integer | 結果コード                                                    |
+| header.resultMessage      | String | 結果メッセージ                                                   |
+| data                      | List | ユーザー別異常行為検出現況リスト                                        |
+| data[0].abnormalId        | String | ユーザーIDまたはデバイスID(path parameter `targetType`値に基づく)        |
+| data[0].total             | Integer | 異常行為検出の合計                                                |
+| data[0].cheatCount        | Integer | チートツール検出回数                                                |
+| data[0].emulatorCount     | Integer | エミュレータ検出回数                                              |
+| data[0].modificationCount | Integer | 改ざん検出回数                                                 |
+| data[0].debuggerCount     | Integer | デバッガ検出回数                                                |
+| data[0].rootingCount      | Integer | ルート化検出回数(path parameter `os`値に基づく、 Android Only)          |
+| data[0].speedHackCount    | Integer | スピード操作検出回数(path parameter `os`値に基づく、 Android Only)      |
+| data[0].networkCount      | Integer | SSL Pinning検出回数(path parameter `os`値に基づく、 Android Only) |
+| data[0].virtualCount      | Integer | 仮想環境検出回数(path parameter `os`値に基づく、 Android Only)       |
+| data[0].remoteCount       | Integer | 遠隔制御検出回数(path parameter `os`値に基づく、 Android Only)       |
+| data[0].macroCount        | Integer | マクロツール検出回数(path parameter `os`値に基づく、 Android Only)        |
+| data[0].blackCount        | Integer | ブラックリスト検出回数(path parameter `os`値に基づく、 Android Only)       |
+| data[0].macroSuspectCount | Integer | マクロ疑惑ユーザー検出回数(path parameter `os`値に基づく、 Android Only) |
+| data[0].jailbreakCount    | Integer | 脱獄検出回数(path parameter `os`値に基づく、 iOS Only)             |
+| data[0].hookCount         | Integer | フックの検出回数(path parameter `os`値に基づく、 iOS Only)             |
 
 [レスポンス本文]
 os=1(Android)レスポンス例
@@ -104,9 +104,9 @@ os=1(Android)レスポンス例
         "resultMessage": "Request success",
         "isSuccessful": true
     },
-    "results": [
+    "data": [
         { 
-            "id": "id123", 
+            "abnormalId": "id123", 
             "total": 12,
             "cheatCount": 1,
             "emulatorCount": 1,
@@ -119,7 +119,7 @@ os=1(Android)レスポンス例
             "remoteCount": 1,
             "macroCount": 1,
             "blackCount": 1,
-            "macroSuspect_count": 1
+            "macroSuspectCount": 1
         }
     ]
 }
@@ -139,9 +139,9 @@ os=1(Android)レスポンス例
         "resultMessage": "Request success",
         "isSuccessful": true
     },
-    "results": [
+    "data": [
         { 
-            "id": "device123", 
+            "abnormalId": "device123", 
             "total": 6,
             "cheatCount": 1,
             "emulatorCount": 1,
