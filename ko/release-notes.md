@@ -21,8 +21,8 @@
 * [Flutter] 0.1.0
     * NHN AppGuard Flutter SDK 출시
 * [Console] 
-  * 정책 탭 개별 차단 기능 추가
-  * 보호 탭 SDK 다운로드 내 Flutter SDK 다운로드 추가
+    * 정책 탭 개별 차단 기능 추가
+    * 보호 탭 SDK 다운로드 내 Flutter SDK 다운로드 추가
 
 ### 2024. 04. 03.
 * [Android] 1.11.0.1
