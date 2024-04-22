@@ -1,5 +1,35 @@
 ## Security > NHN AppGuard > Release Notes
 
+| Platform | Version  | Release Date | Status |
+| -------- | -------- | -----------  | ------ |
+| Android  | 1.11.1.0 | 2024.04.16.  | latest |
+| Android  | 1.10.6.0 | 2023.03.12.  | stable |
+| iOS      | 1.3.19   | 2024.04.16.  | latest |
+
+### April 18, 2024
+* [iOS] 1.3.20
+    * Fixed engine malfunction issues that could occur depending on the timing of the initialization call.
+* [Unity] 0.4.7
+    * (iOS) iOS SDK 1.3.20 update
+
+### April 16, 2024
+* [Android] 1.11.1.0
+    * Added support for Flutter apps
+        * When performing CLI protection, must use the `--flutter` option.
+    * Improved LDPlayer detection
+    * Enhanced NHN AppGuard security
+* [iOS] 1.3.19
+    * Added support for Flutter apps
+        * When performing CLI protection, must use the `--flutter` option.
+* [Unity] 0.4.6
+    * Added the Device ID acquisition API
+    * (iOS) iOS SDK 1.3.19 update
+* [Flutter] 0.1.0
+    * Released NHN AppGuard Flutter SDK
+* [Console] 
+    * Added the individual block feature for the policy tab
+    * Added the Flutter SDK to SDK downloads on Protection tab
+
 ### April 3, 2024
 * [Android] 1.11.0.1
     *  Fixed an abnormal termination issue when running the app on Android 10
