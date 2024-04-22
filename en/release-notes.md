@@ -6,6 +6,12 @@
 | Android  | 1.10.6.0 | 2023.03.12.  | stable |
 | iOS      | 1.3.19   | 2024.04.16.  | latest |
 
+### April 18, 2024
+* [iOS] 1.3.20
+    * Fixed engine malfunction issues that could occur depending on the timing of the initialization call.
+* [Unity] 0.4.7
+    * (iOS) iOS SDK 1.3.20 update
+
 ### April 16, 2024
 * [Android] 1.11.1.0
     * Added support for Flutter apps
