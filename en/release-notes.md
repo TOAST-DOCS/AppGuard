@@ -6,6 +6,11 @@
 | Android  | 1.10.6.0 | 2023.03.12.  | stable |
 | iOS      | 1.3.19   | 2024.04.16.  | latest |
 
+### May 14, 2024
+* [Console]
+  * Added the Settings tab
+  * Added the feature to set detection/block alarms
+
 ### April 18, 2024
 * [iOS] 1.3.20
     * Fixed engine malfunction issues that could occur depending on the timing of the initialization call.
