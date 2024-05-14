@@ -1,5 +1,10 @@
 ## Security > NHN AppGuard > リリースノート
 
+### 2024. 05. 14.
+* [Console]
+  * 設定タブの追加
+  * 検出/遮断アラーム設定機能の追加
+
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
 | Android  | 1.11.1.0 | 2024. 04. 16.  | latest |
