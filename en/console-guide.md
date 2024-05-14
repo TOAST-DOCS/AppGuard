@@ -192,3 +192,24 @@ You can view the details of the detected logs on the **Log Search** tab.
     - Multiple **User ID** and **Device ID** can be added with comma as a delimiter.
 - User ID, Device ID, Host IP, OS, Logs, App Information, and Detection Time appear.
 - You can download the search results by clicking <strong>Download Report (Excel</strong>).
+
+## Settings
+
+### Set Alarms
+
+You can receive an alarm on the channel you set when the number of detection/block logs exceed a threshold.
+
+- Set Thresholds
+  - Alarms are sent when the number of detections+blocks that occurred today exceeds a **threshold** based on the **median value** of detections+blocks that occurred during the comparison period.
+    - The median value is used to reduce the impact of cases where the number of logs increased dramatically due to abnormal behaviors, such as an attack within the comparison period. 
+  - **The threshold** can be set from 10 to 10000%.
+  - For example, if the number of logs over 7 days is [5,5,5,5,5,7,7,7] and the threshold you set is 100%, alarms are sent if the number of logs today is 5 or more. 
+- Set Alarm Receiving Channel
+  - You can enter up to five emails to receive alarms.
+  - You can enter multiple emails, separated by commas (,).
+  - You can only add or delete emails. You can't edit emails.
+- Alarms are sent within 10 minutes of the threshold being exceeded.
+- If you received an alarm, access the console to view the detection log.
+
+> [Note] <br>
+> * Alarms are sent up to once per day.
