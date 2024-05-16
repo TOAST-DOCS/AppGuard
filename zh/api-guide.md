@@ -6,7 +6,7 @@ To use the API, you must request permission through [1:1 Inquiry](https://www.to
 
 | Region | Domain |
 | --- | --- |
-| All regions | [https://api-appguard.capi.nhncloudservice.com](https://api-appguard.capi.nhncloudservice.com) |
+| All regions | [https://appguard.api.nhncloudservice.com](https://appguard.api.nhncloudservice.com) |
 
 ### Authentication and Authorization
 
@@ -53,7 +53,7 @@ This API does not require a request body.
 <p>
 
 ```
-curl -X GET "https://api-appguard.capi.nhncloudservice.com/v1.0/appkeys/{appkey}/dashboard/abnormal-status?targetType=0&targetDate=2024-01-01&os=1" \ 
+curl -X GET "https://appguard.api.nhncloudservice.com/v1.0/appkeys/{appkey}/dashboard/abnormal-status?targetType=0&targetDate=2024-01-01&os=1" \ 
  -H "Content-Type: application/json" 
  -H "X-TC-AUTHENTICATION-ID: {user_access_jey}" 
  -H "X-TC-AUTHENTICATION-SECRET: {secret_access_key}"
