@@ -18,7 +18,12 @@
         * 콘솔 > NHN AppGuard > 정책 > iOS > 위치 조작 정책 설정을 통해 적용이 가능합니다.
         * iOS 15 이상에서 탐지 가능합니다.
 * [Unity] 0.4.7
-    * (iOS) iOS SDK 업데이트
+    * (iOS) iOS SDK 1.4.0 업데이트
+
+### May 14, 2024
+* [Console]
+  * Added the Settings tab
+  * Added the feature to set detection/block alarms
 
 ### April 18, 2024
 * [iOS] 1.3.20
