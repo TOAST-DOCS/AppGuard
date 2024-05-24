@@ -12,7 +12,7 @@
         * 콘솔 > NHN AppGuard > 정책 > Android > 위치 조작 정책 설정을 통해 적용이 가능합니다.
     * Google PAD와 NHN AppGuard Unity SDK 간 호환성 이슈 수정
 * [Android] 1.11.1.1
-    * 앱 실행 시 간혈적 비정상 종료 이슈 수정
+    * 앱 실행 시 간헐적 비정상 종료 이슈 수정
 * [iOS] 1.4.0
     * 위치 조작 탐지 기능 추가
         * 콘솔 > NHN AppGuard > 정책 > iOS > 위치 조작 정책 설정을 통해 적용이 가능합니다.
