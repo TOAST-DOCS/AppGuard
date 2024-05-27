@@ -6,19 +6,19 @@
 | Android  | 1.10.6.0 | 2023. 03. 12.  | stable |
 | iOS      | 1.4.0    | 2024. 05. 28.  | latest |
 
-### 2024. 05. 28.
+### May 28, 2024
 * [Android] 1.12.0.0
-    * 위치 조작 탐지 기능 추가
-        * 콘솔 > NHN AppGuard > 정책 > Android > 위치 조작 정책 설정을 통해 적용이 가능합니다.
-    * Google PAD와 NHN AppGuard Unity SDK 간 호환성 이슈 수정
+    * Added the location manipulation detection feature
+        * To apply the feature, go to Console > NHN AppGuard > Policy > Android.
+    * Fixed compatibility issues between Google PAD and NHN AppGuard Unity SDK
 * [Android] 1.11.1.1
-    * 앱 실행 시 간헐적 비정상 종료 이슈 수정
+    * Fixed an abnormal termination issue when running the app
 * [iOS] 1.4.0
-    * 위치 조작 탐지 기능 추가
-        * 콘솔 > NHN AppGuard > 정책 > iOS > 위치 조작 정책 설정을 통해 적용이 가능합니다.
-        * iOS 15 이상에서 탐지 가능합니다.
+      * Added the location manipulation detection feature
+        * To apply the feature, go to Console > NHN AppGuard > Policy > iOS.
+        * Available for iOS 15 or later.
 * [Unity] 0.4.7
-    * (iOS) iOS SDK 1.4.0 업데이트
+    * (iOS) iOS SDK 1.4.0 update
 
 ### May 14, 2024
 * [Console]
@@ -51,7 +51,7 @@
 
 ### April 3, 2024
 * [Android] 1.11.0.1
-    *  Fixed an abnormal termination issue when running the app on Android 10
+    * Fixed an abnormal termination issue when running the app on Android 10
       
 ### April 2, 2024
 * [Andorid] 1.11.0.0
