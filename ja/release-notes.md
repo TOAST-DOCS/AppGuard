@@ -8,17 +8,17 @@
 
 ### 2024. 05. 28.
 * [Android] 1.12.0.0
-    * 위치 조작 탐지 기능 추가
-        * 콘솔 > NHN AppGuard > 정책 > Android > 위치 조작 정책 설정을 통해 적용이 가능합니다.
-    * Google PAD와 NHN AppGuard Unity SDK 간 호환성 이슈 수정
+    * 位置操作検出機能を追加
+        * コンソール > NHN AppGuard > ポリシー > Android > 位置操作ポリシー設定で適用が可能です。
+    * Google PADとNHN AppGuard Unity SDK間の互換性問題を修正
 * [Android] 1.11.1.1
-    * 앱 실행 시 간헐적 비정상 종료 이슈 수정
+    * アプリ実行時、断続的な異常終了イシューを修正
 * [iOS] 1.4.0
-    * 위치 조작 탐지 기능 추가
-        * 콘솔 > NHN AppGuard > 정책 > iOS > 위치 조작 정책 설정을 통해 적용이 가능합니다.
-        * iOS 15 이상에서 탐지 가능합니다.
+    * 位置操作検出機能を追加
+        * コンソール > NHN AppGuard > ポリシー > iOS > 位置操作ポリシー設定から適用が可能です。
+        * iOS 15以上で検出可能です。
 * [Unity] 0.4.7
-    * (iOS) iOS SDK 1.4.0 업데이트
+    * (iOS) iOS SDK 1.4.0アップデート
 
 ### 2024. 05. 14.
 * [Console]
