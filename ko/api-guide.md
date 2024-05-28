@@ -6,7 +6,7 @@ API를 사용하려면 [1:1 문의](https://www.toast.com/kr/support/inquiry?ali
 
 | 리전 | 도메인 |
 | --- | --- |
-| 모든 리전 | [https://api-appguard.capi.nhncloudservice.com](https://api-appguard.capi.nhncloudservice.com) |
+| 모든 리전 | [https://appguard.api.nhncloudservice.com](https://appguard.api.nhncloudservice.com) |
 
 ### 인증 및 권한
 
@@ -53,7 +53,7 @@ API를 사용하려면 인증을 위해 User Access Key ID와 Secret Access Key�
 <p>
 
 ```
-curl -X GET "https://api-appguard.capi.nhncloudservice.com/v1.0/appkeys/{appkey}/dashboard/abnormal-status?targetType=0&targetDate=2024-01-01&os=1" \ 
+curl -X GET "https://appguard.api.nhncloudservice.com/v1.0/appkeys/{appkey}/dashboard/abnormal-status?targetType=0&targetDate=2024-01-01&os=1" \ 
  -H "Content-Type: application/json" 
  -H "X-TC-AUTHENTICATION-ID: {user_access_jey}" 
  -H "X-TC-AUTHENTICATION-SECRET: {secret_access_key}"

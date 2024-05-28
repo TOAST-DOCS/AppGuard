@@ -6,7 +6,7 @@ APIを使用するには[1:1お問い合わせ](https://www.toast.com/kr/support
 
 | リージョン | ドメイン |
 | --- | --- |
-| すべてのリージョン | [https://api-appguard.capi.nhncloudservice.com](https://api-appguard.capi.nhncloudservice.com) |
+| すべてのリージョン | [https://appguard.api.nhncloudservice.com](https://appguard.api.nhncloudservice.com) |
 
 ### 認証及び権限
 
@@ -53,7 +53,7 @@ APIを使用するには、認証のためにUser Access Key IDとSecret Access 
 <p>
 
 ```
-curl -X GET "https://api-appguard.capi.nhncloudservice.com/v1.0/appkeys/{appkey}/dashboard/abnormal-status?targetType=0&targetDate=2024-01-01&os=1" \ 
+curl -X GET "https://appguard.api.nhncloudservice.com/v1.0/appkeys/{appkey}/dashboard/abnormal-status?targetType=0&targetDate=2024-01-01&os=1" \ 
  -H "Content-Type: application/json" 
  -H "X-TC-AUTHENTICATION-ID: {user_access_jey}" 
  -H "X-TC-AUTHENTICATION-SECRET: {secret_access_key}"
