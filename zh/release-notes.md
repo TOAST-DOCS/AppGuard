@@ -2,9 +2,28 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.11.1.0 | 2024.04.16.  | latest |
-| Android  | 1.10.6.0 | 2023.03.12.  | stable |
-| iOS      | 1.3.19   | 2024.04.16.  | latest |
+| Android  | 1.12.0.0 | 2024. 05. 30.  | latest |
+| Android  | 1.10.6.0 | 2023. 03. 12.  | stable |
+| iOS      | 1.4.0    | 2024. 05. 30.  | latest |
+
+### May 30, 2024
+* [Android] 1.12.0.0
+    * Added the location manipulation detection feature
+        * To apply the feature, go to Console > NHN AppGuard > Policy > Android.
+    * Fixed compatibility issues between Google PAD and NHN AppGuard Unity SDK
+* [Android] 1.11.1.1
+    * Fixed an abnormal termination issue when running the app
+* [iOS] 1.4.0
+      * Added the location manipulation detection feature
+        * To apply the feature, go to Console > NHN AppGuard > Policy > iOS.
+        * Available for iOS 15 or later.
+* [Unity] 0.4.8
+    * (iOS) iOS SDK 1.4.0 update
+
+### May 14, 2024
+* [Console]
+  * Added the Settings tab
+  * Added the feature to set detection/block alarms
 
 ### April 18, 2024
 * [iOS] 1.3.20
