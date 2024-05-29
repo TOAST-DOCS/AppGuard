@@ -2,11 +2,11 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.0.0 | 2024. 05. 28.  | latest |
+| Android  | 1.12.0.0 | 2024. 05. 30.  | latest |
 | Android  | 1.10.6.0 | 2023. 03. 12.  | stable |
-| iOS      | 1.4.0    | 2024. 05. 28.  | latest |
+| iOS      | 1.4.0    | 2024. 05. 30.  | latest |
 
-### May 28, 2024
+### May 30, 2024
 * [Android] 1.12.0.0
     * Added the location manipulation detection feature
         * To apply the feature, go to Console > NHN AppGuard > Policy > Android.
@@ -17,7 +17,7 @@
       * Added the location manipulation detection feature
         * To apply the feature, go to Console > NHN AppGuard > Policy > iOS.
         * Available for iOS 15 or later.
-* [Unity] 0.4.7
+* [Unity] 0.4.8
     * (iOS) iOS SDK 1.4.0 update
 
 ### May 14, 2024
