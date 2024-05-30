@@ -2,9 +2,9 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.0.0 | 2024. 05. 30.  | latest |
+| Android  | 1.12.0.0 | 2024. 05. 31.  | latest |
 | Android  | 1.10.6.0 | 2023. 03. 12.  | stable |
-| iOS      | 1.4.0    | 2024. 05. 30.  | latest |
+| iOS      | 1.4.0    | 2024. 05. 31.  | latest |
 
 ### May 30, 2024
 * [Android] 1.12.0.0
