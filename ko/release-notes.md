@@ -2,11 +2,11 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.0.0 | 2024. 05. 30.  | latest |
+| Android  | 1.12.0.0 | 2024. 05. 31.  | latest |
 | Android  | 1.10.6.0 | 2023. 03. 12.  | stable |
-| iOS      | 1.4.0    | 2024. 05. 30.  | latest |
+| iOS      | 1.4.0    | 2024. 05. 31.  | latest |
 
-### 2024. 05. 30.
+### 2024. 05. 31.
 * [Android] 1.12.0.0
     * 위치 조작 탐지 기능 추가
         * 콘솔 > NHN AppGuard > 정책 > Android > 위치 조작 정책 설정을 통해 적용이 가능합니다.

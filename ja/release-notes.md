@@ -2,11 +2,11 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.0.0 | 2024. 05. 30.  | latest |
+| Android  | 1.12.0.0 | 2024. 05. 31.  | latest |
 | Android  | 1.10.6.0 | 2023. 03. 12.  | stable |
-| iOS      | 1.4.0    | 2024. 05. 30.  | latest |
+| iOS      | 1.4.0    | 2024. 05. 31.  | latest |
 
-### 2024. 05. 30.
+### 2024. 05. 31.
 * [Android] 1.12.0.0
     * 位置操作検出機能を追加
         * コンソール > NHN AppGuard > ポリシー > Android > 位置操作ポリシー設定で適用が可能です。
