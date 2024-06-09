@@ -2,9 +2,13 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.0.0 | 2024. 05. 31.  | latest |
+| Android  | 1.12.0.1 | 2024. 06. 05.  | latest |
 | Android  | 1.10.6.0 | 2023. 03. 12.  | stable |
 | iOS      | 1.4.0    | 2024. 05. 31.  | latest |
+
+### 2024. 06. 05.
+* [Android] 1.12.0.1
+    * NHN AppGuard 보안 강화
 
 ### 2024. 05. 31.
 * [Android] 1.12.0.0
