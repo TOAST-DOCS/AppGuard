@@ -2,9 +2,20 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.0.0 | 2024. 05. 31.  | latest |
+| Android  | 1.12.0.1 | 2024. 06. 05.  | latest |
 | Android  | 1.10.6.0 | 2023. 03. 12.  | stable |
-| iOS      | 1.4.0    | 2024. 05. 31.  | latest |
+| iOS      | 1.4.1    | 2024. 06. 07.  | latest |
+
+### 2024.06.07.
+* [iOS] 1.4.1
+    * 엔진 안정성 개선
+        * 특정 상황에서 가상 메모리 사용이 증가되는 문제를 개선하였습니다.
+* [Unity] 0.4.9
+    * (iOS) iOS SDK 1.4.1 업데이트
+
+### June 05, 2024
+* [Android] 1.12.0.1
+    * Enhanced NHN AppGuard security
 
 ### May 30, 2024
 * [Android] 1.12.0.0
