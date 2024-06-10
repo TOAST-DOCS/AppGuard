@@ -4,9 +4,16 @@
 | -------- | -------- | -----------  | ------ |
 | Android  | 1.12.0.1 | 2024. 06. 05.  | latest |
 | Android  | 1.10.6.0 | 2023. 03. 12.  | stable |
-| iOS      | 1.4.0    | 2024. 05. 31.  | latest |
+| iOS      | 1.4.1    | 2024. 06. 07.  | latest |
 
-### June 05, 2024
+### June 7, 2024
+* [iOS] 1.4.1
+    * Improved engine stability
+        * Fixed an issue where virtual memory usage increases in a specific situation.
+* [Unity] 0.4.9
+    * (iOS) iOS SDK 1.4.1 update
+
+### June 5, 2024
 * [Android] 1.12.0.1
     * Enhanced NHN AppGuard security
 
