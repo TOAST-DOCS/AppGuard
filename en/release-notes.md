@@ -2,9 +2,22 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.0.1 | 2024. 06. 05.  | latest |
+| Android  | 1.12.1.0 | 2024. 07. 09.  | latest |
 | Android  | 1.10.6.0 | 2023. 03. 12.  | stable |
-| iOS      | 1.4.1    | 2024. 06. 07.  | latest |
+| iOS      | 1.4.2    | 2024. 07. 09.  | latest |
+
+### 2024. 07. 09.
+* [Android] 1.12.1.0
+    * Android 5.1 이하 버전에서 크래시가 발생하는 문제 수정
+    * 일부 탐지 로직이 정상적으로 동작하지 않는 문제 수정
+    * Google PAD와 NHN AppGuard Unity SDK 호환성 버그 수정
+* [iOS] 1.4.2 
+	* (React Native) Codepush를 적용할 때 롤백되는 문제 수정
+    * 엔진 안정성 향상
+* [Unity] 0.4.10
+    * (SecureValue) 성능 및 보안 취약점 개선
+    * (SecureValue) 직렬화 및 역직렬화 기능 추가
+        * Newtonsoft 및 Photon RPC를 지원합니다.
 
 ### June 7, 2024
 * [iOS] 1.4.1
