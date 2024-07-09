@@ -2,9 +2,22 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.0.1 | 2024. 06. 05.  | latest |
+| Android  | 1.12.1.0 | 2024. 07. 09.  | latest |
 | Android  | 1.10.6.0 | 2023. 03. 12.  | stable |
-| iOS      | 1.4.1    | 2024. 06. 07.  | latest |
+| iOS      | 1.4.2    | 2024. 07. 09.  | latest |
+
+### July 9, 2024
+* [Android] 1.12.1.0
+    * Fixed an issue where a crash occurs on Android 5.1 and earlier versions 
+    * Fixed an issue where some detection logics do not operate properly 
+    * Fixed compatibility issues between Google PAD and NHN AppGuard Unity SDK
+* [iOS] 1.4.2 
+	* (React Native) Fixed an issue where rollback occurs when applying CodepushCodepush
+    * Improved engine stability
+* [Unity] 0.4.10
+    * (SecureValue) Improved performance and security vulnerabilities
+    * (SecureValue) Added serialisation and deserialisation features
+        * Added support for Newtonsoft and Photon RPC.
 
 ### 2024.06.07.
 * [iOS] 1.4.1
