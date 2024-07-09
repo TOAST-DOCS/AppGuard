@@ -2,11 +2,14 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.1.0 | 2024. 07. 09.  | latest |
+| Android  | 1.12.1.1 | 2024. 07. 09.  | latest |
 | Android  | 1.10.6.0 | 2023. 03. 12.  | stable |
 | iOS      | 1.4.2    | 2024. 07. 09.  | latest |
 
 ### 2024. 07. 09.
+* [Android] 1.12.1.1 
+    * 구글 자동 무결성 보호(Google Automatic Integrity Protection) 옵션 사용 시 NHN AppGuard 변조 오탐 이슈 수정
+        * 구글 자동 무결성 보호 옵션: "--google-pairip"
 * [Android] 1.12.1.0
     * Android 5.1 이하 버전에서 크래시가 발생하는 문제 수정
     * 일부 탐지 로직이 정상적으로 동작하지 않는 문제 수정
