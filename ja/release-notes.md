@@ -2,11 +2,14 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.1.0 | 2024. 07. 09.  | latest |
+| Android  | 1.12.1.1 | 2024. 07. 09.  | latest |
 | Android  | 1.10.6.0 | 2023. 03. 12.  | stable |
 | iOS      | 1.4.2    | 2024. 07. 09.  | latest |
 
 ### 2024. 07. 09.
+* [Android] 1.12.1.1 
+    * Google自動整合性保護(Google Automatic Integrity Protection)オプション使用時、NHN AppGuard改ざん誤検知イシューを修正
+        * Google自動整合性保護オプション: "--google-pairip"
 * [Android] 1.12.1.0
     * Android 5.1以下のバージョンでクラッシュが発生する問題を修正
     * 一部の検出ロジックが正常に動作しない問題を修正

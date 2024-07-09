@@ -2,11 +2,14 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.1.0 | 2024. 07. 09.  | latest |
+| Android  | 1.12.1.1 | 2024. 07. 09.  | latest |
 | Android  | 1.10.6.0 | 2023. 03. 12.  | stable |
 | iOS      | 1.4.2    | 2024. 07. 09.  | latest |
 
 ### July 9, 2024
+* [Android] 1.12.1.1 
+    * Fixed NHN AppGuard tampering false positive issue when using Google Automatic Integrity Protection option
+        * Google Automatic Integrity Protection: "--google-pairip"
 * [Android] 1.12.1.0
     * Fixed an issue where a crash occurs on Android 5.1 and earlier versions 
     * Fixed an issue where some detection logics do not operate properly 
