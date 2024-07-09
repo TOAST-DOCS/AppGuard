@@ -8,8 +8,8 @@
 
 ### 2024. 07. 09.
 * [Android] 1.12.1.1 
-    * 구글 자동 무결성 보호(Google Automatic Integrity Protection) 옵션 사용 시 NHN AppGuard 변조 오탐 이슈 수정
-        * 구글 자동 무결성 보호 옵션: "--google-pairip"
+    * Google自動整合性保護(Google Automatic Integrity Protection)オプション使用時、NHN AppGuard改ざん誤検知イシューを修正
+        * Google自動整合性保護オプション: "--google-pairip"
 * [Android] 1.12.1.0
     * Android 5.1以下のバージョンでクラッシュが発生する問題を修正
     * 一部の検出ロジックが正常に動作しない問題を修正
