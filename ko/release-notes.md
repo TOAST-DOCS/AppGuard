@@ -7,6 +7,11 @@
 | iOS      | 1.4.2    | 2024. 07. 09.  | latest |
 
 ### 2024. 07. 09.
+* [Console]
+    * 알람 설정 실패 문구 세분화
+    * 블랙리스트 차단 기준 변경 재등록 기능 추가
+
+### 2024. 07. 09.
 * [Android] 1.12.1.1 
     * 구글 자동 무결성 보호(Google Automatic Integrity Protection) 옵션 사용 시 NHN AppGuard 변조 오탐 이슈 수정
         * 구글 자동 무결성 보호 옵션: "--google-pairip"
