@@ -6,12 +6,12 @@
 | Android  | 1.10.6.0 | 2023. 03. 12.  | stable |
 | iOS      | 1.4.2    | 2024. 07. 09.  | latest |
 
-### 2024. 07. 23.
+### July 23, 2024
 * [Android] 1.12.2.0
-    * 루팅 탐지 기능 강화
+    * Enhanced rooting detection
 * [Console]
-    * 알람 설정 실패 문구 세분화
-    * 블랙리스트 차단 기준을 변경하여 재등록하는 기능 추가
+    * Segmented the notification set failure text
+    * Added the feature to re-register by changing blacklist criteria
 
 ### July 9, 2024
 * [Android] 1.12.1.1 
