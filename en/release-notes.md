@@ -2,9 +2,16 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.1.1 | 2024. 07. 09.  | latest |
+| Android  | 1.12.2.0 | 2024. 07. 23.  | latest |
 | Android  | 1.10.6.0 | 2023. 03. 12.  | stable |
 | iOS      | 1.4.2    | 2024. 07. 09.  | latest |
+
+### July 23, 2024
+* [Android] 1.12.2.0
+    * Enhanced rooting detection
+* [Console]
+    * Segmented the notification set failure text
+    * Added the feature to re-register by changing blacklist criteria
 
 ### July 9, 2024
 * [Android] 1.12.1.1 
