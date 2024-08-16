@@ -13,7 +13,7 @@
 ### 2024. 08. 13.
 * [Android] 1.12.2.1
     * 앱 로딩 속도 개선
-    * API 34 Android 에뮬레이터 탐지 추가
+    * Android 14(API 34) 에뮬레이터 탐지 추가
     * 구글 자동 무결성 보호(Google Automatic Integrity Protection) 옵션 호환성 개선
     * 앱 서명 옵션("--as") 개선
         * 두 개 이상의 서명 정보를 입력하였을 때 KeyStore의 서명 값이 포함되어 있어도 오류가 발생하지 않도록 개선되었습니다.
