@@ -2,13 +2,16 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.2.1 | 2024. 08. 13.  | latest |
+| Android  | 1.12.2.2 | 2024. 08. 16.  | latest |
 | Android  | 1.10.6.0 | 2023. 03. 12.  | stable |
 | iOS      | 1.4.2    | 2024. 07. 09.  | latest |
 
+### 2024. 08. 16.
+* [Android] 1.12.2.2
+    * Android 14(API 34) 타겟 앱이 일부 저사양 디바이스에서 비정상 종료되는 이슈 수정
+
 ### 2024. 08. 13.
 * [Android] 1.12.2.1
-    * 앱 로딩 속도 개선
     * API 34 Android 에뮬레이터 탐지 추가
     * 구글 자동 무결성 보호(Google Automatic Integrity Protection) 옵션 호환성 개선
     * 앱 서명 옵션("--as") 개선
