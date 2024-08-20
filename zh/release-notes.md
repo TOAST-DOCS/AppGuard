@@ -2,11 +2,23 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.2.0 | 2024. 07. 23.  | latest |
+| Android  | 1.12.2.2 | 2024. 08. 20.  | latest |
 | Android  | 1.10.6.0 | 2023. 03. 12.  | stable |
 | iOS      | 1.4.2    | 2024. 07. 09.  | latest |
 
-### 2024. 07. 23.
+### August 20, 2024
+* [Android] 1.12.2.2
+    * Fixed an issue where apps targeting Android 14 (API 34) are terminated abnormally on some low-specification devices
+
+### August 13, 2024
+* [Android] 1.12.2.1
+    * Improved app loading speed
+    * Added emulator detection in Android 14 (API 34)
+    * Improved compatibility for Google Automatic Integrity Protection option
+    * Improved app signature option ("--as")
+        * Improved to prevent errors from occurring when more than one signature information is entered, even if the signature value from the KeyStore is included.
+
+### July 23, 2024
 * [Android] 1.12.2.0
     * 루팅 탐지 기능 강화
 * [Console]
