@@ -2,21 +2,21 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.2.2 | 2024. 08. 16.  | latest |
+| Android  | 1.12.2.2 | 2024. 08. 20.  | latest |
 | Android  | 1.10.6.0 | 2023. 03. 12.  | stable |
 | iOS      | 1.4.2    | 2024. 07. 09.  | latest |
 
-### 2024. 08. 16.
+### August 20, 2024
 * [Android] 1.12.2.2
-    * Android 14(API 34) 타깃 앱이 일부 저사양 디바이스에서 비정상 종료되는 문제 수정
+    * Fixed an issue where apps targeting Android 14 (API 34) are terminated abnormally on some low-specification devices
 
-### 2024. 08. 13.
+### August 13, 2024
 * [Android] 1.12.2.1
-    * 앱 로딩 속도 개선
-    * Android 14(API 34) 에뮬레이터 탐지 추가
-    * 구글 자동 무결성 보호(Google Automatic Integrity Protection) 옵션 호환성 개선
-    * 앱 서명 옵션("--as") 개선
-        * 두 개 이상의 서명 정보를 입력하였을 때 KeyStore의 서명 값이 포함되어 있어도 오류가 발생하지 않도록 개선되었습니다.
+    * Improved app loading speed
+    * Added emulator detection in Android 14 (API 34)
+    * Improved compatibility for Google Automatic Integrity Protection option
+    * Improved app signature option ("--as")
+        * Improved to prevent errors from occurring when more than one signature information is entered, even if the signature value from the KeyStore is included.
 
 ### July 23, 2024
 * [Android] 1.12.2.0
