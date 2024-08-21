@@ -24,10 +24,10 @@
 
 ### July 23, 2024
 * [Android] 1.12.2.0
-    * 루팅 탐지 기능 강화
+    * Enhanced rooting detection
 * [Console]
-    * 알람 설정 실패 문구 세분화
-    * 블랙리스트 차단 기준을 변경하여 재등록하는 기능 추가
+    * Segmented the notification set failure text
+    * Added the feature to re-register by changing blacklist criteria
 
 ### July 9, 2024
 * [Android] 1.12.1.1 
@@ -45,12 +45,12 @@
     * (SecureValue) Added serialisation and deserialisation features
         * Added support for Newtonsoft and Photon RPC.
 
-### 2024.06.07.
+### June 7, 2024
 * [iOS] 1.4.1
-    * 엔진 안정성 개선
-        * 특정 상황에서 가상 메모리 사용이 증가되는 문제를 개선하였습니다.
+    * Improved engine stability
+        * Fixed an issue where virtual memory usage increases in a specific situation.
 * [Unity] 0.4.9
-    * (iOS) iOS SDK 1.4.1 업데이트
+    * (iOS) iOS SDK 1.4.1 update
 
 ### June 05, 2024
 * [Android] 1.12.0.1
