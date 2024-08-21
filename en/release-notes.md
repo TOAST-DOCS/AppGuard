@@ -6,6 +6,10 @@
 | Android  | 1.10.6.0 | 2023. 03. 12.  | stable |
 | iOS      | 1.4.2    | 2024. 07. 09.  | latest |
 
+### August 27, 2024
+* [Console]
+    * Added device model number details on the log search result
+
 ### August 20, 2024
 * [Android] 1.12.2.2
     * Fixed an issue where apps targeting Android 14 (API 34) are terminated abnormally on some low-specification devices
