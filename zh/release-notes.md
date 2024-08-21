@@ -6,9 +6,9 @@
 | Android  | 1.10.6.0 | 2023. 03. 12.  | stable |
 | iOS      | 1.4.2    | 2024. 07. 09.  | latest |
 
-### 2024. 08. 27.
+### August 27, 2024
 * [Console]
-    * 로그 조회 결과에 디바이스 모델 정보 추가
+    * Added device model number details on the log search result
 
 ### August 20, 2024
 * [Android] 1.12.2.2
