@@ -8,7 +8,7 @@
 
 ### August 26, 2024
 * [Android] 1.12.2.3
-    * 앱 업데이트 시 비정상 종료되는 문제 수정
+    * Fixed an issue where the app abnormally terminated when updated.
 
 ### August 20, 2024
 * [Android] 1.12.2.2
