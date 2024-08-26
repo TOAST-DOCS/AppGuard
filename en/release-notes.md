@@ -2,13 +2,13 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.2.2 | 2024. 08. 20.  | latest |
+| Android  | 1.12.2.3 | 2024. 08. 26.  | latest |
 | Android  | 1.10.6.0 | 2023. 03. 12.  | stable |
 | iOS      | 1.4.2    | 2024. 07. 09.  | latest |
 
-### August 27, 2024
-* [Console]
-    * Added device model number details on the log search result
+### August 26, 2024
+* [Android] 1.12.2.3
+    * 앱 업데이트시 비정상 종료되는 문제 수정
 
 ### August 20, 2024
 * [Android] 1.12.2.2
