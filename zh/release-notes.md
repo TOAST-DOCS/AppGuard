@@ -6,9 +6,28 @@
 | Android  | 1.10.6.0 | 2023. 03. 12.  | stable |
 | iOS      | 1.4.2    | 2024. 07. 09.  | latest |
 
+### August 27, 2024
+* [Console]
+    * Added device model number details on the log search result
+
+### August 20, 2024
+* [Android] 1.12.2.2
+    * Fixed an issue where apps targeting Android 14 (API 34) are terminated abnormally on some low-specification devices
+
+### August 13, 2024
+* [Android] 1.12.2.1
+    * Improved app loading speed
+    * Added emulator detection in Android 14 (API 34)
+    * Improved compatibility for Google Automatic Integrity Protection option
+    * Improved app signature option ("--as")
+        * Improved to prevent errors from occurring when more than one signature information is entered, even if the signature value from the KeyStore is included.
+
 ### July 23, 2024
 * [Android] 1.12.2.0
     * Enhanced rooting detection
+* [Console]
+    * Segmented the notification set failure text
+    * Added the feature to re-register by changing blacklist criteria
 
 ### July 9, 2024
 * [Android] 1.12.1.1 
@@ -26,12 +45,12 @@
     * (SecureValue) Added serialisation and deserialisation features
         * Added support for Newtonsoft and Photon RPC.
 
-### 2024.06.07.
+### June 7, 2024
 * [iOS] 1.4.1
-    * 엔진 안정성 개선
-        * 특정 상황에서 가상 메모리 사용이 증가되는 문제를 개선하였습니다.
+    * Improved engine stability
+        * Fixed an issue where virtual memory usage increases in a specific situation.
 * [Unity] 0.4.9
-    * (iOS) iOS SDK 1.4.1 업데이트
+    * (iOS) iOS SDK 1.4.1 update
 
 ### June 05, 2024
 * [Android] 1.12.0.1
