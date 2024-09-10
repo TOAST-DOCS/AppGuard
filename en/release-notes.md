@@ -2,9 +2,16 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.2.3 | 2024. 08. 26.  | latest |
+| Android  | 1.12.2.4 | 2024. 09. 10.  | latest |
 | Android  | 1.10.6.0 | 2023. 03. 12.  | stable |
 | iOS      | 1.4.2    | 2024. 07. 09.  | latest |
+
+### 2024. 09. 10.
+* [Android] 1.12.2.4
+    * 앱 로딩 속도 개선
+    * android:extractNativeLibraries="false" 설정 시 앱이 비정상 종료되는 문제 수정
+    * 녹스 앱플레이어 Android 5 버전에서 앱이 비정상 종료되는 문제 수정
+    * Unity 또는 Unreal의 디버그 모드 앱에서 비정상 종료되는 문제 수정
 
 ### August 27, 2024
 * [Console]
