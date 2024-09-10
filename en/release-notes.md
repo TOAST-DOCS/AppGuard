@@ -9,7 +9,7 @@
 ### 2024. 09. 10.
 * [Android] 1.12.2.4
     * 앱 로딩 속도 개선
-    * android:extractNativeLibraries="false" 설정 시 앱이 비정상 종료되는 문제 수정
+    * android:extractNativeLibraries="false" 설정 시 SDK API가 정상 동작하지 않는 문제 수정
     * 녹스 앱플레이어 Android 5 버전에서 앱이 비정상 종료되는 문제 수정
     * Unity 또는 Unreal의 디버그 모드 앱에서 비정상 종료되는 문제 수정
 
