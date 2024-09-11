@@ -2,9 +2,16 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.2.3 | 2024. 08. 26.  | latest |
+| Android  | 1.12.2.4 | 2024. 09. 10.  | latest |
 | Android  | 1.10.6.0 | 2023. 03. 12.  | stable |
 | iOS      | 1.4.2    | 2024. 07. 09.  | latest |
+
+### 2024. 09. 10.
+* [Android] 1.12.2.4
+    * アプリローディング速度改善
+    * android:extractNativeLibraries="false"設定時、SDK APIが正常に動作しない問題を修正
+    * NoxPlayer Android 5バージョンでアプリが異常終了する問題を修正
+    * UnityまたはUnrealのデバッグモードアプリで異常終了する問題を修正
 
 ### 2024. 08. 27.
 * [Console]

@@ -2,9 +2,16 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.2.3 | 2024. 08. 26.  | latest |
+| Android  | 1.12.2.4 | 2024. 09. 10.  | latest |
 | Android  | 1.10.6.0 | 2023. 03. 12.  | stable |
 | iOS      | 1.4.2    | 2024. 07. 09.  | latest |
+
+### September 10, 2024
+* [Android] 1.12.2.4
+    * Improved app loading speed
+    * Fixed an issue where, when setting android:extractNativeLibraries="false", SDK APIs do not work properly
+    * Fixed app crashing on Android 5 version of Nox App Player
+    * Fixed crashing in debug mode apps in Unity or Unreal
 
 ### August 27, 2024
 * [Console]
