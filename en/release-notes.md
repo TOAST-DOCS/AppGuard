@@ -2,9 +2,14 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.2.4 | 2024. 09. 10.  | latest |
+| Android  | 1.12.2.5 | 2024. 09. 27.  | latest |
 | Android  | 1.10.6.0 | 2023. 03. 12.  | stable |
 | iOS      | 1.4.2    | 2024. 07. 09.  | latest |
+
+### September 27, 2024
+* [Android] 1.12.2.5
+    * Fixed Unity tampering false positive issues (Code: 405) when using Google Automatic Integrity Protection
+    * Fixed false positive issues in abusing app detection (Code: 1600)
 
 ### September 10, 2024
 * [Android] 1.12.2.4
