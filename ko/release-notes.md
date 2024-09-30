@@ -2,9 +2,14 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.2.4 | 2024. 09. 10.  | latest |
+| Android  | 1.12.2.5 | 2024. 09. 27.  | latest |
 | Android  | 1.10.6.0 | 2023. 03. 12.  | stable |
 | iOS      | 1.4.2    | 2024. 07. 09.  | latest |
+
+### 2024. 09. 27.
+* [Android] 1.12.2.5
+    * 구글 자동 무결성 보호(Google Automatic Integrity Protection) 사용 시 유니티 변조(Code: 405) 오탐 문제 수정
+    * 어뷰징 앱 탐지(Code: 1600) 오탐 문제 수정
 
 ### 2024. 09. 10.
 * [Android] 1.12.2.4
