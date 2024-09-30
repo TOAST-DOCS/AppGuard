@@ -2,10 +2,15 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.2.4 | 2024. 09. 10.  | latest |
+| Android  | 1.12.2.5 | 2024. 09. 27.  | latest |
 | Android  | 1.10.6.0 | 2023. 03. 12.  | stable |
 | iOS      | 1.4.2    | 2024. 07. 09.  | latest |
 
+### 2024. 09. 27.
+* [Android] 1.12.2.5
+    * Google自動整合性保護(Google Automatic Integrity Protection)使用時のUnity改ざん(Code: 405)誤検知問題を修正
+    * アビューズアプリ検出(Code: 1600)誤検知問題を修正
+    
 ### 2024. 09. 10.
 * [Android] 1.12.2.4
     * アプリローディング速度改善
