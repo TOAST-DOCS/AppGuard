@@ -12,7 +12,7 @@
         * Black Box(Code: 1304) 탐지 추가
         * KGO(Code: 1305) 탐지 추가
     * 에뮬레이터 탐지 패턴 추가
-        * UGPhone(Code: 212)탐지 추가
+        * UgPhone(Code: 212) 탐지 추가
     * 매크로툴 탐지 패턴 추가
         * Auto Clicker - Automatic tap(Code: 1710)
 * [Gradle Plugin] 1.2.2
