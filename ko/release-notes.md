@@ -2,9 +2,21 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.2.5 | 2024. 09. 27.  | latest |
+| Android  | 1.12.2.6 | 2024. 10. 15.  | latest |
 | Android  | 1.10.6.0 | 2023. 03. 12.  | stable |
 | iOS      | 1.4.2    | 2024. 07. 09.  | latest |
+
+### 2024. 10. 15.
+* [Android] 1.12.2.6
+    * 가상 환경 탐지 패턴 추가
+        * Black Box(Code: 1304) 탐지 추가
+        * KGO(Code: 1305) 탐지 추가
+    * 에뮬레이터 탐지 패턴 추가
+        * UgPhone(Code: 212) 탐지 추가
+    * 매크로툴 탐지 패턴 추가
+        * Auto Clicker - Automatic tap(Code: 1710)
+* [Gradle Plugin] 1.2.2
+    * Android Gradle Plugin 8.1.0 이상 버전 지원
 
 ### 2024. 09. 27.
 * [Android] 1.12.2.5
