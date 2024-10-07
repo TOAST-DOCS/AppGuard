@@ -2,9 +2,21 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.2.5 | 2024. 09. 27.  | latest |
+| Android  | 1.12.2.6 | 2024. 10. 15.  | latest |
 | Android  | 1.10.6.0 | 2023. 03. 12.  | stable |
 | iOS      | 1.4.2    | 2024. 07. 09.  | latest |
+
+### 2024. 10. 15.
+* [Android] 1.12.2.6
+    * 仮想環境検出パターンを追加
+        * Black Box(Code: 1304)検出を追加
+        * KGO(Code: 1305)検出を追加
+    * エミュレータ検出パターンを追加
+        * UgPhone(Code: 212)検出を追加
+    * マクロツール検出パターンを追加
+        * Auto Clicker - Automatic tap(Code: 1710)
+* [Gradle Plugin] 1.2.2
+    * Android Gradle Plugin 8.1.0以上のバージョンのサポート
 
 ### 2024. 09. 27.
 * [Android] 1.12.2.5
