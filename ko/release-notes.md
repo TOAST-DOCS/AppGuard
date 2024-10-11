@@ -17,6 +17,12 @@
         * Auto Clicker - Automatic tap(Code: 1710)
 * [Gradle Plugin] 1.2.2
     * Android Gradle Plugin 8.1.0 이상 버전 지원
+* [Console]
+    * 대시보드의 이상 행위 탐지 현황 테이블에 위치 조작 칼럼 추가
+    * (iOS) 대시보드의 이상 행위 탐지 현황 테이블에 블랙리스트 칼럼 추가
+    * 로그 조회에서 OS 검색 조건을 iOS로 선택했을 때 블랙리스트 조건이 표시되도록 추가
+    * iOS 보호 이력의 AppGuard 버전을 SDK 버전만 표출하도록 수정
+    * 로그 조회에서 Gamebase의 device_key로 활용 가능한 ANDROID ID 칼럼 조회 추가
 
 ### 2024. 09. 27.
 * [Android] 1.12.2.5
