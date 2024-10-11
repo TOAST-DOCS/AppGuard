@@ -2,9 +2,21 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.2.5 | 2024. 09. 27.  | latest |
+| Android  | 1.12.2.6 | 2024. 10. 15.  | latest |
 | Android  | 1.10.6.0 | 2023. 03. 12.  | stable |
 | iOS      | 1.4.2    | 2024. 07. 09.  | latest |
+
+### October 15, 2024
+* [Android] 1.12.2.6
+    * Added virtual environment detection patterns
+        * Black Box (Code: 1304)
+        * KGO (Code: 1305)
+    * Added emulator detection pattern
+        * UgPhone (Code: 212)
+    * Added macrotool detection pattern
+        * Auto Clicker - Automatic tap (Code: 1710)
+* [Gradle Plugin] 1.2.2
+    * Support for Android Gradle Plugin 8.1.0 and later versions
 
 ### September 27, 2024
 * [Android] 1.12.2.5
@@ -24,7 +36,7 @@
 
 ### August 26, 2024
 * [Android] 1.12.2.3
-    * Fixed an issue where the app abnormally terminated when updated.
+    * Fixed an issue where the apgp abnormally terminated when updated.
 
 ### August 20, 2024
 * [Android] 1.12.2.2
