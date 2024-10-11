@@ -36,7 +36,7 @@
 
 ### August 26, 2024
 * [Android] 1.12.2.3
-    * Fixed an issue where the apgp abnormally terminated when updated.
+    * Fixed an issue where the app abnormally terminated when updated.
 
 ### August 20, 2024
 * [Android] 1.12.2.2
