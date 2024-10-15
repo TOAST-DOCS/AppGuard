@@ -6,6 +6,18 @@
 | Android  | 1.10.6.0 | 2023. 03. 12.  | stable |
 | iOS      | 1.4.2    | 2024. 07. 09.  | latest |
 
+### October 15, 2024
+* [Android] 1.12.2.6
+    * Added virtual environment detection patterns
+        * Black Box (Code: 1304)
+        * KGO (Code: 1305)
+    * Added emulator detection pattern
+        * UgPhone (Code: 212)
+    * Added macrotool detection pattern
+        * Auto Clicker - Automatic tap (Code: 1710)
+* [Gradle Plugin] 1.2.2
+    * Support for Android Gradle Plugin 8.1.0 and later versions
+
 ### September 27, 2024
 * [Android] 1.12.2.5
     * Fixed Unity tampering false positive issues (Code: 405) when using Google Automatic Integrity Protection
