@@ -191,6 +191,7 @@ You can view the details of the detected logs on the **Log Search** tab.
 - You can search by **User ID**, Device ID, Detection Log Count, Log Pattern, and Search Period.
     - Multiple **User ID** and **Device ID** can be added with comma as a delimiter.
 - User ID, Device ID, Host IP, device model numbers, OS, Logs, App Information, and Detection Time appear.
+- You can use the information in the ANDROID_ID column to view the device_key in Gamebase.
 - You can download the search results by clicking <strong>Download Report (Excel</strong>).
 
 ## Settings
