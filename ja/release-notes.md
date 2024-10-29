@@ -2,9 +2,13 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.2.6 | 2024. 10. 15.  | latest |
+| Android  | 1.12.2.7 | 2024. 10. 25.  | latest |
 | Android  | 1.10.6.0 | 2023. 03. 12.  | stable |
 | iOS      | 1.4.2    | 2024. 07. 09.  | latest |
+
+### 2024. 10. 25.
+* [Android] 1.12.2.7
+    * 一部の低スペックデバイスで異常終了する問題を修正
 
 ### 2024. 10. 15.
 * [Android] 1.12.2.6
@@ -17,7 +21,13 @@
         * Auto Clicker - Automatic tap(Code: 1710)
 * [Gradle Plugin] 1.2.2
     * Android Gradle Plugin 8.1.0以上のバージョンのサポート
-
+* [Console]
+    * ダッシュボードの異常行為検出状況テーブルに位置操作カラムを追加
+    * (iOS)ダッシュボードの異常行為検出状況テーブルにブラックリストカラムを追加
+    * ログ照会でOS検索条件をiOSに選択した場合、ブラックリスト条件が表示されるように追加
+    * iOS保護履歴のAppGuardバージョンをSDKバージョンのみ表示するように修正
+    * ログ照会でGamebaseのdevice_keyとして活用可能なANDROID IDカラム照会を追加
+    
 ### 2024. 09. 27.
 * [Android] 1.12.2.5
     * Google自動整合性保護(Google Automatic Integrity Protection)使用時のUnity改ざん(Code: 405)誤検知問題を修正

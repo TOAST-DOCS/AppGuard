@@ -2,10 +2,14 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.2.6 | 2024. 10. 15.  | latest |
+| Android  | 1.12.2.7 | 2024. 10. 25.  | latest |
 | Android  | 1.10.6.0 | 2023. 03. 12.  | stable |
 | iOS      | 1.4.2    | 2024. 07. 09.  | latest |
 
+### October 25, 2024
+* [Android] 1.12.2.7
+    * Fixed an issue where the service is abnormally terminated on some low-spec devices
+      
 ### October 15, 2024
 * [Android] 1.12.2.6
     * Added virtual environment detection patterns
@@ -17,6 +21,12 @@
         * Auto Clicker - Automatic tap (Code: 1710)
 * [Gradle Plugin] 1.2.2
     * Support for Android Gradle Plugin 8.1.0 and later versions
+* [Console]
+    * Added a location manipulation column to the abnormal behavior detection status table in the dashboard
+    * (iOS) Added a blacklist column to the abnormal behavior detection status table in the dashboard
+    * Added blacklist conditions to appear when iOS is selected as OS search condition in the log search
+    * Made modifications so that only SDK versions appear for the AppGuard version in iOS protection history
+    * Added the ANDROID ID column that can be utilized as Gamebase's device_key in the log search
 
 ### September 27, 2024
 * [Android] 1.12.2.5
