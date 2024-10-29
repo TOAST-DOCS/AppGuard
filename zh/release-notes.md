@@ -6,12 +6,6 @@
 | Android  | 1.10.6.0 | 2023. 03. 12.  | stable |
 | iOS      | 1.4.3    | 2024. 11. 05.  | latest |
 
-### 2024. 11. 05.
-* [iOS] 1.4.3
-    * 화면 캡처, 화면 녹화 탐지 기능 추가
-    * 화면 보호 기능을 위한 API가 추가
-        * SDK API를 통해 백그라운드 스냅숏, 스크린 캡처, 녹화 화면 보호 기능을 활성화 할 수 있습니다.
-
 ### October 25, 2024
 * [Android] 1.12.2.7
     * Fixed an issue where the service is abnormally terminated on some low-spec devices
