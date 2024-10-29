@@ -6,6 +6,10 @@
 | Android  | 1.10.6.0 | 2023. 03. 12.  | stable |
 | iOS      | 1.4.2    | 2024. 07. 09.  | latest |
 
+### October 25, 2024
+* [Android] 1.12.2.7
+    * Fixed an issue where the service is abnormally terminated on some low-spec devices
+      
 ### October 15, 2024
 * [Android] 1.12.2.6
     * Added virtual environment detection patterns
