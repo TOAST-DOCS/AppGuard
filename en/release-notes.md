@@ -6,6 +6,16 @@
 | Android  | 1.10.6.0 | 2023. 03. 12.  | stable |
 | iOS      | 1.4.3    | 2024. 11. 05.  | latest |
 
+### November 5, 2024
+* [Android] 1.12.2.9
+    * Improved stability
+* [iOS] 1.4.3
+    * Added screen capture and screen recording features
+    * Added APIs for screen protection
+        * You can enable the features of background snapshots, screen capture, and screen recording via SDK APIs.
+* [Unity] 0.4.11
+    * (iOS) iOS SDK 1.4.3 update
+
 ### October 30, 2024
 * [Android] 1.12.2.8
     * Fixed an issue where the service is abnormally terminated in debug mode apps
