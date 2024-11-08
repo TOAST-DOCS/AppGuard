@@ -6,6 +6,10 @@
 | Android  | 1.10.6.0 | 2023. 03. 12.  | stable |
 | iOS      | 1.4.3    | 2024. 11. 05.  | latest |
 
+### November 8, 2024
+* [Android] 1.12.2.10
+    * Fixed an issue where protection task fails due to errors occurred during obfuscation
+      
 ### November 5, 2024
 * [Android] 1.12.2.9
     * Improved stability
