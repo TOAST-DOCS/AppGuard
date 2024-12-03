@@ -2,10 +2,22 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.2.11 | 2024. 11. 28.  | latest |
+| Android  | 1.12.3.0 | 2024. 12. 03.  | latest |
 | Android  | 1.10.6.0 | 2023. 03. 12.  | stable |
 | iOS      | 1.4.4    | 2024. 12. 03.  | latest |
 
+### December 3, 2024
+* [Android] 1.12.3.0
+    * Improved macrotool detection
+        * Improved macroi tool (Code: 1700) detection0
+    * Improved Dex encryption
+* [Android] 1.12.2.12
+    * Fixed obsfucation issues
+* [iOS] 1.4.4
+  * Added macrotool detection feature
+    * Detect and block macro behavior via iOS's switch control feature.
+* [Unity] 0.4.12
+    * (iOS) iOS SDK 1.4.4 update
 
 ### November 28, 2024
 * [Android] 1.12.2.11
