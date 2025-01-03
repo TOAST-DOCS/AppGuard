@@ -192,10 +192,9 @@ NHN AppGuard에서 제공하는 디바이스 ID와 SDK 연동 시 사용할 수 
 
 ### 블랙리스트 일괄 등록
 
-![appguard_12_20240103](http://image.toast.com/aaaaaha/console-guide/4_5_블랙리스트_일괄_등록_ko.png)
-
-
 **블랙리스트** 메뉴 선택 후, **일괄 등록(Excel)** 버튼을 클릭하면 다음과 같은 화면이 나타납니다.
+
+![appguard_12_20240103](http://image.toast.com/aaaaaha/console-guide/4_5_블랙리스트_일괄_등록_ko.png)
 
 * **블랙리스트 일괄 등록 템플릿 파일** 글자를 클릭하여 템플릿 파일을 다운로드 받습니다.
 * 템플릿 파일을 열어 **등록 아이디**, **아이디 유형**, **등록 사유**, **차단 기간(일)**을 입력합니다.
@@ -205,17 +204,17 @@ NHN AppGuard에서 제공하는 디바이스 ID와 SDK 연동 시 사용할 수 
 
 ### 블랙리스트 일괄 해제
 
-![appguard_13_20240103](http://image.toast.com/aaaaaha/console-guide/4_7_블랙리스트_일괄_해제_ko.png)
-
 **블랙리스트** 메뉴 선택 후, 해제할 블랙리스트들을 체크하고 **일괄 해제** 버튼을 클릭하면 다음과 같은 화면이 나타납니다.
+
+![appguard_13_20240103](http://image.toast.com/aaaaaha/console-guide/4_7_블랙리스트_일괄_해제_ko.png)
 
 * **해제** 버튼을 클릭하여 등록된 블랙리스트를 일괄 해제합니다.
 
 ### 블랙리스트 일괄 재등록
 
-![appguard_14_20240103](http://image.toast.com/aaaaaha/console-guide/4_6_블랙리스트_일괄_재등록_ko.png)
-
 **블랙리스트** 메뉴 선택 후, 재등록할 블랙리스트들을 체크하고 **일괄 재등록** 버튼을 클릭하면 다음과 같은 화면이 나타납니다.
+
+![appguard_14_20240103](http://image.toast.com/aaaaaha/console-guide/4_6_블랙리스트_일괄_재등록_ko.png)
 
 * **차단 기간**을 입력한 후 **등록** 버튼을 클릭하여 블랙리스트를 일괄 재등록합니다.
 
