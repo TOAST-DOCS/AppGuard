@@ -4,12 +4,12 @@
 | -------- | -------- | -----------  | ------ |
 | Android  | 1.12.3.1 | 2024. 12. 24.  | latest |
 | Android  | 1.10.6.0 | 2023. 03. 12.  | stable |
-| iOS      | 1.4.5    | 2025. 01. 25.  | latest |
+| iOS      | 1.4.5    | 2025. 01. 21.  | latest |
 
 ###  January 21, 2025
 * [iOS] 1.4.5
   * VPN 탐지 기능 추가
-  
+
 ### December 24, 2024
 * [Android] 1.12.3.1
   * Improved obfuscation exceptions handling
