@@ -2,9 +2,13 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.3.1 | 2024. 12. 24.  | latest |
+| Android  | 1.12.3.2 | 2025. 01. 06.  | latest |
 | Android  | 1.10.6.0 | 2023. 03. 12.  | stable |
 | iOS      | 1.4.4    | 2024. 12. 03.  | latest |
+
+### 2025. 01. 06.
+* [Android] 1.12.3.2
+  * 難読化例外処理方法の改善
 
 ### 2024. 12. 24.
 * [Android] 1.12.3.1
