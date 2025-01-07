@@ -9,6 +9,8 @@
 ###  January 21, 2025
 * [iOS] 1.4.5
   * VPN 탐지 기능 추가
+  * AppGuard 시작 메시지 활성화 기능 추가
+    * CLI에서 `--show-startup-message`를 추가하여 활성화 할 수 있습니다.
 
 ### December 24, 2024
 * [Android] 1.12.3.1
