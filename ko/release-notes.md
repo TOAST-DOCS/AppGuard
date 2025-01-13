@@ -7,11 +7,19 @@
 | iOS      | 1.4.5    | 2025. 01. 21.  | latest |
 
 ### 2025. 01. 21.
+* [Android] 1.12.4.0
+  * VPN 탐지 기능 추가
+    * 콘솔 > NHN AppGuard > 정책 > Android > VPN 정책 설정을 통해 적용이 가능합니다.
+  * AppGuard 시작 메시지 추가
+    * 앱 실행 시 AppGuard 활성화 여부를 알리는 메시지가 표시됩니다.
+    * CLI에서 `--show-startup-message`를 추가하여 활성화 할 수 있습니다.
+  * '--google-pairip' 옵션 사용 중단
+    * '--google-pairip' 옵션이 더 이상 필요하지 않으며, 해당 기능은 옵션 없이도 자동 활성화됩니다.
 * [iOS] 1.4.5
   * VPN 탐지 기능 추가
+    * 콘솔 > NHN AppGuard > 정책 > iOS > VPN 정책 설정을 통해 적용이 가능합니다.
   * AppGuard 시작 메시지 활성화 기능 추가
     * CLI에서 `--show-startup-message`를 추가하여 활성화 할 수 있습니다.
-
 
 ### 2025. 01. 06.
 * [Android] 1.12.3.2
