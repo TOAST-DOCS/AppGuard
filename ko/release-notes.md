@@ -2,7 +2,7 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.3.1 | 2024. 12. 24.  | latest |
+| Android  | 1.12.3.1 | 2025. 01. 06.  | latest |
 | Android  | 1.10.6.0 | 2023. 03. 12.  | stable |
 | iOS      | 1.4.5    | 2025. 01. 21.  | latest |
 
@@ -12,6 +12,10 @@
   * AppGuard 시작 메시지 활성화 기능 추가
     * CLI에서 `--show-startup-message`를 추가하여 활성화 할 수 있습니다.
 
+
+### 2025. 01. 06.
+* [Android] 1.12.3.2
+  * 난독화 예외 처리 방식 개선
 
 ### 2024. 12. 24.
 * [Android] 1.12.3.1
