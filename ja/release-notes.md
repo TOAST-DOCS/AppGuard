@@ -2,9 +2,37 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.3.2 | 2025. 01. 06.  | latest |
-| Android  | 1.10.6.0 | 2023. 03. 12.  | stable |
-| iOS      | 1.4.4    | 2024. 12. 03.  | latest |
+| Android  | 1.12.4.0 | 2025. 01. 21.  | latest |
+| Android  | 1.12.2.12 | 2024. 12. 03.  | stable |
+| iOS      | 1.4.5    | 2025. 01. 21.  | latest |
+
+### 2025. 01. 21.
+* [Android] 1.12.4.0
+  * VPN検出機能追加
+    * コンソール > NHN AppGuard > ポリシー > Android > VPNポリシー設定で適用が可能です。
+* NHN AppGuard起動メッセージを追加
+    * アプリ実行時にNHN AppGuardの有効化有無を知らせるメッセージが表示されます。
+    * CLIで`--show-startup-message`を追加して有効にできます。
+  * '--google-pairip'オプションの使用中止
+    * '--google-pairip'オプションが不要になり、その機能はオプションがなくても自動的に有効になります。
+* [iOS] 1.4.5
+  * VPN検出機能追加
+    * コンソール > NHN AppGuard > ポリシー > iOS > VPNポリシー設定から適用が可能です。
+  * NHN AppGuard起動メッセージを追加
+    * CLIで`--show-startup-message`を追加して有効にできます。
+* [Unity] 0.4.13
+  * (iOS) AppGuard iOS Settings > ExtraOptions追加
+  * (iOS) iOS SDK 1.4.5アップデート
+* [Console]
+  * ブラックリストの検索条件を追加(開始日、有効期限、ブロック理由)
+  * ブラックリスト照会ページサイズ調整機能を追加
+  * 照会したブラックリストに対してExcelダウンロード機能を追加
+  * 照会したブラックリストに対して一括再登録、一括解除機能を追加
+  * ブラックリスト一括登録機能を追加
+
+### 2025. 01. 16.
+* [Gradle Plugin] 1.2.3
+    * overrideOutputFileオプションが正常に動作しない問題を修正
 
 ### 2025. 01. 06.
 * [Android] 1.12.3.2
