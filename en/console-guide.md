@@ -154,7 +154,7 @@ By registering user IDs for the integration of device ID and SDK as provided by 
 - You can search by **block criteria**, **status**, **blacklist**, **start date**, **expiration date**, and **block reason**.
     - The **blacklist** searches for usernames with the same value as the one you entered.
     - The **start date** and **expiration date** can be retrieved by selecting the start date and expiration date.
-    - **Block reason** is a LIKE search for the reason you entered.
+    - The **block reason** is a LIKE search for the reason you entered.
 - The blacklist, block criteria, status, reason for block, start date, expiration date, and manage buttons appear.
 - You can download the retrieved results by clicking <strong>Download (Excel)</strong>.
 
