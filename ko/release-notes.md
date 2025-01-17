@@ -10,21 +10,21 @@
 * [Android] 1.12.4.0
   * VPN 탐지 기능 추가
     * 콘솔 > NHN AppGuard > 정책 > Android > VPN 정책 설정을 통해 적용이 가능합니다.
-  * AppGuard 시작 메시지 추가
-    * 앱 실행 시 AppGuard 활성화 여부를 알리는 메시지가 표시됩니다.
-    * CLI에서 `--show-startup-message`를 추가하여 활성화 할 수 있습니다.
+  * NHN AppGuard 시작 메시지 추가
+    * 앱 실행 시 NHN AppGuard 활성화 여부를 알리는 메시지가 표시됩니다.
+    * CLI에서 `--show-startup-message`를 추가하여 활성화할 수 있습니다.
   * '--google-pairip' 옵션 사용 중단
     * '--google-pairip' 옵션이 더 이상 필요하지 않으며, 해당 기능은 옵션 없이도 자동 활성화됩니다.
 * [iOS] 1.4.5
   * VPN 탐지 기능 추가
     * 콘솔 > NHN AppGuard > 정책 > iOS > VPN 정책 설정을 통해 적용이 가능합니다.
-  * AppGuard 시작 메시지 활성화 기능 추가
-    * CLI에서 `--show-startup-message`를 추가하여 활성화 할 수 있습니다.
+  * NHN AppGuard 시작 메시지 추가
+    * CLI에서 `--show-startup-message`를 추가하여 활성화할 수 있습니다.
 * [Unity] 0.4.13
   * (iOS) AppGuard iOS Settings > ExtraOptions 추가
   * (iOS) iOS SDK 1.4.5 업데이트
 * [Console]
-  * 블랙리스트의 검색 조건 추가 (시작 일자, 만료 일자, 차단 사유)
+  * 블랙리스트의 검색 조건 추가(시작 일자, 만료 일자, 차단 사유)
   * 블랙리스트 조회 페이지 크기 조정 기능 추가
   * 조회한 블랙리스트에 대해 엑셀 다운로드 기능 추가
   * 조회한 블랙리스트에 대해 일괄 재등록, 일괄 해제 기능 추가
