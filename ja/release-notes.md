@@ -10,7 +10,7 @@
 * [Android] 1.12.4.0
   * VPN検出機能追加
     * コンソール > NHN AppGuard > ポリシー > Android > VPNポリシー設定で適用が可能です。
-* NHN AppGuard起動メッセージを追加
+  * NHN AppGuard起動メッセージを追加
     * アプリ実行時にNHN AppGuardの有効化有無を知らせるメッセージが表示されます。
     * CLIで`--show-startup-message`を追加して有効にできます。
   * '--google-pairip'オプションの使用中止
