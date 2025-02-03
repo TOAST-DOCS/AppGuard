@@ -8,7 +8,7 @@
 
 ### February 3, 2025
 * [Gradle Plugin] 1.2.4
-    * Modified not to output NHN AppGuard logs when setting log level to `QUIET(-q | --quiet)' on Gradle build
+    * Modified not to output NHN AppGuard logs when setting the log level to `QUIET(-q | --quiet)' on Gradle build
       
 ### January 21, 2025
 * [Android] 1.12.4.0
