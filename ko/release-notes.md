@@ -8,7 +8,7 @@
 
 ### 2025. 02. 03
 * [Gradle Plugin] 1.2.4
-    * Gradle 빌드 시 로그 수준을 `조용(-q | --quiet)`으로 설정하면 NHN AppGuard 로그가 더 이상 출력되지 않도록 수정
+    * Gradle 빌드 시 로그 수준을 `QUIET(-q | --quiet)`으로 설정하면 NHN AppGuard 로그가 출력되지 않도록 수정
 
 ### 2025. 01. 21.
 * [Android] 1.12.4.0
