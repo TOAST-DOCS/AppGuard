@@ -6,7 +6,7 @@
 | Android  | 1.12.2.12 | 2024. 12. 03.  | stable |
 | iOS      | 1.4.5    | 2025. 01. 21.  | latest |
 
-### 2025. 02. 03
+### 2025. 02. 03.
 * [Gradle Plugin] 1.2.4
     * Gradle 빌드 시 로그 수준을 `QUIET(-q | --quiet)`으로 설정하면 NHN AppGuard 로그가 출력되지 않도록 수정
 
