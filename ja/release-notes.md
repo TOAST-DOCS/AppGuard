@@ -6,6 +6,10 @@
 | Android  | 1.12.2.12 | 2024. 12. 03.  | stable |
 | iOS      | 1.4.5    | 2025. 01. 21.  | latest |
 
+### 2025. 02. 03.
+* [Gradle Plugin] 1.2.4
+    * Gradleビルド時にログレベルを`QUIET(-q | --quiet)`に設定すると、NHN AppGuard のログが出力されないように修正。
+
 ### 2025. 01. 21.
 * [Android] 1.12.4.0
     * VPN検出機能追加
