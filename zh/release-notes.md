@@ -8,27 +8,27 @@
 
 ### January 21, 2025
 * [Android] 1.12.4.0
-  * Added VPN detection
-    * You can apply the feature on Console > NHN AppGuard > Policy > Android > VPN Policy Settings.
-  * Added NHN AppGuard startup message
-    * When you launch the app, a message that indicates whether NHN AppGuard is enabled appears.
-    * You can enable it in the CLI by adding `--show-startup-message`.
-  * Deprecated the '--google-pairip' option
-    * The '--google-pairip' option is no longer required, the feature is automatically enabled without the option.
+    * Added VPN detection
+        * You can apply the feature on Console > NHN AppGuard > Policy > Android > VPN Policy Settings.
+    * Added NHN AppGuard startup message
+        * When you launch the app, a message that indicates whether NHN AppGuard is enabled appears.
+        * You can enable it in the CLI by adding `--show-startup-message`.
+    * Deprecated the '--google-pairip' option
+        * The '--google-pairip' option is no longer required, the feature is automatically enabled without the option.
 * [iOS] 1.4.5
-  * Added VPN detection
-    * You can apply the feature on Console > NHN AppGuard > Policies > iOS > VPN Policy Settings.
-  * Added NHN AppGuard startup message
-    * You can enable it in the CLI by adding `--show-startup-message`.
+    * Added VPN detection
+        * You can apply the feature on Console > NHN AppGuard > Policies > iOS > VPN Policy Settings.
+    * Added NHN AppGuard startup message
+        * You can enable it in the CLI by adding `--show-startup-message`.
 * [Unity] 0.4.13
-  * (iOS) AppGuard iOS Settings > Add ExtraOptions
-  * (iOS) iOS SDK 1.3.11 update
+    * (iOS) AppGuard iOS Settings > Add ExtraOptions
+    * (iOS) iOS SDK 1.3.11 update
 * [Console]
-  * Added search criteria for blacklists (start date, expiration date, reason for block)
-  * Added the feature to resize blacklist retrieval pages
-  * Added the Excel download feature for retrieved blacklists
-  * Added the feature to batch re-register and remove for retrieved blacklists
-  * Added the feature to batch register blacklists
+    * Added search criteria for blacklists (start date, expiration date, reason for block)
+    * Added the feature to resize blacklist retrieval pages
+    * Added the Excel download feature for retrieved blacklists
+    * Added the feature to batch re-register and remove for retrieved blacklists
+    * Added the feature to batch register blacklists
 
 ### January 16, 2025
 * [Gradle Plugin] 1.2.3
@@ -36,11 +36,11 @@
 
 ### January 06, 2025
 * [Android] 1.12.3.2
-  * Improved obfuscation exceptions handling
+    * Improved obfuscation exceptions handling
 
 ### December 24, 2024
 * [Android] 1.12.3.1
-  * Improved obfuscation exceptions handling
+    * Improved obfuscation exceptions handling
 
 ### December 3, 2024
 * [Android] 1.12.3.0
