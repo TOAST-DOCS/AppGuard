@@ -4,7 +4,13 @@
 | -------- | -------- | -----------  | ------ |
 | Android  | 1.12.4.0 | 2025. 01. 21.  | latest |
 | Android  | 1.12.2.12 | 2024. 12. 03.  | stable |
-| iOS      | 1.4.5    | 2025. 01. 21.  | latest |
+| iOS      | 1.4.6     | 2025. 02. 06.  | latest |
+
+### February 6, 2025
+* [iOS] 1.4.6
+    * Fixed an issue where CPU usage increases in certain situations
+* [Unity] 0.4.14
+    * (iOS) iOS SDK 1.4.6 update
 
 ### February 3, 2025
 * [Gradle Plugin] 1.2.4
