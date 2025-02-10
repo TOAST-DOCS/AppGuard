@@ -2,9 +2,13 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.4.0 | 2025. 01. 21.  | latest |
+| Android  | 1.12.4.1 | 2025. 02. 11.  | latest |
 | Android  | 1.12.2.12 | 2024. 12. 03.  | stable |
 | iOS      | 1.4.6     | 2025. 02. 06.  | latest |
+
+### 2025. 02. 11.
+* [Android] 1.12.4.1
+    * Dex 암호화 버그 수정
 
 ### 2025. 02. 06.
 * [iOS] 1.4.6

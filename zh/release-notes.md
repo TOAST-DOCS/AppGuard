@@ -2,9 +2,23 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.4.0 | 2025. 01. 21.  | latest |
+| Android  | 1.12.4.1 | 2025. 02. 11.  | latest |
 | Android  | 1.12.2.12 | 2024. 12. 03.  | stable |
 | iOS      | 1.4.5    | 2025. 01. 21.  | latest |
+
+### Fabruary 11, 2026
+* [Android] 1.12.4.1
+  * Dex 암호화 버그 수정
+
+### February 6, 2025
+* [iOS] 1.4.6
+    * Fixed an issue where CPU usage increases in certain situations
+* [Unity] 0.4.14
+    * (iOS) iOS SDK 1.4.6 update
+
+### February 3, 2025
+* [Gradle Plugin] 1.2.4
+    * Modified not to output NHN AppGuard logs when setting the log level to `QUIET(-q | --quiet)` on Gradle build
 
 ### January 21, 2025
 * [Android] 1.12.4.0
