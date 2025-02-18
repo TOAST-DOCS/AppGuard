@@ -4,11 +4,19 @@
 | -------- | -------- | -----------  | ------ |
 | Android  | 1.12.4.1 | 2025. 02. 11.  | latest |
 | Android  | 1.12.2.12 | 2024. 12. 03.  | stable |
-| iOS      | 1.4.5    | 2025. 01. 21.  | latest |
+| iOS      | 1.4.7     | 2025. 02. 12.  | latest |
+
+### February 12, 2025
+* [iOS] 1.4.7
+    * Improved engine stability
+* [Unity] 0.4.15
+    * Added an option to enable native popups
+    * (iOS) Improved callback stability
+    * (iOS) iOS SDK 1.4.7 update
 
 ### Fabruary 11, 2026
 * [Android] 1.12.4.1
-  * Dex 암호화 버그 수정
+  * Fixed DEX encryption bug
 
 ### February 6, 2025
 * [iOS] 1.4.6
