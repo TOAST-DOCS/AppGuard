@@ -13,7 +13,7 @@
 * [Unity]
     * (iOS) NHN AppGuard iOS 초기화 안정성 개선
 * [Gradle Plugin] 1.2.5
-    * 보호 작업 중 에러 처리 개선
+    * 보호 작업 중 오류 처리 개선
 
 ### 2025. 02. 12.
 * [iOS] 1.4.7
