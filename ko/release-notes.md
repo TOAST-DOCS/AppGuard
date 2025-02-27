@@ -10,7 +10,8 @@
 * [Android] 1.12.4.2
     * Unity 최신 버전(6000.0.38f1)에서 보호 작업에 실패하는 문제 수정
 * [iOS] 1.4.8
-* [Unity]
+    * 안정성 개선
+* [Unity] 0.4.15
     * (iOS) NHN AppGuard iOS 초기화 안정성 개선
 * [Gradle Plugin] 1.2.5
     * 보호 작업 중 오류 처리 개선
