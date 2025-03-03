@@ -2,9 +2,19 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.4.1 | 2025. 02. 11.  | latest |
+| Android  | 1.12.4.2 | 2025. 03. 04.  | latest |
 | Android  | 1.12.2.12 | 2024. 12. 03.  | stable |
-| iOS      | 1.4.7     | 2025. 02. 12.  | latest |
+| iOS      | 1.4.8     | 2025. 03. 04.  | latest |
+
+### March 4, 2025
+* [Android] 1.12.4.2
+    * Fixed an issue of protection operations failing in the latest version of Unity (6000.0.38f1)
+* [iOS] 1.4.8
+    * Improved stability
+* [Unity] 0.4.15
+    * (iOS) Improved NHN AppGuard iOS initialization stability
+* [Gradle Plugin] 1.2.5
+    * Improved error handling during protection operations
 
 ### February 12, 2025
 * [iOS] 1.4.7
