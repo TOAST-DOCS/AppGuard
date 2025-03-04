@@ -2,9 +2,31 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.4.0 | 2025. 01. 21.  | latest |
+| Android  | 1.12.4.2 | 2025. 03. 04.  | latest |
 | Android  | 1.12.2.12 | 2024. 12. 03.  | stable |
-| iOS      | 1.4.6     | 2025. 02. 06.  | latest |
+| iOS      | 1.4.8     | 2025. 03. 04.  | latest |
+
+### March 4, 2025
+* [Android] 1.12.4.2
+    * Fixed an issue of protection operations failing in the latest version of Unity (6000.0.38f1)
+* [iOS] 1.4.8
+    * Improved stability
+* [Unity] 0.4.16
+    * (iOS) Improved NHN AppGuard iOS initialization stability
+* [Gradle Plugin] 1.2.5
+    * Improved error handling during protection operations
+
+### February 12, 2025
+* [iOS] 1.4.7
+    * Improved engine stability
+* [Unity] 0.4.15
+    * Added an option to enable native popups
+    * (iOS) Improved callback stability
+    * (iOS) iOS SDK 1.4.7 update
+
+### Fabruary 11, 2026
+* [Android] 1.12.4.1
+  * Fixed DEX encryption bug
 
 ### February 6, 2025
 * [iOS] 1.4.6
