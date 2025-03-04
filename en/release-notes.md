@@ -11,7 +11,7 @@
     * Fixed an issue of protection operations failing in the latest version of Unity (6000.0.38f1)
 * [iOS] 1.4.8
     * Improved stability
-* [Unity] 0.4.15
+* [Unity] 0.4.16
     * (iOS) Improved NHN AppGuard iOS initialization stability
 * [Gradle Plugin] 1.2.5
     * Improved error handling during protection operations
