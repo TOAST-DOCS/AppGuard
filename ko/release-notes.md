@@ -2,9 +2,13 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.4.2 | 2025. 03. 04.  | latest |
+| Android  | 1.12.4.4 | 2025. 03. 13.  | latest |
 | Android  | 1.12.2.12 | 2024. 12. 03.  | stable |
 | iOS      | 1.4.8     | 2025. 03. 04.  | latest |
+
+### 2025. 03. 13.
+* [Android] 1.12.4.4
+  * 비정상 종료 이슈 수정
 
 ### 2025. 03. 07.
 * [Android] 1.12.4.3
