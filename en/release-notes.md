@@ -6,6 +6,14 @@
 | Android  | 1.12.2.12 | 2024. 12. 03.  | stable |
 | iOS      | 1.4.8     | 2025. 03. 04.  | latest |
 
+### March 11, 2025
+* [Android] 1.12.4.4
+  * Fixed abnormal shutdown errors
+
+### March 7, 2025
+* [Android] 1.12.4.3
+    * Fixed an issue of protection operations failing when applying simple popups
+
 ### March 4, 2025
 * [Android] 1.12.4.2
     * Fixed an issue of protection operations failing in the latest version of Unity (6000.0.38f1)
