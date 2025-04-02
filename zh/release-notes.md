@@ -8,7 +8,7 @@
 
 ### March 11, 2025
 * [Android] 1.12.4.4
-  * Fixed abnormal shutdown errors
+    * Fixed abnormal shutdown errors
 
 ### March 7, 2025
 * [Android] 1.12.4.3
