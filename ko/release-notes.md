@@ -9,7 +9,7 @@
 ### 2025. 03. 25.
 * [Android] 1.12.4.5
     * 구글 자동 보호(Google Automatic Protection) 적용 시 classes.dex 오탐이 발생하는 문제 수정
-    * 레거시 테마(@android:style/Theme.Holo.Light 등) 사용 시 종료 팝업의 상단이 비는 문제를 수정
+    * 레거시 테마(@android:style/Theme.Holo.Light 등) 사용 시 종료 팝업의 상단이 비는 문제 수정
 
 ### 2025. 03. 11.
 * [Android] 1.12.4.4
