@@ -2,7 +2,7 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.4.4 | 2025. 03. 11.  | latest |
+| Android  | 1.12.4.5 | 2025. 03. 25.  | latest |
 | Android  | 1.12.2.12 | 2024. 12. 03.  | stable |
 | iOS      | 1.4.9     | 2025. 03. 04.  | latest |
 
@@ -12,6 +12,11 @@
         * エンジン保護機能を強化しました。
 * [Unity] 0.4.17
     * (iOS) iOS SDK 1.4.9アップデート
+
+### 2025. 03. 25.
+* [Android] 1.12.4.5
+    * Google自動保護(Google Automatic Protection)適用時にclasses.dexが誤検知される問題を修正
+    * レガシーテーマ(@android:style/Theme.Holo.Lightなど)使用時に終了ポップアップの上部が空白になる問題を修正
 
 ### 2025. 03. 11.
 * [Android] 1.12.4.4
