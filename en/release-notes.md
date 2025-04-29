@@ -4,11 +4,18 @@
 | -------- | -------- | -----------  | ------ |
 | Android  | 1.12.4.4 | 2025. 03. 11.  | latest |
 | Android  | 1.12.2.12 | 2024. 12. 03.  | stable |
-| iOS      | 1.4.8     | 2025. 03. 04.  | latest |
+| iOS      | 1.4.9     | 2025. 03. 04.  | latest |
 
+### April 21, 2025
+* [iOS] 1.4.9
+    * Enhanced engine security
+        * Enhanced the engine protection feature.
+* [Unity] 0.4.17
+    * (iOS) iOS SDK 1.4.9 update
+      
 ### March 11, 2025
 * [Android] 1.12.4.4
-  * Fixed abnormal shutdown errors
+    * Fixed abnormal shutdown errors
 
 ### March 7, 2025
 * [Android] 1.12.4.3
