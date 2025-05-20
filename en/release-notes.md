@@ -4,7 +4,23 @@
 | -------- | -------- | -----------  | ------ |
 | Android  | 1.12.4.4 | 2025. 03. 11.  | latest |
 | Android  | 1.12.2.12 | 2024. 12. 03.  | stable |
-| iOS      | 1.4.9     | 2025. 03. 04.  | latest |
+| iOS      | 1.4.10     | May 15, 2025  | latest |
+
+### May 15, 2025
+* [iOS] 1.4.10
+    * Fixed hooking detection false positives
+        * Fixed an issue where hooking detection is false positive depending on whether `ENABLE_DEBUG_DYLIB` is set in debug builds.
+* [Unity] 0.4.18
+    * (iOS) iOS SDK 1.4.10 update
+    
+
+### April 29, 2025
+* [Android] 1.12.4.6
+    * (React Native) Fixed app crashing when applying Expo Updates
+    * Fixed intermittent corruption of string obfuscation table when protecting multiple apps in parallel
+    * Fixed duplicate string obfuscation tables being created
+    * Fixed app crashing when setting User ID to null
+    * Fixed app terminating incorrectly when setting callback methods to null
 
 ### April 21, 2025
 * [iOS] 1.4.9
