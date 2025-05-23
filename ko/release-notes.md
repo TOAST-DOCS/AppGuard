@@ -2,17 +2,33 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.4.6 | 2025. 04. 29.  | latest |
+| Android  | 1.12.4.7 | 2025. 05. 27.  | latest |
 | Android  | 1.12.2.12 | 2024. 12. 03.  | stable |
 | iOS      | 1.4.10     | 2025. 05. 15.  | latest |
+
+### 2025. 05. 27.
+* [Android] 1.12.4.7
+    * 가상 환경 탐지 패턴 추가
+        * Multi App(Code: 1306) 탐지 추가
+        * Parallel Space(Code: 1307) 탐지 추가
+        * DualSpace(Code: 1308) 탐지 추가
+        * Clone App(Code: 1309) 탐지 추가
+        * 2 계정(Code: 1310) 탐지 추가
+        * Dual App(Code: 1311) 탐지 추가
+        * DualSpace Lite(Code: 1312) 탐지 추가
+        * DualSpace Pro(Code: 1313) 탐지 추가
+    * 직장 프로필 탐지 기능 추가(Code: 2301)
+        * 콘솔 > NHN AppGuard > 정책 > Android > 직장 프로필 정책 설정을 통해 적용이 가능합니다.
+    * 조건 탐지 시 탐지 코드가 "00"으로 설정되는 문제 수정
+    * 매크로툴 탐지 기능 개선
+    * 유저 ID 설정 시, 기존에 탐지된 정보를 초기화하여 콜백에 전달되지 않도록 수정
 
 ### 2025. 05. 15.
 * [iOS] 1.4.10
     * 후킹 탐지 오탐 수정
         * 디버그 빌드에서 `ENABLE_DEBUG_DYLIB` 설정 여부에 따라 후킹 탐지가 오탐되는 문제를 수정하였습니다.
 * [Unity] 0.4.18
-    * (iOS) iOS SDK 1.4.10 업데이트
-    
+    * (iOS) iOS SDK 1.4.10 업데이트    
 
 ### 2025. 04. 29.
 * [Android] 1.12.4.6
