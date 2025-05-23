@@ -10,15 +10,15 @@
 * [Android] 1.12.4.7
     * 가상 환경(클론앱) 탐지 기능 추가
         * 다음과 같은 클론앱 환경을 탐지할 수 있도록 기능을 확장하였습니다:
-            * Multi App (Code: 1306)
-            * Parallel Space (Code: 1307)
-            * DualSpace (Code: 1308)
-            * Clone App (Code: 1309)
-            * 2 Account (Code: 1310)
-            * Dual App (Code: 1311)
-            * DualSpace Lite (Code: 1312)
-            * DualSpace Pro (Code: 1313)
-    * 직장 프로필 탐지 기능 추가 (Code: 2301)
+            * Multi App(Code: 1306)
+            * Parallel Space(Code: 1307)
+            * DualSpace(Code: 1308)
+            * Clone App(Code: 1309)
+            * 2 Account(Code: 1310)
+            * Dual App(Code: 1311)
+            * DualSpace Lite(Code: 1312)
+            * DualSpace Pro(Code: 1313)
+    * 직장 프로필 탐지 기능 추가(Code: 2301)
         * 콘솔 > NHN AppGuard > 정책 > Android > 직장 프로필 정책 설정을 통해 해당 기능을 활성화할 수 있습니다.
     * 탐지 코드 설정 오류 수정
         * 조건 기반 탐지 시, 탐지 코드가 “00”으로 잘못 설정되던 문제를 수정하였습니다.
