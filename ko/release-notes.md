@@ -2,9 +2,32 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.4.6 | 2025. 04. 29.  | latest |
+| Android  | 1.12.4.7 | 2025. 05. 27.  | latest |
 | Android  | 1.12.2.12 | 2024. 12. 03.  | stable |
 | iOS      | 1.4.10     | 2025. 05. 15.  | latest |
+
+### 2025. 05. 27.
+* [Android] 1.12.4.7
+    * 가상 환경(클론앱) 탐지 기능 추가
+        * 다음과 같은 클론앱 환경을 탐지할 수 있도록 기능을 확장하였습니다:
+            * Multi App(Code: 1306)
+            * Parallel Space(Code: 1307)
+            * DualSpace(Code: 1308)
+            * Clone App(Code: 1309)
+            * 2 Account(Code: 1310)
+            * Dual App(Code: 1311)
+            * DualSpace Lite(Code: 1312)
+            * DualSpace Pro(Code: 1313)
+    * 직장 프로필 탐지 기능 추가(Code: 2301)
+        * 콘솔 > NHN AppGuard > 정책 > Android > 직장 프로필 정책 설정을 통해 해당 기능을 활성화할 수 있습니다.
+    * 탐지 코드 설정 오류 수정
+        * 조건 기반 탐지 시, 탐지 코드가 “00”으로 잘못 설정되던 문제를 수정하였습니다.
+    * 탐지 콜백 로직 개선
+        * 동일한 탐지 이벤트에 대해 콜백이 중복 호출되지 않도록 처리 로직을 개선하였습니다.
+        * Business 플랜 적용 시, Application.onCreate()에서 콜백이 정상 등록되지 않던 문제를 해결하였습니다.
+    * User ID 설정 시 재탐지되지 않는 문제 수정
+        * User ID 설정 시, 일부 탐지 로직에서 재탐지가 정상적으로 수행되지 않던 문제를 수정하였습니다.
+    * 매크로툴 탐지 기능 개선
 
 ### 2025. 05. 15.
 * [iOS] 1.4.10
