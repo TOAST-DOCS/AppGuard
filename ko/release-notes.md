@@ -13,13 +13,11 @@
     * React Native 0.76.0 이상 버전 지원
 * [iOS] 1.4.11
   * React Native Expo 호환성 개선
-      - 최초 설치 시 Expo앱이 종료되는 문제를 수정하였습니다.
+      * 최초 설치 시 Expo앱이 종료되는 문제를 수정하였습니다.
 * [Console]
-  * SDK 다운로드 모달 개선
-    * Unreal Engine SDK 다운로드 추가
-    * 열 기반 그리드 뷰를 UI를 목록 뷰로 개선
-    * React Native Expo 호환성 개선
-        * 최초 설치 시 Expo앱이 종료되는 문제를 수정하였습니다.
+    * SDK 다운로드 모달 개선
+        * Unreal Engine SDK 다운로드 추가
+        * 열 기반 그리드 뷰를 UI를 목록 뷰로 개선
 * [Unity] 0.4.19
     * (iOS) iOS SDK 1.4.11 업데이트
 * [Unreal] 0.1.0
