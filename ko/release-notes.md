@@ -2,9 +2,26 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.4.7 | 2025. 05. 27.  | latest |
+| Android  | 1.12.4.8 | 2025. 06. 24.  | latest |
 | Android  | 1.12.2.12 | 2024. 12. 03.  | stable |
-| iOS      | 1.4.10     | 2025. 05. 15.  | latest |
+| iOS      | 1.4.11     | 2025. 06. 24.  | latest |
+
+### 2025. 06. 24.
+* [Android] 1.12.4.8
+    * 최소 지원 버전 상향(API 19 -> API 21)
+    * synchronized 키워드를 포함한 메서드에 대한 제어 흐름 난독화 시 발생하는 문제 수정
+    * React Native 0.76.0 이상 버전 지원
+* [iOS] 1.4.11
+  * React Native Expo 호환성 개선
+      * 최초 설치 시 Expo앱이 종료되는 문제를 수정하였습니다.
+* [Console]
+    * SDK 다운로드 모달 개선
+        * Unreal Engine SDK 다운로드 추가
+        * 열 기반 그리드 뷰에서 목록 뷰로 UI 개선
+* [Unity] 0.4.19
+    * (iOS) iOS SDK 1.4.11 업데이트
+* [Unreal] 0.1.0
+    * NHN AppGuard Unreal SDK 출시
 
 ### 2025. 05. 27.
 * [Android] 1.12.4.7
