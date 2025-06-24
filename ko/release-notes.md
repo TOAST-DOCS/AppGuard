@@ -17,7 +17,7 @@
 * [Console]
     * SDK 다운로드 모달 개선
         * Unreal Engine SDK 다운로드 추가
-        * 열 기반 그리드 뷰를 UI를 목록 뷰로 개선
+        * 열 기반 그리드 뷰에서 목록 뷰로 UI 개선
 * [Unity] 0.4.19
     * (iOS) iOS SDK 1.4.11 업데이트
 * [Unreal] 0.1.0
