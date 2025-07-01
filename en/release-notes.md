@@ -2,9 +2,49 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.4.4 | 2025. 03. 11.  | latest |
+| Android  | 1.12.4.8 | 2025. 06. 24.  | latest |
 | Android  | 1.12.2.12 | 2024. 12. 03.  | stable |
-| iOS      | 1.4.10     | May 15, 2025  | latest |
+| iOS      | 1.4.11     | 2025. 06. 24.  | latest |
+
+### June 24, 2025
+* [Android] 1.12.4.8
+    * Raising the minimum supported version (API 19 -> API 21)
+    * Fixed an issue with control flow obfuscation for methods containing the synchronized keyword
+    * Support for React Native 0.76.0 and later versions
+* [iOS] 1.4.11
+  * Improved React Native Expo compatibility
+      * Fixed an issue where the Expo app would terminate upon initial installation.
+* [Console]
+    * Improved SDK download modal
+        * Added Unreal Engine SDK downloads.
+        * Improved UI from column-based grid view to list view.
+* [Unity] 0.4.19
+    * (iOS) iOS SDK 1.4.11 update
+* [Unreal] 0.1.0
+    * NHN AppGuard Unreal SDK Released
+
+### May 27, 2025
+* [Android] 1.12.4.7
+    * Added detection of virtual environment (clone app)
+        * Extended capabilities allow detection of the following clone app environments:
+            * Multi App(Code: 1306)
+            * Parallel Space(Code: 1307)
+            * DualSpace(Code: 1308)
+            * Clone App(Code: 1309)
+            * 2 Account(Code: 1310)
+            * Dual App(Code: 1311)
+            * DualSpace Lite(Code: 1312)
+            * DualSpace Pro(Code: 1313)
+    * Added detection of work profiles (Code: 2301)
+        * You can enable this feature by setting the policy in Console > NHN AppGuard > Policy > Android > Work Profile.
+    * Fixed detection code setting errors
+        * Fixed an issue where the detection code was incorrectly set to “00” when performing condition-based detection.
+    * Improved detection callback logic
+        * Improved the logic to prevent duplicate callbacks for the same detection event.
+        * Fixed an issue where callbacks were not properly registered in Application.onCreate() when the Business plan was applied.
+    * Fixed an issue where re-detection did not occur after setting a User ID
+        * Fixed an issue where re-detection was not properly triggered in certain detection logic after setting a User ID.
+    * Upgraded macro detection
 
 ### May 15, 2025
 * [iOS] 1.4.10
@@ -29,6 +69,11 @@
 * [Unity] 0.4.17
     * (iOS) iOS SDK 1.4.9 update
       
+### March 25, 2025
+* [Android] 1.12.4.5
+    * Fixed classes.dex false positive when using Google Automatic Protection
+    * Fixed an issue where the top of the exit popup would be blank when using legacy themes (@android:style/Theme.Holo.Light, etc.)
+
 ### March 11, 2025
 * [Android] 1.12.4.4
     * Fixed abnormal shutdown errors
