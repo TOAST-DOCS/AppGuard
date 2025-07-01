@@ -2,9 +2,149 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.3.2 | 2025. 01. 06.  | latest |
-| Android  | 1.10.6.0 | 2023. 03. 12.  | stable |
-| iOS      | 1.4.4    | 2024. 12. 03.  | latest |
+| Android  | 1.12.4.8 | 2025. 06. 24.  | latest |
+| Android  | 1.12.2.12 | 2024. 12. 03.  | stable |
+| iOS      | 1.4.11     | 2025. 06. 24.  | latest |
+
+### June 24, 2025
+* [Android] 1.12.4.8
+    * Raising the minimum supported version (API 19 -> API 21)
+    * Fixed an issue with control flow obfuscation for methods containing the synchronized keyword
+    * Support for React Native 0.76.0 and later versions
+* [iOS] 1.4.11
+  * Improved React Native Expo compatibility
+      * Fixed an issue where the Expo app would terminate upon initial installation.
+* [Console]
+    * Improved SDK download modal
+        * Added Unreal Engine SDK downloads.
+        * Improved UI from column-based grid view to list view.
+* [Unity] 0.4.19
+    * (iOS) iOS SDK 1.4.11 update
+* [Unreal] 0.1.0
+    * NHN AppGuard Unreal SDK Released
+
+### May 27, 2025
+* [Android] 1.12.4.7
+    * Added detection of virtual environment (clone app)
+        * Extended capabilities allow detection of the following clone app environments:
+            * Multi App(Code: 1306)
+            * Parallel Space(Code: 1307)
+            * DualSpace(Code: 1308)
+            * Clone App(Code: 1309)
+            * 2 Account(Code: 1310)
+            * Dual App(Code: 1311)
+            * DualSpace Lite(Code: 1312)
+            * DualSpace Pro(Code: 1313)
+    * Added detection of work profiles (Code: 2301)
+        * You can enable this feature by setting the policy in Console > NHN AppGuard > Policy > Android > Work Profile.
+    * Fixed detection code setting errors
+        * Fixed an issue where the detection code was incorrectly set to “00” when performing condition-based detection.
+    * Improved detection callback logic
+        * Improved the logic to prevent duplicate callbacks for the same detection event.
+        * Fixed an issue where callbacks were not properly registered in Application.onCreate() when the Business plan was applied.
+    * Fixed an issue where re-detection did not occur after setting a User ID
+        * Fixed an issue where re-detection was not properly triggered in certain detection logic after setting a User ID.
+    * Upgraded macro detection
+
+### May 15, 2025
+* [iOS] 1.4.10
+    * Fixed hooking detection false positives
+        * Fixed an issue where hooking detection is false positive depending on whether `ENABLE_DEBUG_DYLIB` is set in debug builds.
+* [Unity] 0.4.18
+    * (iOS) iOS SDK 1.4.10 update
+    
+
+### April 29, 2025
+* [Android] 1.12.4.6
+    * (React Native) Fixed app crashing when applying Expo Updates
+    * Fixed intermittent corruption of string obfuscation table when protecting multiple apps in parallel
+    * Fixed duplicate string obfuscation tables being created
+    * Fixed app crashing when setting User ID to null
+    * Fixed app terminating incorrectly when setting callback methods to null
+
+### April 21, 2025
+* [iOS] 1.4.9
+    * Enhanced engine security
+        * Enhanced the engine protection feature.
+* [Unity] 0.4.17
+    * (iOS) iOS SDK 1.4.9 update
+      
+### March 25, 2025
+* [Android] 1.12.4.5
+    * Fixed classes.dex false positive when using Google Automatic Protection
+    * Fixed an issue where the top of the exit popup would be blank when using legacy themes (@android:style/Theme.Holo.Light, etc.)
+
+### March 11, 2025
+* [Android] 1.12.4.4
+    * Fixed abnormal shutdown errors
+
+### March 7, 2025
+* [Android] 1.12.4.3
+    * Fixed an issue of protection operations failing when applying simple popups
+
+### March 4, 2025
+* [Android] 1.12.4.2
+    * Fixed an issue of protection operations failing in the latest version of Unity (6000.0.38f1)
+* [iOS] 1.4.8
+    * Improved stability
+* [Unity] 0.4.16
+    * (iOS) Improved NHN AppGuard iOS initialization stability
+* [Gradle Plugin] 1.2.5
+    * Improved error handling during protection operations
+
+### February 12, 2025
+* [iOS] 1.4.7
+    * Improved engine stability
+* [Unity] 0.4.15
+    * Added an option to enable native popups
+    * (iOS) Improved callback stability
+    * (iOS) iOS SDK 1.4.7 update
+
+### Fabruary 11, 2026
+* [Android] 1.12.4.1
+  * Fixed DEX encryption bug
+
+### February 6, 2025
+* [iOS] 1.4.6
+    * Fixed an issue where CPU usage increases in certain situations
+* [Unity] 0.4.14
+    * (iOS) iOS SDK 1.4.6 update
+
+### February 3, 2025
+* [Gradle Plugin] 1.2.4
+    * Modified not to output NHN AppGuard logs when setting the log level to `QUIET(-q | --quiet)` on Gradle build
+      
+### January 21, 2025
+* [Android] 1.12.4.0
+    * Added VPN detection
+        * You can apply the feature on Console > NHN AppGuard > Policy > Android > VPN Policy Settings.
+    * Added NHN AppGuard startup message
+        * When you launch the app, a message that indicates whether NHN AppGuard is enabled appears.
+        * You can enable it in the CLI by adding `--show-startup-message`.
+    * Deprecated the '--google-pairip' option
+        * The '--google-pairip' option is no longer required, the feature is automatically enabled without the option.
+* [iOS] 1.4.5
+    * Added VPN detection
+        * You can apply the feature on Console > NHN AppGuard > Policies > iOS > VPN Policy Settings.
+    * Added NHN AppGuard startup message
+        * You can enable it in the CLI by adding `--show-startup-message`.
+* [Unity] 0.4.13
+    * (iOS) AppGuard iOS Settings > Add ExtraOptions
+    * (iOS) iOS SDK 1.3.11 update
+* [Console]
+    * Added search criteria for blacklists (start date, expiration date, reason for block)
+    * Added the feature to resize blacklist retrieval pages
+    * Added the Excel download feature for retrieved blacklists
+    * Added the feature to batch re-register and remove for retrieved blacklists
+    * Added the feature to batch register blacklists
+
+### January 16, 2025
+* [Gradle Plugin] 1.2.3
+    * Fixed an issue where the overrideOutputFile option is not working correctly
+
+### January 06, 2025
+* [Android] 1.12.3.2
+    * Improved obfuscation exceptions handling
 
 ### January 06, 2025
 * [Android] 1.12.3.2
@@ -12,7 +152,7 @@
 
 ### December 24, 2024
 * [Android] 1.12.3.1
-  * Improved obfuscation exceptions handling
+    * Improved obfuscation exceptions handling
 
 ### December 3, 2024
 * [Android] 1.12.3.0

@@ -2,9 +2,81 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.3.2 | 2025. 01. 06.  | latest |
-| Android  | 1.10.6.0 | 2023. 03. 12.  | stable |
-| iOS      | 1.4.4    | 2024. 12. 03.  | latest |
+| Android  | 1.12.4.4 | 2025. 03. 11.  | latest |
+| Android  | 1.12.2.12 | 2024. 12. 03.  | stable |
+| iOS      | 1.4.10     | 2025. 05. 15.  | latest |
+
+### March 11, 2025
+* [Android] 1.12.4.4
+    * Fixed abnormal shutdown errors
+
+### March 7, 2025
+* [Android] 1.12.4.3
+    * Fixed an issue of protection operations failing when applying simple popups
+
+### March 4, 2025
+* [Android] 1.12.4.2
+    * Fixed an issue of protection operations failing in the latest version of Unity (6000.0.38f1)
+* [iOS] 1.4.8
+    * Improved stability
+* [Unity] 0.4.16
+    * (iOS) Improved NHN AppGuard iOS initialization stability
+* [Gradle Plugin] 1.2.5
+    * Improved error handling during protection operations
+
+### February 12, 2025
+* [iOS] 1.4.7
+    * Improved engine stability
+* [Unity] 0.4.15
+    * Added an option to enable native popups
+    * (iOS) Improved callback stability
+    * (iOS) iOS SDK 1.4.7 update
+
+### Fabruary 11, 2026
+* [Android] 1.12.4.1
+  * Fixed DEX encryption bug
+
+### February 6, 2025
+* [iOS] 1.4.6
+    * Fixed an issue where CPU usage increases in certain situations
+* [Unity] 0.4.14
+    * (iOS) iOS SDK 1.4.6 update
+
+### February 3, 2025
+* [Gradle Plugin] 1.2.4
+    * Modified not to output NHN AppGuard logs when setting the log level to `QUIET(-q | --quiet)` on Gradle build
+
+### January 21, 2025
+* [Android] 1.12.4.0
+    * Added VPN detection
+        * You can apply the feature on Console > NHN AppGuard > Policy > Android > VPN Policy Settings.
+    * Added NHN AppGuard startup message
+        * When you launch the app, a message that indicates whether NHN AppGuard is enabled appears.
+        * You can enable it in the CLI by adding `--show-startup-message`.
+    * Deprecated the '--google-pairip' option
+        * The '--google-pairip' option is no longer required, the feature is automatically enabled without the option.
+* [iOS] 1.4.5
+    * Added VPN detection
+        * You can apply the feature on Console > NHN AppGuard > Policies > iOS > VPN Policy Settings.
+    * Added NHN AppGuard startup message
+        * You can enable it in the CLI by adding `--show-startup-message`.
+* [Unity] 0.4.13
+    * (iOS) AppGuard iOS Settings > Add ExtraOptions
+    * (iOS) iOS SDK 1.3.11 update
+* [Console]
+    * Added search criteria for blacklists (start date, expiration date, reason for block)
+    * Added the feature to resize blacklist retrieval pages
+    * Added the Excel download feature for retrieved blacklists
+    * Added the feature to batch re-register and remove for retrieved blacklists
+    * Added the feature to batch register blacklists
+
+### January 16, 2025
+* [Gradle Plugin] 1.2.3
+    * Fixed an issue where the overrideOutputFile option is not working correctly
+
+### January 06, 2025
+* [Android] 1.12.3.2
+    * Improved obfuscation exceptions handling
 
 ### January 06, 2025
 * [Android] 1.12.3.2
@@ -12,7 +84,7 @@
 
 ### December 24, 2024
 * [Android] 1.12.3.1
-  * Improved obfuscation exceptions handling
+    * Improved obfuscation exceptions handling
 
 ### December 3, 2024
 * [Android] 1.12.3.0

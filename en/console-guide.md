@@ -151,6 +151,13 @@ By registering user IDs for the integration of device ID and SDK as provided by 
 
 ![appguard_07_202104](http://image.toast.com/aaaaaha/console-guide/4_1_%EB%B8%94%EB%9E%99%EB%A6%AC%EC%8A%A4%ED%8A%B8_en.png)
 
+- You can search by **block criteria**, **status**, **blacklist**, **start date**, **expiration date**, and **block reason**.
+    - The **blacklist** searches for usernames with the same value as the one you entered.
+    - The **start date** and **expiration date** can be retrieved by selecting the start date and expiration date.
+    - The **block reason** is a LIKE search for the reason you entered.
+- The blacklist, block criteria, status, reason for block, start date, expiration date, and manage buttons appear.
+- You can download the retrieved results by clicking <strong>Download (Excel)</strong>.
+
 ### Blacklist
 
 Select **Blacklist** and click **Register**, and the page shows as follows:
@@ -182,6 +189,34 @@ Select **Blacklist** and click **Re-blacklist** for a blacklist which has been u
 * Modify **Cause of Registration** and <strong>Blocking Period (day)</strong>.
 * Click **Register** to register the updated blacklist.
 * Execute the app with re-registered blacklist ID and guide for NHN AppGuard shows during specified blocking period and app is closed.
+
+### Batch Register Blacklist
+
+After selecting the **Blacklist** menu, click the **Batch Register (Excel)** button and you will see the following screen.
+
+![appguard_12_20240103](http://image.toast.com/aaaaaha/console-guide/4_5_블랙리스트_일괄_등록_ko.png)
+
+* Click **Batch Register Blacklist Template File** to download the template file.
+* Open the template file and enter the **registration ID**, **ID type**, **reason for registration**, and \*\*Block period in days\*\*.
+  * For the **ID type**, enter **DEVICEID** or **USERID**.
+* Click the **Select File** button to upload, then click the **Register** button to batch register the blacklist.
+* When the registration is complete, a message appears in the **processing results**.
+
+### Batch Remove Blacklist
+
+After selecting the **Blacklist** menu, check the blacklists you want to remove and click the **Batch Remove** button, you will see the following screen.
+
+![appguard_13_20240103](http://image.toast.com/aaaaaha/console-guide/4_7_블랙리스트_일괄_해제_ko.png)
+
+* Click the **Remove** button to batch remove the registered blacklist.
+
+### Batch Re-register Blacklist
+
+After selecting the **Blacklist** menu, check the blacklists you want to re-register and click the **Batch Re-Register** button, you will see the following screen.
+
+![appguard_14_20240103](http://image.toast.com/aaaaaha/console-guide/4_6_블랙리스트_일괄_재등록_ko.png)
+
+* After entering the **block period**, click the **Register** button to batch re-register the blacklist.
 
 ## Log Search
 
