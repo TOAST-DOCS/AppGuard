@@ -2,9 +2,22 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.4.8 | 2025. 06. 24.  | latest |
+| Android  | 1.12.4.9 | 2025. 07. 29.  | latest |
 | Android  | 1.12.2.12 | 2024. 12. 03.  | stable |
-| iOS      | 1.4.11     | 2025. 06. 24.  | latest |
+| iOS      | 1.4.12     | 2025. 07. 29.  | latest |
+
+### July 29, 2025
+* [Android] 1.12.4.9
+    * Supports 16KB memory page size
+    * Fixed an issue where the user ID was not properly registered in Application.onCreate() when using the Business plan
+    * Fixed an issue where callbacks for detecting Fly GPS and Mock Locations were not triggered correctly
+    * Fixed abnormal shutdown issue on Galaxy S6 devices
+* [iOS] 1.4.12
+    * Improved detection of rootless jailbreak environments
+* [Console]
+    * Improved individual block modal
+        * Enhanced UI for clearer understanding of default policies
+        * Fixed a bug where individual block entries were occasionally displayed multiple times
 
 ### June 24, 2025
 * [Android] 1.12.4.8
@@ -12,8 +25,8 @@
     * Fixed an issue with control flow obfuscation for methods containing the synchronized keyword
     * Support for React Native 0.76.0 and later versions
 * [iOS] 1.4.11
-  * Improved React Native Expo compatibility
-      * Fixed an issue where the Expo app would terminate upon initial installation.
+    * Improved React Native Expo compatibility
+        * Fixed an issue where the Expo app would terminate upon initial installation.
 * [Console]
     * Improved SDK download modal
         * Added Unreal Engine SDK downloads.
