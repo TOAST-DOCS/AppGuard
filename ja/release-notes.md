@@ -3,8 +3,21 @@
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
 | Android  | 1.12.4.8 | 2025. 06. 24.  | latest |
-| Android  | 1.12.2.12 | 2024. 12. 03.  | stable |
-| iOS      | 1.4.11     | 2025. 06. 24.  | latest |
+| Android  | 1.12.4.9 | 2025. 07. 29.  | latest |
+| iOS      | 1.4.12     | 2025. 07. 29.  | latest |
+
+### 2025. 07. 29.
+* [Android] 1.12.4.9
+    * 16KBメモリページサイズサポート
+    * Businessプラン適用時、 Application.onCreate()でユーザーIDが正常に登録されない問題を修正
+    * Fly GPSとMock Locationsの検出コールバックコードが正常に呼び出されない問題を修正
+    * Galaxy S6デバイスで異常終了する問題を修正
+* [iOS] 1.4.12
+    * Rootless脱獄環境の検出を改善
+* [Console]
+    * 個別ブロックモーダルの改善
+        * 基本ポリシーを直感的に理解できるようにUIを改善
+        * 個別ブロック項目が重複して表示されるバグを修正
 
 ### 2025. 06. 24.
 * [Android] 1.12.4.8
@@ -12,8 +25,8 @@
     * synchronizedキーワードを含むメソッドの制御フロー難読化時に発生する問題を修正
     * React Native 0.76.0以上のバージョンをサポート
 * [iOS] 1.4.11
-  * React Native Expo互換性改善
-      * 初回インストール時にExpoアプリが終了する問題を修正しました。
+    * React Native Expo互換性改善
+        * 初回インストール時にExpoアプリが終了する問題を修正しました。
 * [Console]
     * SDKダウンロードモーダルを改善
         * Unreal Engine SDKダウンロードを追加
