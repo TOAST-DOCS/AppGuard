@@ -2,9 +2,14 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.4.9 | 2025. 07. 29.  | latest |
+| Android  | 1.12.4.10 | 2025. 08. 12.  | latest |
 | Android  | 1.12.2.12 | 2024. 12. 03.  | stable |
 | iOS      | 1.4.12     | 2025. 07. 29.  | latest |
+
+### 2025. 08. 12.
+* [Android] 1.12.4.10
+  * Unreal Engine 4 에뮬레이터에서 비정상적으로 종료되는 오류 수정
+  * 앱 보호작업 성능 개선
 
 ### 2025. 07. 29.
 * [Android] 1.12.4.9
