@@ -5,6 +5,10 @@
 | Android  | 1.12.4.9 | 2025. 07. 29.  | latest |
 | Android  | 1.12.2.12 | 2024. 12. 03.  | stable |
 | iOS      | 1.4.12     | 2025. 07. 29.  | latest |
+### August 12, 2025
+* [Android] 1.12.4.10
+  * Fixed an error that caused Unreal Engine 4 emulator to crash
+  * Improved the performance for app protection task
 
 ### July 29, 2025
 * [Android] 1.12.4.9
