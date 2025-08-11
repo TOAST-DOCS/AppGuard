@@ -2,9 +2,15 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.4.9 | 2025. 07. 29.  | latest |
+| Android  | 1.12.4.10 | 2025. 08. 12.  | latest |
 | Android  | 1.12.2.12 | 2024. 12. 03.  | stable |
 | iOS      | 1.4.12     | 2025. 07. 29.  | latest |
+### August 12, 2025
+* [Android] 1.12.4.10
+    * Fixed an error that caused Unreal Engine 4 emulator to crash
+    * Improved the performance for app protection task
+* [Unity] 0.4.21
+    * (Android) Android SDK 0.3.0 update
 
 ### July 29, 2025
 * [Android] 1.12.4.9
@@ -14,6 +20,8 @@
     * Fixed abnormal shutdown issue on Galaxy S6 devices
 * [iOS] 1.4.12
     * Improved detection of rootless jailbreak environments
+* [Unity] 0.4.20
+    * (iOS) iOS SDK 1.4.12 update
 * [Console]
     * Improved individual block modal
         * Enhanced UI for clearer understanding of default policies

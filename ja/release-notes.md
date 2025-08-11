@@ -2,9 +2,16 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.4.8 | 2025. 06. 24.  | latest |
+| Android  | 1.12.4.10 | 2025. 08. 12.  | latest |
 | Android  | 1.12.4.9 | 2025. 07. 29.  | latest |
 | iOS      | 1.4.12     | 2025. 07. 29.  | latest |
+
+### 2025. 08. 12.
+* [Android] 1.12.4.10
+  * Unreal Engine 4エミュレーターで異常終了する不具合を修正
+  * アプリ保護作業性能の改善
+* [Unity] 0.4.21
+    * (Android) Android SDK 0.3.0アップデート
 
 ### 2025. 07. 29.
 * [Android] 1.12.4.9
@@ -14,6 +21,8 @@
     * Galaxy S6デバイスで異常終了する問題を修正
 * [iOS] 1.4.12
     * Rootless脱獄環境の検出を改善
+* [Unity] 0.4.20
+    * (iOS) iOS SDK 1.4.12アップデート
 * [Console]
     * 個別ブロックモーダルの改善
         * 基本ポリシーを直感的に理解できるようにUIを改善
