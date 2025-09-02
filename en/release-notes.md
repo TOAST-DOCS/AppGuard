@@ -2,9 +2,23 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.4.10 | 2025. 08. 12.  | latest |
+| Android  | 1.12.4.11 | 2025. 09. 09.  | latest |
 | Android  | 1.12.2.12 | 2024. 12. 03.  | stable |
-| iOS      | 1.4.12     | 2025. 07. 29.  | latest |
+| iOS      | 1.4.13     | 2025. 09. 09.  | latest |
+
+### September 09, 2025
+* [Android] 1.12.4.11
+    * Improved application initialization exception handling
+    * Fixed a single-architecture app bundle termination issue
+    * Improved security
+* [Unreal] 0.2.0
+    * Support Secure Value
+* [iOS] 1.4.13
+    * Support Unreal SDK Secure Value
+    * Enhanced engine security
+* [Unity] 0.4.22
+    * (iOS) iOS SDK 1.4.13 update
+
 ### August 12, 2025
 * [Android] 1.12.4.10
     * Fixed an error that caused Unreal Engine 4 emulator to crash
