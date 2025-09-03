@@ -2,10 +2,23 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.4.10 | 2025. 08. 12.  | latest |
+| Android  | 1.12.4.11 | 2025. 09. 09.  | latest |
 | Android  | 1.12.2.12 | 2024. 12. 03.  | stable |
-| iOS      | 1.4.12     | 2025. 07. 29.  | latest |
+| iOS      | 1.4.13     | 2025. 09. 09.  | latest |
 
+### 2025. 09. 09.
+* [Android] 1.12.4.11
+    * 애플리케이션 초기화 예외 처리 개선
+    * 단일 아키텍처 앱 번들 종료 문제 수정
+    * 보안성 개선
+* [Unreal] 0.2.0
+    * Secure Value 지원
+* [iOS] 1.4.13
+    * Unreal SDK Secure Value 지원
+    * 엔진 보안성 강화
+* [Unity] 0.4.22
+    * (iOS) iOS SDK 1.4.13 업데이트
+    
 ### 2025. 08. 12.
 * [Android] 1.12.4.10
     * Unreal Engine 4 에뮬레이터에서 비정상적으로 종료되는 오류 수정
