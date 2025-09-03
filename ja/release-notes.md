@@ -3,8 +3,22 @@
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
 | Android  | 1.12.4.10 | 2025. 08. 12.  | latest |
-| Android  | 1.12.4.9 | 2025. 07. 29.  | latest |
-| iOS      | 1.4.12     | 2025. 07. 29.  | latest |
+| Android  | 1.12.4.11 | 2025. 09. 09.  | latest |
+| Android  | 1.12.2.12 | 2024. 12. 03.  | stable |
+| iOS      | 1.4.13     | 2025. 09. 09.  | latest |
+
+### 2025. 09. 09.
+* [Android] 1.12.4.11
+    * アプリケーション初期化時の例外処理を改善
+    * シングルアーキテクチャのApp Bundleにおける終了問題を修正
+    * セキュリティの改善
+* [Unreal] 0.2.0
+    * Secure Valueをサポート
+* [iOS] 1.4.13
+    * Unreal SDKでSecure Valueをサポート
+    * エンジンのセキュリティを強化
+* [Unity] 0.4.22
+    * (iOS) iOS SDK 1.4.13へアップデート
 
 ### 2025. 08. 12.
 * [Android] 1.12.4.10
