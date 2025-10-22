@@ -8,7 +8,7 @@
 
 ### 2025. 10. 23.
 * [Android] 1.12.4.12
-    * 구글 자동 무결성 보호(Google Automatic Integrity Protection) 사용시 Unreal Engine 4 비정상적으로 종료되는 오류 수정
+    * 구글 자동 무결성 보호(Google Automatic Integrity Protection) 사용 시 Unreal Engine 4가 비정상적으로 종료되는 오류 수정
     * 매크로툴 탐지 개선
     * 엔진 보안성 강화
 
