@@ -2,9 +2,15 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.4.11 | 2025. 09. 09.  | latest |
+| Android  | 1.12.4.12 | 2025. 10. 23.  | latest |
 | Android  | 1.12.2.12 | 2024. 12. 03.  | stable |
 | iOS      | 1.4.13     | 2025. 09. 09.  | latest |
+
+### October 23, 2025
+* [Android] 1.12.4.12
+    * Fixed an issue that Unreal Engine 4 to crash when using Google Automatic Integrity Protection.
+    * Improved macro tool detection
+    * Enhanced engine security
 
 ### September 09, 2025
 * [Android] 1.12.4.11
