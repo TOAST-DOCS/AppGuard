@@ -2,9 +2,15 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.4.11 | 2025. 09. 09.  | latest |
+| Android  | 1.12.4.12 | 2025. 10. 23.  | latest |
 | Android  | 1.12.2.12 | 2024. 12. 03.  | stable |
 | iOS      | 1.4.13     | 2025. 09. 09.  | latest |
+
+### 2025. 10. 23.
+* [Android] 1.12.4.12
+* Google Automatic Integrity Protectionを使用するとUnreal Engine 4が異常終了する問題を修正
+    * マクロツールの検知を改善
+    *  エンジンのセキュリティを強化
 
 ### 2025. 09. 09.
 * [Android] 1.12.4.11
