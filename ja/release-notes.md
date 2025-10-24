@@ -8,7 +8,7 @@
 
 ### 2025. 10. 23.
 * [Android] 1.12.4.12
-* Google Automatic Integrity Protectionを使用するとUnreal Engine 4が異常終了する問題を修正
+    * Google Automatic Integrity Protectionを使用するとUnreal Engine 4が異常終了する問題を修正
     * マクロツールの検知を改善
     *  エンジンのセキュリティを強化
 
