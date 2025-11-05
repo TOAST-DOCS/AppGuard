@@ -2,9 +2,15 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.4.12 | 2025. 10. 23.  | latest |
+| Android  | 1.12.4.13 | 2025. 11. 11.  | latest |
 | Android  | 1.12.2.12 | 2024. 12. 03.  | stable |
 | iOS      | 1.4.13     | 2025. 09. 09.  | latest |
+
+### 2025. 11. 11.
+* [Android] 1.12.4.13
+    * 가상 환경(클론앱) 탐지 대상 앱 추가
+        * Virtual Master(Code: 1300)
+    * 엔진 안정성 향상
 
 ### 2025. 10. 23.
 * [Android] 1.12.4.12
