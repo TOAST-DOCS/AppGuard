@@ -2,9 +2,15 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.4.12 | 2025. 10. 23.  | latest |
+| Android  | 1.12.4.13 | 2025. 11. 11.  | latest |
 | Android  | 1.12.2.12 | 2024. 12. 03.  | stable |
 | iOS      | 1.4.13     | 2025. 09. 09.  | latest |
+
+### November 11, 2025
+* [Android] 1.12.4.13
+    * Added a target app for detection in a virtual environment (clone app)
+        * Virtual Master(Code: 1300)
+    * Improved engine reliability
 
 ### October 23, 2025
 * [Android] 1.12.4.12
