@@ -2,9 +2,13 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.4.13 | 2025. 11. 11.  | latest |
+| Android  | 1.12.4.14 | 2025. 11. 14.  | latest |
 | Android  | 1.12.2.12 | 2024. 12. 03.  | stable |
 | iOS      | 1.4.13     | 2025. 09. 09.  | latest |
+
+### 2025. 11. 14.
+* [Android] 1.12.4.14
+    * Dex Reference Countが上限を超えたことにより、アプリを保護する際に難読化が失敗していた問題を修正
 
 ### 2025. 11. 11.
 * [Android] 1.12.4.13
