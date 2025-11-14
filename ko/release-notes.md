@@ -2,9 +2,13 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.4.13 | 2025. 11. 11.  | latest |
+| Android  | 1.12.4.14 | 2025. 11. 14.  | latest |
 | Android  | 1.12.2.12 | 2024. 12. 03.  | stable |
 | iOS      | 1.4.13     | 2025. 09. 09.  | latest |
+
+### 2025. 11. 14.
+* [Android] 1.12.4.14
+    * Dex Reference Count 초과로 인해 앱 보호 시 난독화가 실패하던 문제 수정
 
 ### 2025. 11. 11.
 * [Android] 1.12.4.13
