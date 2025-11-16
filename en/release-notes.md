@@ -2,9 +2,13 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.4.13 | 2025. 11. 11.  | latest |
+| Android  | 1.12.4.14 | 2025. 11. 14.  | latest |
 | Android  | 1.12.2.12 | 2024. 12. 03.  | stable |
 | iOS      | 1.4.13     | 2025. 09. 09.  | latest |
+
+### November 14, 2025
+* [Android] 1.12.4.14
+    * Fixed an issue that An issue where obfuscation failed when protecting apps due to exceeding the Dex Reference Count
 
 ### November 11, 2025
 * [Android] 1.12.4.13
@@ -14,7 +18,7 @@
 
 ### October 23, 2025
 * [Android] 1.12.4.12
-    * Fixed an issue that Unreal Engine 4 to crash when using Google Automatic Integrity Protection.
+    * Fixed an issue that Unreal Engine 4 to crash when using Google Automatic Integrity Protection
     * Improved macro tool detection
     * Enhanced engine security
 
