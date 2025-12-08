@@ -4,7 +4,19 @@
 | -------- | -------- | -----------  | ------ |
 | Android  | 1.12.4.14 | 2025. 11. 14.  | latest |
 | Android  | 1.12.2.12 | 2024. 12. 03.  | stable |
-| iOS      | 1.4.13     | 2025. 09. 09.  | latest |
+| iOS      | 1.4.14     | 2025. 12. 09.  | latest |
+
+
+### December 9, 2025
+* [iOS] 1.4.14
+    * Added the support for encryption API
+    * Updated the format of the user guide from PDF to HTML
+* [Unity] 0.4.23
+    * (iOS) iOS SDK 1.4.14 update
+* [Unreal] 0.2.1
+    * (iOS) iOS SDK 1.4.14 update
+* [Console]
+    * Fixed an issue where incorrect policies were displayed in the default policy
 
 ### November 14, 2025
 * [Android] 1.12.4.14
