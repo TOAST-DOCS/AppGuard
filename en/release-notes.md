@@ -2,10 +2,13 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.4.14 | 2025. 11. 14.  | latest |
+| Android  | 1.12.4.15 | 2025. 12. 16.  | latest |
 | Android  | 1.12.2.12 | 2024. 12. 03.  | stable |
 | iOS      | 1.4.14     | 2025. 12. 09.  | latest |
 
+### December 16, 2025
+* [Android] 1.12.4.15
+    * Improved DEX encryption
 
 ### December 9, 2025
 * [iOS] 1.4.14
