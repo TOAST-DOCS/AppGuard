@@ -25,7 +25,7 @@ buildscript {
         // ...
 
         // Add the NHN Cloud AppGuard Gradle Plugin
-        classpath 'com.nhncloud.android:appguard-gradle-plugin:1.2.5'
+        classpath 'com.nhncloud.android:appguard-gradle-plugin:1.2.6'
     }
 }
 ```
@@ -163,3 +163,4 @@ appguard {
     certificateFingerprintEnabled = false
 }
 ```
+
