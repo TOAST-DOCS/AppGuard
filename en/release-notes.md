@@ -2,9 +2,26 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.4.15 | 2025. 12. 16.  | latest |
+| Android  | 1.12.4.16 | 2026. 01. 27.  | latest |
 | Android  | 1.12.2.12 | 2024. 12. 03.  | stable |
-| iOS      | 1.4.14     | 2025. 12. 09.  | latest |
+| iOS      | 1.4.15    | 2026. 01. 27.  | latest |
+
+### January 27, 2026
+* [Android] 1.12.4.16
+	* Improved app compatibility for React Native 0.79.0 and later
+* [iOS] 1.4.15
+	* Enhanced signature manipulation detection for console uploads
+      * Signature manipulation detection is now available for console uploads, in addition to CLI-based protection.
+* [Unity] 0.4.24
+    * (iOS) Updated iOS SDK to version 1.4.15
+* [Unreal] 0.2.2
+    * (iOS) Updated iOS SDK to version 1.4.15
+* [Console]
+    * Fixed an issue where OS filters were not applied to the anomaly detection trends on the dashboard
+    * Added Macro Tools (iOS), VPN (Android, iOS), and Work Profile (Android) to the anomaly detection status on the dashboard
+    * Added per-chart loading indicators to the dashboard
+
+
 
 ### December 16, 2025
 * [Android] 1.12.4.15
