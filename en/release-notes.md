@@ -2,9 +2,13 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.4.16 | 2026. 01. 27.  | latest |
+| Android  | 1.12.4.17 | 2026. 02. 10.  | latest |
 | Android  | 1.12.2.12 | 2024. 12. 03.  | stable |
 | iOS      | 1.4.15    | 2026. 01. 27.  | latest |
+
+### February 10, 2026
+* [Android] 1.12.4.17
+    * Fixed a termination issue with single-architecture app bundles of Unity, Unreal
 
 ### January 27, 2026
 * [Android] 1.12.4.16
@@ -20,8 +24,6 @@
     * Fixed an issue where OS filters were not applied to the anomaly detection trends on the dashboard
     * Added Macro Tools (iOS), VPN (Android, iOS), and Work Profile (Android) to the anomaly detection status on the dashboard
     * Added per-chart loading indicators to the dashboard
-
-
 
 ### December 16, 2025
 * [Android] 1.12.4.15
