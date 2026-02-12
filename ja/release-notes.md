@@ -2,9 +2,13 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.4.16 | 2026. 01. 27.  | latest |
+| Android  | 1.12.4.17 | 2026. 02. 10.  | latest |
 | Android  | 1.12.2.12 | 2024. 12. 03.  | stable |
 | iOS      | 1.4.14     | 2025. 12. 09.  | latest |
+
+### 2026. 02. 10.
+* [Android] 1.12.4.17
+    * Unity、Unrealの単一アーキテクチャApp Bundleが終了する問題を修正
 
 ### 2026. 01. 27.
 * [Android] 1.12.4.16
