@@ -2,9 +2,19 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.4.17 | 2026. 02. 10.  | latest |
+| Android  | 1.12.4.18 | 2026. 03. 10.  | latest |
 | Android  | 1.12.2.12 | 2024. 12. 03.  | stable |
-| iOS      | 1.4.15    | 2026. 01. 27.  | latest |
+| iOS      | 1.4.16    | 2026. 03. 10.  | latest |
+
+### 2026. 03. 10.
+* [Android] 1.12.4.18
+    * APK 패키징 도구를 업데이트하여 16KB 페이지 사이즈를 지원하도록 개선
+* [iOS] 1.4.16
+	* rootless 탈옥 환경 보안성 개선
+* [Unity] 0.4.25
+	* (iOS) iOS SDK 1.4.16 업데이트
+* [Unreal] 0.2.3
+	* (iOS) iOS SDK 1.4.16 업데이트
 
 ### 2026. 02. 10.
 * [Android] 1.12.4.17
