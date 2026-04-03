@@ -15,7 +15,7 @@ NHN AppGuard Public API를 사용하려면 User Access Key가 필요합니다. U
 User Access Key와 Secret Access Key는 콘솔의 **API 보안 설정**에서 발급할 수 있습니다. User Access Key 발급 및 사용에 대한 자세한 내용은 [User Access Key](/nhncloud/ko/public-api/user-access-key/)를 참고하세요.
 
 !!! danger "주의"
-API 호출에 연동된 User Access Key ID/Secret Access Key를 가진 멤버가 탈퇴하면 서비스 장애가 발생할 수 있습니다. 탈퇴 전에 유효한 멤버의 키로 교체해야 합니다.
+    API 호출에 연동된 User Access Key ID/Secret Access Key를 가진 멤버가 탈퇴하면 서비스 장애가 발생할 수 있습니다. 탈퇴 전에 유효한 멤버의 키로 교체해야 합니다.
 
 ### 대시보드
 
