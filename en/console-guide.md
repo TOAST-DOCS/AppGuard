@@ -4,26 +4,26 @@ NHN AppGuard supports Android, iOS, and Unity environments.
 
 ### Android
 
-* You can apply the AppGuard Android SDK to use even more enhanced features (optional).
-* You can protect apk or aab files built in Android Studio, etc. more conveniently through the web console or CLI (required).
+* You can use even more enhanced features by applying the AppGuard Android SDK (optional).
+* You can protect apk or aab files built in Android Studio, etc. more conveniently with the web console or CLI (required).
 
 ### iOS
 
 * You can apply the AppGuard iOS SDK to protect your app (required).
-* You can protect your app more conveniently through the web console or CLI from ipa files built in Xcode (optional).
-* If you don't protect your app through the web console or CLI, it runs on the Business plan.
+* You can protect your app more conveniently with the web console or CLI from ipa files built in Xcode (optional).
+* If you don't protect your app with the web console or CLI, it runs on the Business plan.
 * You must perform protection using the web console or CLI to enable features such as integrity verification, signer verification, default policy, obfuscation, and plan selection.
     * This protection does not incur additional cost.
 
-> [Caution]
-> If you need to set up a plan other than the Business plan or change plans, you must perform app protection using the web console or CLI. If you do not want to do app protection, request a consultation to proceed.
+!!! danger "Caution"
+If you need to set up a plan other than the Business plan or change plans, you must perform app protection using the web console or CLI. If you do not want to do app protection, request a consultation to proceed.
 
 ### Unity
 
 * You can easily protect Android/iOS apps through provided features.
 * The Unity SDK includes an Android SDK and an iOS SDK and can be applied through a single interface.
 
-Following diagram shows the NHN AppGuard application process.
+Following diagram shows how to use NHN AppGuard.
 
 ![[Figure 1] How to apply NHN AppGuard](http://static.toastoven.net/prod_appguard/AppGuard_3_overview01.png)
 
@@ -40,7 +40,7 @@ When an abusive user is detected, you can check detection status by clicking on 
 - You can **Search** by [User ID], [Device ID], [Detection Log Count], [Log Pattern], and [Search Period].
     - Multiple [User ID] and [Device ID] can be added with comma as a delimiter.
 - In the statistical detection graph, you can check **Detection Distribution by Pattern** and **Change status of detection logs**.
-- The **Abnormal behavior detection status** can also be retrieved in json format through APIs. For more information, see the [API guide](https://docs.nhncloud.com/en/Security/NHN%20AppGuard/en/api-guide/).
+- The **Abnormal behavior detection status** can also be retrieved in json format with APIs. For more information, see the [API guide](https://docs.nhncloud.com/en/Security/NHN%20AppGuard/en/api-guide/).
 
 ## App Protection
 
@@ -52,7 +52,7 @@ Then, follow the attached manual to work with SDKs.
 
 ### Apply to Enable Obfuscation
 
-You can apply for code obfuscation for Android OS by selecting **App Protection** and **Enable Obfuscation**.
+You can apply for code obfuscation for Android OS by selecting **App Protection** menu and clicking **Enable Obfuscation**.
 Code obfuscation for Android OS requires an additional fee of KRW 1 million per month.
 For iOS, you can choose whether or not to use code obfuscation when protecting your app, and there is no additional charge.
 
@@ -156,7 +156,7 @@ By registering user IDs for the integration of device ID and SDK as provided by 
     - The **start date** and **expiration date** can be retrieved by selecting the start date and expiration date.
     - The **block reason** is a LIKE search for the reason you entered.
 - The blacklist, block criteria, status, reason for block, start date, expiration date, and manage buttons appear.
-- You can download the retrieved results by clicking <strong>Download (Excel)</strong>.
+- You can download the retrieved results by clicking **Download (Excel)**.
 
 ### Blacklist
 
@@ -186,7 +186,7 @@ Select **Blacklist** and click **Re-blacklist** for a blacklist which has been u
 
 ![appguard_10_202104](http://image.toast.com/aaaaaha/console-guide/4_4_%EB%B8%94%EB%9E%99%EB%A6%AC%EC%8A%A4%ED%8A%B8%20%EC%9E%AC%EB%93%B1%EB%A1%9D_en.png)
 
-* Modify **Cause of Registration** and <strong>Blocking Period (day)</strong>.
+* Modify **Cause of Registration** and **Blocking Period (day)**.
 * Click **Register** to register the updated blacklist.
 * Execute the app with re-registered blacklist ID and guide for NHN AppGuard shows during specified blocking period and app is closed.
 
@@ -194,7 +194,7 @@ Select **Blacklist** and click **Re-blacklist** for a blacklist which has been u
 
 After selecting the **Blacklist** menu, click the **Batch Register (Excel)** button and you will see the following screen.
 
-![appguard_12_20240103](http://image.toast.com/aaaaaha/console-guide/4_5_블랙리스트_일괄_등록_ko.png)
+![appguard_12_20240103](http://image.toast.com/aaaaaha/console-guide/4_5_블랙리스트_일괄_등록_en.png)
 
 * Click **Batch Register Blacklist Template File** to download the template file.
 * Open the template file and enter the **registration ID**, **ID type**, **reason for registration**, and \*\*Block period in days\*\*.
@@ -206,7 +206,7 @@ After selecting the **Blacklist** menu, click the **Batch Register (Excel)** but
 
 After selecting the **Blacklist** menu, check the blacklists you want to remove and click the **Batch Remove** button, you will see the following screen.
 
-![appguard_13_20240103](http://image.toast.com/aaaaaha/console-guide/4_7_블랙리스트_일괄_해제_ko.png)
+![appguard_13_20240103](http://image.toast.com/aaaaaha/console-guide/4_7_블랙리스트_일괄_해제_en.png)
 
 * Click the **Remove** button to batch remove the registered blacklist.
 
@@ -214,7 +214,7 @@ After selecting the **Blacklist** menu, check the blacklists you want to remove 
 
 After selecting the **Blacklist** menu, check the blacklists you want to re-register and click the **Batch Re-Register** button, you will see the following screen.
 
-![appguard_14_20240103](http://image.toast.com/aaaaaha/console-guide/4_6_블랙리스트_일괄_재등록_ko.png)
+![appguard_14_20240103](http://image.toast.com/aaaaaha/console-guide/4_6_블랙리스트_일괄_재등록_en.png)
 
 * After entering the **block period**, click the **Register** button to batch re-register the blacklist.
 
@@ -227,7 +227,7 @@ You can view the details of the detected logs on the **Log Search** tab.
     - Multiple **User ID** and **Device ID** can be added with comma as a delimiter.
 - User ID, Device ID, Host IP, device model numbers, OS, Logs, App Information, and Detection Time appear.
 - You can use the information in the ANDROID_ID column to view the device_key in Gamebase.
-- You can download the search results by clicking <strong>Download Report (Excel</strong>).
+- You can download the search results by clicking **Download Report (Excel)**.
 
 ## Settings
 
@@ -236,16 +236,157 @@ You can view the details of the detected logs on the **Log Search** tab.
 You can receive an alarm on the channel you set when the number of detection/block logs exceed a threshold.
 
 - Set Thresholds
-  - Alarms are sent when the number of detections+blocks that occurred today exceeds a **threshold** based on the **median value** of detections+blocks that occurred during the comparison period.
-    - The median value is used to reduce the impact of cases where the number of logs increased dramatically due to abnormal behaviors, such as an attack within the comparison period. 
-  - **The threshold** can be set from 10 to 10000%.
-  - For example, if the number of logs over 7 days is [5,5,5,5,5,7,7,7] and the threshold you set is 100%, alarms are sent if the number of logs today is 5 or more. 
+    - Alarms are sent when the number of detections+blocks that occurred today exceeds a **threshold** based on the **median value** of detections+blocks that occurred during the comparison period.
+        - The median value is used to reduce the impact of cases where the number of logs increased dramatically due to abnormal behaviors, such as an attack within the comparison period. 
+    - **The threshold** can be set from 10 to 10000%.
+    - For example, if the number of logs over 7 days is [5,5,5,5,5,7,7,7] and the threshold you set is 100%, alarms are sent if the number of logs today is 5 or more. 
 - Set Alarm Receiving Channel
-  - You can enter up to five emails to receive alarms.
-  - You can enter multiple emails, separated by commas (,).
-  - You can only add or delete emails. You can't edit emails.
+    - You can enter up to five emails to receive alarms.
+    - You can enter multiple emails, separated by commas (,).
+    - You can only add or delete emails. You can't edit emails.
 - Alarms are sent within 10 minutes of the threshold being exceeded.
 - If you received an alarm, access the console to view the detection log.
 
-> [Note] <br>
-> * Alarms are sent up to once per day.
+!!! tip "Note"
+Alarms are sent up to once per day.
+
+## Integrity Verification
+
+Describes how to use the NHN AppGuard Integrity Verification console.
+
+To use the Integrity Verification feature, you must request access via [Contact Us](https://www.nhncloud.com/kr/support/inquiry?alias=tab3_08).
+
+### Product
+
+Configure basic information, integrity verification policies, Android signature information, and additional settings.
+
+![appguard_12](http://image.toast.com/aaaaaha/console-guide/7_1_무결성검증_en_260325.png)
+
+* **Product Appkey**: A unique key that identifies the product.
+* **Product Secret Key**: A key used for HMAC authentication when making requests.
+* **Android Signature Info**: Allows multiple entries. Values must exist before the Android verification logic is executed.
+* **Additional Info**
+
+    * **Challenge Expiration Time (seconds)**: The validity period of a challenge.
+    * **Token Expiration Time (seconds)**: The validity period of a token.
+
+#### Integrity Verification Policy
+
+Configure integrity verification options for each platform: Android and iOS. Options are organized into two sections: **Integrity Verification Items** and **Untrusted Environments**.
+
+**Integrity Verification Items**
+
+The following items are enabled by default and cannot be changed.
+
+| Item | Description |
+| --- | --- |
+| App Binary Integrity | Verifies whether the app binary has been tampered with. |
+| Signature Tampering Detection | Detects whether the app signature has been tampered with. |
+| Challenge-Response Verification | Performs verification using the Challenge-Response method. |
+
+**Untrusted Environments**
+
+Integrity tokens are not issued in the following environments. Use the checkboxes to enable or disable individual items.
+
+| Item | Android | iOS |
+| --- | ------- | --- |
+| Rooting/Jailbreaking environment | Rooting environment | Jailbreaking environment |
+| Emulator/Simulator environment | Emulator environment | Simulator environment |
+| Debugging environment | Debugging environment | Debugging environment |
+| Hooking environment | Hooking environment | Hooking environment |
+
+### App
+
+View app build information.
+
+![appguard_13](http://image.toast.com/aaaaaha/console-guide/7_2_무결성검증_en_260325.png)
+
+* **App ID**: A unique ID generated when the app is built.
+* Click the **Delete** button to delete an app.
+
+#### App Info
+
+Click an app in the list to view its details.
+
+![appguard_14](http://image.toast.com/aaaaaha/console-guide/7_3_무결성검증_en_260325.png)
+
+**Basic Info**
+
+| Field | Description |
+| --- | --- |
+| App ID | Unique ID generated when the app is built |
+| Appkey | Product Appkey |
+| Platform | Android / iOS |
+| Package Name / Bundle ID | Package name or bundle identifier of the app |
+| Version Code / Build Number | Version code or build number of the app |
+| Version | App version |
+
+**Integrity Info**
+
+* **App Signature**: Signature information required to perform integrity verification.
+
+**Hash Collection/Verification**
+
+Collects and verifies the binary hash of the app. Since the app may be rebuilt when uploaded to a store, resulting in a different hash, collect multiple hashes before switching to verification mode.
+
+* **Collection Mode** (default): Hashes are automatically collected when the app is launched. Only the signature is verified; hash verification is not performed.
+* **Verification Mode**: Verifies integrity by comparing against collected active hashes. Verification fails if no matching hash is found.
+
+Click the **Switch Mode** button to toggle between **Collection Mode** and **Verification Mode**.
+
+View and manage collected hash information in the hash list table.
+
+| Column | Description |
+| --- | --- |
+| Hash | Binary hash (masked) |
+| Request Count | Number of times verification was requested with this hash |
+| Status | Active / Inactive |
+| Created Date | Date the hash was first collected |
+| Activate | Toggle switch to activate or deactivate the hash |
+| Delete | Delete an individual hash |
+
+!!! tip "Note"
+The recommended workflow for hash collection/verification is as follows:
+
+    1. Protect the app (Collection Mode is the default).
+    2. Launch the protected app. Hash A is collected.
+    3. Upload to the store. If the store rebuilds the app, Hash B is collected.
+    4. Release from the store. If a rebuild occurs, Hash C is collected.
+    5. Once collection is complete, switch to Verification Mode.
+    6. Deactivate or delete any unnecessary hashes.
+
+**Additional Info**
+
+* **App Public Key**: The public key of the app SDK, required for integrity verification.
+* **Product Public Key**: The public key of the server associated with the app, required for integrity verification.
+
+### Verification Log
+
+View integrity verification logs.
+
+![appguard_15](http://image.toast.com/aaaaaha/console-guide/7_4_무결성검증_en_260325.png)
+
+Search logs using the following filters:
+
+| Filter | Description |
+| --- | --- |
+| Platform | Select Android or iOS |
+| App Version | Search by app version |
+| Package Name / Bundle ID | Search by package name or bundle ID depending on the platform |
+| Version Code / Build Number | Search by version code or build number depending on the platform |
+| Time Range | Specify start and end time (YYYY-MM-DD HH:mm:ss format) |
+| App ID | Search by app ID |
+| Result | Filter by success or failure |
+
+#### Failure Reason Codes
+
+| Code | Message | Reason |
+| ---- | ------- | ------ |
+| 0 | SUCCESS |  |
+| 4000068 | Android Signature Not Exist | Android signature information does not exist. |
+| 4000074 | iOS signature not exist | App signature information in iOS integrity info does not exist. |
+| 4000021 | Challenge not exist | Challenge does not exist when an integrity verification request is made. |
+| 4000069 | Integrity info not match | App integrity information (app hash, app signature) does not match. |
+| 4000073 | App artifact not match | App package name, version code, or other information does not match. |
+| 4000032 | Challenge verification failed | Verification result does not match. |
+| 4000076 | Integrity option(rooting, emulator, debug, env..) check failed | Integrity options do not match. |
