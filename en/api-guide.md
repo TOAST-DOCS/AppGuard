@@ -15,7 +15,7 @@ User Access Key is required to use the NHN AppGuard Public API. A User Access Ke
 User Access Key and Secret Access Key can be issued in the **API Security Settings** from the console. For more information on issuing and using User Access Key, refer to the [User Access Key](/nhncloud/en/public-api/user-access-key/).
 
 !!! danger "Caution"
-If a member with a User Access Key ID/Secret Access Key associated API calls withdraws, it may cause service failure. You must replace it with a valid member's key before withdrawing.
+    If a member with a User Access Key ID/Secret Access Key associated API calls withdraws, it may cause service failure. You must replace it with a valid member's key before withdrawing.
 
 ### Dashboard
 

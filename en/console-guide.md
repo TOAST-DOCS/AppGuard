@@ -16,7 +16,7 @@ NHN AppGuard supports Android, iOS, and Unity environments.
     * This protection does not incur additional cost.
 
 !!! danger "Caution"
-If you need to set up a plan other than the Business plan or change plans, you must perform app protection using the web console or CLI. If you do not want to do app protection, request a consultation to proceed.
+    If you need to set up a plan other than the Business plan or change plans, you must perform app protection using the web console or CLI. If you do not want to do app protection, request a consultation to proceed.
 
 ### Unity
 
@@ -248,7 +248,7 @@ You can receive an alarm on the channel you set when the number of detection/blo
 - If you received an alarm, access the console to view the detection log.
 
 !!! tip "Note"
-Alarms are sent up to once per day.
+    Alarms are sent up to once per day.
 
 ## Integrity Verification
 
@@ -346,7 +346,7 @@ View and manage collected hash information in the hash list table.
 | Delete | Delete an individual hash |
 
 !!! tip "Note"
-The recommended workflow for hash collection/verification is as follows:
+    The recommended workflow for hash collection/verification is as follows:
 
     1. Protect the app (Collection Mode is the default).
     2. Launch the protected app. Hash A is collected.
