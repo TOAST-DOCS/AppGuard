@@ -33,7 +33,10 @@
         * Info.plist 난독화 기능 활성화를 위해서는 난독화 신청이 필요합니다.
     * Rosetta가 활성화되지 않은 Apple Silicon 환경에서도 CLI가 정상적으로 동작하도록 개선
     * 보안성 개선
-
+* [Unity] 0.4.26
+	* (iOS) iOS SDK 1.5.0 업데이트
+* [Unreal] 0.2.4
+	* (iOS) iOS SDK 1.5.0 업데이트
 
 ### 2026. 03. 10.
 * [Android] 1.12.4.18
