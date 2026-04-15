@@ -18,7 +18,7 @@
         * 난독화된 문자열은 해당 리소스를 참조하는 메서드 호출 시 자동으로 복호화되므로, 별도의 소스 코드 수정 없이 기존 로직을 그대로 유지하면서 적용할 수 있습니다.
         * AppGuard CLI에서 --resource-obfuscate 옵션을 사용하여 기능을 활성화합니다.
     * Rosetta가 활성화되지 않은 Apple Silicon 환경에서도 CLI가 정상적으로 동작하도록 개선
-    * 제어흐름 난독화 적용 시 Interface의 Default Method에서 발생하던 크래시 수정
+    * 제어 흐름 난독화 적용 시 Interface의 Default Method에서 발생하던 크래시 수정
     * 보호 작업 수행 시 assets 경로의 dex 파일이 삭제되는 버그를 수정
 * [iOS] 1.5.0
     * 무결성 인증 신규 기능 추가 (--integrity)
