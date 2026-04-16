@@ -1,6 +1,7 @@
 ## Security > NHN AppGuard > APIガイド
 
-APIを使用するには[1:1お問い合わせ](https://www.toast.com/kr/support/inquiry?alias=tab3_08)を通じて権限をリクエストする必要があります。
+## NHN AppGuard Public API
+NHN AppGuard Public APIを使用するには、[お問い合わせ](https://www.nhncloud.com/jp/support/inquiry?alias=tab3_08)から権限をリクエストする必要があります。
 
 [APIドメイン]
 
@@ -10,20 +11,20 @@ APIを使用するには[1:1お問い合わせ](https://www.toast.com/kr/support
 
 ### 認証及び権限
 
-APIを使用するには、認証のためにUser Access Key IDとSecret Access Keyが必要です。**会員情報 > APIセキュリティ設定**で作成できます。
-作成されたKeyはリクエストHeaderに含める必要があります。
+NHN AppGuard Public APIを使用するにはUser Access Keyが必要です。User Access Keyは、NHN CloudアカウントまたはIAMアカウントを基に発行される認証キーであり、Secret Access Keyと一緒に使用して、APIリクエストに対する認証手段として活用されます。
+User Access KeyとSecret Access Keyは、コンソールの**APIセキュリティ設定**で発行できます。User Access Keyの発行及び使用に関する詳細は、[User Access Key](/nhncloud/ja/public-api/user-access-key/)をご参照ください。
 
-> [注意]
-> APIを呼び出す作業に連動したUser Access Key ID/Secret Access Keyを持つメンバーが退会する場合、顧客のサービスに障害が発生する可能性があるため、退会前に有効なメンバーのキーに交換する必要があります。
+!!! danger "注意"
+    API呼び出しに連携されたUser Access Key ID/Secret Access Keyを持つメンバーが退会すると、サービス障害が発生する可能性があります。退会する前に、有効なメンバーのキーに交換する必要があります。
 
 ## ダッシュボード
 
-### 異常行為検出状況照会
+#### 異常行為の検知状況照会
 
 ユーザー/デバイス別の異常行為検出状況を照会します。
 当日のデータは照会できません。
 
-#### リクエスト
+##### リクエスト
 
 このAPIはリクエスト本文を要求しません。
 
@@ -53,16 +54,16 @@ APIを使用するには、認証のためにUser Access Key IDとSecret Access 
 <p>
 
 ```
-curl -X GET "https://appguard.api.nhncloudservice.com/v1.0/appkeys/{appkey}/dashboard/abnormal-status?targetType=0&targetDate=2024-01-01&os=1" \ 
- -H "Content-Type: application/json" 
- -H "X-TC-AUTHENTICATION-ID: {user_access_jey}" 
+curl -X GET "https://appguard.api.nhncloudservice.com/v1.0/appkeys/{appkey}/dashboard/abnormal-status?targetType=0&targetDate=2024-01-01&os=1" \
+ -H "Content-Type: application/json" \
+ -H "X-TC-AUTHENTICATION-ID: {user_access_key}" \
  -H "X-TC-AUTHENTICATION-SECRET: {secret_access_key}"
 ```
 
 </p>
 </details>
 
-#### レスポンス
+##### レスポンス
 
 [フィールド]
 
@@ -105,8 +106,8 @@ os=1(Android)レスポンス例
         "isSuccessful": true
     },
     "data": [
-        { 
-            "abnormalId": "id123", 
+        {
+            "abnormalId": "id123",
             "total": 12,
             "cheatCount": 1,
             "emulatorCount": 1,
@@ -140,8 +141,8 @@ os=1(Android)レスポンス例
         "isSuccessful": true
     },
     "data": [
-        { 
-            "abnormalId": "device123", 
+        {
+            "abnormalId": "device123",
             "total": 6,
             "cheatCount": 1,
             "emulatorCount": 1,
@@ -169,4 +170,106 @@ os=1(Android)レスポンス例
 | 4010007 | Invalid user access key. | 無効なuser access key |  |
 | 4010008 | Invalid user access key or secret access key. | 無効なuser access keyまたはsecret access key |  |
 
----
+## 整合性検証APIガイド
+
+整合性検証APIを使用するには、[お問い合わせ](https://www.nhncloud.com/jp/support/inquiry?alias=tab3_08)から権限をリクエストする必要があります。
+
+[APIドメイン]
+
+| リージョン | ドメイン |
+| --- | --- |
+| 全てのリージョン | [https://api-integrityguard.nhncloudservice.com](https://api-integrityguard.nhncloudservice.com) |
+
+### トークン情報照会
+トークンを照会します。一度照会したトークンは削除されます。
+
+#### リクエスト
+
+
+[URL]
+
+| メソッド | URI |
+| --- | --- |
+| GET | /integrity-api/v1.0/client/apps/{appId}/token-info |
+
+[ヘッダ]
+
+| 名前 | タイプ | 必須 | 説明 |
+| --- | --- | --- | --- |
+| Authorization | String | 必須 | Bearerトークン |
+
+
+<details><summary>リクエスト例</summary>
+
+<p>
+
+```bash
+curl -X GET 'https://api-integrityguard.nhncloudservice.com/integrity-api/v1.0/client/apps/{appId}/token-info' \
+  -H 'Authorization: Bearer {token}'
+```
+
+</p>
+</details>
+
+#### レスポンス
+
+[フィールド]
+
+| フィールド | タイプ | 説明 |
+| --- | --- | --- |
+| header | Object | ヘッダ領域 |
+| header.isSuccessful | Boolean | 成否 |
+| header.resultCode | Integer | 結果コード |
+| header.resultMessage | String | 結果メッセージ |
+| body | Object | トークン情報 |
+| body.appId | String | アプリID |
+| body.expireAt | Long | 有効期限(timestamp) |
+| body.integrityInfo | Object | アプリの整合性情報 |
+| body.integrityInfo.codeHash | String | バイナリハッシュ |
+| body.integrityInfo.signature | String | 署名 |
+| body.integrityResult | Object | 整合性検証結果 |
+| body.integrityResult.codeHashMatch | Boolean | コードハッシュの一致の有無 |
+| body.integrityResult.signatureMatch | Boolean | 署名の一致の有無 |
+| body.integrityResult.integrityChecked | Object | 整合性検査情報 |
+| body.integrityResult.integrityChecked.rootingDetected | Boolean | root化検知の有無（nullable） |
+| body.integrityResult.integrityChecked.emulatorDetected | Boolean | エミュレータ検知の有無(nullable) |
+| body.integrityResult.integrityChecked.debugDetected | Boolean | デバッグ検知の有無(nullable) |
+| body.integrityResult.integrityChecked.hookingDetected | Boolean | フッキング検知の有無(nullable) |
+| body.integrityResult.integrityChecked.untrustedEnv | Boolean | 信頼できない環境かどうか(nullable) |
+
+
+<details><summary>レスポンス例</summary>
+
+<p>
+
+```json
+{
+  "header": {
+    "isSuccessful": true,
+    "resultCode": 0,
+    "resultMessage": "SUCCESS"
+  },
+  "body": {
+    "appId": "619ce8dc-69c7-4efd-ac37-c0439c928d23",
+    "expireAt": 1763097379336,
+    "integrityInfo": {
+      "codeHash": "codeHash....",
+      "signature": "signature...."
+    },
+    "integrityResult": {
+      "codeHashMatch": true,
+      "signatureMatch": true,
+      "integrityChecked": {
+        "rootingDetected": true,
+        "emulatorDetected": true,
+        "debugDetected": true,
+        "hookingDetected": false,
+        "untrustedEnv": true
+      }
+    }
+  }
+}
+```
+
+</p>
+</details>
