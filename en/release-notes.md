@@ -2,9 +2,41 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.12.4.18 | 2026. 03. 10.  | latest |
+| Android  | 1.13.0.0 | 2026. 04. 16.  | latest |
 | Android  | 1.12.2.12 | 2024. 12. 03.  | stable |
-| iOS      | 1.4.16    | 2026. 03. 10.  | latest |
+| iOS      | 1.5.0    | 2026. 04. 16.  | latest |
+
+### 2026. 04. 16.
+* [Android] 1.13.0.0
+    * Added an integrity authentication feature
+        * Verifies whether the app has been tampered with and validates the safety of the execution environment on the NHN AppGuard server, controlling access so that only successfully verified apps can access the service.
+        * When an app requests authentication, the NHN AppGuard server verifies its integrity and issues a JWT token, which is then verified by the customer's server.
+        * This feature effectively blocks service access from apps running in abnormal environments.
+        * To enable this feature, contact us via [Customer Support > Contact Us](https://www.nhncloud.com/kr/support/inquiry) on the NHN Cloud website.
+    * Added a resource string obfuscation feature
+        * Protects sensitive information within the application by obfuscating strings in strings.xml at build time.
+        * Obfuscated strings are automatically decrypted when the method referencing the resource is called, allowing the feature to be applied without modifying existing source code or logic.
+        * Enable the feature using the --resource-obfuscate option in the AppGuard CLI.
+    * Improved CLI to work correctly in Apple Silicon environments where Rosetta is not enabled
+    * Fixed a crash that occurred in the Default Method of an Interface when control flow obfuscation was applied
+    * Fixed an issue where dex files in the assets path were deleted during the protection process
+* [iOS] 1.5.0
+    * Added an integrity authentication feature (--integrity)
+        * Verifies whether the app has been tampered with and validates the safety of the execution environment on the NHN AppGuard server, controlling access so that only successfully verified apps can access the service.
+        * When an app requests authentication, the NHN AppGuard server verifies its integrity and issues a JWT token, which is then verified by the customer's server.
+        * This feature effectively blocks service access from apps running in abnormal environments.
+        * To enable this feature, contact us via [Customer Support > Contact Us](https://www.nhncloud.com/kr/support/inquiry) on the NHN Cloud website.
+    * Added an Info.plist obfuscation feature
+        * Protects sensitive information within the app by encrypting the string values of specific keys in Info.plist at the time of app protection.
+        * Encrypts the string values of specific keys in Info.plist at the time of app protection and decrypts them at app launch, allowing the feature to be applied without modifying app code.
+        * Keys to be obfuscated are specified in a JSON configuration file, and the feature is applied using the --resource-obfuscate option in the AppGuard CLI.
+        * Enabling the Info.plist obfuscation feature requires submitting an obfuscation request.
+    * Improved CLI to work correctly in Apple Silicon environments where Rosetta is not enabled
+    * Improved security
+* [Unity] 0.4.26
+    * (iOS) Updated to iOS SDK 1.5.0
+* [Unreal] 0.2.4
+    * (iOS) Updated to iOS SDK 1.5.0
 
 ### March 10, 2026
 * [Android] 1.12.4.18
