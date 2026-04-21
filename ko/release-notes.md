@@ -26,7 +26,7 @@
         * Android NDK(C/C++) 및 iOS Xcode Toolchain(C/C++, Swift, Objective-C) 기반 네이티브 코드에 대한 난독화 기능을 제공합니다.
         * 컴파일 단계에서 네이티브 코드의 구조를 변형하여 핵심 알고리즘 및 비즈니스 로직을 리버스 엔지니어링으로부터 보호합니다.
         * 제어 흐름 평탄화, 산술 명령어 치환, 문자열 인코딩 기능을 지원합니다.
-        * 기능을 활성화하려면 [NHN Cloud 콘솔](https://console.nhncloud.com/)에서 Security > NHN AppGuard > 앱 보호 메뉴로 이동하신 후, 난독화 활성화 버튼을 통해 요청해 주시기 바랍니다.
+        * 기능을 활성화하려면 [NHN Cloud 콘솔](https://console.nhncloud.com/)에 접속한 뒤 Security > NHN AppGuard > 앱 보호 메뉴에서 난독화 활성화 버튼을 클릭해 요청하세요.
 
 ### 2026. 04. 16.
 * [Android] 1.13.0.0
