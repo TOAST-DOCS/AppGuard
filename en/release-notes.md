@@ -2,11 +2,33 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.13.0.0 | 2026. 04. 16.  | latest |
+| Android  | 1.13.1.0 | 2026. 04. 22.  | latest |
 | Android  | 1.12.2.12 | 2024. 12. 03.  | stable |
-| iOS      | 1.5.0    | 2026. 04. 16.  | latest |
+| iOS      | 1.5.1    | 2026. 04. 22.  | latest |
 
-### 2026. 04. 16.
+### April 22, 2026
+* [Android] 1.13.1.0
+    * Added an untrusted environment detection feature
+        * Detects untrusted environments by checking the security status of the device.
+    * Fixed a Java obfuscation bug
+        * Fixed an issue where obfuscation was only partially applied in version 1.13.0.0.
+* [iOS] v1.5.1
+    * Fixed an integrity authentication bug
+      - Fixed an issue where verification failed in certain situations.
+* [Unity] 0.4.27
+	* (iOS) Updated to iOS SDK 1.5.1
+* [Unreal] 0.2.5
+	* (iOS) Updated to iOS SDK 1.5.1
+* [Console]
+    * Added untrusted environment (Android) to the anomaly detection status on the dashboard
+* [Native Code Obfuscator] 1.0.0
+    * Launched the native code obfuscation feature
+        * Provides obfuscation for native code based on Android NDK (C/C++) and iOS Xcode Toolchain (C/C++, Swift, Objective-C).
+        * Protects core algorithms and business logic from reverse engineering by transforming the structure of native code at the compilation stage.
+        * Supports control flow flattening, arithmetic instruction substitution, and string encoding.
+        * To enable this feature, go to [NHN Cloud Console](https://console.nhncloud.com/), then navigate to Security > NHN AppGuard > App Protection and click the Enable Obfuscation button to submit a request.
+
+### April 16, 2026
 * [Android] 1.13.0.0
     * Added an integrity authentication feature
         * Verifies whether the app has been tampered with and validates the safety of the execution environment on the NHN AppGuard server, controlling access so that only successfully verified apps can access the service.
@@ -37,7 +59,17 @@
     * (iOS) Updated to iOS SDK 1.5.0
 * [Unreal] 0.2.4
     * (iOS) Updated to iOS SDK 1.5.0
-
+* [Console]
+    * Added an integrity authentication feature
+        * You can check integrity verification policies, Android signature information, and more in the Product tab.
+        * You can check app signatures, hashes, and key values per app, and change the hash collection mode in the App tab.
+        * You can check integrity verification logs in the Verification Log tab.
+        * To enable this feature, submit an enablement request via [Customer Support > Contact Us](https://www.nhncloud.com/kr/support/inquiry) on the NHN Cloud website.
+    * Improved the obfuscation request modal
+        * Following the addition of the resource obfuscation feature, a resource obfuscation option was added to the obfuscation request modal.
+        * Added an option to request a native code obfuscation license.
+    * Added a resource obfuscation rule file attachment feature to allow resource obfuscation files to be attached during console protection tasks
+    
 ### March 10, 2026
 * [Android] 1.12.4.18
     * Improved APK packaging tools to support 16KB page sizes
