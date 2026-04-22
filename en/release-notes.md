@@ -12,9 +12,9 @@
         * Detects untrusted environments by checking the security status of the device.
     * Fixed a Java obfuscation bug
         * Fixed an issue where obfuscation was only partially applied in version 1.13.0.0.
-* [iOS] v1.5.1
+* [iOS] 1.5.1
     * Fixed an integrity authentication bug
-      - Fixed an issue where verification failed in certain situations.
+        * Fixed an issue where verification failed in certain situations.
 * [Unity] 0.4.27
 	* (iOS) Updated to iOS SDK 1.5.1
 * [Unreal] 0.2.5
