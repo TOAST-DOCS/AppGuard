@@ -25,7 +25,7 @@
     * frida attach 탐지가 개선되었습니다.
   * 변조 탐지 개선
     * 앱 번들 내부 동적 라이브러리(framework, dylib) 변조 탐지 기능을 추가했습니다.
-      * Enterprise 플랜 이상부터 적용가능 가능합니다.
+      * Enterprise 플랜 이상부터 적용 가능합니다.
 * [Unity] 0.4.28
   * (iOS) iOS SDK 1.5.2 업데이트
 * [Unreal] 0.2.6
