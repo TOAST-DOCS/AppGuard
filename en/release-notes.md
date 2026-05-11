@@ -2,9 +2,36 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.13.1.0 | 2026. 04. 22.  | latest |
+| Android  | 1.13.2.0 | 2026. 05. 12.  | latest |
 | Android  | 1.12.2.12 | 2024. 12. 03.  | stable |
-| iOS      | 1.5.1    | 2026. 04. 22.  | latest |
+| iOS      | 1.5.2    | 2026. 05. 12.  | latest |
+
+### May 12, 2026
+* [Android] 1.13.2.0
+* Improved integrity authentication
+        * Extended the signature verification scope to include library Split APKs.
+    * Added a native library tampering detection feature
+        * Added a feature to verify the integrity of native libraries (.so) and detect tampering if found.
+    * Added a KernelSU rooting detection feature
+        * Added a feature to detect KernelSU-based rooted devices.
+    * Improved remote control detection
+        * Improved the remote control detection method from app installation status-based to actual execution status-based detection.
+    * Fixed a false positive tampering detection issue occurring on some emulators
+    * Fixed an issue where the app crashed abnormally on Android 6 (API 23) devices
+    * Increased minimum supported Android version
+        * Increased the minimum supported Android version from Android 5.0 (API Level 21) to Android 5.1 (API Level 22).
+* [iOS] 1.5.2
+  * Improved debug environment detection
+    * Improved frida attach detection.
+  * Improved tampering detection
+    * Added a tampering detection feature for dynamic libraries (framework, dylib) inside the app bundle.
+      * Applicable from the Enterprise plan and above.
+* [Unity] 0.4.28
+  * (iOS) Updated to iOS SDK 1.5.2
+* [Unreal] 0.2.6
+	* (iOS) Updated to iOS SDK 1.5.2
+* [Console]
+    * Added an integrity authentication activation request modal
 
 ### April 22, 2026
 * [Android] 1.13.1.0
