@@ -22,7 +22,7 @@
         * Android 최소 지원 버전을 Android 5.0(API Level 21)에서 Android 5.1(API Level 22)로 상향하였습니다.
 * [iOS] 1.5.2
   * 디버그 환경 탐지 개선
-    * frida attach 탐지가 개선되었습니다.
+    * frida attach 탐지를 개선했습니다.
   * 변조 탐지 개선
     * 앱 번들 내부 동적 라이브러리(framework, dylib) 변조 탐지 기능을 추가했습니다.
       * Enterprise 플랜 이상부터 적용 가능합니다.
