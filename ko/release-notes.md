@@ -19,7 +19,7 @@
     * 일부 에뮬레이터에서 발생하는 변조 오탐 문제 수정
     * Android 6(API 23) 디바이스에서 앱이 비정상적으로 종료되는 문제 수정
     * Android 최소 지원 버전 상향
-        * Android 최소 지원 버전을 Android 5.0(API Level 21)에서 Android 5.1(API Level 22)로 상향하였습니다.
+        * Android 최소 지원 버전을 Android 5.0(API Level 21)에서 Android 5.1(API Level 22)로 상향했습니다.
 * [iOS] 1.5.2
   * 디버그 환경 탐지 개선
     * frida attach 탐지를 개선했습니다.
