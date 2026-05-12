@@ -3,7 +3,7 @@
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
 | Android  | 1.13.2.0 | 2026. 05. 12.  | latest |
-| Android  | 1.12.2.12 | 2024. 12. 03.  | stable |
+| Android  | 1.12.4.18 | 2026. 03. 10.  | stable |
 | iOS      | 1.5.2    | 2026. 05. 12.  | latest |
 
 ### 2026. 05. 12.
@@ -21,15 +21,15 @@
     * Androidの最小サポートバージョンの引き上げ
         * Androidの最小サポートバージョンをAndroid 5.0(API Level 21)からAndroid 5.1(API Level 22)へ引き上げました。
 * [iOS] 1.5.2
-  * デバッグ環境検知の改善
-    * frida attachの検知を改善しました。
-  * 改ざん検知の改善
-    * アプリバンドル内の動的ライブラリ(framework、dylib)の改ざん検知機能を追加しました。
-      * Enterpriseプラン以上から適用可能です。
+    * デバッグ環境検知の改善
+        * frida attachの検知を改善しました。
+    * 改ざん検知の改善
+        * アプリバンドル内の動的ライブラリ(framework、dylib)の改ざん検知機能を追加しました。
+            * Enterpriseプラン以上から適用可能です。
 * [Unity] 0.4.28
-  * (iOS) iOS SDK 1.5.2アップデート
+    * (iOS) iOS SDK 1.5.2アップデート
 * [Unreal] 0.2.6
-\t* (iOS) iOS SDK 1.5.2アップデート
+    * (iOS) iOS SDK 1.5.2アップデート
 * [Console]
     * 整合性認証の有効化リクエストモーダルを追加
 
