@@ -2,12 +2,18 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.13.2.0 | 2026. 05. 12.  | latest |
+| Android  | 1.13.2.1 | 2026. 05. 19.  | latest |
 | Android  | 1.12.4.18 | 2026. 03. 10.  | stable |
 | iOS      | 1.5.2    | 2026. 05. 12.  | latest |
 
+### May 19, 2026
+* [Android] 1.13.2.1
+    * This version includes the changes from the deprecated versions 1.13.0.0, 1.13.1.0, and 1.13.2.0.
+    * Fixed an issue where a crash occurred due to NHN AppGuard engine loading failure in certain environments.
+    * Disabled integrity verification of native libraries (.so).
+
 ### May 12, 2026
-* [Android] 1.13.2.0
+* [Android] 1.13.2.0 **(Deprecated)**
     * Improved integrity authentication
         * Extended the signature verification scope to include library Split APKs.
     * Added a native library tampering detection feature
