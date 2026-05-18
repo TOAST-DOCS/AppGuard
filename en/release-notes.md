@@ -40,7 +40,7 @@
     * Added an integrity authentication activation request modal
 
 ### April 22, 2026
-* [Android] 1.13.1.0
+* [Android] 1.13.1.0 **(Deprecated)**
     * Added an untrusted environment detection feature
         * Detects untrusted environments by checking the security status of the device.
     * Fixed a Java obfuscation bug
@@ -62,7 +62,7 @@
         * To enable this feature, go to [NHN Cloud Console](https://console.nhncloud.com/), then navigate to Security > NHN AppGuard > App Protection and click the Enable Obfuscation button to submit a request.
 
 ### April 16, 2026
-* [Android] 1.13.0.0
+* [Android] 1.13.0.0 **(Deprecated)**
     * Added an integrity authentication feature
         * Verifies whether the app has been tampered with and validates the safety of the execution environment on the NHN AppGuard server, controlling access so that only successfully verified apps can access the service.
         * When an app requests authentication, the NHN AppGuard server verifies its integrity and issues a JWT token, which is then verified by the customer's server.
