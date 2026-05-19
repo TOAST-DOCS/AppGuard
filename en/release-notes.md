@@ -2,13 +2,19 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.13.2.0 | 2026. 05. 12.  | latest |
-| Android  | 1.12.2.12 | 2024. 12. 03.  | stable |
+| Android  | 1.13.2.1 | 2026. 05. 19.  | latest |
+| Android  | 1.12.4.18 | 2026. 03. 10.  | stable |
 | iOS      | 1.5.2    | 2026. 05. 12.  | latest |
 
+### May 19, 2026
+* [Android] 1.13.2.1
+    * This version includes the changes from the deprecated versions 1.13.0.0, 1.13.1.0, and 1.13.2.0.
+    * Fixed an issue where a crash occurred due to NHN AppGuard engine loading failure in certain environments.
+    * Disabled integrity verification of native libraries (.so).
+
 ### May 12, 2026
-* [Android] 1.13.2.0
-* Improved integrity authentication
+* [Android] 1.13.2.0 **(Deprecated)**
+    * Improved integrity authentication
         * Extended the signature verification scope to include library Split APKs.
     * Added a native library tampering detection feature
         * Added a feature to verify the integrity of native libraries (.so) and detect tampering if found.
@@ -21,20 +27,20 @@
     * Increased minimum supported Android version
         * Increased the minimum supported Android version from Android 5.0 (API Level 21) to Android 5.1 (API Level 22).
 * [iOS] 1.5.2
-  * Improved debug environment detection
-    * Improved frida attach detection.
-  * Improved tampering detection
-    * Added a tampering detection feature for dynamic libraries (framework, dylib) inside the app bundle.
-      * Applicable from the Enterprise plan and above.
+    * Improved debug environment detection
+        * Improved frida attach detection.
+    * Improved tampering detection
+        * Added a tampering detection feature for dynamic libraries (framework, dylib) inside the app bundle.
+            * Applicable from the Enterprise plan and above.
 * [Unity] 0.4.28
-  * (iOS) Updated to iOS SDK 1.5.2
+    * (iOS) Updated to iOS SDK 1.5.2
 * [Unreal] 0.2.6
-	* (iOS) Updated to iOS SDK 1.5.2
+    * (iOS) Updated to iOS SDK 1.5.2
 * [Console]
     * Added an integrity authentication activation request modal
 
 ### April 22, 2026
-* [Android] 1.13.1.0
+* [Android] 1.13.1.0 **(Deprecated)**
     * Added an untrusted environment detection feature
         * Detects untrusted environments by checking the security status of the device.
     * Fixed a Java obfuscation bug
@@ -56,7 +62,7 @@
         * To enable this feature, go to [NHN Cloud Console](https://console.nhncloud.com/), then navigate to Security > NHN AppGuard > App Protection and click the Enable Obfuscation button to submit a request.
 
 ### April 16, 2026
-* [Android] 1.13.0.0
+* [Android] 1.13.0.0 **(Deprecated)**
     * Added an integrity authentication feature
         * Verifies whether the app has been tampered with and validates the safety of the execution environment on the NHN AppGuard server, controlling access so that only successfully verified apps can access the service.
         * When an app requests authentication, the NHN AppGuard server verifies its integrity and issues a JWT token, which is then verified by the customer's server.
