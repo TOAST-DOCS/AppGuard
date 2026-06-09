@@ -10,7 +10,7 @@
 * [iOS] 1.5.3
   * AppGuard SDK v1.5.2 보호 후 스토어 배포 시 변조 오탐 수정
 * [Unity] 0.4.29
-  * iOS 1.5.3 SDK 적용
+  * iOS SDK 1.5.3 업데이트
 * [Unreal] 0.2.7
   * iOS 1.5.3 SDK 적용
  
