@@ -4,8 +4,16 @@
 | -------- | -------- | -----------  | ------ |
 | Android  | 1.13.2.1 | 2026. 05. 19.  | latest |
 | Android  | 1.12.4.18 | 2026. 03. 10.  | stable |
-| iOS      | 1.5.2    | 2026. 05. 12.  | latest |
+| iOS      | 1.5.3    | 2026. 06. 11.  | latest |
 
+### June 11, 2026
+* [iOS] 1.5.3
+    * Fixed a false positive tampering detection when distributing to the store after protection with AppGuard SDK v1.5.2
+* [Unity] 0.4.29
+    * Updated to iOS SDK 1.5.3
+* [Unreal] 0.2.7
+    * Updated to iOS SDK 1.5.3
+ 
 ### May 19, 2026
 * [Android] 1.13.2.1
     * This version includes the changes from the deprecated versions 1.13.0.0, 1.13.1.0, and 1.13.2.0.
