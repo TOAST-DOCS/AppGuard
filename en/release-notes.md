@@ -8,11 +8,11 @@
 
 ### June 11, 2026
 * [iOS] 1.5.3
-  * Fixed a false positive tampering detection when distributing to the store after protection with AppGuard SDK v1.5.2
+    * Fixed a false positive tampering detection when distributing to the store after protection with AppGuard SDK v1.5.2
 * [Unity] 0.4.29
-  * Updated to iOS SDK 1.5.3
+    * Updated to iOS SDK 1.5.3
 * [Unreal] 0.2.7
-  * Updated to iOS SDK 1.5.3
+    * Updated to iOS SDK 1.5.3
  
 ### May 19, 2026
 * [Android] 1.13.2.1
