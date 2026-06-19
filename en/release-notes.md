@@ -2,9 +2,48 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.13.2.1 | 2026. 05. 19.  | latest |
+| Android  | 1.13.3.0 | 2026. 06. 23.  | latest |
 | Android  | 1.12.4.18 | 2026. 03. 10.  | stable |
-| iOS      | 1.5.3    | 2026. 06. 11.  | latest |
+| iOS      | 1.5.4    | 2026. 06. 23.  | latest |
+
+### June 23, 2026
+* Common
+    * Renamed "Integrity Verification" feature to "App Attestation"
+        * The SDK interface has been updated to reflect the App Attestation naming.
+        * The CLI option has been changed from `--integrity` to `--app-attestation`.
+* [Android] 1.13.3.0
+    * Enabled native library (.so) integrity verification
+        * Fixed an issue where false positives occurred when Google Play automatic integrity protection was applied.
+    * Improved app attestation
+        * Added native library (.so) verification.
+        * The minimum supported version for the app attestation feature has been changed to Android 1.13.3.0 and SDK 0.5.0.
+    * Improved Java obfuscation
+        * Fixed an obfuscation error that occurred during escape string processing.
+        * Fixed an issue where a VerifyError occurred for certain classes in a runtime environment.
+        * Added an obfuscation verification step during protection tasks.
+            * Adding the `--verify-obfuscated-dex` option in CLI enables verification.
+    * Bug Fixes
+        * Fixed an issue where a crash occurred on Android 5.1 (32-bit) emulators.
+* [iOS] 1.5.4
+    * Applied App Attestation naming changes
+    * Enhanced security
+    * Improved library tampering detection
+        * Fixed an issue where library tampering was not detected on some older iOS versions.
+    * Improved protection task performance
+* [Unity] 0.4.30
+    * Updated to iOS SDK 1.5.4
+* [Unreal] 0.2.8
+    * Updated to iOS SDK 1.5.4
+* [Console]
+    * Terminology change: Integrity Verification → App Attestation
+    * Added app attestation feature
+        * Added hash management feature by ABI
+        * Added automatic mode transition feature for verification mode
+    * Fixed a bug where blacklist block reasons were displayed incorrectly
+* [Native Code Obfuscator] 1.1.0
+    * Feature Updates
+        * Simplified the string encoding configuration method.
+        * Changed the NDK toolchain installation method.
 
 ### June 11, 2026
 * [iOS] 1.5.3
