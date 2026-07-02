@@ -8,16 +8,16 @@
 
 ### 2026. 07. 14.
 * [Android] 1.13.3.1
-    * 안정성 개선
+    * 간헐적으로 발생하는 크래시 문제 수정
 * [iOS] 1.5.5
     * Unity 앱 증명 지원
 * [Unity] 0.5.0
-    * 앱 증명 API 추가
+    * 앱 증명 기능 추가
     * iOS SDK 1.5.5 업데이트
 * [Unreal] 0.2.9
     * iOS SDK 1.5.5 업데이트
 * [Gradle Plugin] 1.3.0
-    * Android Gradle Plugin(AGP) 9.1.1 지원
+    * Android Gradle Plugin(AGP) 9.x 지원
 
 ### 2026. 06. 23.
 * 공통
