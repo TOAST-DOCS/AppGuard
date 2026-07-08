@@ -2,9 +2,22 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.13.3.0 | 2026. 06. 23.  | latest |
+| Android  | 1.13.3.1 | 2026. 07. 14.  | latest |
 | Android  | 1.12.4.18 | 2026. 03. 10.  | stable |
-| iOS      | 1.5.4    | 2026. 06. 23.  | latest |
+| iOS      | 1.5.5    | 2026. 07. 14.  | latest |
+
+### 2026. 07. 14.
+* [Android] 1.13.3.1
+    * 断続的に発生するクラッシュ問題を修正
+* [iOS] 1.5.5
+    * Unityアプリ証明をサポート
+* [Unity] 0.5.0
+    * アプリ証明機能を追加
+    * iOS SDK 1.5.5アップデート
+* [Unreal] 0.2.9
+    * iOS SDK 1.5.5アップデート
+* [Gradle Plugin] 1.3.0
+    * Android Gradle Plugin(AGP) 9.xをサポート
 
 ### 2026. 06. 23.
 * 共通
