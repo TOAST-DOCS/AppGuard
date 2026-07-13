@@ -16,8 +16,6 @@
     * Updated to iOS SDK 1.5.5
 * [Unreal] 0.2.9
     * Updated to iOS SDK 1.5.5
-* [Gradle Plugin] 1.3.0
-    * Added support for Android Gradle Plugin (AGP) 9.x
 
 ### June 23, 2026
 * Common
