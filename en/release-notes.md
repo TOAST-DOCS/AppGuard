@@ -2,9 +2,20 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.13.3.0 | 2026. 06. 23.  | latest |
+| Android  | 1.13.3.1 | 2026. 07. 14.  | latest |
 | Android  | 1.12.4.18 | 2026. 03. 10.  | stable |
-| iOS      | 1.5.4    | 2026. 06. 23.  | latest |
+| iOS      | 1.5.5    | 2026. 07. 14.  | latest |
+
+### July 14, 2026
+* [Android] 1.13.3.1
+    * Fixed an intermittent crash issue
+* [iOS] 1.5.5
+    * Added app attestation support for Unity apps
+* [Unity] 0.5.0
+    * Added app attestation feature
+    * Updated to iOS SDK 1.5.5
+* [Unreal] 0.2.9
+    * Updated to iOS SDK 1.5.5
 
 ### June 23, 2026
 * Common
