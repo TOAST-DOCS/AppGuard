@@ -6,9 +6,7 @@ NHN AppGuard Gradle Plugin supports build automation so that protection operatio
 
 ### Supported Environment
 
-- Android Gradle Plugin (AGP) 3.0.1 or higher
-
-- firebase-crashlytics-gradle 2.2.0~2.8.0
+- Android Gradle Plugin (AGP) 4.x or higher
 
 - The Gradle Plugin method is not supported in the Unity environment.
 
@@ -25,7 +23,7 @@ buildscript {
         // ...
 
         // Add the NHN Cloud AppGuard Gradle Plugin
-        classpath 'com.nhncloud.android:appguard-gradle-plugin:1.2.6'
+        classpath 'com.nhncloud.android:appguard-gradle-plugin:1.3.0'
     }
 }
 ```
