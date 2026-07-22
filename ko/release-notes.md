@@ -4,7 +4,12 @@
 | -------- | -------- | -----------  | ------ |
 | Android  | 1.13.3.1 | 2026. 07. 14.  | latest |
 | Android  | 1.12.4.18 | 2026. 03. 10.  | stable |
-| iOS      | 1.5.5    | 2026. 07. 14.  | latest |
+| iOS      | 1.5.6    | 2026. 08. 11.  | latest |
+
+### 2026. 08. 11.
+* [iOS] 1.5.6
+    * Unity global-metadata.dat 암호화 지원
+        * Game플랜에서 `--unity-global-metadata` CLI 옵션을 사용하여 적용할 수 있습니다.
 
 ### 2026. 07. 28.
 * [Gradle Plugin] 1.3.0
