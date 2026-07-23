@@ -9,7 +9,7 @@
 ### 2026. 08. 11.
 * [iOS] 1.5.6
     * Unity global-metadata.dat 암호화 지원
-        * Game 플랜에서 `--unity-global-metadata` CLI 옵션을 사용하여 적용할 수 있습니다.
+        * Game 플랜에서 `--unity-metadata-protection` CLI 옵션을 사용하여 적용할 수 있습니다.
 
 ### 2026. 07. 28.
 * [Gradle Plugin] 1.3.0
