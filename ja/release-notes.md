@@ -6,6 +6,10 @@
 | Android  | 1.12.4.18 | 2026. 03. 10.  | stable |
 | iOS      | 1.5.5    | 2026. 07. 14.  | latest |
 
+### 2026. 07. 28.
+* [Gradle Plugin] 1.3.0
+    * Android Gradle Plugin(AGP) 9.xをサポート
+
 ### 2026. 07. 14.
 * [Android] 1.13.3.1
     * 断続的に発生するクラッシュ問題を修正
