@@ -6,9 +6,7 @@ NHN AppGuard Gradle PluginではAndroid Gradleビルド段階に保護作業が�
 
 ### サポート環境
 
-- AGP(Android Gradle Plugin) 3.0.1以上
-
-- firebase-crashlytics-gradle 2.2.0~2.8.0
+- AGP(Android Gradle Plugin) 4.x以上
 
 - Unity環境ではGradle Plugin方式をサポートしません。
 
@@ -25,7 +23,7 @@ buildscript {
         // ...
 
         // Add the NHN Cloud AppGuard Gradle Plugin
-        classpath 'com.nhncloud.android:appguard-gradle-plugin:1.2.6'
+        classpath 'com.nhncloud.android:appguard-gradle-plugin:1.3.0'
     }
 }
 ```
