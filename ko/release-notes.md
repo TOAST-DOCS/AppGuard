@@ -8,10 +8,12 @@
 
 ### 2026. 08. 11.
 * [iOS] 1.5.6
-    * Unity global-metadata.dat 암호화 지원
-        * Game 플랜에서 `--unity-metadata-protection` CLI 옵션을 사용하여 적용할 수 있습니다.
+    * Unity global-metadata.dat 암호화 기능 추가
+        * --unity-metadata-protection 옵션으로 global-metadata.dat 암호화 기능을 활성화할 수 있습니다.
+        * 해당 옵션은 game 플랜에서 사용할 수 있습니다.
 * [Unity] 0.5.1
-    * Unity 최소 지원 버전을 2017.4.40f1에서 2019.4.41f2로 상향
+    * 최소 지원 버전 상향
+        * Unity 최소 지원 버전을 2017.4.40f1에서 2019.4.41f2로 상향하였습니다.
     * iOS SDK 1.5.6 업데이트
 * [Unreal] 0.2.10
     * iOS SDK 1.5.6 업데이트
