@@ -432,7 +432,7 @@
     * Fixed errors setting signing key password
         * Fixed an error where signing fails if the store password and key password do not match.
 
- ### December 06, 2023
+### December 06, 2023
 * [iOS] 1.3.12
     * Enhanced security of NHN AppGuard engine
 * [Unity] 0.3.1
