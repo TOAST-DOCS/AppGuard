@@ -1,16 +1,22 @@
-## Security > NHN AppGuard > Gradle Pluginガイド
+<!-- pre-align:aligned sig=d940d4b2b6f4 -->
 
-### 概要
+<a id="security-nhn-appguard-gradle-plugin-guide"></a>
+## Security > NHN AppGuard > Gradle Pluginガイド { #security-nhn-appguard-gradle-plugin-guide }
+
+<a id="overview"></a>
+### 概要 { #overview }
 
 NHN AppGuard Gradle PluginではAndroid Gradleビルド段階に保護作業が含まれるようにビルド自動化をサポートします。 ProGuardとFirebase Crashlyticsを使用する場合、ProGuardマッピングファイルを読み込んで適用してNHN AppGuard難読化と一緒に使用できます。
 
-### サポート環境
+<a id="supported-environment"></a>
+### サポート環境 { #supported-environment }
 
 - AGP(Android Gradle Plugin) 4.x以上
 
 - Unity環境ではGradle Plugin方式をサポートしません。
 
-### ライブラリ設定
+<a id="library-settings"></a>
+### ライブラリ設定 { #library-settings }
 
 プロジェクトレベルのbuild.gradleファイルにNHN AppGuard Gradle Pluginをbuildscript依存関係項目に追加します。
 
@@ -34,7 +40,8 @@ buildscript {
 apply plugin: 'com.nhncloud.android.appguard'
 ```
 
-### NHN AppGuard Gradle Pluginオプション
+<a id="nhn-appguard-gradle-plugin-options"></a>
+### NHN AppGuard Gradle Pluginオプション { #nhn-appguard-gradle-plugin-options }
 
 プラグイン機能を使用するにはAppkeyとNHN AppGuardバージョンを必ず指定する必要があります。
 
@@ -59,7 +66,8 @@ apply plugin: 'com.nhncloud.android.appguard'
 | extraOptions                  | CLIで使用していたオプションを追加(必要なときはお問い合わせください)    | N      |
 | outputFilePath                | 保護されたファイルの保存パス(variants scope)   | N      |
 
-### NHN AppGuard Gradle Pluginオプション設定
+<a id="setting-the-nhn-appguard-gradle-plugin-options"></a>
+### NHN AppGuard Gradle Pluginオプション設定 { #setting-the-nhn-appguard-gradle-plugin-options }
 
 アプリレベルのbuild.gradleファイルにappguardオプションを作成します。
 
@@ -92,7 +100,8 @@ appguard {
 }
 ```
 
-### 保護されたファイルのパス設定
+<a id="setting-the-protected-file-path"></a>
+### 保護されたファイルのパス設定 { #setting-the-protected-file-path }
 
 1.0.1バージョンからvariantsごとに保護されたファイルの保存位置設定が可能です。
 
@@ -115,8 +124,10 @@ appguard{
 }
 ```
 
-### ProguardとFirebase Crashlyticsを使用する場合の難読化適用
+<a id="applying-obfuscation-when-using-proguard-and-firebase-crashlytics"></a>
+### ProguardとFirebase Crashlyticsを使用する場合の難読化適用 { #applying-obfuscation-when-using-proguard-and-firebase-crashlytics }
 
+<a id="applying-obfuscation-when-using-proguard-and-firebase-crashlytics-prerequisites"></a>
 #### 事前準備
 
 1. プロジェクトでAppGuard難読化を使用している必要があります。
@@ -125,6 +136,7 @@ appguard{
 
 3. [FireBase Crashlytics](https://firebase.google.com/docs/crashlytics)アップロード機能を使用している必要があります。使用していなくても難読化は適用できます。
 
+<a id="applying-obfuscation-when-using-proguard-and-firebase-crashlytics-how-to-apply"></a>
 #### 適用方法
 
 アプリレベルのbuild.gradleファイルに次のようにappguardオプションを作成します。
@@ -137,10 +149,12 @@ appguard {
 }
 ```
 
-### アプリ署名の整合性検証のための証明書指紋設定
+<a id="set-up-certificate-fingerprinting-to-verify-app-signature-integrity"></a>
+### アプリ署名の整合性検証のための証明書指紋設定 { #set-up-certificate-fingerprinting-to-verify-app-signature-integrity }
 1.2.0バージョンから証明書指紋有効化有無と検証に使用される証明書指紋(SHA-256)を追加できます。<br>
 **アプリ署名検証のための証明書指紋は有効がデフォルト値で、有効化するには証明書指紋を必ず入力する必要があります。**
 
+<a id="set-up-certificate-fingerprinting-to-verify-app-signature-integrity-how-to-apply"></a>
 #### 適用方法
 アプリレベルのbuild.gradleファイルに次のようにappguardオプションを作成します。
 

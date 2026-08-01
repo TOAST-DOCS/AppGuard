@@ -1,13 +1,18 @@
-## Security > NHN AppGuard > コンソール使用ガイド
+<!-- pre-align:aligned sig=a949981cf275 -->
+
+<a id="security-nhn-appguard-console-guide"></a>
+## Security > NHN AppGuard > コンソール使用ガイド { #security-nhn-appguard-console-guide }
 
 NHN AppGuardはAndroid、iOS、Unity環境をサポートします。
 
-### Android
+<a id="android"></a>
+### Android { #android }
 
 * AppGuard Android SDKを適用することで、さらに強化された機能を利用できます(オプション)。
 * Android Studioなどでビルドしたapkまたはaabファイルを、WebコンソールまたはCLIを使用してより簡単に保護できます(必須)。
 
-### iOS
+<a id="ios"></a>
+### iOS { #ios }
 
 * AppGuard iOS SDKを適用してアプリを保護できます(必須)。
 * Xcodeでビルドしたipaファイルを、WebコンソールまたはCLIを使用してより強力に保護できます(任意)。
@@ -18,7 +23,8 @@ NHN AppGuardはAndroid、iOS、Unity環境をサポートします。
 !!! danger "注意"
     Businessプラン以外の料金プランを設定したり、プランを変更したりする場合は、WebコンソールまたはCLIでアプリ保護作業を行う必要があります。アプリ保護作業を希望しない場合は、個別にご相談ください。
 
-### Unity
+<a id="unity"></a>
+### Unity { #unity }
 
 * Android/iOSアプリを簡単に保護できる便利な機能を提供します。
 * Unity SDKにはAndroid SDKとiOS SDKが含まれており、1つのインターフェースで適用できます。
@@ -27,7 +33,8 @@ NHN AppGuardを使用するには、次の手順に従います。
 
 ![[図1] NHN AppGuard適用方法](http://static.toastoven.net/prod_appguard/AppGuard_3_overview01.png)
 
-## ダッシュボード
+<a id="dashboard"></a>
+## ダッシュボード { #dashboard }
 
 アプリ保護作業が完了したアプリをアプリストアに配布し、アビューズユーザーが探知されると、下図の**ダッシュボード** タブで現況を確認できます。
 
@@ -42,21 +49,25 @@ NHN AppGuardを使用するには、次の手順に従います。
 - 検知統計グラフで、**検知パターン別の比率**と、期間別の**検知ログ増減状況**を確認できます。
 - **異常行為の検知状況**は、APIを利用してJSON形式でも照会できます。詳細は[APIガイド](https://docs.nhncloud.com/ja/Security/NHN%20AppGuard/ja/api-guide/)をご参照ください。
 
-## アプリ保護
+<a id="app-protection"></a>
+## アプリ保護 { #app-protection }
 
-### SDKダウンロードおよび連携
+<a id="download-and-integrate-sdks"></a>
+### SDKダウンロードおよび連携 { #download-and-integrate-sdks }
 
 **アプリ保護**メニューを選択し、**SDKダウンロード**ボタンをクリックすると、OS別のSDKをダウンロードできます。
 
 SDKをダウンロードした後、添付のマニュアルに従って連動します。
 
-### 難読化の有効化を申請する
+<a id="apply-to-enable-obfuscation"></a>
+### 難読化の有効化を申請する { #apply-to-enable-obfuscation }
 
 **アプリ保護**メニューを選択し、**難読化の有効化**ボタンをクリックすると、Android OSのコード難読化を申請できます。
 Android OSのコード難読化は、月100万KRWの追加料金が発生します。
 iOSはアプリ保護作業時にコード難読化を利用するかどうかを選択することができ、これによる追加費用は請求されません。
 
-### アプリ保護メニュー選択
+<a id="app-protection-menu"></a>
+### アプリ保護メニュー選択 { #app-protection-menu }
 
 **アプリ保護** メニュー選択後、**+ アプリ保護** ボタンをクリックすると、次のような画面が表示されます。
 
@@ -79,7 +90,8 @@ iOSはアプリ保護作業時にコード難読化を利用するかどうか�
 - アプリ保護が完了すると、保護されたアプリをダウンロードできます。保護された配布ファイルを各アプリストアにアップロードして配布します。
 * アプリ保護作業方法： Console、 CLI(Command Line Interface)
 
-## ポリシー
+<a id="policy"></a>
+## ポリシー { #policy }
 
 NHN AppGuard作動中、コード、メモリ、速度操作試行を検知した時、取るべき遮断ポリシーを設定でき、'条件遮断'の場合、しきい値で遮断条件を設定できます。
 
@@ -90,7 +102,8 @@ NHN AppGuard作動中、コード、メモリ、速度操作試行を検知し�
 
 制裁の内容はSDKに含まれている"NHN AppGuard Developer's Guide" 文書を参照してください。
 
-### 遮断機能別紹介
+<a id="introduction-to-block-features"></a>
+### 遮断機能別紹介 { #introduction-to-block-features }
 - **NHN AppGuard > ポリシー > 全体遮断**
     - NHN AppGuardポリシー画面で**全体遮断**に設定した場合、当該行為が検出されるとすぐにアプリが終了します。
     - ポリシーによりアプリが終了した場合でも、異常行為なしでアプリを再実行すると、アプリを正常に使用できます。
@@ -110,18 +123,21 @@ NHN AppGuard作動中、コード、メモリ、速度操作試行を検知し�
     - NHN AppGuardブラックリスト画面でユーザーをブラックリストに登録した場合、該当ユーザーがアプリを実行するとアプリが終了します。
     - ブラックリストに登録した直後からアプリが再実行される時に適用されます。
 
-### 変更履歴
+<a id="change-history"></a>
+### 変更履歴 { #change-history }
 ポリシーを変更、保存する時、いつ、誰が、どのように変更したのか、その履歴を管理できます。
 ![appguard_04_202104](http://image.toast.com/aaaaaha/console-guide/3_2_%EC%A0%95%EC%B1%85%20%EB%B3%80%EA%B2%BD%EC%9D%B4%EB%A0%A5_jp.png)
 
-### 個別ブロック
+<a id="individual-block"></a>
+### 個別ブロック { #individual-block }
 
 エミュレータとマクロツールに限り、すべてのタイプではなく、個々のツール単位でブロックできます。
 
 - 個々のツール単位で**解除**、**検出**、**ブロック**を設定できます。
 - **基本ポリシー**を通じて、識別されていないタイプに対するポリシーを設定できます。
 
-### 条件追加
+<a id="add-conditions"></a>
+### 条件追加 { #add-conditions }
 ポリシーメニュー選択後、各検知種類別の条件遮断ボタンをクリックすると、次のような画面が表示されます。
 ![appguard_05_202104](http://image.toast.com/aaaaaha/console-guide/3_3_%EC%A0%95%EC%B1%85%20%EC%A1%B0%EA%B1%B4%EC%B6%94%EA%B0%80_jp.png)
 
@@ -135,14 +151,16 @@ NHN AppGuard作動中、コード、メモリ、速度操作試行を検知し�
     - 前日累積検知ログをベースに条件が適用され、最初の条件適用までは最大10分かかります。
     - 以降は、毎日00時05分に前日累積検知ログをベースに条件が新たに適用されます。
 
-### 条件確認
+<a id="check-conditions"></a>
+### 条件確認 { #check-conditions }
 
 ![appguard_06_202104](http://image.toast.com/aaaaaha/console-guide/3_4_%EC%A0%95%EC%B1%85%20%EC%A1%B0%EA%B1%B4%ED%99%95%EC%9D%B8_jp.png)
 
 条件遮断ボタン横の▼ボタンをクリックして、追加された条件を確認できます。
 
 
-## ブラックリスト
+<a id="blacklist"></a>
+## ブラックリスト { #blacklist }
 
 NHN AppGuardで提供するデバイスIDとSDK連携すると使用できるユーザーIDを登録して、特定端末とユーザーをブラックリストで管理します。
 
@@ -155,7 +173,8 @@ NHN AppGuardで提供するデバイスIDとSDK連携すると使用できるユ
 - ブラックリスト、ブロック基準、状態、ブロック理由、開始日時、有効期限、管理ボタンが表示されます。
 - **ダウンロード(Excel)**をクリックして、照会結果をダウンロードできます。
 
-### ブラックリスト登録
+<a id="blacklist-2"></a>
+### ブラックリスト登録 { #blacklist-2 }
 
 ブラックリストメニュー選択後、登録ボタンをクリックすると、次のような画面が表示されます。
 
@@ -168,7 +187,8 @@ NHN AppGuardで提供するデバイスIDとSDK連携すると使用できるユ
 * 登録ボタンをクリックし、ブラックリストに登録します。
 * 登録されたブラックリストIDでアプリを実行すると、遮断期間中はNHN AppGuard案内ウィンドウが表示され、アプリが終了します。
 
-### ブラックリストの解除
+<a id="un-blacklist"></a>
+### ブラックリストの解除 { #un-blacklist }
 
 ブラックリストメニュー選択後、登録されたブラックリストの解除ボタンをクリックすると、次のような画面が表示されます。
 
@@ -177,7 +197,8 @@ NHN AppGuardで提供するデバイスIDとSDK連携すると使用できるユ
 * 解除ボタンをクリックして登録されたブラックリストを解除します。
 * 解除されたブラックリストIDでアプリを実行すると、NHN AppGuardでアプリを終了させません。
 
-### ブラックリストの再登録
+<a id="re-blacklist"></a>
+### ブラックリストの再登録 { #re-blacklist }
 
 メニュー選択後、解除されたブラックリストの再登録ボタンをクリックすると、次のような画面が表示されます。
 
@@ -187,7 +208,8 @@ NHN AppGuardで提供するデバイスIDとSDK連携すると使用できるユ
 * 登録ボタンをクリックして、ブラックリストを修正した内容で登録します。
 * 再登録されたブラックリストIDでアプリを実行すると、遮断期間中はNHN AppGuard案内ウィンドウが表示され、アプリが終了します。
 
-### ブラックリスト一括登録
+<a id="batch-register-blacklist"></a>
+### ブラックリスト一括登録 { #batch-register-blacklist }
 
 **ブラックリスト**メニュー選択後、**一括登録(Excel)**ボタンをクリックすると、次のような画面が表示されます。
 
@@ -199,7 +221,8 @@ NHN AppGuardで提供するデバイスIDとSDK連携すると使用できるユ
 * **ファイル選択**ボタンをクリックしてアップロードした後、**登録**ボタンをクリックしてブラックリストを一括登録します。
 * 登録が完了すると、**処理結果**にメッセージが表示されます。
 
-### ブラックリスト一括解除
+<a id="batch-remove-blacklist"></a>
+### ブラックリスト一括解除 { #batch-remove-blacklist }
 
 **ブラックリスト**メニュー選択後、解除するブラックリストをチェックし、**一括解除**ボタンをクリックすると、次のような画面が表示されます。
 
@@ -207,7 +230,8 @@ NHN AppGuardで提供するデバイスIDとSDK連携すると使用できるユ
 
 * **解除**ボタンをクリックして登録されたブラックリストを一括解除します。
 
-### ブラックリスト一括再登録
+<a id="batch-re-register-blacklist"></a>
+### ブラックリスト一括再登録 { #batch-re-register-blacklist }
 
 **ブラックリスト**メニューを選択後、再登録するブラックリストをチェックし、**一括再登録**ボタンをクリックすると、次のような画面が表示されます。
 
@@ -215,7 +239,8 @@ NHN AppGuardで提供するデバイスIDとSDK連携すると使用できるユ
 
 * **ブロック期間**を入力した後、**登録**ボタンをクリックしてブラックリストを一括再登録します。
 
-## ログ照会
+<a id="log-search"></a>
+## ログ照会 { #log-search }
 
 検出されたログの詳細を**ログ照会**タブで確認できます。
 ![appguard_11](http://image.toast.com/aaaaaha/console-guide/5_1_%EB%A1%9C%EA%B7%B8%EC%A1%B0%ED%9A%8C_jp_240329.png)
@@ -226,9 +251,11 @@ NHN AppGuardで提供するデバイスIDとSDK連携すると使用できるユ
 - ANDROID_IDカラムの情報を活用してGamebaseのdevice_keyを照会するのに使用できます。
 - **レポートのダウンロード(Excel)**をクリックして照会結果をダウンロードできます。
 
-## 設定
+<a id="settings"></a>
+## 設定 { #settings }
 
-### アラーム設定
+<a id="set-alarms"></a>
+### アラーム設定 { #set-alarms }
 
 検出/遮断ログの数がしきい値を超えたときに設定したチャンネルでアラームを受信できます。
 
@@ -247,12 +274,14 @@ NHN AppGuardで提供するデバイスIDとSDK連携すると使用できるユ
 !!! tip 「ポイント」
     アラームは1日に最大1回送信されます。
 
-## 整合性検証
+<a id="integrity-verification"></a>
+## 整合性検証 { #integrity-verification }
 
 NHN AppGuardの整合性検証コンソールの使用方法を説明します。
 整合性検証機能を利用するには、[お問い合わせ](https://www.nhncloud.com/jp/support/inquiry?alias=tab3_08)から権限をリクエストする必要があります。
 
-### プロダクト
+<a id="product"></a>
+### プロダクト { #product }
 
 基本情報、整合性検証ポリシー、Android署名情報、追加情報などを設定できます。
 
@@ -266,6 +295,7 @@ NHN AppGuardの整合性検証コンソールの使用方法を説明します�
 * **Challenge有効期限(秒)**: Challengeの有効期間です。
 * **Token有効期限(秒)**: トークンの有効期間です。
 
+<a id="product-integrity-verification-policy"></a>
 #### 整合性検証ポリシー
 
 Android / iOSのプラットフォーム別に整合性検証オプションを設定します。オプションは、**整合性検証項目**と**信頼できない環境**の2つのセクションで構成されます。
@@ -291,7 +321,8 @@ Android / iOSのプラットフォーム別に整合性検証オプションを�
 | デバッグ環境 | デバッグ環境 | デバッグ環境 |
 | フッキング環境 | フッキング環境 | フッキング環境 |
 
-### アプリ
+<a id="app"></a>
+### アプリ { #app }
 
 アプリのビルド情報を確認できます。
 
@@ -300,6 +331,7 @@ Android / iOSのプラットフォーム別に整合性検証オプションを�
 * **アプリID**: アプリのビルド時に作成される固有IDです。
 * **削除**ボタンをクリックしてアプリを削除できます。
 
+<a id="app-info"></a>
 #### アプリ情報
 
 一覧からアプリをクリックすると、詳細情報を確認できます。
@@ -356,7 +388,8 @@ Android / iOSのプラットフォーム別に整合性検証オプションを�
 * **アプリ Public Key**: アプリSDKのPublic Keyであり、整合性検証に必要な情報です。
 * **プロダクト Public Key**: アプリに帰属するサーバーのPublic Keyであり、整合性検証に必要な情報です。
 
-### 検証ログ
+<a id="verification-log"></a>
+### 検証ログ { #verification-log }
 
 整合性検証のログを確認できます。
 
@@ -374,6 +407,7 @@ Android / iOSのプラットフォーム別に整合性検証オプションを�
 | アプリID | アプリIDで検索 |
 | 結果検索 | 成功 / 失敗 でフィルタリング |
 
+<a id="verification-log-failure-reason-codes"></a>
 #### 失敗理由コード
 
 | Code | Message | 理由 |

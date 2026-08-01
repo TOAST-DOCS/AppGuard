@@ -1,4 +1,7 @@
-## Security > AppGuard > Getting Started
+<!-- pre-align:aligned sig=69c36e2b404e -->
+
+<a id="security-appguard-getting-started"></a>
+## Security > AppGuard > Getting Started { #security-appguard-getting-started }
 
 AppGuard는 Android 버전과 iOS 버전(Beta)이 있습니다.
 
@@ -10,7 +13,8 @@ AppGuard의 사용을 위한 적용 단계는 [그림 1]과 같습니다. 
 ![[그림 1] AppGuard 적용 방법](http://static.toastoven.net/prod_appguard/figure1.png)
 <center>[그림 1] AppGuard 적용 방법</center>
 
-## 서비스 활성화
+<a id="enable-service"></a>
+## 서비스 활성화 { #enable-service }
 
 AppGuard 상품 활성화는 [그림 2]와 같이 Toast Cloud [Console] 페이지에서 [Security] > [AppGuard]를 선택한 후 [Product using] 버튼을 클릭합니다.
 
@@ -25,15 +29,18 @@ AppGuard 상품을 이용하는 고객께서는 [상품 사용법]에 공개된 
 
 이용요금은 AppGuard 요금정책([http://cloud.toast.com/pricing/security](http://cloud.toast.com/pricing/security))을 참고 바랍니다.
 
-## 앱 보호
+<a id="protect-app"></a>
+## 앱 보호 { #protect-app }
 
-### SDK 다운로드 및 연동
+<a id="download-and-integrate-sdks"></a>
+### SDK 다운로드 및 연동 { #download-and-integrate-sdks }
 
 AppGuard를 활성화하면 [대쉬보드], [앱 설정/보호] 메뉴가 보입니다. [앱 설정/보호] 메뉴를 선택하고 [SDK 다운로드] 버튼을 누르면 OS별 SDK를 다운로드 받을 수 있습니다.
 
 SDK를 다운로드 받은 후 첨부 되어 있는 매뉴얼에 따라 연동합니다.
 
-### 앱 보호 메뉴 선택
+<a id="select-app-protect-menu"></a>
+### 앱 보호 메뉴 선택 { #select-app-protect-menu }
 
 [앱 설정/보호] 메뉴 선택 후 [앱 보호] 버튼을 클릭하면 [그림 3]의 화면이 나옵니다. (iOS의 경우 보호 단계 없이 SDK 연동만으로 동작합니다.)
 
@@ -61,7 +68,8 @@ SDK를 다운로드 받은 후 첨부 되어 있는 매뉴얼에 따라 연동�
 
 * 앱 보호 작업 수단: Console, CLI(Command Line Interface)
 
-## 대쉬보드
+<a id="dashboard"></a>
+## 대쉬보드 { #dashboard }
 
 1. 앱 보호 작업이 완료된 앱을 앱 스토어에 배포 후 어뷰징 유저가 탐지되면 [그림 6]의 [대쉬보드] 탭에서 현황을 확인 할 수 있습니다.
 2. [대쉬보드]는 AppGuard가 탐지한 어뷰징 사용자의 통계 그래프와 리스트를 검색할 수 있습니다.
