@@ -1,6 +1,10 @@
-## Security > NHN AppGuard > API Guide
+<!-- pre-align:aligned sig=badc8b8df20b -->
 
-## NHN AppGuard Public API
+<a id="security-nhn-appguard-api-guide"></a>
+## Security > NHN AppGuard > API Guide { #security-nhn-appguard-api-guide }
+
+<a id="nhn-appguard-public-api"></a>
+## NHN AppGuard Public API { #nhn-appguard-public-api }
 To use the NHN AppGuard Public API, you must request permission through [Contact us] (https://www.nhncloud.com/kr/support/inquiry?alias=tab3_08).
 
 [API Domain]
@@ -9,7 +13,8 @@ To use the NHN AppGuard Public API, you must request permission through [Contact
 | --- | --- |
 | All regions | [https://appguard.api.nhncloudservice.com](https://appguard.api.nhncloudservice.com) |
 
-### Authentication and Authorization
+<a id="authentication-and-authorization"></a>
+### Authentication and Authorization { #authentication-and-authorization }
 
 User Access Key is required to use the NHN AppGuard Public API. A User Access Key is an authentication key issued based on an NHN Cloud or IAM account. It is used in conjunction with a Secret Access Key to authenticate API requests.
 User Access Key and Secret Access Key can be issued in the **API Security Settings** from the console. For more information on issuing and using User Access Key, refer to the [User Access Key](/nhncloud/en/public-api/user-access-key/).
@@ -17,8 +22,10 @@ User Access Key and Secret Access Key can be issued in the **API Security Settin
 !!! danger "Caution"
     If a member with a User Access Key ID/Secret Access Key associated API calls withdraws, it may cause service failure. You must replace it with a valid member's key before withdrawing.
 
-### Dashboard
+<a id="dashboard"></a>
+### Dashboard { #dashboard }
 
+<a id="dashboard-retrieve-abnormal-behavior-detection-status"></a>
 #### Retrieve abnormal behavior detection status
 
 Retrieves abnormal behavior detection status by user/device.
@@ -158,6 +165,7 @@ curl -X GET "https://appguard.api.nhncloudservice.com/v1.0/appkeys/{appkey}/dash
 </details>
 
 
+<a id="dashboard-error-code"></a>
 #### Error Code
 
 Codes not specified below follow the [Gateway error codes in API Gateway](https://docs.nhncloud.com/en/Application%20Service/API%20Gateway/en/error-code/) and HTTP Response Status Code (RFC9110).
@@ -169,7 +177,8 @@ Codes not specified below follow the [Gateway error codes in API Gateway](https:
 | 4010007 | Invalid user access key. | Invalid user access key |  |
 | 4010008 | Invalid user access key or secret access key. | Invalid user access key or secret access key |  |
 
-## Integrity Verification API Guide
+<a id="integrity-verification-api-guide"></a>
+## Integrity Verification API Guide { #integrity-verification-api-guide }
 
 To use the Integrity Verification API, you must request access via [Contact Us](https://www.nhncloud.com/kr/support/inquiry?alias=tab3_08).
 
@@ -179,9 +188,11 @@ To use the Integrity Verification API, you must request access via [Contact Us](
 | --- | --- |
 | All regions | [https://api-integrityguard.nhncloudservice.com](https://api-integrityguard.nhncloudservice.com) |
 
-### Get Token Info
+<a id="get-token-info"></a>
+### Get Token Info { #get-token-info }
 Retrieves token information. A token can only be retrieved once and is deleted after retrieval.
 
+<a id="get-token-info-request"></a>
 #### Request
 
 
@@ -210,6 +221,7 @@ curl -X GET 'https://api-integrityguard.nhncloudservice.com/integrity-api/v1.0/c
 </p>
 </details>
 
+<a id="get-token-info-response"></a>
 #### Response
 
 [Field]

@@ -1,13 +1,18 @@
-## Security > NHN AppGuard > 콘솔 사용 가이드
+<!-- pre-align:aligned sig=a949981cf275 -->
+
+<a id="security-nhn-appguard-console-guide"></a>
+## Security > NHN AppGuard > 콘솔 사용 가이드 { #security-nhn-appguard-console-guide }
 
 NHN AppGuard는 Android, iOS 그리고 Unity 환경을 지원합니다.
 
-### Android
+<a id="android"></a>
+### Android { #android }
 
 * AppGuard Android SDK를 적용하면 더욱 향상된 기능을 이용할 수 있습니다(선택 사항).
 * Android Studio 등에서 빌드한 apk 또는 aab 파일을 웹 콘솔 또는 CLI로 앱을 더 편리하게 보호할 수 있습니다(필수 사항).
 
-### iOS
+<a id="ios"></a>
+### iOS { #ios }
 
 * AppGuard iOS SDK를 적용하여 앱을 보호할 수 있습니다(필수 사항).
 * Xcode에서 빌드한 ipa 파일을 웹 콘솔 또는 CLI로 더 강력하게 보호할 수 있습니다(선택 사항).
@@ -18,7 +23,8 @@ NHN AppGuard는 Android, iOS 그리고 Unity 환경을 지원합니다.
 !!! danger "주의"
     Business 플랜 이외 요금제를 설정하거나 플랜을 변경해야 할 경우 웹 콘솔 또는 CLI로 앱 보호 작업을 수행해야 합니다. 앱 보호 작업을 원치 않을 경우 개별 상담을 요청하여 진행하세요.
 
-### Unity
+<a id="unity"></a>
+### Unity { #unity }
 
 * Android/iOS 앱을 손쉽게 보호할 수 있는 편의 기능을 제공합니다.
 * Unity SDK는 Android SDK와 iOS SDK를 포함하고 있고 하나의 인터페이스로 적용할 수 있습니다.
@@ -27,7 +33,8 @@ NHN AppGuard를 사용하려면 다음 단계를 따릅니다.
 
 ![[그림 1] NHN AppGuard 적용 방법](http://static.toastoven.net/prod_appguard/AppGuard_3_overview01.png)
 
-## 대시보드
+<a id="dashboard"></a>
+## 대시보드 { #dashboard }
 
 앱 보호 작업이 완료된 앱을 앱 스토어에 배포 후 어뷰징 유저가 탐지되면 아래 그림의 **대시보드** 탭에서 현황을 확인할 수 있습니다.
 
@@ -42,21 +49,25 @@ NHN AppGuard를 사용하려면 다음 단계를 따릅니다.
 - 탐지 통계 그래프에서 **탐지 패턴별 비율**과 기간별 **탐지 로그 증감 현황**을 확인할 수 있습니다.
 - **이상 행위 탐지 현황**은 API를 이용해 JSON 형태로도 조회할 수 있습니다. 자세한 내용은 [API 가이드](https://docs.nhncloud.com/ko/Security/NHN%20AppGuard/ko/api-guide/)를 참고하세요.
 
-## 앱 보호
+<a id="app-protection"></a>
+## 앱 보호 { #app-protection }
 
-### SDK 다운로드 및 연동
+<a id="download-and-integrate-sdks"></a>
+### SDK 다운로드 및 연동 { #download-and-integrate-sdks }
 
 **앱 보호** 메뉴를 선택하고 **SDK 다운로드** 버튼을 클릭하면 OS별 SDK를 다운로드할 수 있습니다.
 
 SDK를 다운로드한 뒤 첨부된 매뉴얼에 따라 연동합니다.
 
-### 난독화 활성화 신청하기
+<a id="apply-to-enable-obfuscation"></a>
+### 난독화 활성화 신청하기 { #apply-to-enable-obfuscation }
 
 **앱 보호** 메뉴를 선택하고 **난독화 활성화** 버튼을 클릭하면 Android OS의 코드 난독화를 신청할 수 있습니다.
 Android OS의 코드 난독화는 월 100만 원의 추가 요금이 발생합니다.
 iOS는 앱 보호 작업 시 코드 난독화 이용 여부를 선택할 수 있으며, 이에 따른 추가 비용은 청구되지 않습니다.
 
-### 앱 보호 메뉴 선택
+<a id="app-protection-menu"></a>
+### 앱 보호 메뉴 선택 { #app-protection-menu }
 
 **앱 보호** 메뉴 선택 후 **+ 앱 보호** 버튼을 클릭하면 다음과 같은 화면이 나옵니다.
 
@@ -79,7 +90,8 @@ iOS는 앱 보호 작업 시 코드 난독화 이용 여부를 선택할 수 있
     - 앱 보호가 끝나면 보호된 앱을 다운로드할 수 있습니다. 이제 보호된 배포 파일을 각 앱스토어에 업로드하여 배포합니다.
 * 앱 보호 작업 수단: Console, CLI(Command Line Interface)
 
-## 정책
+<a id="policy"></a>
+## 정책 { #policy }
 
 NHN AppGuard 작동 중 코드, 메모리, 속도 조작 시도 탐지 시 취해야 할 차단 정책을 설정할 수 있으며, '조건 차단' 시 임계값 기반으로 차단 조건을 설정할 수 있습니다.
 
@@ -90,7 +102,8 @@ NHN AppGuard 작동 중 코드, 메모리, 속도 조작 시도 탐지 시 취�
 
 제재에 대한 내용은 SDK에 포함된 "NHN AppGuard Developer's Guide" 문서를 참고하세요.
 
-### 차단 기능별 소개
+<a id="introduction-to-block-features"></a>
+### 차단 기능별 소개 { #introduction-to-block-features }
 - **NHN AppGuard** > **정책** > **전체 차단**
     - NHN AppGuard 정책 화면에서 **전체 차단**으로 설정한 경우 해당 행위가 탐지된 즉시 앱이 종료됩니다.
     - 정책으로 인해 앱이 종료되었더라도 이상 행위 없이 앱을 재실행하면 앱을 정상적으로 사용할 수 있습니다.
@@ -110,20 +123,23 @@ NHN AppGuard 작동 중 코드, 메모리, 속도 조작 시도 탐지 시 취�
     - NHN AppGuard 블랙리스트 화면에서 사용자를 블랙리스트에 등록한 경우, 해당 사용자가 앱을 실행하면 앱이 종료됩니다.
     - 블랙리스트에 등록한 직후부터 앱이 재실행될 때 적용됩니다.
 
-### 변경 이력
+<a id="change-history"></a>
+### 변경 이력 { #change-history }
 
 정책을 변경하고 저장할 때, 언제 누가 어떻게 변경했는지 이력을 관리할 수 있습니다.
 
 ![appguard_04_202104](http://image.toast.com/aaaaaha/console-guide/3_2_%EC%A0%95%EC%B1%85%20%EB%B3%80%EA%B2%BD%EC%9D%B4%EB%A0%A5_ko.png)
 
-### 개별 차단
+<a id="individual-block"></a>
+### 개별 차단 { #individual-block }
 
 에뮬레이터와 매크로툴에 한하여 모든 유형이 아닌 개별 도구 단위로 차단할 수 있습니다.
 
 - 개별 도구 단위로 **해제**, **탐지**, **차단**을 설정할 수 있습니다.
 - **기본 정책**을 통해 식별되지 않은 유형에 대한 정책을 설정할 수 있습니다.
 
-### 조건 추가
+<a id="add-conditions"></a>
+### 조건 추가 { #add-conditions }
 
 **정책** 메뉴 선택 후, 각 탐지 종류별 **조건 차단** 버튼을 클릭하면 다음과 같은 화면이 나타납니다.
 
@@ -139,13 +155,15 @@ NHN AppGuard 작동 중 코드, 메모리, 속도 조작 시도 탐지 시 취�
     - 전날 누적된 탐지 로그를 기반으로 조건이 적용되며, 처음 조건 적용까지는 최대 10분이 소요됩니다.
     - 이후 매일 00시 05분에 전날 누적된 탐지 로그를 기반으로 조건이 새로 적용됩니다.
 
-### 조건 확인
+<a id="check-conditions"></a>
+### 조건 확인 { #check-conditions }
 
 ![appguard_06_202104](http://image.toast.com/aaaaaha/console-guide/3_4_%EC%A0%95%EC%B1%85%20%EC%A1%B0%EA%B1%B4%ED%99%95%EC%9D%B8_ko.png)
 
 * **조건 차단** 버튼 옆 **▼** 버튼을 클릭하여 추가된 조건을 확인할 수 있습니다.
 
-## 블랙리스트
+<a id="blacklist"></a>
+## 블랙리스트 { #blacklist }
 
 NHN AppGuard에서 제공하는 디바이스 ID와 SDK 연동 시 사용할 수 있는 유저 ID를 등록하여, 특정 기기와 사용자를 블랙리스트로 관리합니다.
 
@@ -158,7 +176,8 @@ NHN AppGuard에서 제공하는 디바이스 ID와 SDK 연동 시 사용할 수 
 - 블랙리스트, 차단 기준, 상태, 차단 사유, 시작 일자, 만료 일자, 관리 버튼이 나타납니다.
 - **다운로드(Excel)**를 클릭해 조회 결과를 다운로드할 수 있습니다.
 
-### 블랙리스트 등록
+<a id="blacklist-2"></a>
+### 블랙리스트 등록 { #blacklist-2 }
 
 **블랙리스트** 메뉴 선택 후, **등록** 버튼을 클릭하면 다음과 같은 화면이 나타납니다.
 
@@ -171,7 +190,8 @@ NHN AppGuard에서 제공하는 디바이스 ID와 SDK 연동 시 사용할 수 
 * **등록** 버튼을 클릭하여 블랙리스트를 등록합니다.
 * 등록된 블랙리스트 아이디로 앱을 실행하면 차단 기간 동안 NHN AppGuard 안내 창이 나타나고 앱이 종료됩니다.
 
-### 블랙리스트 해제
+<a id="un-blacklist"></a>
+### 블랙리스트 해제 { #un-blacklist }
 
 **블랙리스트** 메뉴 선택 후, 등록된 블랙리스트의 **해제** 버튼을 클릭하면 다음과 같은 화면이 나타납니다.
 
@@ -180,7 +200,8 @@ NHN AppGuard에서 제공하는 디바이스 ID와 SDK 연동 시 사용할 수 
 * **해제** 버튼을 클릭하여 등록된 블랙리스트를 해제합니다.
 * 해제된 블랙리스트 아이디로 앱을 실행하면 NHN AppGuard에서 앱을 종료하지 않습니다.
 
-### 블랙리스트 재등록
+<a id="re-blacklist"></a>
+### 블랙리스트 재등록 { #re-blacklist }
 
 **블랙리스트** 메뉴 선택 후, 해제된 블랙리스트의 **재등록** 버튼을 클릭하면 다음과 같은 화면이 나타납니다.
 
@@ -190,7 +211,8 @@ NHN AppGuard에서 제공하는 디바이스 ID와 SDK 연동 시 사용할 수 
 * **등록** 버튼을 클릭하여 블랙리스트를 수정한 내용으로 등록합니다.
 * 재등록된 블랙리스트 아이디로 앱을 실행하면 차단 기간 동안 NHN AppGuard 안내 창이 나타나고 앱이 종료됩니다.
 
-### 블랙리스트 일괄 등록
+<a id="batch-register-blacklist"></a>
+### 블랙리스트 일괄 등록 { #batch-register-blacklist }
 
 **블랙리스트** 메뉴 선택 후, **일괄 등록(Excel)** 버튼을 클릭하면 다음과 같은 화면이 나타납니다.
 
@@ -202,7 +224,8 @@ NHN AppGuard에서 제공하는 디바이스 ID와 SDK 연동 시 사용할 수 
 * **파일 선택** 버튼을 클릭하여 업로드한 후 **등록** 버튼을 클릭하여 블랙리스트를 일괄 등록합니다.
 * 등록이 완료되면 **처리 결과**에 메시지가 나타납니다.
 
-### 블랙리스트 일괄 해제
+<a id="batch-remove-blacklist"></a>
+### 블랙리스트 일괄 해제 { #batch-remove-blacklist }
 
 **블랙리스트** 메뉴 선택 후, 해제할 블랙리스트들을 체크하고 **일괄 해제** 버튼을 클릭하면 다음과 같은 화면이 나타납니다.
 
@@ -210,7 +233,8 @@ NHN AppGuard에서 제공하는 디바이스 ID와 SDK 연동 시 사용할 수 
 
 * **해제** 버튼을 클릭하여 등록된 블랙리스트를 일괄 해제합니다.
 
-### 블랙리스트 일괄 재등록
+<a id="batch-re-register-blacklist"></a>
+### 블랙리스트 일괄 재등록 { #batch-re-register-blacklist }
 
 **블랙리스트** 메뉴 선택 후, 재등록할 블랙리스트들을 체크하고 **일괄 재등록** 버튼을 클릭하면 다음과 같은 화면이 나타납니다.
 
@@ -218,7 +242,8 @@ NHN AppGuard에서 제공하는 디바이스 ID와 SDK 연동 시 사용할 수 
 
 * **차단 기간**을 입력한 후 **등록** 버튼을 클릭하여 블랙리스트를 일괄 재등록합니다.
 
-## 로그 조회
+<a id="log-search"></a>
+## 로그 조회 { #log-search }
 
 탐지된 로그의 상세한 내용을 **로그 조회** 탭에서 확인할 수 있습니다.
 ![appguard_11](http://image.toast.com/aaaaaha/console-guide/5_1_로그조회_ko_240329.png)
@@ -229,9 +254,11 @@ NHN AppGuard에서 제공하는 디바이스 ID와 SDK 연동 시 사용할 수 
 - ANDROID_ID 칼럼의 정보를 활용하여 Gamebase의 device_key를 조회하는 데 사용할 수 있습니다.
 - **보고서 다운로드(Excel)**를 클릭해 조회 결과를 다운로드할 수 있습니다.
 
-## 설정
+<a id="settings"></a>
+## 설정 { #settings }
 
-### 알람 설정
+<a id="set-alarms"></a>
+### 알람 설정 { #set-alarms }
 
 탐지/차단 로그의 개수가 임계값을 넘었을 때 설정한 채널로 알람을 받을 수 있습니다.
 
@@ -250,12 +277,14 @@ NHN AppGuard에서 제공하는 디바이스 ID와 SDK 연동 시 사용할 수 
 !!! tip "알아두기"
     알람은 하루에 최대 1회 발송됩니다.
 
-## 무결성 검증
+<a id="integrity-verification"></a>
+## 무결성 검증 { #integrity-verification }
 
 NHN AppGuard 무결성 검증 콘솔 사용 방법을 설명합니다.
 무결성 검증 기능을 이용하려면 [문의하기](https://www.nhncloud.com/kr/support/inquiry?alias=tab3_08)를 통해 권한을 요청해야 합니다.
 
-### 상품
+<a id="product"></a>
+### 상품 { #product }
 
 기본정보, 무결성 검증 정책, 안드로이드 서명 정보, 추가 정보 등을 설정할 수 있습니다.
 
@@ -269,6 +298,7 @@ NHN AppGuard 무결성 검증 콘솔 사용 방법을 설명합니다.
     * **Challenge 만료 시간(초)**: Challenge의 유효 시간입니다.
     * **Token 만료 시간(초)**: 토큰의 유효 시간입니다.
 
+<a id="product-integrity-verification-policy"></a>
 #### 무결성 검증 정책
 
 Android / iOS 플랫폼별로 무결성 검증 옵션을 설정합니다. 옵션은 **무결성 검증 항목**과 **신뢰할 수 없는 환경** 두 가지 섹션으로 구성됩니다.
@@ -294,7 +324,8 @@ Android / iOS 플랫폼별로 무결성 검증 옵션을 설정합니다. 옵션
 | 디버깅 환경 | 디버깅 환경 | 디버깅 환경 |
 | 후킹 환경 | 후킹 환경 | 후킹 환경 |
 
-### 앱
+<a id="app"></a>
+### 앱 { #app }
 
 앱 빌드 정보를 확인할 수 있습니다.
 
@@ -303,6 +334,7 @@ Android / iOS 플랫폼별로 무결성 검증 옵션을 설정합니다. 옵션
 * **앱 ID**: 앱 빌드 시 생성되는 고유 ID입니다.
 * **삭제** 버튼을 클릭하여 앱을 삭제할 수 있습니다.
 
+<a id="app-info"></a>
 #### 앱 정보
 
 목록에서 앱을 클릭하면 상세 정보를 확인할 수 있습니다.
@@ -359,7 +391,8 @@ Android / iOS 플랫폼별로 무결성 검증 옵션을 설정합니다. 옵션
 * **앱 Public 키**: 앱 SDK의 Public Key로, 무결성 검증을 위해 필요한 정보입니다.
 * **상품 Public 키**: 앱에 귀속된 서버의 Public Key로, 무결성 검증을 위해 필요한 정보입니다.
 
-### 검증 로그
+<a id="verification-log"></a>
+### 검증 로그 { #verification-log }
 
 무결성 검증 로그를 확인할 수 있습니다.
 
@@ -377,6 +410,7 @@ Android / iOS 플랫폼별로 무결성 검증 옵션을 설정합니다. 옵션
 | 앱 아이디 | 앱 ID로 검색 |
 | 결과 검색 | 성공 / 실패 필터링 |
 
+<a id="verification-log-failure-reason-codes"></a>
 #### 실패 사유 코드
 
 | Code | Message | 사유 |

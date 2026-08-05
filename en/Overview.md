@@ -1,8 +1,12 @@
-## Security > NHN AppGuard > Overview
+<!-- pre-align:aligned sig=14f04ed9d6ad -->
+
+<a id="security-nhn-appguard-overview"></a>
+## Security > NHN AppGuard > Overview { #security-nhn-appguard-overview }
 
 NHN AppGuard helps prevent manipulating application codes. It also detects and prohibits any tools which try to manipulate memory, speed or codes through patterned or heuristic method.
 
-## Feature/Advantage
+<a id="featureadvantage"></a>
+## Feature/Advantage { #featureadvantage }
 
 * Blocks code manipulation from the root stage.
 * Detects and prohibits various fabricating tools through pattern- or act-oriented method.
@@ -10,7 +14,8 @@ NHN AppGuard helps prevent manipulating application codes. It also detects and p
 * Protects application with easy but strong means
 * Currently in use for about 100 services, including game, shopping, and simple payment, to serve as a protective measure against abusive acts or application manipulation.
 
-## Main Features
+<a id="main-features"></a>
+## Main Features { #main-features }
 
 Functions are provided as follows:
 
@@ -21,7 +26,8 @@ Functions are provided as follows:
 * Detects by pattern or act of each manipulative tool.
 * Provides low-cost automatic sanctions, unlike resource-wasting manual system (to be updated soon)
 
-## Glossary
+<a id="glossary"></a>
+## Glossary { #glossary }
 
 For the NHN AppGuard service, please refer to the glossary on Table 1.
 
@@ -37,7 +43,8 @@ For the NHN AppGuard service, please refer to the glossary on Table 1.
 | Behavior Based Detection | A method of detection by copying how a cheating tool does to cheat                                   |
 | System Restriction   | Sanctions on detected logs automatically posed by a system, not by an operator’s manual act                   |
 
-## Service Structure
+<a id="service-structure"></a>
+## Service Structure { #service-structure }
 
 Figure 1 displays how NHN AppGuard works:
 Using NHN AppGuard’s SDK, the code is integrated with the application (optional), and then app protection service (required) is completed and deployed on a console or Command Line Interface (CLI). The NHN AppGuard Engine sends a detective log to a server so as to block or sanction against abuses.
