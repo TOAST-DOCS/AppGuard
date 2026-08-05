@@ -143,8 +143,8 @@
     * Added NHN AppGuard startup message
         * When you launch the app, a message that indicates whether NHN AppGuard is enabled appears.
         * You can enable it in the CLI by adding `--show-startup-message`.
-    * Deprecated the '--google-pairip' option
-        * The '--google-pairip' option is no longer required, the feature is automatically enabled without the option.
+    * Deprecated the `--google-pairip` option
+        * The `--google-pairip` option is no longer required, the feature is automatically enabled without the option.
 * [iOS] 1.4.5
     * Added VPN detection
         * You can apply the feature on Console > NHN AppGuard > Policies > iOS > VPN Policy Settings.
@@ -258,7 +258,7 @@
     * Improved app loading speed
     * Added emulator detection in Android 14 (API 34)
     * Improved compatibility for Google Automatic Integrity Protection option
-    * Improved app signature option ("--as")
+    * Improved app signature option (`--as`)
         * Improved to prevent errors from occurring when more than one signature information is entered, even if the signature value from the KeyStore is included.
 
 ### July 23, 2024
@@ -271,7 +271,7 @@
 ### July 9, 2024
 * [Android] 1.12.1.1 
     * Fixed NHN AppGuard tampering false positive issue when using Google Automatic Integrity Protection option
-        * Google Automatic Integrity Protection: "--google-pairip"
+        * Google Automatic Integrity Protection: `--google-pairip`
 * [Android] 1.12.1.0
     * Fixed an issue where a crash occurs on Android 5.1 and earlier versions 
     * Fixed an issue where some detection logics do not operate properly 
@@ -360,7 +360,7 @@
     * Added the feature to protect important libraries (.so)
         * Added the feature to protect important libraries (.so) other than Unity and Unreal.
     * Added support for HUAWEI AppGallery
-        * When performing CLI protection, must use the "--huawei" option.
+        * When performing CLI protection, must use the `--huawei` option.
     * Improved normal execution without protection after integrationn with NHN Android AppGuard SDK
     * Fixed an issue where the detection popup screen is broken
     * Fixed issue with detection popup appearing after setting custom popups
@@ -416,7 +416,7 @@
     * Improved LDPlayer9 emulator detection
         * Detection available in LDPlayer9 9.0.63.
     * Added the option to support Google Automatic Integrity Protection
-        * When using Google Automatic Integrity Protection, must use the "--google-pairip" option.
+        * When using Google Automatic Integrity Protection, must use the `--google-pairip` option.
 * [iOS] 1.3.14
     * Improved engine stability
 * [Unity] 0.4.1
@@ -463,8 +463,8 @@
 ### November 21, 2023.
 * [Android] 1.10.4.0
     * Enabled Amazon Appstore signature verification
-        * App signature verification is enabled when protecting apps with the "--amazon" option.
-        * In Amazon Appstore, you must use the "--as" option to set the SHA-256 Hexadecimal information for the Appstore signature.
+        * App signature verification is enabled when protecting apps with the `--amazon` option.
+        * In Amazon Appstore, you must use the `--as` option to set the SHA-256 Hexadecimal information for the Appstore signature.
         * The Appstore signature can be found in Amazon Developer > My apps > Appstore Certificate Hashes.
     * Added detection of SecureValue tampering (Code: 409)
     * Improved the way DEX loads
@@ -1228,7 +1228,7 @@
 
 #### Feature Updates
 * Added the Unity IL2CPP method encryption feature
-	* Applied with CLI option "--il2cpp-encryption"
+	* Applied with CLI option `--il2cpp-encryption`
 * Added the Unity MONO method encryption feature
 	* Applied with NHN AppGuard level3
 * Added emulator detection pattern
@@ -1341,7 +1341,7 @@
 * Supports Android 8.0
 #### Bug Fixes
 * Modified the module (CLIUpdater.exe) that automatically updates the NHN AppGuard CLI(AppGuard.exe), which requires updates
-* Requires CLI of latest SDK (if you don't want automatic updates, add --noUpdate as CLI option)
+* Requires CLI of latest SDK (if you don't want automatic updates, add `--noUpdate` as CLI option)
 
 ### July 20, 2017
 
