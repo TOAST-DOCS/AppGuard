@@ -145,12 +145,12 @@
     * 리소스 문자열 난독화 신규 기능 추가
         * strings.xml에 포함된 문자열을 빌드 시점에 난독화하여 애플리케이션 내부의 민감 정보를 보호하는 기능입니다. 
         * 난독화된 문자열은 해당 리소스를 참조하는 메서드 호출 시 자동으로 복호화되므로, 별도의 소스 코드 수정 없이 기존 로직을 그대로 유지하면서 적용할 수 있습니다.
-        * AppGuard CLI에서 --resource-obfuscate 옵션을 사용하여 기능을 활성화합니다.
+        * AppGuard CLI에서 `--resource-obfuscate` 옵션을 사용하여 기능을 활성화합니다.
     * Rosetta가 활성화되지 않은 Apple Silicon 환경에서도 CLI가 정상적으로 동작하도록 개선
     * 제어 흐름 난독화 적용 시 Interface의 Default Method에서 발생하던 크래시 수정
     * 보호 작업 수행 시 assets 경로의 dex 파일이 삭제되는 버그를 수정
 * [iOS] 1.5.0
-    * 무결성 인증 신규 기능 추가 (--integrity)
+    * 무결성 인증 신규 기능 추가 (`--integrity`)
         * 앱의 위·변조 여부와 실행 환경의 안전성을 NHN AppGuard 서버에서 검증하고, 검증에 성공한 앱만 서비스에 접근하도록 제어하는 기능입니다.
 	    * 앱이 인증을 요청하면 NHN AppGuard 서버가 무결성을 검증한 후 JWT 토큰을 발급하며, 발급된 토큰은 고객사 서버에서 검증됩니다.
     	* 본 기능을 통해 비정상 환경에서 실행되는 앱의 서비스 접근을 효과적으로 차단할 수 있습니다.
@@ -158,7 +158,7 @@
     * Info.plist 난독화 신규 기능 추가
         * Info.plist에 포함된 특정 키의 문자열을 앱 보호 시점에 암호화하여 앱 내부의 민감 정보를 보호하는 기능입니다.
         * Info.plist의 특정 키 문자열 값을 앱 보호 시점에 암호화하고 앱 실행 시 복호화하여 앱 코드 수정 없이 적용 가능
-        * 난독화 대상 키는 JSON 설정 파일로 지정하며, AppGuard CLI에서 --resource-obfuscate 옵션을 사용하여 적용합니다.
+        * 난독화 대상 키는 JSON 설정 파일로 지정하며, AppGuard CLI에서 `--resource-obfuscate` 옵션을 사용하여 적용합니다.
         * Info.plist 난독화 기능 활성화를 위해서는 난독화 신청이 필요합니다.
     * Rosetta가 활성화되지 않은 Apple Silicon 환경에서도 CLI가 정상적으로 동작하도록 개선
     * 보안성 개선
@@ -388,8 +388,8 @@
     * NHN AppGuard 시작 메시지 추가
         * 앱 실행 시 NHN AppGuard 활성화 여부를 알리는 메시지가 표시됩니다.
         * CLI에서 `--show-startup-message`를 추가하여 활성화할 수 있습니다.
-    * '--google-pairip' 옵션 사용 중단
-        * '--google-pairip' 옵션이 더 이상 필요하지 않으며, 해당 기능은 옵션 없이도 자동 활성화됩니다.
+    * `--google-pairip` 옵션 사용 중단
+        * `--google-pairip` 옵션이 더 이상 필요하지 않으며, 해당 기능은 옵션 없이도 자동 활성화됩니다.
 * [iOS] 1.4.5
     * VPN 탐지 기능 추가
         * 콘솔 > NHN AppGuard > 정책 > iOS > VPN 정책 설정을 통해 적용이 가능합니다.
@@ -503,7 +503,7 @@
     * 앱 로딩 속도 개선
     * Android 14(API 34) 에뮬레이터 탐지 추가
     * 구글 자동 무결성 보호(Google Automatic Integrity Protection) 옵션 호환성 개선
-    * 앱 서명 옵션("--as") 개선
+    * 앱 서명 옵션(`--as`) 개선
         * 두 개 이상의 서명 정보를 입력하였을 때 KeyStore의 서명 값이 포함되어 있어도 오류가 발생하지 않도록 개선되었습니다.
 
 ### 2024. 07. 23.
@@ -516,7 +516,7 @@
 ### 2024. 07. 09.
 * [Android] 1.12.1.1 
     * 구글 자동 무결성 보호(Google Automatic Integrity Protection) 옵션 사용 시 NHN AppGuard 변조 오탐 이슈 수정
-        * 구글 자동 무결성 보호 옵션: "--google-pairip"
+        * 구글 자동 무결성 보호 옵션: `--google-pairip`
 * [Android] 1.12.1.0
     * Android 5.1 이하 버전에서 크래시가 발생하는 문제 수정
     * 일부 탐지 로직이 정상적으로 동작하지 않는 문제 수정
@@ -605,7 +605,7 @@
     * 중요 라이브러리(.so) 보호 기능 추가
         * Unity, Unreal 등의 게임 엔진 외 중요 라이브러리(.so)를 보호할 수 있는 기능이 추가되었습니다.
     * HUAWEI AppGallery 지원
-        * CLI 보호 작업 시 "--huawei" 옵션을 사용해야 합니다.
+        * CLI 보호 작업 시 `--huawei` 옵션을 사용해야 합니다.
     * NHN Android AppGuard SDK 연동 후 보호 작업 없이 정상 실행되도록 개선
     * 탐지 팝업 화면이 깨지는 이슈 수정
     * 커스텀 팝업 설정 후 탐지 팝업이 나타나는 이슈 수정
@@ -661,7 +661,7 @@
     * LDPlayer9 에뮬레이터 탐지 개선
         * LDPlayer9 9.0.63 버전에서도 탐지되도록 개선했습니다.
     * 구글 자동 무결성 보호(Google Automatic Integrity Protection) 지원 옵션 추가
-        * 구글 자동 무결성 보호 사용 시 "--google-pairip" 옵션을 사용해야 합니다.
+        * 구글 자동 무결성 보호 사용 시 `--google-pairip` 옵션을 사용해야 합니다.
 * [iOS] 1.3.14
     * 엔진 안정성 개선
 * [Unity] 0.4.1
@@ -708,8 +708,8 @@
 ### 2023. 11. 21.
 * [Android] 1.10.4.0
     * Amazon Appstore 서명 검증 활성화
-        * "--amazon" 옵션을 사용하여 앱 보호 시 앱 서명 검증이 활성화됩니다.
-        * Amazon Appstore는 "--as" 옵션을 사용하여 Appstore 서명의 SHA-256 Hexadecimal 정보를 설정해야 합니다.
+        * `--amazon` 옵션을 사용하여 앱 보호 시 앱 서명 검증이 활성화됩니다.
+        * Amazon Appstore는 `--as` 옵션을 사용하여 Appstore 서명의 SHA-256 Hexadecimal 정보를 설정해야 합니다.
         * Appstore 서명은 Amazon Developer > My apps > Appstore Certificate Hashes에서 확인할 수 있습니다.
     * SecureValue 변조(Code: 409) 탐지 기능 추가
     * DEX 로딩 방식 개선
@@ -1473,7 +1473,7 @@
 
 #### 기능 개선/변경
 * Unity IL2CPP 메소드 암호화 기능 추가
-	* CLI 옵션 "--il2cpp-encryption"으로 적용
+	* CLI 옵션 `--il2cpp-encryption`으로 적용
 * Unity MONO 메소드 암호화 기능 추가
 	* NHN AppGuard level3으로 적용
 * 에뮬레이터 탐지 패턴 추가
@@ -1586,7 +1586,7 @@
 * Android 8.0 지원
 #### 버그 수정
 * NHN AppGuard CLI(AppGuard.exe)를 자동으로 업데이트 해주는 모듈(CLIUpdater.exe) 수정, 업데이트 필수
-* 최신 SDK의 CLI 사용 필요 (자동 업데이트기능을 원하지 않는 경우 CLI 옵션으로 --noUpdate를 추가)
+* 최신 SDK의 CLI 사용 필요 (자동 업데이트기능을 원하지 않는 경우 CLI 옵션으로 `--noUpdate`를 추가)
 
 ### 2017.07.20
 

@@ -133,12 +133,12 @@
     * リソース文字列難読化の新機能を追加
         * strings.xmlに含まれる文字列をビルド時に難読化し、アプリケーション内部の機密情報を保護する機能です。
         * 難読化された文字列は、該当リソースを参照するメソッドの呼び出し時に自動で復号されるため、別途ソースコードを修正することなく既存のロジックをそのまま維持して適用できます。
-        * AppGuard CLIで--resource-obfuscateオプションを使用して機能を有効にします。
+        * AppGuard CLIで`--resource-obfuscate`オプションを使用して機能を有効にします。
     * Rosettaが有効化されていないApple Silicon環境でもCLIが正常に動作するように改善
     * 制御フロー難読化の適用時にInterfaceのDefault Methodで発生していたクラッシュを修正
     * 保護作業の実行時にassetsパスのdexファイルが削除されるバグを修正
 * [iOS] 1.5.0
-    * 整合性認証の新機能を追加 (--integrity)
+    * 整合性認証の新機能を追加 (`--integrity`)
         * アプリの改ざんの有無と実行環境の安全性をNHN AppGuardサーバーで検証し、検証に成功したアプリのみサービスにアクセスできるように制御する機能です。
 	    * アプリが認証をリクエストすると、NHN AppGuardサーバーが整合性を検証した後にJWTトークンを発行し、発行されたトークンはお客様のサーバーで検証されます。
 	* 本機能により、異常な環境で実行されるアプリのサービスへのアクセスを効果的にブロックできます。
@@ -146,7 +146,7 @@
     * Info.plist難読化の新機能を追加
         * Info.plistに含まれる特定のキーの文字列をアプリ保護のタイミングで暗号化し、アプリ内部の機密情報を保護する機能です。
         * Info.plistの特定のキーの文字列値をアプリ保護のタイミングで暗号化し、アプリ実行時に復号することで、アプリのコードを修正せずに適用可能
-        * 難読化対象のキーはJSON設定ファイルで指定し、AppGuard CLIで--resource-obfuscateオプションを使用して適用します。
+        * 難読化対象のキーはJSON設定ファイルで指定し、AppGuard CLIで`--resource-obfuscate`オプションを使用して適用します。
         * Info.plist難読化機能を有効にするには、難読化の申請が必要です。
     * Rosettaが有効化されていないApple Silicon環境でもCLIが正常に動作するように改善
     * セキュリティの改善
@@ -374,8 +374,8 @@
     * NHN AppGuard起動メッセージを追加
         * アプリ実行時にNHN AppGuardの有効化有無を知らせるメッセージが表示されます。
         * CLIで`--show-startup-message`を追加して有効にできます。
-    * '--google-pairip'オプションの使用中止
-        * '--google-pairip'オプションが不要になり、その機能はオプションがなくても自動的に有効になります。
+    * `--google-pairip`オプションの使用中止
+        * `--google-pairip`オプションが不要になり、その機能はオプションがなくても自動的に有効になります。
 * [iOS] 1.4.5
     * VPN検出機能追加
         * コンソール > NHN AppGuard > ポリシー > iOS > VPNポリシー設定から適用が可能です。
@@ -489,7 +489,7 @@
     * アプリローディング速度を改善
     * Android 14(API 34)エミュレータ検出を追加
     * Google自動整合性保護(Google Automatic Integrity Protection)オプション互換性を改善
-    * アプリ署名オプション("--as")を改善
+    * アプリ署名オプション(`--as`)を改善
         *  2つ以上の署名情報を入力した時、KeyStoreの署名値が含まれていてもエラーが発生しないように改善しました。
 
 ### 2024. 07. 23.
@@ -502,7 +502,7 @@
 ### 2024. 07. 09.
 * [Android] 1.12.1.1 
     * Google自動整合性保護(Google Automatic Integrity Protection)オプション使用時、NHN AppGuard改ざん誤検知イシューを修正
-        * Google自動整合性保護オプション: "--google-pairip"
+        * Google自動整合性保護オプション: `--google-pairip`
 * [Android] 1.12.1.0
     * Android 5.1以下のバージョンでクラッシュが発生する問題を修正
     * 一部の検出ロジックが正常に動作しない問題を修正
@@ -594,7 +594,7 @@
     * 重要ライブラリ(.so)保護機能追加
         * Unity、Unrealなどのゲームエンジン以外の重要なライブラリ(.so)を保護する機能が追加されました。
     * HUAWEI AppGalleryをサポート
-        * CLI保護作業時、"-huawei"オプションを使用する必要があります。
+        * CLI保護作業時、`--huawei`オプションを使用する必要があります。
     * NHN Android AppGuard SDK連動後、保護作業なしで正常に実行されるように改善
     * 検出ポップアップ画面の異常を修正
     * カスタムポップアップ設定後、検出ポップアップが表示される問題を修正
@@ -650,7 +650,7 @@
     * LDPlayer9エミュレータ検出改善
         * LDPlayer9 9.0.63バージョンでも検出できるように改善しました。
     * Google自動整合性保護(Google Automatic Integrity Protection)サポートオプション追加
-        * Google自動整合性保護を使用する場合、"--google-pairip"オプションを使用する必要があります。
+        * Google自動整合性保護を使用する場合、`--google-pairip`オプションを使用する必要があります。
 * [iOS] 1.3.14
     * エンジンの安定性の改善
 * [Unity] 0.4.1
@@ -697,8 +697,8 @@
 ### 2023. 11. 21.
 * [Android] 1.10.4.0
     * Amazon Appstore署名検証の有効化[Gradle Plugin]
-        * "--amazon"オプションを使用してアプリ保護時にアプリ署名検証が有効になります。
-        * Amazon Appstoreは"--as"オプションを使用してAppstore署名のSHA-256 Hexadecimal情報を設定する必要があります。
+        * `--amazon`オプションを使用してアプリ保護時にアプリ署名検証が有効になります。
+        * Amazon Appstoreは`--as`オプションを使用してAppstore署名のSHA-256 Hexadecimal情報を設定する必要があります。
         * Appstore署名はAmazon Developer > My apps > Appstore Certificate Hashesで確認できます。
     * SecureValue改ざん(Code: 409)検出機能を追加
     * DEXローディング方式の改善
@@ -1462,7 +1462,7 @@
 
 #### function upgrade/change
 * Add Unity IL2CPP method encryption function
-	* Applied with CLI option "--il2cpp-encryption"
+	* Applied with CLI option `--il2cpp-encryption`
 * Add Unity MONO method encryption function
 	* Applied to NHN AppGuard level3
 * Add Emulator Detection Pattern
@@ -1575,7 +1575,7 @@
 * Support Android 8.0
 #### bug fix
 * Modify the module(CLIUpdater.exe) that automatically updates the NHN AppGuard CLI(AppGuard.exe), required update
-    * Requires CLI of latest SDK (If you don't want automatic update function, add --noUpdate as CLI option)
+    * Requires CLI of latest SDK (If you don't want automatic update function, add `--noUpdate` as CLI option)
 
 ### 2017.07.20
 
