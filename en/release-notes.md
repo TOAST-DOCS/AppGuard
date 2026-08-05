@@ -735,7 +735,7 @@
     * Fixed false positives related to signature tampering
         * Fixed an issue where the signature of the keystore used for app protection was determined as tampering
     * Check for duplicate signatures
-        * Modified to return an error when **the --as option** and the signature of the keystore are the same
+        * Modified to return an error when the `--as` option and the signature of the keystore are the same
 * [Unity] 0.2.0
     * Added an option to disable Certificate Fingerprints
 * [Gradle Plugin] 1.2.0
