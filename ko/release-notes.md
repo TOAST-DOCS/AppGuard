@@ -9,7 +9,7 @@
 ### 2026. 08. 11.
 * [iOS] 1.5.6
     * Unity global-metadata.dat 암호화 기능 추가
-        * --unity-metadata-protection 옵션으로 global-metadata.dat 암호화 기능을 활성화할 수 있습니다.
+        * `--unity-metadata-protection` 옵션으로 global-metadata.dat 암호화 기능을 활성화할 수 있습니다.
         * 해당 옵션은 game 플랜에서 사용할 수 있습니다.
 * [Unity] 0.5.1
     * 최소 지원 버전 상향
