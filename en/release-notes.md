@@ -4,7 +4,19 @@
 | -------- | -------- | -----------  | ------ |
 | Android  | 1.13.3.1 | 2026. 07. 14.  | latest |
 | Android  | 1.12.4.18 | 2026. 03. 10.  | stable |
-| iOS      | 1.5.5    | 2026. 07. 14.  | latest |
+| iOS      | 1.5.7    | 2026. 08. 11.  | latest |
+
+### August 11, 2026
+* [iOS] 1.5.7
+    * Added Unity global-metadata.dat encryption support
+        * You can enable global-metadata.dat encryption with the `--unity-metadata-protection` option.
+        * This option is available on the Game plan.
+* [Unity] 0.5.1
+    * Increased the minimum supported version
+        * Increased the minimum supported Unity version from 2017.4.40f1 to 2019.4.41f2.
+    * Updated to iOS SDK 1.5.7
+* [Unreal] 0.2.10
+    * Updated to iOS SDK 1.5.7
 
 ### July 28, 2026
 * [Gradle Plugin] 1.3.0
@@ -133,12 +145,12 @@
     * Added a resource string obfuscation feature
         * Protects sensitive information within the application by obfuscating strings in strings.xml at build time.
         * Obfuscated strings are automatically decrypted when the method referencing the resource is called, allowing the feature to be applied without modifying existing source code or logic.
-        * Enable the feature using the --resource-obfuscate option in the AppGuard CLI.
+        * Enable the feature using the `--resource-obfuscate` option in the AppGuard CLI.
     * Improved CLI to work correctly in Apple Silicon environments where Rosetta is not enabled
     * Fixed a crash that occurred in the Default Method of an Interface when control flow obfuscation was applied
     * Fixed an issue where dex files in the assets path were deleted during the protection process
 * [iOS] 1.5.0
-    * Added an integrity authentication feature (--integrity)
+    * Added an integrity authentication feature (`--integrity`)
         * Verifies whether the app has been tampered with and validates the safety of the execution environment on the NHN AppGuard server, controlling access so that only successfully verified apps can access the service.
         * When an app requests authentication, the NHN AppGuard server verifies its integrity and issues a JWT token, which is then verified by the customer's server.
         * This feature effectively blocks service access from apps running in abnormal environments.
@@ -146,7 +158,7 @@
     * Added an Info.plist obfuscation feature
         * Protects sensitive information within the app by encrypting the string values of specific keys in Info.plist at the time of app protection.
         * Encrypts the string values of specific keys in Info.plist at the time of app protection and decrypts them at app launch, allowing the feature to be applied without modifying app code.
-        * Keys to be obfuscated are specified in a JSON configuration file, and the feature is applied using the --resource-obfuscate option in the AppGuard CLI.
+        * Keys to be obfuscated are specified in a JSON configuration file, and the feature is applied using the `--resource-obfuscate` option in the AppGuard CLI.
         * Enabling the Info.plist obfuscation feature requires submitting an obfuscation request.
     * Improved CLI to work correctly in Apple Silicon environments where Rosetta is not enabled
     * Improved security
@@ -375,8 +387,8 @@
     * Added NHN AppGuard startup message
         * When you launch the app, a message that indicates whether NHN AppGuard is enabled appears.
         * You can enable it in the CLI by adding `--show-startup-message`.
-    * Deprecated the '--google-pairip' option
-        * The '--google-pairip' option is no longer required, the feature is automatically enabled without the option.
+    * Deprecated the `--google-pairip` option
+        * The `--google-pairip` option is no longer required, the feature is automatically enabled without the option.
 * [iOS] 1.4.5
     * Added VPN detection
         * You can apply the feature on Console > NHN AppGuard > Policies > iOS > VPN Policy Settings.
@@ -490,7 +502,7 @@
     * Improved app loading speed
     * Added emulator detection in Android 14 (API 34)
     * Improved compatibility for Google Automatic Integrity Protection option
-    * Improved app signature option ("--as")
+    * Improved app signature option (`--as`)
         * Improved to prevent errors from occurring when more than one signature information is entered, even if the signature value from the KeyStore is included.
 
 ### July 23, 2024
@@ -503,7 +515,7 @@
 ### July 9, 2024
 * [Android] 1.12.1.1 
     * Fixed NHN AppGuard tampering false positive issue when using Google Automatic Integrity Protection option
-        * Google Automatic Integrity Protection: "--google-pairip"
+        * Google Automatic Integrity Protection: `--google-pairip`
 * [Android] 1.12.1.0
     * Fixed an issue where a crash occurs on Android 5.1 and earlier versions 
     * Fixed an issue where some detection logics do not operate properly 
@@ -592,7 +604,7 @@
     * Added the feature to protect important libraries (.so)
         * Added the feature to protect important libraries (.so) other than Unity and Unreal.
     * Added support for HUAWEI AppGallery
-        * When performing CLI protection, must use the "--huawei" option.
+        * When performing CLI protection, must use the `--huawei` option.
     * Improved normal execution without protection after integrationn with NHN Android AppGuard SDK
     * Fixed an issue where the detection popup screen is broken
     * Fixed issue with detection popup appearing after setting custom popups
@@ -648,7 +660,7 @@
     * Improved LDPlayer9 emulator detection
         * Detection available in LDPlayer9 9.0.63.
     * Added the option to support Google Automatic Integrity Protection
-        * When using Google Automatic Integrity Protection, must use the "--google-pairip" option.
+        * When using Google Automatic Integrity Protection, must use the `--google-pairip` option.
 * [iOS] 1.3.14
     * Improved engine stability
 * [Unity] 0.4.1
@@ -682,7 +694,7 @@
     * Fixed errors setting signing key password
         * Fixed an error where signing fails if the store password and key password do not match.
 
- ### December 06, 2023
+### December 06, 2023
 * [iOS] 1.3.12
     * Enhanced security of NHN AppGuard engine
 * [Unity] 0.3.1
@@ -695,8 +707,8 @@
 ### November 21, 2023.
 * [Android] 1.10.4.0
     * Enabled Amazon Appstore signature verification
-        * App signature verification is enabled when protecting apps with the "--amazon" option.
-        * In Amazon Appstore, you must use the "--as" option to set the SHA-256 Hexadecimal information for the Appstore signature.
+        * App signature verification is enabled when protecting apps with the `--amazon` option.
+        * In Amazon Appstore, you must use the `--as` option to set the SHA-256 Hexadecimal information for the Appstore signature.
         * The Appstore signature can be found in Amazon Developer > My apps > Appstore Certificate Hashes.
     * Added detection of SecureValue tampering (Code: 409)
     * Improved the way DEX loads
@@ -735,7 +747,7 @@
     * Fixed false positives related to signature tampering
         * Fixed an issue where the signature of the keystore used for app protection was determined as tampering
     * Check for duplicate signatures
-        * Modified to return an error when **the --as option** and the signature of the keystore are the same
+        * Modified to return an error when the `--as` option and the signature of the keystore are the same
 * [Unity] 0.2.0
     * Added an option to disable Certificate Fingerprints
 * [Gradle Plugin] 1.2.0
@@ -1460,7 +1472,7 @@
 
 #### Feature Updates
 * Added the Unity IL2CPP method encryption feature
-	* Applied with CLI option "--il2cpp-encryption"
+	* Applied with CLI option `--il2cpp-encryption`
 * Added the Unity MONO method encryption feature
 	* Applied with NHN AppGuard level3
 * Added emulator detection pattern
@@ -1573,7 +1585,7 @@
 * Supports Android 8.0
 #### Bug Fixes
 * Modified the module (CLIUpdater.exe) that automatically updates the NHN AppGuard CLI(AppGuard.exe), which requires updates
-* Requires CLI of latest SDK (if you don't want automatic updates, add --noUpdate as CLI option)
+* Requires CLI of latest SDK (if you don't want automatic updates, add `--noUpdate` as CLI option)
 
 ### July 20, 2017
 
