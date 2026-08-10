@@ -4,7 +4,19 @@
 | -------- | -------- | -----------  | ------ |
 | Android  | 1.13.3.1 | 2026. 07. 14.  | latest |
 | Android  | 1.12.4.18 | 2026. 03. 10.  | stable |
-| iOS      | 1.5.5    | 2026. 07. 14.  | latest |
+| iOS      | 1.5.6    | 2026. 08. 11.  | latest |
+
+### August 11, 2026
+* [iOS] 1.5.6
+    * Added Unity global-metadata.dat encryption support
+        * You can enable global-metadata.dat encryption with the `--unity-metadata-protection` option.
+        * This option is available on the Game plan.
+* [Unity] 0.5.1
+    * Increased the minimum supported version
+        * Increased the minimum supported Unity version from 2017.4.40f1 to 2019.4.41f2.
+    * Updated to iOS SDK 1.5.6
+* [Unreal] 0.2.10
+    * Updated to iOS SDK 1.5.6
 
 ### July 28, 2026
 * [Gradle Plugin] 1.3.0
