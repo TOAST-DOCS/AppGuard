@@ -4,19 +4,19 @@
 | -------- | -------- | -----------  | ------ |
 | Android  | 1.13.3.1 | 2026. 07. 14.  | latest |
 | Android  | 1.12.4.18 | 2026. 03. 10.  | stable |
-| iOS      | 1.5.6    | 2026. 08. 11.  | latest |
+| iOS      | 1.5.7    | 2026. 08. 11.  | latest |
 
 ### 2026. 08. 11.
-* [iOS] 1.5.6
+* [iOS] 1.5.7
     * Unity global-metadata.dat 暗号化機能追加
         * `--unity-metadata-protection` オプションで global-metadata.dat 暗号化機能を有効化できます。
         * このオプションは game プランで使用できます。
 * [Unity] 0.5.1
     * 最小サポートバージョン引き上げ
         * Unityの最小サポートバージョンを2017.4.40f1から2019.4.41f2に引き上げました。
-    * iOS SDK 1.5.6 アップデート
+    * iOS SDK 1.5.7 アップデート
 * [Unreal] 0.2.10
-    * iOS SDK 1.5.6 アップデート
+    * iOS SDK 1.5.7 アップデート
 
 ### 2026. 07. 28.
 * [Gradle Plugin] 1.3.0
