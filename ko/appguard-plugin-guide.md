@@ -1,18 +1,22 @@
-## Security > NHN AppGuard > Gradle Plugin 가이드
+<!-- pre-align:aligned sig=d940d4b2b6f4 -->
 
-### 개요
+<a id="security-nhn-appguard-gradle-plugin-guide"></a>
+## Security > NHN AppGuard > Gradle Plugin 가이드 { #security-nhn-appguard-gradle-plugin-guide }
+
+<a id="overview"></a>
+### 개요 { #overview }
 
 NHN AppGuard Gradle Plugin에서는 Android Gradle 빌드 단계에 보호 작업이 포함될 수 있도록 빌드 자동화를 지원합니다. ProGuard와 Firebase Crashlytics를 사용하는 경우 ProGuard 매핑 파일을 읽고 적용하여 NHN AppGuard 난독화와 함께 사용할 수 있습니다.
 
-### 지원 환경
+<a id="supported-environment"></a>
+### 지원 환경 { #supported-environment }
 
-- AGP(Android Gradle Plugin) 3.0.1 이상
-
-- firebase-crashlytics-gradle 2.2.0~2.8.0
+- AGP(Android Gradle Plugin) 4.x 이상
 
 - Unity 환경에서는 Gradle Plugin 방식을 지원하지 않습니다.
 
-### 라이브러리 설정
+<a id="library-settings"></a>
+### 라이브러리 설정 { #library-settings }
 
 프로젝트 수준의 build.gradle 파일에 NHN AppGuard Gradle Plugin을 buildscript 의존성 항목으로 추가합니다.
 
@@ -25,7 +29,7 @@ buildscript {
         // ...
 
         // Add the NHN Cloud AppGuard Gradle Plugin
-        classpath 'com.nhncloud.android:appguard-gradle-plugin:1.2.5'
+        classpath 'com.nhncloud.android:appguard-gradle-plugin:1.3.0'
     }
 }
 ```
@@ -36,7 +40,8 @@ buildscript {
 apply plugin: 'com.nhncloud.android.appguard'
 ```
 
-### NHN AppGuard Gradle Plugin 옵션
+<a id="nhn-appguard-gradle-plugin-options"></a>
+### NHN AppGuard Gradle Plugin 옵션 { #nhn-appguard-gradle-plugin-options }
 
 플러그인 기능을 사용하려면 Appkey와 NHN AppGuard 버전을 반드시 명시해야 합니다.
 
@@ -61,7 +66,8 @@ apply plugin: 'com.nhncloud.android.appguard'
 | extraOptions                  | CLI에서 사용하던 옵션 추가(필요시 문의)    | N      |
 | outputFilePath                | 보호된 파일 저장 경로(variants scope)   | N      |
 
-### NHN AppGuard Gradle Plugin 옵션 설정
+<a id="setting-the-nhn-appguard-gradle-plugin-options"></a>
+### NHN AppGuard Gradle Plugin 옵션 설정 { #setting-the-nhn-appguard-gradle-plugin-options }
 
 앱 수준의 build.gradle 파일에 appguard 옵션을 작성합니다.
 
@@ -94,7 +100,8 @@ appguard {
 }
 ```
 
-### 보호된 파일 경로 설정
+<a id="setting-the-protected-file-path"></a>
+### 보호된 파일 경로 설정 { #setting-the-protected-file-path }
 
 1.0.1 버전부터 variants별로 보호된 파일 저장 위치 설정이 가능합니다.
 
@@ -117,8 +124,10 @@ appguard{
 }
 ```
 
-### Proguard와 Firebase Crashlytics를 사용할 경우 난독화 적용
+<a id="applying-obfuscation-when-using-proguard-and-firebase-crashlytics"></a>
+### Proguard와 Firebase Crashlytics를 사용할 경우 난독화 적용 { #applying-obfuscation-when-using-proguard-and-firebase-crashlytics }
 
+<a id="applying-obfuscation-when-using-proguard-and-firebase-crashlytics-prerequisites"></a>
 #### 사전 준비
 
 1. 프로젝트에서 NHN AppGuard 난독화를 사용중이어야 합니다.
@@ -127,6 +136,7 @@ appguard{
 
 3. [FireBase Crashlytics](https://firebase.google.com/docs/crashlytics) 업로드 기능을 사용 중이어야 합니다. 사용하지 않더라도 난독화는 적용할 수 있습니다.
 
+<a id="applying-obfuscation-when-using-proguard-and-firebase-crashlytics-how-to-apply"></a>
 #### 적용 방법
 
 앱 수준의 build.gradle 파일에 다음과 같이 appguard 옵션을 작성합니다.
@@ -139,10 +149,12 @@ appguard {
 }
 ```
 
-### 앱 서명 무결성 검증을 위한 인증서 지문 설정
+<a id="set-up-certificate-fingerprinting-to-verify-app-signature-integrity"></a>
+### 앱 서명 무결성 검증을 위한 인증서 지문 설정 { #set-up-certificate-fingerprinting-to-verify-app-signature-integrity }
 1.2.0 버전부터 인증서 지문 활성화 여부와 검증에 사용될 인증서 지문(SHA-256)을 추가할 수 있습니다.<br>
 **앱 서명 검증을 위한 인증서 지문은 활성화가 기본값이며, 활성화 시에는 인증서 지문을 반드시 입력해야 합니다.**
 
+<a id="set-up-certificate-fingerprinting-to-verify-app-signature-integrity-how-to-apply"></a>
 #### 적용 방법
 앱 수준의 build.gradle 파일에 다음과 같이 appguard 옵션을 작성합니다.
 

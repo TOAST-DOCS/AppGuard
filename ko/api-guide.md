@@ -1,6 +1,11 @@
-## Security > NHN AppGuard > API 가이드
+<!-- pre-align:aligned sig=badc8b8df20b -->
 
-API를 사용하려면 [1:1 문의](https://www.toast.com/kr/support/inquiry?alias=tab3_08)를 통해 권한을 요청해야 합니다.
+<a id="security-nhn-appguard-api-guide"></a>
+## Security > NHN AppGuard > API 가이드 { #security-nhn-appguard-api-guide }
+
+<a id="nhn-appguard-public-api"></a>
+## NHN AppGuard Public API { #nhn-appguard-public-api }
+NHN AppGuard Public API를 사용하려면 [문의하기](https://www.nhncloud.com/kr/support/inquiry?alias=tab3_08)에서 권한을 요청해야 합니다.
 
 [API 도메인]
 
@@ -8,22 +13,25 @@ API를 사용하려면 [1:1 문의](https://www.toast.com/kr/support/inquiry?ali
 | --- | --- |
 | 모든 리전 | [https://appguard.api.nhncloudservice.com](https://appguard.api.nhncloudservice.com) |
 
-### 인증 및 권한
+<a id="authentication-and-authorization"></a>
+### 인증 및 권한 { #authentication-and-authorization }
 
-API를 사용하려면 인증을 위해 User Access Key ID와 Secret Access Key가 필요합니다. **회원 정보 > API 보안 설정**에서 생성할 수 있습니다.
-생성된 Key는 요청 Header에 포함해야 합니다.
+NHN AppGuard Public API를 사용하려면 User Access Key가 필요합니다. User Access Key는 NHN Cloud 계정 또는 IAM 계정을 기반으로 발급되는 인증 키로, Secret Access Key와 함께 사용하여 API 요청에 대한 인증 수단으로 활용됩니다.
+User Access Key와 Secret Access Key는 콘솔의 **API 보안 설정**에서 발급할 수 있습니다. User Access Key 발급 및 사용에 대한 자세한 내용은 [User Access Key](/nhncloud/ko/public-api/user-access-key/)를 참고하세요.
 
-> [주의]
-> API를 호출하는 작업에 연동된 User Access Key ID/Secret Access Key를 가진 멤버가 탈퇴하는 경우 고객의 서비스에 장애가 발생할 수 있으므로 탈퇴 전 유효한 멤버의 키로 교체해야 합니다.
+!!! danger "주의"
+    API 호출에 연동된 User Access Key ID/Secret Access Key를 가진 멤버가 탈퇴하면 서비스 장애가 발생할 수 있습니다. 탈퇴 전에 유효한 멤버의 키로 교체해야 합니다.
 
-## 대시보드
+<a id="dashboard"></a>
+### 대시보드 { #dashboard }
 
-### 이상행위 탐지현황 조회
+<a id="dashboard-retrieve-abnormal-behavior-detection-status"></a>
+#### 이상 행위 탐지 현황 조회
 
-유저/디바이스별 이상행위 탐지현황을 조회합니다.
+유저/디바이스별 이상 행위 탐지 현황을 조회합니다.
 당일 데이터는 조회할 수 없습니다.
 
-#### 요청
+##### 요청
 
 이 API는 요청 본문을 요구하지 않습니다.
 
@@ -53,16 +61,16 @@ API를 사용하려면 인증을 위해 User Access Key ID와 Secret Access Key�
 <p>
 
 ```
-curl -X GET "https://appguard.api.nhncloudservice.com/v1.0/appkeys/{appkey}/dashboard/abnormal-status?targetType=0&targetDate=2024-01-01&os=1" \ 
- -H "Content-Type: application/json" 
- -H "X-TC-AUTHENTICATION-ID: {user_access_jey}" 
+curl -X GET "https://appguard.api.nhncloudservice.com/v1.0/appkeys/{appkey}/dashboard/abnormal-status?targetType=0&targetDate=2024-01-01&os=1" \
+ -H "Content-Type: application/json" \
+ -H "X-TC-AUTHENTICATION-ID: {user_access_key}" \
  -H "X-TC-AUTHENTICATION-SECRET: {secret_access_key}"
 ```
 
 </p>
 </details>
 
-#### 응답
+##### 응답
 
 [필드]
 
@@ -72,10 +80,10 @@ curl -X GET "https://appguard.api.nhncloudservice.com/v1.0/appkeys/{appkey}/dash
 | header.isSuccessful       | Boolean | 성공 여부                                                      |
 | header.resultCode         | Integer | 결과 코드                                                      |
 | header.resultMessage      | String | 결과 메시지                                                     |
-| data                      | List | 유저별 이상행위 탐지 현황 목록                                          |
+| data                      | List | 유저별 이상 행위 탐지 현황 목록                                          |
 | data[0].abnormalId        | String | 유저 ID 또는 디바이스 ID(path parameter `targetType` 값에 따름)        |
-| data[0].total             | Integer | 이상행위 탐지 총계                                                 |
-| data[0].cheatCount        | Integer | 치팅툴 탐지 횟수                                                  |
+| data[0].total             | Integer | 이상 행위 탐지 총계                                                 |
+| data[0].cheatCount        | Integer | 치팅 툴 탐지 횟수                                                  |
 | data[0].emulatorCount     | Integer | 에뮬레이터 탐지 횟수                                                |
 | data[0].modificationCount | Integer | 변조 탐지 횟수                                                   |
 | data[0].debuggerCount     | Integer | 디버거 탐지 횟수                                                  |
@@ -84,14 +92,13 @@ curl -X GET "https://appguard.api.nhncloudservice.com/v1.0/appkeys/{appkey}/dash
 | data[0].networkCount      | Integer | SSL Pinning 탐지 횟수(path parameter `os` 값에 따름, Android Only) |
 | data[0].virtualCount      | Integer | 가상 환경 탐지 횟수(path parameter `os` 값에 따름, Android Only)       |
 | data[0].remoteCount       | Integer | 원격 제어 탐지 횟수(path parameter `os` 값에 따름, Android Only)       |
-| data[0].macroCount        | Integer | 매크로툴 탐지 횟수(path parameter `os` 값에 따름, Android Only)        |
+| data[0].macroCount        | Integer | 매크로 툴 탐지 횟수(path parameter `os` 값에 따름, Android Only)        |
 | data[0].blackCount        | Integer | 블랙리스트 탐지 횟수(path parameter `os` 값에 따름, Android Only)       |
 | data[0].macroSuspectCount | Integer | 매크로 의심 사용자 탐지 횟수(path parameter `os` 값에 따름, Android Only) |
 | data[0].jailbreakCount    | Integer | 탈옥 탐지 횟수(path parameter `os` 값에 따름, iOS Only)             |
 | data[0].hookCount         | Integer | 후킹 탐지 횟수(path parameter `os` 값에 따름, iOS Only)             |
 
 [응답 본문]
-os=1(Android) 응답 예시
 
 <details><summary>응답 예시 - Android(os=1)</summary>
 
@@ -105,8 +112,8 @@ os=1(Android) 응답 예시
         "isSuccessful": true
     },
     "data": [
-        { 
-            "abnormalId": "id123", 
+        {
+            "abnormalId": "id123",
             "total": 12,
             "cheatCount": 1,
             "emulatorCount": 1,
@@ -140,8 +147,8 @@ os=1(Android) 응답 예시
         "isSuccessful": true
     },
     "data": [
-        { 
-            "abnormalId": "device123", 
+        {
+            "abnormalId": "device123",
             "total": 6,
             "cheatCount": 1,
             "emulatorCount": 1,
@@ -158,6 +165,7 @@ os=1(Android) 응답 예시
 </details>
 
 
+<a id="dashboard-error-code"></a>
 #### 오류 코드
 
 아래에 명시되지 않은 코드는 [API Gateway의 Gateway 오류 코드](https://docs.nhncloud.com/ko/Application%20Service/API%20Gateway/ko/error-code/)와 HTTP Response Status Code (RFC9110)를 따릅니다.
@@ -169,4 +177,110 @@ os=1(Android) 응답 예시
 | 4010007 | Invalid user access key. | 잘못된 user access key |  |
 | 4010008 | Invalid user access key or secret access key. | 잘못된 user access key 또는 secret access key |  |
 
----
+<a id="integrity-verification-api-guide"></a>
+## 무결성 검증 API 가이드 { #integrity-verification-api-guide }
+
+무결성 검증 API를 사용하려면 [문의하기](https://www.nhncloud.com/kr/support/inquiry?alias=tab3_08)에서 권한을 요청해야 합니다.
+
+[API 도메인]
+
+| 리전 | 도메인 |
+| --- | --- |
+| 모든 리전 | [https://api-integrityguard.nhncloudservice.com](https://api-integrityguard.nhncloudservice.com) |
+
+<a id="get-token-info"></a>
+### 토큰 정보 조회 { #get-token-info }
+토큰을 조회합니다. 한 번 조회한 토큰은 사라집니다.
+
+<a id="get-token-info-request"></a>
+#### 요청
+
+
+[URL]
+
+| 메서드 | URI |
+| --- | --- |
+| GET | /integrity-api/v1.0/client/apps/{appId}/token-info |
+
+[헤더]
+
+| 이름 | 타입 | 필수 | 설명 |
+| --- | --- | --- | --- |
+| Authorization | String | 필수 | Bearer 토큰 |
+
+
+<details><summary>요청 예시</summary>
+
+<p>
+
+```bash
+curl -X GET 'https://api-integrityguard.nhncloudservice.com/integrity-api/v1.0/client/apps/{appId}/token-info' \
+  -H 'Authorization: Bearer {token}'
+```
+
+</p>
+</details>
+
+<a id="get-token-info-response"></a>
+#### 응답
+
+[필드]
+
+| 필드 | 타입 | 설명 |
+| --- | --- | --- |
+| header | Object | 헤더 영역 |
+| header.isSuccessful | Boolean | 성공 여부 |
+| header.resultCode | Integer | 결과 코드 |
+| header.resultMessage | String | 결과 메시지 |
+| body | Object | 토큰 정보 |
+| body.appId | String | 앱 ID |
+| body.expireAt | Long | 만료 시간 (timestamp) |
+| body.integrityInfo | Object | 앱 무결성 정보 |
+| body.integrityInfo.codeHash | String | 바이너리 해시 |
+| body.integrityInfo.signature | String | 서명 |
+| body.integrityResult | Object | 무결성 검증 결과 |
+| body.integrityResult.codeHashMatch | Boolean | 코드 해시 일치 여부 |
+| body.integrityResult.signatureMatch | Boolean | 서명 일치 여부 |
+| body.integrityResult.integrityChecked | Object | 무결성 검사 정보 |
+| body.integrityResult.integrityChecked.rootingDetected | Boolean | 루팅 탐지 여부 (nullable) |
+| body.integrityResult.integrityChecked.emulatorDetected | Boolean | 에뮬레이터 탐지 여부 (nullable) |
+| body.integrityResult.integrityChecked.debugDetected | Boolean | 디버그 탐지 여부 (nullable) |
+| body.integrityResult.integrityChecked.hookingDetected | Boolean | 후킹 탐지 여부 (nullable) |
+| body.integrityResult.integrityChecked.untrustedEnv | Boolean | 신뢰할 수 없는 환경 여부 (nullable) |
+
+
+<details><summary>응답 예시</summary>
+
+<p>
+
+```json
+{
+  "header": {
+    "isSuccessful": true,
+    "resultCode": 0,
+    "resultMessage": "SUCCESS"
+  },
+  "body": {
+    "appId": "619ce8dc-69c7-4efd-ac37-c0439c928d23",
+    "expireAt": 1763097379336,
+    "integrityInfo": {
+      "codeHash": "codeHash....",
+      "signature": "signature...."
+    },
+    "integrityResult": {
+      "codeHashMatch": true,
+      "signatureMatch": true,
+      "integrityChecked": {
+        "rootingDetected": true,
+        "emulatorDetected": true,
+        "debugDetected": true,
+        "hookingDetected": false,
+        "untrustedEnv": true
+      }
+    }
+  }
+}
+```
+
+</p>
+</details>

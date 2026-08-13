@@ -1,18 +1,22 @@
-## Security > NHN AppGuard > Gradle Plugin Guide
+<!-- pre-align:aligned sig=d940d4b2b6f4 -->
 
-### Overview
+<a id="security-nhn-appguard-gradle-plugin-guide"></a>
+## Security > NHN AppGuard > Gradle Plugin Guide { #security-nhn-appguard-gradle-plugin-guide }
+
+<a id="overview"></a>
+### Overview { #overview }
 
 NHN AppGuard Gradle Plugin supports build automation so that protection operations can be included in Android Gradle build steps. If you are using ProGuard and Firebase Crashlytics, you can read and apply ProGuard mapping files to use with NHN AppGuard obfuscation.
 
-### Supported Environment
+<a id="supported-environment"></a>
+### Supported Environment { #supported-environment }
 
-- Android Gradle Plugin (AGP) 3.0.1 or higher
-
-- firebase-crashlytics-gradle 2.2.0~2.8.0
+- Android Gradle Plugin (AGP) 4.x or higher
 
 - The Gradle Plugin method is not supported in the Unity environment.
 
-### Library Settings
+<a id="library-settings"></a>
+### Library Settings { #library-settings }
 
 Add the NHN AppGuard Gradle Plugin as a buildscript dependency to your project-level build.gradle file.
 
@@ -25,7 +29,7 @@ buildscript {
         // ...
 
         // Add the NHN Cloud AppGuard Gradle Plugin
-        classpath 'com.nhncloud.android:appguard-gradle-plugin:1.2.5'
+        classpath 'com.nhncloud.android:appguard-gradle-plugin:1.3.0'
     }
 }
 ```
@@ -36,7 +40,8 @@ Apply the NHN AppGuard Gradle Plugin to your app-level build.gradle file.
 apply plugin: 'com.nhncloud.android.appguard'
 ```
 
-### NHN AppGuard Gradle Plugin Options
+<a id="nhn-appguard-gradle-plugin-options"></a>
+### NHN AppGuard Gradle Plugin Options { #nhn-appguard-gradle-plugin-options }
 
 To use the plugin functions, you must specify the Appkey and NHN AppGuard version.
 
@@ -61,7 +66,8 @@ You can also set whether to apply the app bundle, whether to apply NHN AppGuard 
 | extraOptions                  | Add options used in CLI (contact us if necessary)    | N      |
 | outputFilePath                | Storage path for the protected file (variants scope)   | N      |
 
-### Setting the NHN AppGuard Gradle Plugin Options
+<a id="setting-the-nhn-appguard-gradle-plugin-options"></a>
+### Setting the NHN AppGuard Gradle Plugin Options { #setting-the-nhn-appguard-gradle-plugin-options }
 
 Write appguard options in your app-level build.gradle file.
 
@@ -94,7 +100,8 @@ appguard {
 }
 ```
 
-### Setting the Protected File Path
+<a id="setting-the-protected-file-path"></a>
+### Setting the Protected File Path { #setting-the-protected-file-path }
 
 From version 1.0.1, you can set a protected file storage location for each variants.
 
@@ -117,8 +124,10 @@ appguard{
 }
 ```
 
-### Applying Obfuscation When Using Proguard and Firebase Crashlytics
+<a id="applying-obfuscation-when-using-proguard-and-firebase-crashlytics"></a>
+### Applying Obfuscation When Using Proguard and Firebase Crashlytics { #applying-obfuscation-when-using-proguard-and-firebase-crashlytics }
 
+<a id="applying-obfuscation-when-using-proguard-and-firebase-crashlytics-prerequisites"></a>
 #### Prerequisites
 
 1. You must be using NHN AppGuard obfuscation in your project.
@@ -127,6 +136,7 @@ appguard{
 
 3. You must be using the [FireBase Crashlytics](https://firebase.google.com/docs/crashlytics) upload feature. Obfuscation can be applied even if the feature is not used.
 
+<a id="applying-obfuscation-when-using-proguard-and-firebase-crashlytics-how-to-apply"></a>
 #### How to Apply
 
 Write the appguard options in your app-level build.gradle file like the following:
@@ -139,10 +149,12 @@ appguard {
 }
 ```
 
-### Set up Certificate Fingerprinting to Verify App Signature Integrity
+<a id="set-up-certificate-fingerprinting-to-verify-app-signature-integrity"></a>
+### Set up Certificate Fingerprinting to Verify App Signature Integrity { #set-up-certificate-fingerprinting-to-verify-app-signature-integrity }
 Starting with version 1.2.0, you can add whether to enable certificate fingerprinting and which certificate fingerprint (SHA-256) will be used for verification.<br>
 **Certificate fingerprinting for app signature verification defaults to Enabled, and you must enter a certificate fingerprint upon activation.**
 
+<a id="set-up-certificate-fingerprinting-to-verify-app-signature-integrity-how-to-apply"></a>
 #### How to Apply
 Write the appguard options in your app-level build.gradle file like the following:
 
