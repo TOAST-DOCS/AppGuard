@@ -1,6 +1,10 @@
-## Security > NHN AppGuard > API 가이드
+<!-- pre-align:aligned sig=badc8b8df20b -->
 
-## NHN AppGuard Public API
+<a id="security-nhn-appguard-api-guide"></a>
+## Security > NHN AppGuard > API 가이드 { #security-nhn-appguard-api-guide }
+
+<a id="nhn-appguard-public-api"></a>
+## NHN AppGuard Public API { #nhn-appguard-public-api }
 NHN AppGuard Public API를 사용하려면 [문의하기](https://www.nhncloud.com/kr/support/inquiry?alias=tab3_08)에서 권한을 요청해야 합니다.
 
 [API 도메인]
@@ -9,7 +13,8 @@ NHN AppGuard Public API를 사용하려면 [문의하기](https://www.nhncloud.c
 | --- | --- |
 | 모든 리전 | [https://appguard.api.nhncloudservice.com](https://appguard.api.nhncloudservice.com) |
 
-### 인증 및 권한
+<a id="authentication-and-authorization"></a>
+### 인증 및 권한 { #authentication-and-authorization }
 
 NHN AppGuard Public API를 사용하려면 User Access Key가 필요합니다. User Access Key는 NHN Cloud 계정 또는 IAM 계정을 기반으로 발급되는 인증 키로, Secret Access Key와 함께 사용하여 API 요청에 대한 인증 수단으로 활용됩니다.
 User Access Key와 Secret Access Key는 콘솔의 **API 보안 설정**에서 발급할 수 있습니다. User Access Key 발급 및 사용에 대한 자세한 내용은 [User Access Key](/nhncloud/ko/public-api/user-access-key/)를 참고하세요.
@@ -17,8 +22,10 @@ User Access Key와 Secret Access Key는 콘솔의 **API 보안 설정**에서 �
 !!! danger "주의"
     API 호출에 연동된 User Access Key ID/Secret Access Key를 가진 멤버가 탈퇴하면 서비스 장애가 발생할 수 있습니다. 탈퇴 전에 유효한 멤버의 키로 교체해야 합니다.
 
-### 대시보드
+<a id="dashboard"></a>
+### 대시보드 { #dashboard }
 
+<a id="dashboard-retrieve-abnormal-behavior-detection-status"></a>
 #### 이상 행위 탐지 현황 조회
 
 유저/디바이스별 이상 행위 탐지 현황을 조회합니다.
@@ -158,6 +165,7 @@ curl -X GET "https://appguard.api.nhncloudservice.com/v1.0/appkeys/{appkey}/dash
 </details>
 
 
+<a id="dashboard-error-code"></a>
 #### 오류 코드
 
 아래에 명시되지 않은 코드는 [API Gateway의 Gateway 오류 코드](https://docs.nhncloud.com/ko/Application%20Service/API%20Gateway/ko/error-code/)와 HTTP Response Status Code (RFC9110)를 따릅니다.
@@ -169,7 +177,8 @@ curl -X GET "https://appguard.api.nhncloudservice.com/v1.0/appkeys/{appkey}/dash
 | 4010007 | Invalid user access key. | 잘못된 user access key |  |
 | 4010008 | Invalid user access key or secret access key. | 잘못된 user access key 또는 secret access key |  |
 
-## 무결성 검증 API 가이드
+<a id="integrity-verification-api-guide"></a>
+## 무결성 검증 API 가이드 { #integrity-verification-api-guide }
 
 무결성 검증 API를 사용하려면 [문의하기](https://www.nhncloud.com/kr/support/inquiry?alias=tab3_08)에서 권한을 요청해야 합니다.
 
@@ -179,9 +188,11 @@ curl -X GET "https://appguard.api.nhncloudservice.com/v1.0/appkeys/{appkey}/dash
 | --- | --- |
 | 모든 리전 | [https://api-integrityguard.nhncloudservice.com](https://api-integrityguard.nhncloudservice.com) |
 
-### 토큰 정보 조회
+<a id="get-token-info"></a>
+### 토큰 정보 조회 { #get-token-info }
 토큰을 조회합니다. 한 번 조회한 토큰은 사라집니다.
 
+<a id="get-token-info-request"></a>
 #### 요청
 
 
@@ -210,6 +221,7 @@ curl -X GET 'https://api-integrityguard.nhncloudservice.com/integrity-api/v1.0/c
 </p>
 </details>
 
+<a id="get-token-info-response"></a>
 #### 응답
 
 [필드]

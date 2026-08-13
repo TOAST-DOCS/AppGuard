@@ -1,4 +1,7 @@
-## Security > AppGuard > Getting Started
+<!-- pre-align:aligned sig=69c36e2b404e -->
+
+<a id="security-appguard-getting-started"></a>
+## Security > AppGuard > Getting Started { #security-appguard-getting-started }
 
 AppGuard is provided in two versions: Android and iOS(Beta).
 
@@ -10,7 +13,8 @@ Apply step for using AppGuard are shown in [Figure 1].
 ![[Figure 1] How to apply AppGuard](http://static.toastoven.net/prod_appguard/figure1.png)
 <center>[Figure 1] How to apply AppGuard</center>
 
-## Enable Service
+<a id="enable-service"></a>
+## Enable Service { #enable-service }
 
 To enable AppGuard products, select [Security] > [AppGuard] on the Toast Cloud [Console] page, as Figure 2 shows, and click on [Product Using].
 
@@ -25,13 +29,16 @@ For more information about AppGuard, see 'Guide on Personal Information Protecti
 
 Visit AppGuard Pricing ([http://cloud.toast.com/pricing/security](http://cloud.toast.com/pricing/security)) to learn more about pricing.
 
-## Protect App
+<a id="protect-app"></a>
+## Protect App { #protect-app }
 
-### Download and Integrate SDKs
+<a id="download-and-integrate-sdks"></a>
+### Download and Integrate SDKs { #download-and-integrate-sdks }
 
 When AppGuard is enabled, the [Dashboard] and [App Setting/Protection] menus are made available. Select [App Setting/Protection] and click on [Download SDK] to download SDKs for each OS. Then, follow the attached manual to work with SDKs.
 
-### Select App Protect Menu
+<a id="select-app-protect-menu"></a>
+### Select App Protect Menu { #select-app-protect-menu }
 
 Select [App Setting/Protection] and click on the [Protect App] button, and [Figure 3] will pop up (in the case of iOS, it works only by SDK integration, without any protection process required).
 
@@ -59,7 +66,8 @@ Select [App Setting/Protection] and click on the [Protect App] button, and [Figu
 
 *	Methods of app protection: Console or CLI(Command Line Interface)
 
-## Dashboard
+<a id="dashboard"></a>
+## Dashboard { #dashboard }
 
 1. When an abusive user is detected, you can check the status by clicking on the [Dashboard] tab, as [Figure 6] shows.
 2. [Dashboard] shows statistical graphs and the list of abusive users detected by AppGuard.

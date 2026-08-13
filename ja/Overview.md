@@ -1,8 +1,12 @@
-## Security > NHN AppGuard > 概要
+<!-- pre-align:aligned sig=14f04ed9d6ad -->
+
+<a id="security-nhn-appguard-overview"></a>
+## Security > NHN AppGuard > 概要 { #security-nhn-appguard-overview }
 
 NHN AppGuardは、アプリケーションコードの改ざんを防止できます。またメモリや速度、コードを操作しようとする各種ツールをパターンまたはヒューリスティックな方法で探知し、制裁できます。
 
-## 特徴/利点
+<a id="featureadvantage"></a>
+## 特徴/利点 { #featureadvantage }
 
 * コード改ざんを原則防止できます。
 * さまざまな操作ツールをパターンや迂回が困難な行為ベースで検知し、制裁できます。
@@ -10,7 +14,8 @@ NHN AppGuardは、アプリケーションコードの改ざんを防止でき�
 * 簡単なアプリ保護作業だけで、強力にアプリを保護できます。
 * ゲーム、ショッピング、簡易決済など、約100個の多様なサービスに適用され、各種アビューズ行為、アプリ操作からの保護に活用されています。
 
-## 主な機能
+<a id="main-features"></a>
+## 主な機能 { #main-features }
 
 次のような機能を提供します。
 
@@ -21,7 +26,8 @@ NHN AppGuardは、アプリケーションコードの改ざんを防止でき�
 * 各種操作ツールのパターンおよび行為ベースによる探知
 * 運営者による多くのリソースが必要な手動の制裁ではなく、システムによる低価格の自動制裁(近日中に提供予定)
 
-## サービス用語
+<a id="glossary"></a>
+## サービス用語 { #glossary }
 
 NHN AppGuardでは[表1]の用語を使用します。
 
@@ -37,7 +43,8 @@ NHN AppGuardでは[表1]の用語を使用します。
 | 行為ベース探知 | チートツールなどがチートを行うための行動パターンから検知する方法                                   |
 | システム制裁 | 探知されたログにより運営者が制裁をするのではなく、システムにより自動で行われる制裁                 |
 
-## サービス構造
+<a id="service-structure"></a>
+## サービス構造 { #service-structure }
 
 NHN AppGuardの構造は[図1]のとおりです。
 NHN AppGuardのSDKを通してアプリにコード連携(選択事項)後、 ConsoleやCLI(Command Line Interface)ツールを利用して、アプリ保護(必須事項)作業を完了して配布します。NHN AppGuard Engineは、アビューズ行為を探知して遮断したり、制裁の根拠となるログをサーバーに転送します。
