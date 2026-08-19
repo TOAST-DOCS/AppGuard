@@ -1,6 +1,10 @@
-## Security > NHN AppGuard > APIガイド
+<!-- pre-align:aligned sig=badc8b8df20b -->
 
-## NHN AppGuard Public API
+<a id="security-nhn-appguard-api-guide"></a>
+## Security > NHN AppGuard > APIガイド { #security-nhn-appguard-api-guide }
+
+<a id="nhn-appguard-public-api"></a>
+## NHN AppGuard Public API { #nhn-appguard-public-api }
 NHN AppGuard Public APIを使用するには、[お問い合わせ](https://www.nhncloud.com/jp/support/inquiry?alias=tab3_08)から権限をリクエストする必要があります。
 
 [APIドメイン]
@@ -9,7 +13,8 @@ NHN AppGuard Public APIを使用するには、[お問い合わせ](https://www.
 | --- | --- |
 | すべてのリージョン | [https://appguard.api.nhncloudservice.com](https://appguard.api.nhncloudservice.com) |
 
-### 認証及び権限
+<a id="authentication-and-authorization"></a>
+### 認証及び権限 { #authentication-and-authorization }
 
 NHN AppGuard Public APIを使用するにはUser Access Keyが必要です。User Access Keyは、NHN CloudアカウントまたはIAMアカウントを基に発行される認証キーであり、Secret Access Keyと一緒に使用して、APIリクエストに対する認証手段として活用されます。
 User Access KeyとSecret Access Keyは、コンソールの**APIセキュリティ設定**で発行できます。User Access Keyの発行及び使用に関する詳細は、[User Access Key](/nhncloud/ja/public-api/user-access-key/)をご参照ください。
@@ -17,8 +22,10 @@ User Access KeyとSecret Access Keyは、コンソールの**APIセキュリテ�
 !!! danger "注意"
     API呼び出しに連携されたUser Access Key ID/Secret Access Keyを持つメンバーが退会すると、サービス障害が発生する可能性があります。退会する前に、有効なメンバーのキーに交換する必要があります。
 
-## ダッシュボード
+<a id="dashboard"></a>
+### ダッシュボード { #dashboard }
 
+<a id="dashboard-retrieve-abnormal-behavior-detection-status"></a>
 #### 異常行為の検知状況照会
 
 ユーザー/デバイス別の異常行為検出状況を照会します。
@@ -159,6 +166,7 @@ os=1(Android)レスポンス例
 </details>
 
 
+<a id="dashboard-error-code"></a>
 #### エラーコード
 
 下記に明示されてないコードは[API GatewayのGatewayエラーコード](https://docs.nhncloud.com/ko/Application%20Service/API%20Gateway/ko/error-code/)とHTTP Response Status Code (RFC9110)に従います。
@@ -170,7 +178,8 @@ os=1(Android)レスポンス例
 | 4010007 | Invalid user access key. | 無効なuser access key |  |
 | 4010008 | Invalid user access key or secret access key. | 無効なuser access keyまたはsecret access key |  |
 
-## 整合性検証APIガイド
+<a id="integrity-verification-api-guide"></a>
+## 整合性検証APIガイド { #integrity-verification-api-guide }
 
 整合性検証APIを使用するには、[お問い合わせ](https://www.nhncloud.com/jp/support/inquiry?alias=tab3_08)から権限をリクエストする必要があります。
 
@@ -180,9 +189,11 @@ os=1(Android)レスポンス例
 | --- | --- |
 | 全てのリージョン | [https://api-integrityguard.nhncloudservice.com](https://api-integrityguard.nhncloudservice.com) |
 
-### トークン情報照会
+<a id="get-token-info"></a>
+### トークン情報照会 { #get-token-info }
 トークンを照会します。一度照会したトークンは削除されます。
 
+<a id="get-token-info-request"></a>
 #### リクエスト
 
 
@@ -211,6 +222,7 @@ curl -X GET 'https://api-integrityguard.nhncloudservice.com/integrity-api/v1.0/c
 </p>
 </details>
 
+<a id="get-token-info-response"></a>
 #### レスポンス
 
 [フィールド]
