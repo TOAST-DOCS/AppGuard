@@ -1,8 +1,12 @@
-## Security > NHN AppGuard > 개요
+<!-- pre-align:aligned sig=14f04ed9d6ad -->
+
+<a id="security-nhn-appguard-overview"></a>
+## Security > NHN AppGuard > 개요 { #security-nhn-appguard-overview }
 
 NHN AppGuard는 애플리케이션의 코드 조작을 방지 할 수 있습니다. 또한 메모리나 속도, 코드를 조작하려는 각종 툴을 패턴 또는 휴리스틱한 방법으로 탐지하고, 이를 제재할 수 있습니다.
 
-## 특/장점
+<a id="featureadvantage"></a>
+## 특/장점 { #featureadvantage }
 
 * 코드 조작을 원천적으로 방지 할 수 있습니다.
 * 다양한 조작 툴을 패턴이나 우회가 힘든 행위 기반으로 탐지하고, 제재 할 수 있습니다.
@@ -10,7 +14,8 @@ NHN AppGuard는 애플리케이션의 코드 조작을 방지 할 수 있습니�
 * 쉬운 앱 보호 작업 만으로도 강력하게 앱을 보호 할 수 있습니다.
 * 게임, 쇼핑, 간편결제 등 약 100 여 개의 다양한 서비스에 적용되어 각종 어뷰징, 앱 조작에 대한 보호 효과에 활용되고 있습니다.
 
-## 주요 기능
+<a id="main-features"></a>
+## 주요 기능 { #main-features }
 
 다음과 같은 기능을 제공합니다.
 
@@ -21,7 +26,8 @@ NHN AppGuard는 애플리케이션의 코드 조작을 방지 할 수 있습니�
 * 각종 조작 툴의 패턴 및 행위 기반에 의한 탐지
 * 운영자에 의해 많은 리소스가 들어가는 수동 제재가 아니라 시스템에 의한 저비용의 자동 제재 (가까운 시일 내에 제공 예정)
 
-## 서비스 용어
+<a id="glossary"></a>
+## 서비스 용어 { #glossary }
 
 NHN AppGuard에서는 [표 1]의 용어를 사용 합니다.
 
@@ -37,7 +43,8 @@ NHN AppGuard에서는 [표 1]의 용어를 사용 합니다.
 | 행위 기반 탐지 | 치팅 툴 등이 치팅을 하기 위해 하는 행위를 이용하여 탐지하는 방법                                   |
 | 시스템 제재   | 탐지된 로그 등을 통해 운영자가 제재를 하는 것이 아니라 시스템에 의해서 자동으로 수행되는 제재                   |
 
-## 서비스 구조
+<a id="service-structure"></a>
+## 서비스 구조 { #service-structure }
 
 NHN AppGuard의 구조는 [그림 1]과 같습니다.
 NHN AppGuard의 SDK를 통해 앱에 코드 연동(선택 사항) 후, Console이나 CLI(Command Line Interface)툴을 이용하여 앱 보호(필수 사항) 작업을 완료하고 배포합니다. NHN AppGuard Engine은 어뷰징을 탐지하여 차단하거나 제재할 수 있는 로그를 서버로 전송합니다.
