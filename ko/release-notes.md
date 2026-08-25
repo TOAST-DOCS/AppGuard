@@ -9,11 +9,13 @@
 | Android  | 1.12.4.18 | 2026. 03. 10.  | stable |
 | iOS      | 1.5.7    | 2026. 08. 11.  | latest |
 
-### 2026. 08. 19.
+<a id="august-19-2026"></a>
+### 2026. 08. 19. { #august-19-2026 }
 * [Android] 1.13.3.2
     * Unity 환경에서 네이티브 라이브러리(.so) 무결성 검증 오탐 수정
 
-### 2026. 08. 11.
+<a id="august-11-2026"></a>
+### 2026. 08. 11. { #august-11-2026 }
 * [iOS] 1.5.7
     * Unity global-metadata.dat 암호화 기능 추가
         * `--unity-metadata-protection` 옵션으로 global-metadata.dat 암호화 기능을 활성화할 수 있습니다.
