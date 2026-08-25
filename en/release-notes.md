@@ -9,11 +9,13 @@
 | Android  | 1.12.4.18 | 2026. 03. 10.  | stable |
 | iOS      | 1.5.7    | 2026. 08. 11.  | latest |
 
-### August 19, 2026
+<a id="august-19-2026"></a>
+### August 19, 2026 { #august-19-2026 }
 * [Android] 1.13.3.2
     * Fixed a false positive in native library (.so) integrity verification in the Unity environment
 
-### August 11, 2026
+<a id="august-11-2026"></a>
+### August 11, 2026 { #august-11-2026 }
 * [iOS] 1.5.7
     * Added Unity global-metadata.dat encryption support
         * You can enable global-metadata.dat encryption with the `--unity-metadata-protection` option.
