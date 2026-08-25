@@ -178,10 +178,10 @@ os=1(Android)レスポンス例
 | 4010007 | Invalid user access key. | 無効なuser access key |  |
 | 4010008 | Invalid user access key or secret access key. | 無効なuser access keyまたはsecret access key |  |
 
-<a id="integrity-verification-api-guide"></a>
-## 整合性検証APIガイド { #integrity-verification-api-guide }
+<a id="app-attestation-api-guide"></a>
+## アプリ証明APIガイド { #app-attestation-api-guide }
 
-整合性検証APIを使用するには、[お問い合わせ](https://www.nhncloud.com/jp/support/inquiry?alias=tab3_08)から権限をリクエストする必要があります。
+アプリ証明APIを使用するには、[お問い合わせ](https://www.nhncloud.com/jp/support/inquiry?alias=tab3_08)から権限をリクエストする必要があります。
 
 [APIドメイン]
 
