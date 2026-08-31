@@ -289,7 +289,7 @@ To use the App Attestation feature, you must request access via [Contact Us](htt
 
 Configure basic information, app attestation policies, Android signature information, and additional settings.
 
-![appguard_12](http://image.toast.com/aaaaaha/console-guide/7_1_무결성검증_en_260325.png)
+![appguard_12](http://image.toast.com/aaaaaha/console-guide/7_1_앱증명_en_260915.png)
 
 * **Product Appkey**: A unique key that identifies the product.
 * **Product Secret Key**: A key used for HMAC authentication when making requests.

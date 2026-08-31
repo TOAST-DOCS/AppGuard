@@ -285,7 +285,7 @@ NHN AppGuardのアプリ証明コンソールの使用方法を説明します�
 
 基本情報、アプリ証明ポリシー、Android署名情報、追加情報などを設定できます。
 
-![appguard_12](http://image.toast.com/aaaaaha/console-guide/7_1_무결성검증_ja_260325.png)
+![appguard_12](http://image.toast.com/aaaaaha/console-guide/7_1_앱증명_ja_260915.png)
 
 * **プロダクトAppkey**: プロダクトを識別する固有のキーです。
 * **プロダクトSecretkey**: リクエスト時にHMAC認証を行うためのキーです。

@@ -288,7 +288,7 @@ NHN AppGuard 앱 증명 콘솔 사용 방법을 설명합니다.
 
 기본정보, 앱 증명 정책, 안드로이드 서명 정보, 추가 정보 등을 설정할 수 있습니다.
 
-![appguard_12](http://image.toast.com/aaaaaha/console-guide/7_1_무결성검증_ko_260325.png)
+![appguard_12](http://image.toast.com/aaaaaha/console-guide/7_1_앱증명_ko_260915.png)
 
 * **상품 앱키**: 상품을 식별하는 고유의 키입니다.
 * **상품 시크릿키**: 요청 시 HMAC 인증을 위한 키입니다.
