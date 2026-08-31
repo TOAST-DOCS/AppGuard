@@ -290,6 +290,7 @@ curl -X GET 'https://api-integrityguard.nhncloudservice.com/integrity-api/v1.0/c
 </p>
 </details>
 
+<a id="get-token-info-error-codes"></a>
 #### エラーコード
 
 以下のエラーが発生しても、HTTP ステータスコードは 200 で返されます。成功かどうかは `header.resultCode` を基準に判断する必要があります。
