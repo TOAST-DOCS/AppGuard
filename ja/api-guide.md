@@ -1,10 +1,13 @@
-<!-- pre-align:aligned sig=badc8b8df20b -->
+<!-- machine_translated: true -->
+
+<!-- pre-align:aligned sig=e2cec650a76a -->
 
 <a id="security-nhn-appguard-api-guide"></a>
 ## Security > NHN AppGuard > APIガイド { #security-nhn-appguard-api-guide }
 
 <a id="nhn-appguard-public-api"></a>
 ## NHN AppGuard Public API { #nhn-appguard-public-api }
+
 NHN AppGuard Public APIを使用するには、[お問い合わせ](https://www.nhncloud.com/jp/support/inquiry?alias=tab3_08)から権限をリクエストする必要があります。
 
 [APIドメイン]
@@ -191,6 +194,7 @@ os=1(Android)レスポンス例
 
 <a id="get-token-info"></a>
 ### トークン情報照会 { #get-token-info }
+
 トークンを照会します。一度照会したトークンは削除されます。
 
 <a id="get-token-info-request"></a>
@@ -285,3 +289,16 @@ curl -X GET 'https://api-integrityguard.nhncloudservice.com/integrity-api/v1.0/c
 
 </p>
 </details>
+
+<a id="get-token-info-error-codes"></a>
+#### エラーコード
+
+以下のエラーが発生しても、HTTP ステータスコードは 200 で返されます。成功かどうかは `header.resultCode` を基準に判断する必要があります。
+
+| code | message | 説明 | 備考 |
+| ---- | ------- | --- | --- |
+| 4000001 | INVALID_PARAMETER | 無効なパラメータ | `Authorization` ヘッダーがない場合 |
+| 4000022 | TOKEN_NOT_EXIST | トークンが存在しない | 存在しないトークン、またはすでに検証されて削除済みのワンタイムトークンを再使用した場合 |
+| 4000023 | TOKEN_EXPIRED | トークンの有効期限切れ | トークンの有効期限（`exp`）が過ぎた場合 |
+| 4000024 | TOKEN_VERIFICATION_FAILED | トークン検証失敗 | 署名の不一致、トークン形式のエラーなど |
+| 4000028 | INVALID_AUTH | 無効な `Authorization` ヘッダー形式 | `Bearer {token}` 形式でない場合 |
