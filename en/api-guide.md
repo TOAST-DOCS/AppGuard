@@ -1,3 +1,5 @@
+<!-- machine_translated: true -->
+
 <!-- pre-align:aligned sig=badc8b8df20b -->
 
 <a id="security-nhn-appguard-api-guide"></a>
@@ -5,6 +7,7 @@
 
 <a id="nhn-appguard-public-api"></a>
 ## NHN AppGuard Public API { #nhn-appguard-public-api }
+
 To use the NHN AppGuard Public API, you must request permission through [Contact us] (https://www.nhncloud.com/kr/support/inquiry?alias=tab3_08).
 
 [API Domain]
@@ -190,6 +193,7 @@ To use the Integrity Verification API, you must request access via [Contact Us](
 
 <a id="get-token-info"></a>
 ### Get Token Info { #get-token-info }
+
 Retrieves token information. A token can only be retrieved once and is deleted after retrieval.
 
 <a id="get-token-info-request"></a>
@@ -284,3 +288,15 @@ curl -X GET 'https://api-integrityguard.nhncloudservice.com/integrity-api/v1.0/c
 
 </p>
 </details>
+
+#### Error Codes
+
+Even when the following errors occur, the HTTP status code is returned as 200. Success or failure must be determined based on `header.resultCode`.
+
+| code | message | Description | Remarks |
+| ---- | ------- | ----------- | ------- |
+| 4000001 | INVALID_PARAMETER | Invalid parameter | When the `Authorization` header is missing |
+| 4000022 | TOKEN_NOT_EXIST | Token does not exist | The token does not exist, or a one-time token that has already been verified and deleted is being reused |
+| 4000023 | TOKEN_EXPIRED | Token validity period expired | When the token's expiration period (`exp`) has passed |
+| 4000024 | TOKEN_VERIFICATION_FAILED | Token verification failed | Signature mismatch, token format error, etc. |
+| 4000028 | INVALID_AUTH | Invalid `Authorization` header format | When the format is not `Bearer {token}` |
