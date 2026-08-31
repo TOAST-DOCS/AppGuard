@@ -285,6 +285,7 @@ curl -X GET 'https://api-integrityguard.nhncloudservice.com/integrity-api/v1.0/c
 </p>
 </details>
 
+<a id="get-token-info-error-codes"></a>
 #### 오류 코드
 
 아래 오류가 발생하더라도 HTTP 상태 코드는 200으로 반환됩니다. 성공 여부는 `header.resultCode`를 기준으로 판단해야 합니다.
