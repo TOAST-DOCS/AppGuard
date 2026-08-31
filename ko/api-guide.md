@@ -284,3 +284,15 @@ curl -X GET 'https://api-integrityguard.nhncloudservice.com/integrity-api/v1.0/c
 
 </p>
 </details>
+
+#### 오류 코드
+
+아래 오류가 발생하더라도 HTTP 상태 코드는 200으로 반환됩니다. 성공 여부는 `header.resultCode`를 기준으로 판단해야 합니다.
+
+| code | message | 설명 | 비고 |
+| ---- | ------- | --- | --- |
+| 4000001 | INVALID_PARAMETER | 잘못된 인자 | `Authorization` 헤더가 없는 경우 |
+| 4000022 | TOKEN_NOT_EXIST | 토큰이 존재하지 않음 | 존재하지 않는 토큰이거나, 이미 검증되어 삭제된 일회성 토큰을 다시 사용한 경우 |
+| 4000023 | TOKEN_EXPIRED | 토큰 유효 기간 만료 | 토큰의 유효 기간(`exp`)이 지난 경우 |
+| 4000024 | TOKEN_VERIFICATION_FAILED | 토큰 검증 실패 | 서명 불일치, 토큰 형식 오류 등 |
+| 4000028 | INVALID_AUTH | 잘못된 `Authorization` 헤더 형식 | `Bearer {token}` 형식이 아닌 경우 |
