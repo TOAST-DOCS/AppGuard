@@ -289,6 +289,7 @@ curl -X GET 'https://api-integrityguard.nhncloudservice.com/integrity-api/v1.0/c
 </p>
 </details>
 
+<a id="get-token-info-error-codes"></a>
 #### Error Codes
 
 Even when the following errors occur, the HTTP status code is returned as 200. Success or failure must be determined based on `header.resultCode`.
