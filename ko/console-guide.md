@@ -277,18 +277,18 @@ NHN AppGuard에서 제공하는 디바이스 ID와 SDK 연동 시 사용할 수 
 !!! tip "알아두기"
     알람은 하루에 최대 1회 발송됩니다.
 
-<a id="integrity-verification"></a>
-## 무결성 검증 { #integrity-verification }
+<a id="app-attestation"></a>
+## 앱 증명 { #app-attestation }
 
-NHN AppGuard 무결성 검증 콘솔 사용 방법을 설명합니다.
-무결성 검증 기능을 이용하려면 [문의하기](https://www.nhncloud.com/kr/support/inquiry?alias=tab3_08)를 통해 권한을 요청해야 합니다.
+NHN AppGuard 앱 증명 콘솔 사용 방법을 설명합니다.
+앱 증명 기능을 이용하려면 [문의하기](https://www.nhncloud.com/kr/support/inquiry?alias=tab3_08)를 통해 권한을 요청해야 합니다.
 
 <a id="product"></a>
 ### 상품 { #product }
 
-기본정보, 무결성 검증 정책, 안드로이드 서명 정보, 추가 정보 등을 설정할 수 있습니다.
+기본정보, 앱 증명 정책, 안드로이드 서명 정보, 추가 정보 등을 설정할 수 있습니다.
 
-![appguard_12](http://image.toast.com/aaaaaha/console-guide/7_1_무결성검증_ko_260325.png)
+![appguard_12](http://image.toast.com/aaaaaha/console-guide/7_1_앱증명_ko_260915.png)
 
 * **상품 앱키**: 상품을 식별하는 고유의 키입니다.
 * **상품 시크릿키**: 요청 시 HMAC 인증을 위한 키입니다.
@@ -298,10 +298,10 @@ NHN AppGuard 무결성 검증 콘솔 사용 방법을 설명합니다.
     * **Challenge 만료 시간(초)**: Challenge의 유효 시간입니다.
     * **Token 만료 시간(초)**: 토큰의 유효 시간입니다.
 
-<a id="product-integrity-verification-policy"></a>
-#### 무결성 검증 정책
+<a id="product-app-attestation-policy"></a>
+#### 앱 증명 정책
 
-Android / iOS 플랫폼별로 무결성 검증 옵션을 설정합니다. 옵션은 **무결성 검증 항목**과 **신뢰할 수 없는 환경** 두 가지 섹션으로 구성됩니다.
+Android / iOS 플랫폼별로 앱 증명 옵션을 설정합니다. 옵션은 **무결성 검증 항목**과 **신뢰할 수 없는 환경** 두 가지 섹션으로 구성됩니다.
 
 **무결성 검증 항목**
 
@@ -315,7 +315,7 @@ Android / iOS 플랫폼별로 무결성 검증 옵션을 설정합니다. 옵션
 
 **신뢰할 수 없는 환경**
 
-아래 환경에서는 무결성 토큰이 발급되지 않습니다. 체크박스를 통해 개별 항목을 활성화하거나 비활성화할 수 있습니다.
+아래 환경에서는 앱 증명 토큰이 발급되지 않습니다. 체크박스를 통해 개별 항목을 활성화하거나 비활성화할 수 있습니다.
 
 | 항목 | Android | iOS |
 | --- | ------- | --- |
@@ -354,7 +354,7 @@ Android / iOS 플랫폼별로 무결성 검증 옵션을 설정합니다. 옵션
 
 **무결성 정보**
 
-* **앱 서명**: 무결성 검증을 진행하는 데 필요한 서명 정보입니다.
+* **앱 서명**: 앱 증명을 진행하는 데 필요한 서명 정보입니다.
 
 **해시 수집/검증**
 
@@ -388,13 +388,13 @@ Android / iOS 플랫폼별로 무결성 검증 옵션을 설정합니다. 옵션
 
 **추가 정보**
 
-* **앱 Public 키**: 앱 SDK의 Public Key로, 무결성 검증을 위해 필요한 정보입니다.
-* **상품 Public 키**: 앱에 귀속된 서버의 Public Key로, 무결성 검증을 위해 필요한 정보입니다.
+* **앱 Public 키**: 앱 SDK의 Public Key로, 앱 증명을 위해 필요한 정보입니다.
+* **상품 Public 키**: 앱에 귀속된 서버의 Public Key로, 앱 증명을 위해 필요한 정보입니다.
 
 <a id="verification-log"></a>
 ### 검증 로그 { #verification-log }
 
-무결성 검증 로그를 확인할 수 있습니다.
+앱 증명 로그를 확인할 수 있습니다.
 
 ![appguard_15](http://image.toast.com/aaaaaha/console-guide/7_4_무결성검증_ko_260325.png)
 
@@ -418,7 +418,7 @@ Android / iOS 플랫폼별로 무결성 검증 옵션을 설정합니다. 옵션
 | 0 | SUCCESS |  |
 | 4000068 | Android Signature Not Exist | 안드로이드 서명 정보가 존재하지 않음 |
 | 4000074 | iOS signature not exist | iOS 무결성 정보의 앱 서명 정보가 존재하지 않음 |
-| 4000021 | Challenge not exist | 무결성 검증 요청 시 Challenge가 존재하지 않음 |
+| 4000021 | Challenge not exist | 앱 증명 요청 시 Challenge가 존재하지 않음 |
 | 4000069 | Integrity info not match | 앱의 무결성 정보(앱 해시, 앱 서명 정보)가 일치하지 않음 |
 | 4000073 | App artifact not match | 앱의 패키지 이름, 버전코드 등이 일치하지 않음 |
 | 4000032 | Challenge verification failed | 검증 결과 불일치 |

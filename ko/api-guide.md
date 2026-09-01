@@ -177,10 +177,10 @@ curl -X GET "https://appguard.api.nhncloudservice.com/v1.0/appkeys/{appkey}/dash
 | 4010007 | Invalid user access key. | 잘못된 user access key |  |
 | 4010008 | Invalid user access key or secret access key. | 잘못된 user access key 또는 secret access key |  |
 
-<a id="integrity-verification-api-guide"></a>
-## 무결성 검증 API 가이드 { #integrity-verification-api-guide }
+<a id="app-attestation-api-guide"></a>
+## 앱 증명 API 가이드 { #app-attestation-api-guide }
 
-무결성 검증 API를 사용하려면 [문의하기](https://www.nhncloud.com/kr/support/inquiry?alias=tab3_08)에서 권한을 요청해야 합니다.
+앱 증명 API를 사용하려면 [문의하기](https://www.nhncloud.com/kr/support/inquiry?alias=tab3_08)에서 권한을 요청해야 합니다.
 
 [API 도메인]
 
