@@ -47,7 +47,7 @@ When an abusive user is detected, you can check detection status by clicking on 
 - You can **Search** by [User ID], [Device ID], [Detection Log Count], [Log Pattern], and [Search Period].
     - Multiple [User ID] and [Device ID] can be added with comma as a delimiter.
 - In the statistical detection graph, you can check **Detection Distribution by Pattern** and **Change status of detection logs**.
-- The **Abnormal behavior detection status** can also be retrieved in json format with APIs. For more information, see the [API guide](https://docs.nhncloud.com/en/Security/NHN%20AppGuard/en/api-guide/).
+- The **Abnormal behavior detection status** can also be retrieved in json format with APIs. For more information, see the [API guide](./api-guide/).
 
 <a id="app-protection"></a>
 ## App Protection { #app-protection }

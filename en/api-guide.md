@@ -171,7 +171,7 @@ curl -X GET "https://appguard.api.nhncloudservice.com/v1.0/appkeys/{appkey}/dash
 <a id="dashboard-error-code"></a>
 #### Error Code
 
-Codes not specified below follow the [Gateway error codes in API Gateway](https://docs.nhncloud.com/en/Application%20Service/API%20Gateway/en/error-code/) and HTTP Response Status Code (RFC9110).
+Codes not specified below follow the [Gateway error codes in API Gateway](/Application%20Service/API%20Gateway/en/error-code/) and HTTP Response Status Code (RFC9110).
 
 | code | message | Description | Note |
 | ---- | ------- | --- | --- |
