@@ -286,7 +286,7 @@ NHN AppGuard 앱 증명 콘솔 사용 방법을 설명합니다.
 <a id="product"></a>
 ### 상품 { #product }
 
-기본정보, 앱 증명 정책, 안드로이드 서명 정보, 추가 정보 등을 설정할 수 있습니다.
+기본 정보, 앱 증명 정책, 안드로이드 서명 정보, 추가 정보 등을 설정할 수 있습니다.
 
 ![appguard_12](http://image.toast.com/aaaaaha/console-guide/7_1_앱증명_ko_260915.png)
 
