@@ -172,7 +172,7 @@ os=1(Android)レスポンス例
 <a id="dashboard-error-code"></a>
 #### エラーコード
 
-下記に明示されてないコードは[API GatewayのGatewayエラーコード](https://docs.nhncloud.com/ko/Application%20Service/API%20Gateway/ko/error-code/)とHTTP Response Status Code (RFC9110)に従います。
+下記に明示されてないコードは[API GatewayのGatewayエラーコード](/Application%20Service/API%20Gateway/ja/error-code/)とHTTP Response Status Code (RFC9110)に従います。
 
 | code | message | 説明 | 備考 |
 | ---- | ------- | --- | --- |
