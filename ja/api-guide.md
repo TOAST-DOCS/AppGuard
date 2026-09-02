@@ -1,6 +1,6 @@
 <!-- machine_translated: true -->
 
-<!-- pre-align:aligned sig=e2cec650a76a -->
+<!-- pre-align:aligned sig=92dd702dd652 -->
 
 <a id="security-nhn-appguard-api-guide"></a>
 ## Security > NHN AppGuard > APIガイド { #security-nhn-appguard-api-guide }
