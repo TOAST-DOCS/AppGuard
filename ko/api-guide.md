@@ -1,4 +1,4 @@
-<!-- pre-align:aligned sig=e2cec650a76a -->
+<!-- pre-align:aligned sig=92dd702dd652 -->
 
 <a id="security-nhn-appguard-api-guide"></a>
 ## Security > NHN AppGuard > API 가이드 { #security-nhn-appguard-api-guide }
