@@ -1,3 +1,5 @@
+<!-- machine_translated: true -->
+
 <!-- pre-align:aligned sig=a949981cf275 -->
 
 <a id="security-nhn-appguard-console-guide"></a>
@@ -277,19 +279,18 @@ You can receive an alarm on the channel you set when the number of detection/blo
 !!! tip "Note"
     Alarms are sent up to once per day.
 
-<a id="integrity-verification"></a>
-## Integrity Verification { #integrity-verification }
+<a id="app-attestation"></a>
+## App Attestation { #app-attestation }
 
-Describes how to use the NHN AppGuard Integrity Verification console.
-
-To use the Integrity Verification feature, you must request access via [Contact Us](https://www.nhncloud.com/kr/support/inquiry?alias=tab3_08).
+This guide describes how to use the NHN AppGuard App Attestation console.
+To use the App Attestation feature, you must request permission through [Contact Us](https://www.nhncloud.com/kr/support/inquiry?alias=tab3_08).
 
 <a id="product"></a>
 ### Product { #product }
 
-Configure basic information, integrity verification policies, Android signature information, and additional settings.
+You can configure basic information, app attestation policy, Android signing information, additional information, and more.
 
-![appguard_12](http://image.toast.com/aaaaaha/console-guide/7_1_무결성검증_en_260325.png)
+![appguard_12](http://image.toast.com/aaaaaha/console-guide/7_1_앱증명_ko_260915.png)
 
 * **Product Appkey**: A unique key that identifies the product.
 * **Product Secret Key**: A key used for HMAC authentication when making requests.
@@ -299,10 +300,10 @@ Configure basic information, integrity verification policies, Android signature 
     * **Challenge Expiration Time (seconds)**: The validity period of a challenge.
     * **Token Expiration Time (seconds)**: The validity period of a token.
 
-<a id="product-integrity-verification-policy"></a>
-#### Integrity Verification Policy
+<a id="product-app-attestation-policy"></a>
+#### App attestation policy
 
-Configure integrity verification options for each platform: Android and iOS. Options are organized into two sections: **Integrity Verification Items** and **Untrusted Environments**.
+Configure app attestation options for the Android and iOS platforms. The options are organized into two sections: **Integrity Verification Items** and **Untrusted Environment**.
 
 **Integrity Verification Items**
 
@@ -310,17 +311,17 @@ The following items are enabled by default and cannot be changed.
 
 | Item | Description |
 | --- | --- |
-| App Binary Integrity | Verifies whether the app binary has been tampered with. |
-| Signature Tampering Detection | Detects whether the app signature has been tampered with. |
-| Challenge-Response Verification | Performs verification using the Challenge-Response method. |
+| App binary integrity | Verifies whether the app binary has been tampered with. |
+| Signature tampering detection | Detects whether the app signature has been tampered with. |
+| Challenge-Response verification | Performs Challenge-Response verification. |
 
-**Untrusted Environments**
+**Untrusted Environment**
 
-Integrity tokens are not issued in the following environments. Use the checkboxes to enable or disable individual items.
+App attestation tokens are not issued in the following environments. You can enable or disable individual items using the **checkboxes**.
 
 | Item | Android | iOS |
 | --- | ------- | --- |
-| Rooting/Jailbreaking environment | Rooting environment | Jailbreaking environment |
+| Rooting/Jailbreak environment | Rooting environment | Jailbreak environment |
 | Emulator/Simulator environment | Emulator environment | Simulator environment |
 | Debugging environment | Debugging environment | Debugging environment |
 | Hooking environment | Hooking environment | Hooking environment |
@@ -355,7 +356,7 @@ Click an app in the list to view its details.
 
 **Integrity Info**
 
-* **App Signature**: Signature information required to perform integrity verification.
+* **App Signing**: Signature information required for app attestation.
 
 **Hash Collection/Verification**
 
@@ -389,13 +390,13 @@ View and manage collected hash information in the hash list table.
 
 **Additional Info**
 
-* **App Public Key**: The public key of the app SDK, required for integrity verification.
-* **Product Public Key**: The public key of the server associated with the app, required for integrity verification.
+* **App Public Key**: The Public Key of the app SDK, which is information required for app attestation.
+* **Product Public Key**: The Public Key of the server associated with the app, which is information required for app attestation.
 
 <a id="verification-log"></a>
 ### Verification Log { #verification-log }
 
-View integrity verification logs.
+You can view the app attestation logs.
 
 ![appguard_15](http://image.toast.com/aaaaaha/console-guide/7_4_무결성검증_en_260325.png)
 
@@ -419,7 +420,7 @@ Search logs using the following filters:
 | 0 | SUCCESS |  |
 | 4000068 | Android Signature Not Exist | Android signature information does not exist. |
 | 4000074 | iOS signature not exist | App signature information in iOS integrity info does not exist. |
-| 4000021 | Challenge not exist | Challenge does not exist when an integrity verification request is made. |
+| 4000021 | Challenge not exist | The challenge does not exist when requesting app attestation |
 | 4000069 | Integrity info not match | App integrity information (app hash, app signature) does not match. |
 | 4000073 | App artifact not match | App package name, version code, or other information does not match. |
 | 4000032 | Challenge verification failed | Verification result does not match. |
