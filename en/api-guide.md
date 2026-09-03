@@ -1,6 +1,6 @@
 <!-- machine_translated: true -->
 
-<!-- pre-align:aligned sig=e2cec650a76a -->
+<!-- pre-align:aligned sig=92dd702dd652 -->
 
 <a id="security-nhn-appguard-api-guide"></a>
 ## Security > NHN AppGuard > API Guide { #security-nhn-appguard-api-guide }
@@ -180,10 +180,10 @@ Codes not specified below follow the [Gateway error codes in API Gateway](/Appli
 | 4010007 | Invalid user access key. | Invalid user access key |  |
 | 4010008 | Invalid user access key or secret access key. | Invalid user access key or secret access key |  |
 
-<a id="integrity-verification-api-guide"></a>
-## Integrity Verification API Guide { #integrity-verification-api-guide }
+<a id="app-attestation-api-guide"></a>
+## App Attestation API Guide { #app-attestation-api-guide }
 
-To use the Integrity Verification API, you must request access via [Contact Us](https://www.nhncloud.com/kr/support/inquiry?alias=tab3_08).
+To use the App Attestation API, you must request permission through [Contact Us](https://www.nhncloud.com/kr/support/inquiry?alias=tab3_08).
 
 [API Domain]
 

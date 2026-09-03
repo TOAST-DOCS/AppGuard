@@ -1,4 +1,6 @@
-<!-- pre-align:aligned sig=a949981cf275 -->
+<!-- machine_translated: true -->
+
+<!-- pre-align:aligned sig=0a4085e70faa -->
 
 <a id="security-nhn-appguard-console-guide"></a>
 ## Security > NHN AppGuard > コンソール使用ガイド { #security-nhn-appguard-console-guide }
@@ -274,18 +276,18 @@ NHN AppGuardで提供するデバイスIDとSDK連携すると使用できるユ
 !!! tip 「ポイント」
     アラームは1日に最大1回送信されます。
 
-<a id="integrity-verification"></a>
-## 整合性検証 { #integrity-verification }
+<a id="app-attestation"></a>
+## アプリ証明 { #app-attestation }
 
-NHN AppGuardの整合性検証コンソールの使用方法を説明します。
-整合性検証機能を利用するには、[お問い合わせ](https://www.nhncloud.com/jp/support/inquiry?alias=tab3_08)から権限をリクエストする必要があります。
+NHN AppGuard アプリ証明コンソールの使用方法について説明します。
+アプリ証明機能を使用するには、[お問い合わせ](https://www.nhncloud.com/jp/support/inquiry?alias=tab3_08)を通じて権限をリクエストする必要があります。
 
 <a id="product"></a>
 ### プロダクト { #product }
 
-基本情報、整合性検証ポリシー、Android署名情報、追加情報などを設定できます。
+基本情報、アプリ証明ポリシー、Android署名情報、追加情報などを設定できます。
 
-![appguard_12](http://image.toast.com/aaaaaha/console-guide/7_1_무결성검증_ja_260325.png)
+![appguard_12](http://image.toast.com/aaaaaha/console-guide/7_1_앱증명_ja_260915.png)
 
 * **プロダクトAppkey**: プロダクトを識別する固有のキーです。
 * **プロダクトSecretkey**: リクエスト時にHMAC認証を行うためのキーです。
@@ -295,28 +297,28 @@ NHN AppGuardの整合性検証コンソールの使用方法を説明します�
 * **Challenge有効期限(秒)**: Challengeの有効期間です。
 * **Token有効期限(秒)**: トークンの有効期間です。
 
-<a id="product-integrity-verification-policy"></a>
-#### 整合性検証ポリシー
+<a id="product-app-attestation-policy"></a>
+#### アプリ証明ポリシー
 
-Android / iOSのプラットフォーム別に整合性検証オプションを設定します。オプションは、**整合性検証項目**と**信頼できない環境**の2つのセクションで構成されます。
+Android / iOS プラットフォームごとにアプリ証明オプションを設定します。オプションは **整合性検証項目** と **信頼できない環境** の2つのセクションで構成されます。
 
 **整合性検証項目**
 
-以下の項目はデフォルトで有効化されており、変更できません。
+以下の項目はデフォルトで有効化されており、変更することはできません。
 
 | 項目 | 説明 |
 | --- | --- |
-| アプリバイナリの整合性 | アプリバイナリが改ざんされているかどうかを検証します。 |
+| アプリバイナリの整合性 | アプリバイナリの改ざんの有無を検証します。 |
 | 署名改ざん検知 | アプリ署名の改ざんの有無を検知します。 |
-| Challenge-Response検証 | Challenge-Response方式の検証を実行します。 |
+| Challenge-Response検証 | Challenge-Response 方式の検証を実行します。 |
 
 **信頼できない環境**
 
-以下の環境では整合性トークンが発行されません。チェックボックスで各項目を有効化または無効化できます。
+以下の環境ではアプリ証明トークンが発行されません。**[チェックボックス]** で個別の項目を有効化または無効化できます。
 
 | 項目 | Android | iOS |
 | --- | ------- | --- |
-| root化/脱獄環境 | root化環境 | 脱獄環境 |
+| ルート化/脱獄環境 | ルート化環境 | 脱獄環境 |
 | エミュレータ/シミュレータ環境 | エミュレータ環境 | シミュレータ環境 |
 | デバッグ環境 | デバッグ環境 | デバッグ環境 |
 | フッキング環境 | フッキング環境 | フッキング環境 |
@@ -351,7 +353,7 @@ Android / iOSのプラットフォーム別に整合性検証オプションを�
 
 **整合性情報**
 
-* **アプリ署名**: 整合性検証を行うために必要な署名情報です。
+* **アプリ署名**: アプリ証明に必要な署名情報です。
 
 **ハッシュ収集/検証**
 
@@ -373,25 +375,25 @@ Android / iOSのプラットフォーム別に整合性検証オプションを�
 | 有効化 | トグルスイッチによるハッシュのアクティブ/非アクティブの切り替え |
 | 削除 | 個別ハッシュの削除 |
 
-!!! tip 「ポイント」
-    ハッシュ収集/検証の推奨される使用フローは次の通りです。
+!!! tip "ヒント"
+    ハッシュ収集/検証の推奨される使用フローは次のとおりです。
 
-1. アプリを保護します(デフォルトは収集モード)。
-    2. 保護されたアプリを実行します。ハッシュAが収集されます。
-    3. ストアにアップロードします。ストアが再ビルドを行うと、ハッシュBが収集されます。
-    4. ストアからリリースします。再ビルドが発生した場合、ハッシュCが収集されます。
+    1. アプリを保護します（収集モードがデフォルト）。
+    2. 保護されたアプリを実行します。ハッシュ A が収集されます。
+    3. ストアにアップロードします。ストアが再ビルドすると、ハッシュ B が収集されます。
+    4. ストアでリリースします。再ビルドが発生すると、ハッシュ C が収集されます。
     5. 収集が完了したら、検証モードに切り替えます。
-    6. 不要なハッシュを無効化、または削除します。
+    6. 不要なハッシュを無効化または削除します。
 
 **追加情報**
 
-* **アプリ Public Key**: アプリSDKのPublic Keyであり、整合性検証に必要な情報です。
-* **プロダクト Public Key**: アプリに帰属するサーバーのPublic Keyであり、整合性検証に必要な情報です。
+* **アプリ Public Key**: アプリ SDK の Public Key で、アプリ証明に必要な情報です。
+* **プロダクト Public Key**: アプリに帰属するサーバーの Public Key で、アプリ証明に必要な情報です。
 
 <a id="verification-log"></a>
 ### 検証ログ { #verification-log }
 
-整合性検証のログを確認できます。
+アプリ証明ログを確認できます。
 
 ![appguard_15](http://image.toast.com/aaaaaha/console-guide/7_4_무결성검증_ja_260325.png)
 
@@ -415,7 +417,7 @@ Android / iOSのプラットフォーム別に整合性検証オプションを�
 | 0 | SUCCESS |  |
 | 4000068 | Android Signature Not Exist | Android署名情報が存在しない |
 | 4000074 | iOS signature not exist | iOS整合性情報のアプリ署名情報が存在しない |
-| 4000021 | Challenge not exist | 整合性検証リクエスト時にChallengeが存在しない |
+| 4000021 | Challenge not exist | アプリ証明リクエスト時にChallengeが存在しません |
 | 4000069 | Integrity info not match | アプリの整合性情報(アプリハッシュ、アプリ署名情報)が一致しない |
 | 4000073 | App artifact not match | アプリのパッケージ名、バージョンコードなどが一致しない |
 | 4000032 | Challenge verification failed | 検証結果の不一致 |

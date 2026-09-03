@@ -1,6 +1,6 @@
 <!-- machine_translated: true -->
 
-<!-- pre-align:aligned sig=e2cec650a76a -->
+<!-- pre-align:aligned sig=92dd702dd652 -->
 
 <a id="security-nhn-appguard-api-guide"></a>
 ## Security > NHN AppGuard > APIガイド { #security-nhn-appguard-api-guide }
@@ -181,16 +181,16 @@ os=1(Android)レスポンス例
 | 4010007 | Invalid user access key. | 無効なuser access key |  |
 | 4010008 | Invalid user access key or secret access key. | 無効なuser access keyまたはsecret access key |  |
 
-<a id="integrity-verification-api-guide"></a>
-## 整合性検証APIガイド { #integrity-verification-api-guide }
+<a id="app-attestation-api-guide"></a>
+## アプリ証明 API ガイド { #app-attestation-api-guide }
 
-整合性検証APIを使用するには、[お問い合わせ](https://www.nhncloud.com/jp/support/inquiry?alias=tab3_08)から権限をリクエストする必要があります。
+アプリ証明 API を使用するには、[お問い合わせ](https://www.nhncloud.com/jp/support/inquiry?alias=tab3_08) からアクセス権限をリクエストする必要があります。
 
-[APIドメイン]
+[API ドメイン]
 
 | リージョン | ドメイン |
 | --- | --- |
-| 全てのリージョン | [https://api-integrityguard.nhncloudservice.com](https://api-integrityguard.nhncloudservice.com) |
+| すべてのリージョン | [https://api-integrityguard.nhncloudservice.com](https://api-integrityguard.nhncloudservice.com) |
 
 <a id="get-token-info"></a>
 ### トークン情報照会 { #get-token-info }
