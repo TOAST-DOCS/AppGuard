@@ -1,4 +1,4 @@
-<!-- pre-align:aligned sig=877ccc77b25f -->
+<!-- pre-align:aligned sig=cf94e413e2c9 -->
 
 <a id="security-nhn-appguard-release-notes"></a>
 ## Security > NHN AppGuard > 릴리스 노트 { #security-nhn-appguard-release-notes }
