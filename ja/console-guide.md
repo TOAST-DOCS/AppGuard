@@ -280,14 +280,14 @@ NHN AppGuardで提供するデバイスIDとSDK連携すると使用できるユ
 ## アプリ証明 { #app-attestation }
 
 NHN AppGuard アプリ証明コンソールの使用方法について説明します。
-アプリ証明機能を使用するには、[お問い合わせ](https://www.nhncloud.com/kr/support/inquiry?alias=tab3_08)を通じて権限をリクエストする必要があります。
+アプリ証明機能を使用するには、[お問い合わせ](https://www.nhncloud.com/jp/support/inquiry?alias=tab3_08)を通じて権限をリクエストする必要があります。
 
 <a id="product"></a>
 ### プロダクト { #product }
 
 基本情報、アプリ証明ポリシー、Android署名情報、追加情報などを設定できます。
 
-![appguard_12](http://image.toast.com/aaaaaha/console-guide/7_1_앱증명_ko_260915.png)
+![appguard_12](http://image.toast.com/aaaaaha/console-guide/7_1_앱증명_ja_260915.png)
 
 * **プロダクトAppkey**: プロダクトを識別する固有のキーです。
 * **プロダクトSecretkey**: リクエスト時にHMAC認証を行うためのキーです。
@@ -308,9 +308,9 @@ Android / iOS プラットフォームごとにアプリ証明オプションを
 
 | 項目 | 説明 |
 | --- | --- |
-| アプリバイナリ整合性 | アプリバイナリの改ざんの有無を検証します。 |
+| アプリバイナリの整合性 | アプリバイナリの改ざんの有無を検証します。 |
 | 署名改ざん検知 | アプリ署名の改ざんの有無を検知します。 |
-| Challenge-Response 検証 | Challenge-Response 方式の検証を実行します。 |
+| Challenge-Response検証 | Challenge-Response 方式の検証を実行します。 |
 
 **信頼できない環境**
 
@@ -387,13 +387,13 @@ Android / iOS プラットフォームごとにアプリ証明オプションを
 
 **追加情報**
 
-* **アプリ Public キー**: アプリ SDK の Public Key で、アプリ証明に必要な情報です。
-* **サービス Public キー**: アプリに帰属するサーバーの Public Key で、アプリ証明に必要な情報です。
+* **アプリ Public Key**: アプリ SDK の Public Key で、アプリ証明に必要な情報です。
+* **プロダクト Public Key**: アプリに帰属するサーバーの Public Key で、アプリ証明に必要な情報です。
 
 <a id="verification-log"></a>
 ### 検証ログ { #verification-log }
 
-アプリの証明ログを確認できます。
+アプリ証明ログを確認できます。
 
 ![appguard_15](http://image.toast.com/aaaaaha/console-guide/7_4_무결성검증_ja_260325.png)
 

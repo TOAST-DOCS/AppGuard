@@ -184,7 +184,7 @@ os=1(Android)レスポンス例
 <a id="app-attestation-api-guide"></a>
 ## アプリ証明 API ガイド { #app-attestation-api-guide }
 
-アプリ証明 API を使用するには、[お問い合わせ](https://www.nhncloud.com/kr/support/inquiry?alias=tab3_08) からアクセス権限をリクエストする必要があります。
+アプリ証明 API を使用するには、[お問い合わせ](https://www.nhncloud.com/jp/support/inquiry?alias=tab3_08) からアクセス権限をリクエストする必要があります。
 
 [API ドメイン]
 

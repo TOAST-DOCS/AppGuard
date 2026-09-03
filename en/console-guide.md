@@ -290,7 +290,7 @@ To use the App Attestation feature, you must request permission through [Contact
 
 You can configure basic information, app attestation policy, Android signing information, additional information, and more.
 
-![appguard_12](http://image.toast.com/aaaaaha/console-guide/7_1_앱증명_ko_260915.png)
+![appguard_12](http://image.toast.com/aaaaaha/console-guide/7_1_앱증명_en_260915.png)
 
 * **Product Appkey**: A unique key that identifies the product.
 * **Product Secret Key**: A key used for HMAC authentication when making requests.
@@ -301,9 +301,9 @@ You can configure basic information, app attestation policy, Android signing inf
     * **Token Expiration Time (seconds)**: The validity period of a token.
 
 <a id="product-app-attestation-policy"></a>
-#### App attestation policy
+#### App Attestation Policy
 
-Configure app attestation options for the Android and iOS platforms. The options are organized into two sections: **Integrity Verification Items** and **Untrusted Environment**.
+Configure app attestation options for the Android and iOS platforms. The options are organized into two sections: **Integrity Verification Items** and **Untrusted Environments**.
 
 **Integrity Verification Items**
 
@@ -311,11 +311,11 @@ The following items are enabled by default and cannot be changed.
 
 | Item | Description |
 | --- | --- |
-| App binary integrity | Verifies whether the app binary has been tampered with. |
-| Signature tampering detection | Detects whether the app signature has been tampered with. |
-| Challenge-Response verification | Performs Challenge-Response verification. |
+| App Binary Integrity | Verifies whether the app binary has been tampered with. |
+| Signature Tampering Detection | Detects whether the app signature has been tampered with. |
+| Challenge-Response Verification | Performs Challenge-Response verification. |
 
-**Untrusted Environment**
+**Untrusted Environments**
 
 App attestation tokens are not issued in the following environments. You can enable or disable individual items using the **checkboxes**.
 
@@ -356,7 +356,7 @@ Click an app in the list to view its details.
 
 **Integrity Info**
 
-* **App Signing**: Signature information required for app attestation.
+* **App Signature**: Signature information required for app attestation.
 
 **Hash Collection/Verification**
 
