@@ -1,21 +1,57 @@
-<!-- pre-align:aligned sig=877ccc77b25f -->
+<!-- machine_translated: true -->
+
+<!-- pre-align:aligned sig=cf94e413e2c9 -->
 
 <a id="security-nhn-appguard-release-notes"></a>
 ## Security > NHN AppGuard > Release Notes { #security-nhn-appguard-release-notes }
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.13.3.2 | 2026. 08. 19.  | latest |
+| Android  | 1.14.0.0 | September 15, 2026  | latest |
 | Android  | 1.12.4.18 | 2026. 03. 10.  | stable |
-| iOS      | 1.5.7    | 2026. 08. 11.  | latest |
+| iOS      | 1.6.0    | September 15, 2026  | latest |
+
+<a id="september-15-2026"></a>
+### September 15, 2026 { #september-15-2026 }
+
+* [Android] 1.14.0.0
+    * Added a feature to specify DEX encryption targets
+        * Added a feature to select DEX encryption targets by package or class.
+        * For more information, see **Android Developer's Guide > 3. Unified Configuration File > 3.2 Settings by Feature > DEX Encryption Target Specification**.
+    * Added support for unified configuration files
+        * Improved to allow you to manage resource string obfuscation rules and DEX encryption scope in a single unified configuration file.
+        * For more information, see **Android Developer's Guide > 3. Unified Configuration File**.
+    * Added an Android ID-based blacklist feature
+        * Added a feature to register specific devices to the blacklist based on Android ID.
+    * Added emulator detection patterns
+        * Added UgPhone emulator detection patterns.
+    * Bug Fixes
+        * Fixed an issue where the app terminated abnormally during MyCard payment.
+        * Fixed a false positive that occurred when detecting remote control apps.
+* [iOS] 1.6.0
+    * Raised the minimum supported iOS version
+        * Raised the minimum supported version to iOS 13.
+    * Improved stability
+* [Unity] 0.5.2
+    * Fixed an issue where blocking did not work correctly when SecureValue was tampered with in iOS environments.
+    * Updated to iOS SDK 1.6.0
+* [Unreal] 0.2.11
+    * Updated to iOS SDK 1.6.0
+* [Console]
+    * Added a unified configuration file upload feature for Android
+        * Added a feature to upload unified configuration files for use in Android app protection tasks.
+    * Added an Android ID-based blacklist blocking feature
+        * Added a feature to block specific devices based on Android ID in the blacklist.
 
 <a id="august-19-2026"></a>
 ### August 19, 2026 { #august-19-2026 }
+
 * [Android] 1.13.3.2
     * Fixed a false positive in native library (.so) integrity verification in the Unity environment
 
 <a id="august-11-2026"></a>
 ### August 11, 2026 { #august-11-2026 }
+
 * [iOS] 1.5.7
     * Added Unity global-metadata.dat encryption support
         * You can enable global-metadata.dat encryption with the `--unity-metadata-protection` option.
@@ -29,11 +65,13 @@
 
 <a id="july-28-2026"></a>
 ### July 28, 2026 { #july-28-2026 }
+
 * [Gradle Plugin] 1.3.0
     * Added support for Android Gradle Plugin (AGP) 9.x
 
 <a id="july-14-2026"></a>
 ### July 14, 2026 { #july-14-2026 }
+
 * [Android] 1.13.3.1
     * Fixed an intermittent crash issue
 * [iOS] 1.5.5
@@ -46,6 +84,7 @@
 
 <a id="june-23-2026"></a>
 ### June 23, 2026 { #june-23-2026 }
+
 * Common
     * Renamed "Integrity Verification" feature to "App Attestation"
         * The SDK interface has been updated to reflect the App Attestation naming.
@@ -86,6 +125,7 @@
 
 <a id="june-11-2026"></a>
 ### June 11, 2026 { #june-11-2026 }
+
 * [iOS] 1.5.3
     * Fixed a false positive tampering detection when distributing to the store after protection with AppGuard SDK v1.5.2
 * [Unity] 0.4.29
@@ -95,6 +135,7 @@
  
 <a id="may-19-2026"></a>
 ### May 19, 2026 { #may-19-2026 }
+
 * [Android] 1.13.2.1
     * This version includes the changes from the deprecated versions 1.13.0.0, 1.13.1.0, and 1.13.2.0.
     * Fixed an issue where a crash occurred due to NHN AppGuard engine loading failure in certain environments.
@@ -102,6 +143,7 @@
 
 <a id="may-12-2026"></a>
 ### May 12, 2026 { #may-12-2026 }
+
 * [Android] 1.13.2.0 **(Deprecated)**
     * Improved integrity authentication
         * Extended the signature verification scope to include library Split APKs.
@@ -130,6 +172,7 @@
 
 <a id="april-22-2026"></a>
 ### April 22, 2026 { #april-22-2026 }
+
 * [Android] 1.13.1.0 **(Deprecated)**
     * Added an untrusted environment detection feature
         * Detects untrusted environments by checking the security status of the device.
@@ -153,6 +196,7 @@
 
 <a id="april-16-2026"></a>
 ### April 16, 2026 { #april-16-2026 }
+
 * [Android] 1.13.0.0 **(Deprecated)**
     * Added an integrity authentication feature
         * Verifies whether the app has been tampered with and validates the safety of the execution environment on the NHN AppGuard server, controlling access so that only successfully verified apps can access the service.
@@ -196,6 +240,7 @@
     
 <a id="march-10-2026"></a>
 ### March 10, 2026 { #march-10-2026 }
+
 * [Android] 1.12.4.18
     * Improved APK packaging tools to support 16KB page sizes
 * [iOS] 1.4.16
@@ -207,11 +252,13 @@
 
 <a id="february-10-2026"></a>
 ### February 10, 2026 { #february-10-2026 }
+
 * [Android] 1.12.4.17
     * Fixed a termination issue with single-architecture app bundles of Unity, Unreal
 
 <a id="january-27-2026"></a>
 ### January 27, 2026 { #january-27-2026 }
+
 * [Android] 1.12.4.16
 	* Improved app compatibility for React Native 0.79.0 and later
 * [iOS] 1.4.15
@@ -228,11 +275,13 @@
 
 <a id="december-16-2025"></a>
 ### December 16, 2025 { #december-16-2025 }
+
 * [Android] 1.12.4.15
     * Improved DEX encryption
 
 <a id="december-9-2025"></a>
 ### December 9, 2025 { #december-9-2025 }
+
 * [iOS] 1.4.14
     * Added the support for encryption API
     * Updated the format of the user guide from PDF to HTML
@@ -245,11 +294,13 @@
 
 <a id="november-14-2025"></a>
 ### November 14, 2025 { #november-14-2025 }
+
 * [Android] 1.12.4.14
     * Fixed an issue that An issue where obfuscation failed when protecting apps due to exceeding the Dex Reference Count
 
 <a id="november-11-2025"></a>
 ### November 11, 2025 { #november-11-2025 }
+
 * [Android] 1.12.4.13
     * Added a target app for detection in a virtual environment (clone app)
         * Virtual Master(Code: 1300)
@@ -257,6 +308,7 @@
 
 <a id="october-23-2025"></a>
 ### October 23, 2025 { #october-23-2025 }
+
 * [Android] 1.12.4.12
     * Fixed an issue that Unreal Engine 4 to crash when using Google Automatic Integrity Protection
     * Improved macro tool detection
@@ -264,6 +316,7 @@
 
 <a id="september-09-2025"></a>
 ### September 09, 2025 { #september-09-2025 }
+
 * [Android] 1.12.4.11
     * Improved application initialization exception handling
     * Fixed a single-architecture app bundle termination issue
@@ -278,6 +331,7 @@
 
 <a id="august-12-2025"></a>
 ### August 12, 2025 { #august-12-2025 }
+
 * [Android] 1.12.4.10
     * Fixed an error that caused Unreal Engine 4 emulator to crash
     * Improved the performance for app protection task
@@ -286,6 +340,7 @@
 
 <a id="july-29-2025"></a>
 ### July 29, 2025 { #july-29-2025 }
+
 * [Android] 1.12.4.9
     * Supports 16KB memory page size
     * Fixed an issue where the user ID was not properly registered in Application.onCreate() when using the Business plan
@@ -302,6 +357,7 @@
 
 <a id="june-24-2025"></a>
 ### June 24, 2025 { #june-24-2025 }
+
 * [Android] 1.12.4.8
     * Raising the minimum supported version (API 19 -> API 21)
     * Fixed an issue with control flow obfuscation for methods containing the synchronized keyword
@@ -320,6 +376,7 @@
 
 <a id="may-27-2025"></a>
 ### May 27, 2025 { #may-27-2025 }
+
 * [Android] 1.12.4.7
     * Added detection of virtual environment (clone app)
         * Extended capabilities allow detection of the following clone app environments:
@@ -344,6 +401,7 @@
 
 <a id="may-15-2025"></a>
 ### May 15, 2025 { #may-15-2025 }
+
 * [iOS] 1.4.10
     * Fixed hooking detection false positives
         * Fixed an issue where hooking detection is false positive depending on whether `ENABLE_DEBUG_DYLIB` is set in debug builds.
@@ -353,6 +411,7 @@
 
 <a id="april-29-2025"></a>
 ### April 29, 2025 { #april-29-2025 }
+
 * [Android] 1.12.4.6
     * (React Native) Fixed app crashing when applying Expo Updates
     * Fixed intermittent corruption of string obfuscation table when protecting multiple apps in parallel
@@ -362,6 +421,7 @@
 
 <a id="april-21-2025"></a>
 ### April 21, 2025 { #april-21-2025 }
+
 * [iOS] 1.4.9
     * Enhanced engine security
         * Enhanced the engine protection feature.
@@ -370,22 +430,26 @@
       
 <a id="march-25-2025"></a>
 ### March 25, 2025 { #march-25-2025 }
+
 * [Android] 1.12.4.5
     * Fixed classes.dex false positive when using Google Automatic Protection
     * Fixed an issue where the top of the exit popup would be blank when using legacy themes (@android:style/Theme.Holo.Light, etc.)
 
 <a id="march-11-2025"></a>
 ### March 11, 2025 { #march-11-2025 }
+
 * [Android] 1.12.4.4
     * Fixed abnormal shutdown errors
 
 <a id="march-7-2025"></a>
 ### March 7, 2025 { #march-7-2025 }
+
 * [Android] 1.12.4.3
     * Fixed an issue of protection operations failing when applying simple popups
 
 <a id="march-4-2025"></a>
 ### March 4, 2025 { #march-4-2025 }
+
 * [Android] 1.12.4.2
     * Fixed an issue of protection operations failing in the latest version of Unity (6000.0.38f1)
 * [iOS] 1.4.8
@@ -397,6 +461,7 @@
 
 <a id="february-12-2025"></a>
 ### February 12, 2025 { #february-12-2025 }
+
 * [iOS] 1.4.7
     * Improved engine stability
 * [Unity] 0.4.15
@@ -406,11 +471,13 @@
 
 <a id="fabruary-11-2026"></a>
 ### Fabruary 11, 2026 { #fabruary-11-2026 }
+
 * [Android] 1.12.4.1
   * Fixed DEX encryption bug
 
 <a id="february-6-2025"></a>
 ### February 6, 2025 { #february-6-2025 }
+
 * [iOS] 1.4.6
     * Fixed an issue where CPU usage increases in certain situations
 * [Unity] 0.4.14
@@ -418,11 +485,13 @@
 
 <a id="february-3-2025"></a>
 ### February 3, 2025 { #february-3-2025 }
+
 * [Gradle Plugin] 1.2.4
     * Modified not to output NHN AppGuard logs when setting the log level to `QUIET(-q | --quiet)` on Gradle build
       
 <a id="january-21-2025"></a>
 ### January 21, 2025 { #january-21-2025 }
+
 * [Android] 1.12.4.0
     * Added VPN detection
         * You can apply the feature on Console > NHN AppGuard > Policy > Android > VPN Policy Settings.
@@ -448,21 +517,25 @@
 
 <a id="january-16-2025"></a>
 ### January 16, 2025 { #january-16-2025 }
+
 * [Gradle Plugin] 1.2.3
     * Fixed an issue where the overrideOutputFile option is not working correctly
 
 <a id="january-06-2025"></a>
 ### January 06, 2025 { #january-06-2025 }
+
 * [Android] 1.12.3.2
     * Improved obfuscation exceptions handling
 
 <a id="december-24-2024"></a>
 ### December 24, 2024 { #december-24-2024 }
+
 * [Android] 1.12.3.1
     * Improved obfuscation exceptions handling
 
 <a id="december-3-2024"></a>
 ### December 3, 2024 { #december-3-2024 }
+
 * [Android] 1.12.3.0
     * Improved macrotool detection
         * Improved macroi tool (Code: 1700) detection0
@@ -477,16 +550,19 @@
 
 <a id="november-28-2024"></a>
 ### November 28, 2024 { #november-28-2024 }
+
 * [Android] 1.12.2.11
     * Fixed obfuscation issues
       
 <a id="november-8-2024"></a>
 ### November 8, 2024 { #november-8-2024 }
+
 * [Android] 1.12.2.10
     * Fixed an issue where protection task fails due to errors occurred during obfuscation
       
 <a id="november-5-2024"></a>
 ### November 5, 2024 { #november-5-2024 }
+
 * [Android] 1.12.2.9
     * Improved stability
 * [iOS] 1.4.3
@@ -498,16 +574,19 @@
 
 <a id="october-30-2024"></a>
 ### October 30, 2024 { #october-30-2024 }
+
 * [Android] 1.12.2.8
     * Fixed an issue where the service is abnormally terminated in debug mode apps
 
 <a id="october-25-2024"></a>
 ### October 25, 2024 { #october-25-2024 }
+
 * [Android] 1.12.2.7
     * Fixed an issue where the service is abnormally terminated on some low-spec devices
       
 <a id="october-15-2024"></a>
 ### October 15, 2024 { #october-15-2024 }
+
 * [Android] 1.12.2.6
     * Added virtual environment detection patterns
         * Black Box (Code: 1304)
@@ -527,12 +606,14 @@
 
 <a id="september-27-2024"></a>
 ### September 27, 2024 { #september-27-2024 }
+
 * [Android] 1.12.2.5
     * Fixed Unity tampering false positive issues (Code: 405) when using Google Automatic Integrity Protection
     * Fixed false positive issues in abusing app detection (Code: 1600)
 
 <a id="september-10-2024"></a>
 ### September 10, 2024 { #september-10-2024 }
+
 * [Android] 1.12.2.4
     * Improved app loading speed
     * Fixed an issue where, when setting android:extractNativeLibraries="false", SDK APIs do not work properly
@@ -541,21 +622,25 @@
 
 <a id="august-27-2024"></a>
 ### August 27, 2024 { #august-27-2024 }
+
 * [Console]
     * Added device model number details on the log search result
 
 <a id="august-26-2024"></a>
 ### August 26, 2024 { #august-26-2024 }
+
 * [Android] 1.12.2.3
     * Fixed an issue where the app abnormally terminated when updated.
 
 <a id="august-20-2024"></a>
 ### August 20, 2024 { #august-20-2024 }
+
 * [Android] 1.12.2.2
     * Fixed an issue where apps targeting Android 14 (API 34) are terminated abnormally on some low-specification devices
 
 <a id="august-13-2024"></a>
 ### August 13, 2024 { #august-13-2024 }
+
 * [Android] 1.12.2.1
     * Improved app loading speed
     * Added emulator detection in Android 14 (API 34)
@@ -565,6 +650,7 @@
 
 <a id="july-23-2024"></a>
 ### July 23, 2024 { #july-23-2024 }
+
 * [Android] 1.12.2.0
     * Enhanced rooting detection
 * [Console]
@@ -573,6 +659,7 @@
 
 <a id="july-9-2024"></a>
 ### July 9, 2024 { #july-9-2024 }
+
 * [Android] 1.12.1.1 
     * Fixed NHN AppGuard tampering false positive issue when using Google Automatic Integrity Protection option
         * Google Automatic Integrity Protection: `--google-pairip`
@@ -590,6 +677,7 @@
 
 <a id="june-7-2024"></a>
 ### June 7, 2024 { #june-7-2024 }
+
 * [iOS] 1.4.1
     * Improved engine stability
         * Fixed an issue where virtual memory usage increases in a specific situation.
@@ -598,11 +686,13 @@
 
 <a id="june-5-2024"></a>
 ### June 5, 2024 { #june-5-2024 }
+
 * [Android] 1.12.0.1
     * Enhanced NHN AppGuard security
 
 <a id="may-31-2024"></a>
 ### May 31, 2024 { #may-31-2024 }
+
 * [Android] 1.12.0.0
     * Added the location manipulation detection feature
         * To apply the feature, go to Console > NHN AppGuard > Policy > Android.
@@ -618,12 +708,14 @@
 
 <a id="may-14-2024"></a>
 ### May 14, 2024 { #may-14-2024 }
+
 * [Console]
   * Added the Settings tab
   * Added the feature to set detection/block alarms
 
 <a id="april-18-2024"></a>
 ### April 18, 2024 { #april-18-2024 }
+
 * [iOS] 1.3.20
     * Fixed engine malfunction issues that could occur depending on the timing of the initialization call.
 * [Unity] 0.4.7
@@ -631,6 +723,7 @@
 
 <a id="april-16-2024"></a>
 ### April 16, 2024 { #april-16-2024 }
+
 * [Android] 1.11.1.0
     * Added support for Flutter apps
         * When performing CLI protection, must use the `--flutter` option.
@@ -650,11 +743,13 @@
 
 <a id="april-3-2024"></a>
 ### April 3, 2024 { #april-3-2024 }
+
 * [Android] 1.11.0.1
     * Fixed an abnormal termination issue when running the app on Android 10
       
 <a id="april-2-2024"></a>
 ### April 2, 2024 { #april-2-2024 }
+
 * [Andorid] 1.11.0.0
     * Added the feature to protect React Native apps
         * When performing CLI protection, must use the `--react-native` option.
@@ -669,6 +764,7 @@
 
 <a id="march-12-2024"></a>
 ### March 12, 2024 { #march-12-2024 }
+
 * [Android] 1.10.6.0
     * Added the feature to protect important libraries (.so)
         * Added the feature to protect important libraries (.so) other than Unity and Unreal.
@@ -687,6 +783,7 @@
 
 <a id="february-23-2024"></a>
 ### February 23, 2024 { #february-23-2024 }
+
 * [Android] 1.10.5.5
     * Improved the malicious behavior detection pop-up design
     * Improved security
@@ -705,6 +802,7 @@
 
 <a id="february-16-2024"></a>
 ### February 16, 2024 { #february-16-2024 }
+
 * [Unity] 0.4.2
     * (iOS) Fixed NHN AppGuard iOS build issues
         * Fixed an issue where, when using Package Manager, iOS build fails.
@@ -712,6 +810,7 @@
 
 <a id="february-15-2024"></a>
 ### February 15, 2024 { #february-15-2024 }
+
 * [iOS] 1.3.15
     * Raised the minimum supported iOS version (iOS 11 or later)
     * Ended support for i386, armv7s, and armv7 architectures
@@ -721,12 +820,14 @@
 
 <a id="january-23-2024"></a>
 ### January 23, 2024 { #january-23-2024 }
+
 * [Android] 1.10.5.3
     * Improved obfuscation
         * Improved the feature to hide function calls (Hide Call).
 
 <a id="january-9-2024"></a>
 ### January 9, 2024 { #january-9-2024 }
+
 * [Android] 1.10.5.2
     * Improved DEX encryption and decryption
     * Improved MEmu emulator detection
@@ -742,11 +843,13 @@
 
 <a id="december-28-2023"></a>
 ### December 28, 2023 { #december-28-2023 }
+
 * [Android] 1.10.5.1
     * Fixed StackOverflowError issues
 
 <a id="december-19-2023"></a>
 ### December 19, 2023 { #december-19-2023 }
+
 * [Android] 1.10.5.0
     * Fixed Android 14-related issues
         * Fixed an issue that could cause abnormal termination when NHN AppGuard is applied to apps targeting Android 14 (API 34) or later.
@@ -772,6 +875,7 @@
 
 <a id="december-06-2023"></a>
 ### December 06, 2023 { #december-06-2023 }
+
 * [iOS] 1.3.12
     * Enhanced security of NHN AppGuard engine
 * [Unity] 0.3.1
@@ -779,11 +883,13 @@
 
 <a id="november-24-2023"></a>
 ### November 24, 2023 { #november-24-2023 }
+
 * [Android] 1.10.4.1
     * Fixed NHN AppGuard security vulnerabilites
 
 <a id="november-21-2023"></a>
 ### November 21, 2023. { #november-21-2023 }
+
 * [Android] 1.10.4.0
     * Enabled Amazon Appstore signature verification
         * App signature verification is enabled when protecting apps with the `--amazon` option.
@@ -803,6 +909,7 @@
 
 <a id="october-24-2023"></a>
 ### October 24, 2023 { #october-24-2023 }
+
 * [iOS] 1.3.10
     * Fixed an issue where, when protecting Unity apps with obfuscation plugins applied, protection fails
 * [Unity] 0.2.2
@@ -810,6 +917,7 @@
 
 <a id="october-19-2023"></a>
 ### October 19, 2023 { #october-19-2023 }
+
 * [Android] 1.10.3.3
     * Enhanced security of NHN AppGuard engine
     * Added MEmu emulator detection
@@ -825,6 +933,7 @@
 
 <a id="september-26-2023"></a>
 ### September 26, 2023 { #september-26-2023 }
+
 * [Android] 1.10.3.2
     * Fixed false positives related to signature tampering
         * Fixed an issue where the signature of the keystore used for app protection was determined as tampering
@@ -837,6 +946,7 @@
 
 <a id="september-13-2023"></a>
 ### September 13, 2023 { #september-13-2023 }
+
 * [Android] 1.10.3.1
     * Fixed false positives related to tampering of app signature
 * [Unity] 0.1.8
@@ -844,6 +954,7 @@
 
 <a id="september-12-2023"></a>
 ### September 12, 2023 { #september-12-2023 }
+
 * [Android] 1.10.3.0
     * [CLI] Changed an aditional option of app signature to a required item
         * When using signature methods of stores including Google Play and ONE store, the `--as` option is required
@@ -862,6 +973,7 @@
 
 <a id="august-17-2023"></a>
 ### August 17, 2023 { #august-17-2023 }
+
 * [Android] 1.10.2.2
     * Enhanced hooking detection
     * Improved engine stability
@@ -876,6 +988,7 @@
 
 <a id="july-21-2023"></a>
 ### July 21, 2023 { #july-21-2023 }
+
 * [Android] 1.10.2.1
     * Fixed abnormal termination error on app launch
     * Improved obfuscation
@@ -884,6 +997,7 @@
 
 <a id="july-11-2023"></a>
 ### July 11, 2023 { #july-11-2023 }
+
 * [Android] 1.10.2.0
     * Enhanced abusing app detection
     * Improved NHN AppGuard default policy
@@ -902,17 +1016,20 @@
 
 <a id="july-6-2023"></a>
 ### July 6, 2023 { #july-6-2023 }
+
 * [Android] 1.10.1.2
     * Enhanced rooting detection
     * Improved stability
 
 <a id="june-16-2023"></a>
 ### June 16, 2023 { #june-16-2023 }
+
 * [Unity] 0.1.5
     * Updated to iOS SDK 1.3.5
 
 <a id="june-15-2023"></a>
 ### June 15, 2023 { #june-15-2023 }
+
 * [iOS] 1.3.5
     * Enhanced detection of Info.plist tampering
 * [iOS] 1.3.4
@@ -922,6 +1039,7 @@
 
 <a id="june-13-2023"></a>
 ### June 13, 2023 { #june-13-2023 }
+
 * [Android] 1.10.1.0
     * Improved detection performance of the macro tool
     * Added support for Amazon Appstore
@@ -941,6 +1059,7 @@
 
 <a id="may-30-2023"></a>
 ### May 30, 2023 { #may-30-2023 }
+
 * [Android] 1.10.0.5
     * Fixed identifier obfuscation errors
 
@@ -949,6 +1068,7 @@
 
 <a id="may-11-2023"></a>
 ### May 11, 2023 { #may-11-2023 }
+
 * [iOS] 1.3.2
     * Enhanced engine security (Unity)
 
@@ -958,11 +1078,13 @@
 
 <a id="may-2-2023"></a>
 ### May 2, 2023 { #may-2-2023 }
+
 * [Android] 1.10.0.4
     * Fixed false positives in permission tampering (400_106_0)
 
 <a id="april-25-2023"></a>
 ### April 25, 2023 { #april-25-2023 }
+
 * [Android] 1.10.0.3
     * Added detection of tampering with the android:debuggable property in AndroidManifest.xml
     * Fixed library packing errors
@@ -983,17 +1105,20 @@
 
 <a id="april-14-2023"></a>
 ### April 14, 2023 { #april-14-2023 }
+
 * [Android] 1.10.0.2
     * Fixed abnormal shutdown issues on 32 bit emulators
     * Fixed string obfuscation issues
 
 <a id="april-10-2023"></a>
 ### April 10, 2023 { #april-10-2023 }
+
 * [Android] 1.10.0.1
     * Fixed string encryption errors
         
 <a id="march-28-2023"></a>
 ### March 28, 2023 { #march-28-2023 }
+
 * [Android] 1.10.0.0
     * Improved application shutdown logic when external attacks are detected
     * Changed pricing plans (Business, Enterprise, Game)
@@ -1010,6 +1135,7 @@
 
 <a id="february-28-2023"></a>
 ### February 28, 2023 { #february-28-2023 }
+
 * [Android] 1.9.13.5
     * Improved detection of abusing app licenses
     * Fixed an issue where conditional block policy is not applied
@@ -1022,11 +1148,13 @@
 
 <a id="february-8-2023"></a>
 ### February 8, 2023 { #february-8-2023 }
+
 * [Android] 1.9.13.1
     * Fixed DEX obfuscation issues
 
 <a id="january-31-2023"></a>
 ### January 31, 2023 { #january-31-2023 }
+
 * [Android] 1.9.13.0
     * Changed encryption API header
     * Fixed app bundle issues
@@ -1042,6 +1170,7 @@
 
 <a id="december-27-2022"></a>
 ### December 27, 2022 { #december-27-2022 }
+
 * [Android] 1.9.12.0
     * Ended support for client policies
     * Added default policy features
@@ -1053,6 +1182,7 @@
 
 <a id="december-13-2022"></a>
 ### December 13, 2022 { #december-13-2022 }
+
 * [Android] 1.9.11.2
     * Fixed API exposure issues
     * Fixed LifecycleCallback issues
@@ -1061,11 +1191,13 @@
 
 <a id="december-7-2022"></a>
 ### December 7, 2022 { #december-7-2022 }
+
 * [Android] 1.9.11.1
     * Fixed false positives related to tampering
 
 <a id="november-29-2022"></a>
 ### November 29, 2022 { #november-29-2022 }
+
 * [Android] 1.9.11.0
     * Fixed frame drop issues
     * Fixed an issue of not detecting SSL pinning bypass
@@ -1079,27 +1211,32 @@
 
 <a id="november-9-2022"></a>
 ### November 9, 2022 { #november-9-2022 }
+
 * [Android] 1.9.10.2
     * Fixed background crash issues
 
 <a id="november-2-2022"></a>
 ### November 2, 2022 { #november-2-2022 }
+
 * [Android] 1.9.10.1
     * Fixed crash issues
 
 <a id="october-28-2022"></a>
 ### October 28, 2022 { #october-28-2022 }
+
 * [iOS] 1.2.6
     * Enhanced the security of the engine
 
 <a id="october-25-2022"></a>
 ### October 25, 2022 { #october-25-2022 }
+
 * [Android] 1.9.10.0
     * Enhanced the emulator detection function
     * Enhanced detection of hacking tools
 
 <a id="october-14-2022"></a>
 ### October 14, 2022 { #october-14-2022 }
+
 * [Android] 1.9.9.2
     * Added support for LDPlayer4 64bit emulator
     * Added a Korean warning screen
@@ -1109,11 +1246,13 @@
 
 <a id="october-7-2022"></a>
 ### October 7, 2022 { #october-7-2022 }
+
 * [Android] 1.9.9.1
     * Removed the version
 
 <a id="october-4-2022"></a>
 ### October 4, 2022 { #october-4-2022 }
+
 * [Android] 1.9.9.0
     * Removed the version
 
@@ -1124,11 +1263,13 @@
 
 <a id="september-8-2022"></a>
 ### September 8, 2022 { #september-8-2022 }
+
 * [Android] 1.9.8.1
     * Fixed manifest issues
 
 <a id="august-23-2022"></a>
 ### August 23, 2022 { #august-23-2022 }
+
 * [Android] 1.9.8.0
     * Added support for Crema device 
     * Added support for BluesStacks, Nox, LDPlayer9 64-bit emulators
@@ -1142,6 +1283,7 @@
 
 <a id="july-26-2022"></a>
 ### July 26, 2022 { #july-26-2022 }
+
 * [Android] 1.9.7.0
     * Enhanced the security of the engine
     * Fixed manifest bug
@@ -1156,6 +1298,7 @@
 
 <a id="july-6-2022"></a>
 ### July 6, 2022 { #july-6-2022 }
+
 * [Android] 1.9.6.1
     * Fixed ANR issues
     * Enhanced the security of the engine
@@ -1165,6 +1308,7 @@
 
 <a id="june-30-2022-feature-updates"></a>
 #### Feature Updates
+
 * [Android] 1.9.6.0
     * Fixed some ANR issues
     * Enhanced the security of the engine
@@ -1183,6 +1327,7 @@
 
 <a id="may-24-2022-feature-updates"></a>
 #### Feature Updates
+
 * [Android] 1.9.5.0
     * Improved the blacklist blocking function
     * Fixed some crash issues
@@ -1199,6 +1344,7 @@
 
 <a id="may-10-2022-feature-updates"></a>
 #### Feature Updates
+
 * [Android] 1.9.4.1
     * Improved ANR and crash issues
     * Improved callback data
@@ -1210,6 +1356,7 @@
 
 <a id="april-26-2022-feature-updates"></a>
 #### Feature Updates
+
 * [Android] 1.9.4.0
     * Removed the version
 
@@ -1225,6 +1372,7 @@
 
 <a id="march-29-2022-feature-updates"></a>
 #### Feature Updates
+
 * [Android] 1.9.3.0
     * Improved DEX encryption
     * Separated the macro tool policy from the cheating tool policy
@@ -1247,6 +1395,7 @@
 
 <a id="february-22-2022-feature-updates"></a>
 #### Feature Updates
+
 * [Android] 1.9.2.0
     * Enhanced detection of abusing apps
     * Improved protection of large apps
@@ -1268,6 +1417,7 @@
 
 <a id="january-25-2022-feature-updates"></a>
 #### Feature Updates
+
 * [Android] 1.9.1.0
     * Improved handling of isolated processes
     * Enhanced detection of Hacking tools
@@ -1285,6 +1435,7 @@
 
 <a id="december-28-2021-feature-updates"></a>
 #### Feature Updates
+
 * [Android] 1.9.0.0
     * Modified so that the protection operation is performed by specifying the AppGuard version
     * Enhanced detection of Hacking tools
@@ -1296,6 +1447,7 @@
 
 <a id="december-28-2021-bug-fixes"></a>
 #### Bug Fixes
+
 * [iOS] 1.1.7
     * Applied a bug patch for protector
     * Applied a bug patch for re-signer
@@ -1305,6 +1457,7 @@
 
 <a id="2021-12-02-bug-fixes"></a>
 #### Bug Fixes
+
 * [Android] 1.8.9.1
     * Fixed a crash issue with the alert window
 
@@ -1313,12 +1466,14 @@
 
 <a id="november-23-2021-feature-updates"></a>
 #### Feature Updates
+
 * [Android] 1.8.9.0
     * Enhanced the security of the engine
     * Deployed the CLI with a new structure
 
 <a id="november-23-2021-november-23-2021-feature-updates"></a>
 #### Feature Updates
+
 * [iOS] 1.1.6
     * Enhanced the security of the engine
     * Improved the protector feature
@@ -1328,6 +1483,7 @@
 
 <a id="november-4-2021-bug-fixes"></a>
 #### Bug Fixes
+
 * [iOS] 1.1.5
     * Fixed a bug related to protector app name extraction
 
@@ -1336,6 +1492,7 @@
 
 <a id="october-26-2021-feature-updates"></a>
 #### Feature Updates
+
 * [Android] 1.8.8.0
     * Enhanced the security of the engine
     * Improved the encryption API functionality
@@ -1345,6 +1502,7 @@
 
 <a id="october-8-2021-bug-fixes"></a>
 #### Bug Fixes
+
 * [Android] 1.8.7.1
     * Fixed an error in the Google Play Asset Delivery support function
 
@@ -1353,12 +1511,14 @@
 
 <a id="september-28-2021-feature-updates"></a>
 #### Feature Updates
+
 * [Android] 1.8.7.0
     * Enhanced the security of the engine
     * Added Google SafetyNet malicious app detection
 
 <a id="september-28-2021-september-28-2021-feature-updates"></a>
 #### Feature Updates
+
 * [iOS] 1.1.4
     * Enhanced the security of the engine
     * Reinforced protection feature through AppGuard protector
@@ -1368,6 +1528,7 @@
 
 <a id="september-1-2021-bug-fixes"></a>
 #### Bug Fixes
+
 * [Android] 1.8.6.1
     * Fixed the crash on Unity using SQLite
     * Modified security features of Unreal
@@ -1377,6 +1538,7 @@
 
 <a id="august-24-2021-feature-updates"></a>
 #### Feature Updates
+
 * [Android] 1.8.6.0
     * Enhanced the security of the engine
     * Improved security features of Unreal
@@ -1388,6 +1550,7 @@
 
 <a id="july-27-2021-feature-updates"></a>
 #### Feature Updates
+
 * [iOS] 1.1.2
     * Enhanced the security of the engine
     * Project update
@@ -1400,6 +1563,7 @@
 
 <a id="july-13-2021-feature-updates"></a>
 #### Feature Updates
+
 * [Android] 1.8.5.1
     * Improve the feature for app support that applies Google Play Asset Delivery
 
@@ -1408,6 +1572,7 @@
 
 <a id="june-29-2021-feature-updates"></a>
 #### Feature Updates
+
 * [Android] 1.8.5.0
     * Enhanced the security of the engine
     * Improved the security features of Unity
@@ -1423,6 +1588,7 @@
 
 <a id="may-25-2021-feature-updates"></a>
 #### Feature Updates
+
 * [iOS] 1.1.0
     * Improved the engine performance
     * Improved the stability of the engine
@@ -1432,6 +1598,7 @@
 
 <a id="may-24-2021-feature-updates"></a>
 #### Feature Updates
+
 * [Android] 1.8.4.0
     * Enhanced the security of the engine
     * Improved the stability of the engine
@@ -1442,6 +1609,7 @@
 
 <a id="may-11-2021-feature-updates"></a>
 #### Feature Updates
+
 * [Android] 1.8.3.1
 	* Added the remote control detecting function
 	
@@ -1450,6 +1618,7 @@
 
 <a id="april-27-2021-feature-updates"></a>
 #### Feature Updates
+
 * Changed service name (AppGuard -> NHN AppGuard)
 * [Android] 1.8.3.0
 	* Enhanced the security of NHN AppGuard Engine
@@ -1463,6 +1632,7 @@
 
 <a id="april-12-2021-bug-fixes"></a>
 #### Bug Fixes
+
 * [iOS] 1.0.17
     * Added the NHN AppGuard hooking detection logic
 
@@ -1471,6 +1641,7 @@
 
 <a id="april-9-2021-bug-fixes"></a>
 #### Bug Fixes
+
 * [Android] 1.8.2.2
 	* Fixed the crashing issues in the Cocos2d engine emulator
 	
@@ -1479,6 +1650,7 @@
 
 <a id="march-31-2021-bug-fixes"></a>
 #### Bug Fixes
+
 * [Android] 1.8.2.1
 	* Fixed the crashing issues in the Facebook SDK
 	
@@ -1487,6 +1659,7 @@
 
 <a id="march-23-2021-feature-updates"></a>
 #### Feature Updates
+
 * [Android] 1.8.2.0
 	* Enhanced the security of NHN AppGuard Engine
 * [iOS] 1.0.16
@@ -1497,6 +1670,7 @@
 
 <a id="february-23-2021-feature-updates"></a>
 #### Feature Updates
+
 * [Android] 1.8.1.0
 	* CLI feature improved
 	* Improved the stability of NHN AppGuard Engine
@@ -1510,6 +1684,7 @@
 
 <a id="january-26-2021-feature-updates"></a>
 #### Feature Updates
+
 * [Android] 1.8.0.1
 	* Third party store support
 	* Upgraded detection of game hacks
@@ -1519,6 +1694,7 @@
 
 <a id="december-29-2020-bug-fixes"></a>
 #### Bug Fixes
+
 * Improved the stability of NHN AppGuard Engine
 
 <a id="august-25-2020"></a>
@@ -1526,6 +1702,7 @@
 
 <a id="august-25-2020-feature-updates"></a>
 #### Feature Updates
+
 * [Android] Updated detection of virtual environment
 * [iOS] Upgraded detection of jailbreaking
 * [iOS] Upgraded detection of game hacks
@@ -1535,6 +1712,7 @@
 
 <a id="july-28-2020-feature-updates"></a>
 #### Feature Updates
+
 * [Android] Added detection of virtual environment
 * [iOS] Upgraded detection of jailbreaking
 * [iOS] Sophisticated forced closure
@@ -1542,6 +1720,7 @@
 
 <a id="july-28-2020-bug-fixes"></a>
 #### Bug Fixes
+
 * [Android] Updated crashes in Unity Mono Emulator version 7
 * [iOS] Updated clashes in Gamepot framework
 
@@ -1550,11 +1729,13 @@
 
 <a id="june-23-2020-feature-updates"></a>
 #### Feature Updates
+
 * Updated downsizing NHN AppGuard volume
 * Enhanced the security of NHN AppGuard Engine
 
 <a id="june-23-2020-bug-fixes"></a>
 #### Bug Fixes
+
 * Fixed bugs in unreal engine protection
 
 <a id="may-26-2020"></a>
@@ -1562,10 +1743,12 @@
 
 <a id="may-26-2020-feature-updates"></a>
 #### Feature Updates
+
 * Added the obfuscation application
 
 <a id="may-26-2020-bug-fixes"></a>
 #### Bug Fixes
+
 * Improved the stability of NHN AppGuard Engine
 
 <a id="april-28-2020"></a>
@@ -1573,6 +1756,7 @@
 
 <a id="april-28-2020-feature-updates"></a>
 #### Feature Updates
+
 * Added the detection of attacks with SSL pinning
 
 <a id="march-24-2020"></a>
@@ -1580,6 +1764,7 @@
 
 <a id="march-24-2020-feature-updates"></a>
 #### Feature Updates
+
 * Supports the Android 7.0 emulator
 
 <a id="february-25-2020"></a>
@@ -1587,6 +1772,7 @@
 
 <a id="february-25-2020-feature-updates"></a>
 #### Feature Updates
+
 * Added the countermeasure logic to forged apps
 
 <a id="january-21-2020"></a>
@@ -1594,6 +1780,7 @@
 
 <a id="january-21-2020-feature-updates"></a>
 #### Feature Updates
+
 * Improved the stability of NHN AppGuard Engine
 
 <a id="december-24-2019"></a>
@@ -1601,6 +1788,7 @@
 
 <a id="december-24-2019-feature-updates"></a>
 #### Feature Updates
+
 * Added the Cocos2d-x engine encryption module
 
 <a id="november-26-2019"></a>
@@ -1608,10 +1796,12 @@
 
 <a id="november-26-2019-feature-updates"></a>
 #### Feature Updates
+
 * Allows to select NHN AppGuard version
 
 <a id="november-26-2019-bug-fixes"></a>
 #### Bug Fixes
+
 * Fixed string obfuscation bugs
 
 <a id="october-29-2019"></a>
@@ -1619,12 +1809,14 @@
 
 <a id="october-29-2019-feature-updates"></a>
 #### Feature Updates
+
 * Updated the anti-debugging feature
 * Updated game hack detection
 * Added the memory search detection feature
 
 <a id="october-29-2019-bug-fixes"></a>
 #### Bug Fixes
+
 * Improved the stability of NHN AppGuard Engine
 
 <a id="september-24-2019"></a>
@@ -1632,6 +1824,7 @@
 
 <a id="september-24-2019-feature-updates"></a>
 #### Feature Updates
+
 * Enhanced Stability for NHN AppGuard Android Q
 
 <a id="august-27-2019"></a>
@@ -1639,6 +1832,7 @@
 
 <a id="august-27-2019-feature-updates"></a>
 #### Feature Updates
+
 * Supports Android Q
 * Added conditional block on web console and blacklisting
 * Added real-time policy setting for NHN AppGuard iOS
@@ -1651,12 +1845,14 @@
 
 <a id="july-23-2019-feature-updates"></a>
 #### Feature Updates
+
 * Supports Android App Bundle
 * Added Unity library packing
 * Added macro detection of Unity MONO build
 
 <a id="july-23-2019-bug-fixes"></a>
 #### Bug Fixes
+
 * Fixed bugs in dex integrity check
 
 <a id="june-25-2019"></a>
@@ -1664,12 +1860,14 @@
 
 <a id="june-25-2019-feature-updates"></a>
 #### Feature Updates
+
 * Upgraded NHN AppGuard 64-bit library protection
 * Added obfuscation in NHN AppGuard control flow
 * Added crash reporting
 
 <a id="june-25-2019-bug-fixes"></a>
 #### Bug Fixes
+
 * Fixed bugs in the check of authority change of NHN AppGuard path
 
 <a id="may-28-2019"></a>
@@ -1677,6 +1875,7 @@
 
 <a id="may-28-2019-feature-updates"></a>
 #### Feature Updates
+
 * Changed to add 64-bit library as default, according to Google guides
 	* Before Change: 32 or 64-bit library was added depending on user's ABI
 	* Now: Both 32 and 64-bit library are available
@@ -1684,6 +1883,7 @@
 
 <a id="may-28-2019-bug-fixes"></a>
 #### Bug Fixes
+
 * [Android] Fixed undetected emulator bugs
 * [iOS] Fixed bugs in integrity check
 
@@ -1692,6 +1892,7 @@
 
 <a id="april-23-2019-feature-updates"></a>
 #### Feature Updates
+
 * Added the Unity IL2CPP method encryption feature
 	* Applied with CLI option `--il2cpp-encryption`
 * Added the Unity MONO method encryption feature
@@ -1701,6 +1902,7 @@
 
 <a id="april-23-2019-bug-fixes"></a>
 #### Bug Fixes
+
 * Fixed error in duplicate multi-dex installation on Android OS 4.X version
 
 <a id="march-26-2019"></a>
@@ -1708,6 +1910,7 @@
 
 <a id="march-26-2019-feature-updates"></a>
 #### Feature Updates
+
 * Applies Unity Library obfuscation
 * Added NHN AppGuard API / Method obfuscation function
 
@@ -1716,6 +1919,7 @@
 
 <a id="february-26-2019-feature-updates"></a>
 #### Feature Updates
+
 * Applies NHN AppGuard self-obfuscation
 * Upgraded the compatibility for the latest Unity version(2018)
 	* Build encryption for MONO and IL2CPP
@@ -1727,6 +1931,7 @@
 
 <a id="january-29-2019-feature-updates"></a>
 #### Feature Updates
+
 * Improved the compatibility for the latest Unity version
 
 <a id="december-27-2018"></a>
@@ -1734,6 +1939,7 @@
 
 <a id="december-27-2018-feature-updates"></a>
 #### Feature Updates
+
 * Enhanced NHN AppGuard self-protection
 * Added obfuscation of Dex Loader
 * Added hooking detection pattern
@@ -1747,6 +1953,7 @@
 
 <a id="november-27-2018-feature-updates"></a>
 #### Feature Updates
+
 * Enhanced encryption for Unity il2cpp build
 * Enhanced hooking detection
 
@@ -1755,6 +1962,7 @@
 
 <a id="october-23-2018-feature-updates"></a>
 #### Feature Updates
+
 * Added the feature of confirming NHN AppGuard application
 * Enhanced rooting detection
 * Enhanced debugging detection
@@ -1764,6 +1972,7 @@
 
 <a id="august-28-2018-bug-fixes"></a>
 #### Bug Fixes
+
 * NHN AppGuard Unity SDK
 	* Fixed integration bugs for Unity 5 or lower versions
 
@@ -1772,6 +1981,7 @@
 
 <a id="july-24-2018-feature-updates"></a>
 #### Feature Updates
+
 * Supports Unreal Engine 4
 	* Supports protection of game codes for Unreal Engine 4
 
@@ -1780,6 +1990,7 @@
 
 <a id="june-26-2018-feature-updates"></a>
 #### Feature Updates
+
 * Upgraded compatibility for Android P(9.0)
 * NHN AppGuard Unity SDK
     * Supports UNITY 2018
@@ -1789,10 +2000,12 @@
 
 <a id="may-29-2018-feature-updates"></a>
 #### Feature Updates
+
 * Enhanced detection of memory manipulation
     * Enhanced the detection feature of memory manipulation based on cheating tools
 <a id="may-29-2018-bug-fixes"></a>
 #### Bug Fixes
+
 * Fixed excessive battery consumption by the anti-debugging feature of Level 3
 
 <a id="april-24-2018"></a>
@@ -1800,6 +2013,7 @@
 
 <a id="april-24-2018-feature-updates"></a>
 #### Feature Updates
+
 * Supports game code encryption for Unity il2cpp build
     * Supports il2cpp build by extending game code encryption, which was supported only for Mono builds
 * Improved anti-debugging (app analysis prevention technology)
@@ -1810,6 +2024,7 @@
 
 <a id="february-20-2018-bug-fixes"></a>
 #### Bug Fixes
+
 * Fixed errors in which apps with NHN AppGuard Level2 were not running properly on the Momo App Player 1.2.1 version
 
 <a id="january-24-2018"></a>
@@ -1817,6 +2032,7 @@
 
 <a id="january-24-2018-bug-fixes"></a>
 #### Bug Fixes
+
 * Fixed errors on particular Android 8.x devices, for which Level 2 was not properly executed on apps developed with Unity 2017
 
 <a id="december-21-2017"></a>
@@ -1824,9 +2040,11 @@
 
 <a id="december-21-2017-feature-updates"></a>
 #### Feature Updates
+
 * Enhanced speed hack detection on Unity
 <a id="december-21-2017-bug-fixes"></a>
 #### Bug Fixes
+
 * Fixed an error that occurred during the protection operation in the latest version of Unity Personal (2017.x.x version)
 * Fixed unnecessary size increase of apk when protecting multi-dex (3 or more) apps
 
@@ -1835,10 +2053,12 @@
 
 <a id="august-24-2017-feature-updates"></a>
 #### Feature Updates
+
 * Removed the Charged/Charge-Free selection window (as of September 1)
 * Supports Android 8.0
 <a id="august-24-2017-bug-fixes"></a>
 #### Bug Fixes
+
 * Modified the module (CLIUpdater.exe) that automatically updates the NHN AppGuard CLI(AppGuard.exe), which requires updates
 * Requires CLI of latest SDK (if you don't want automatic updates, add `--noUpdate` as CLI option)
 
@@ -1847,6 +2067,7 @@
 
 <a id="july-20-2017-feature-updates"></a>
 #### Feature Updates
+
 * Fixed an error in which the callback function was not called when detected, on Level 1~3
 * Sets volume optimization as an option for Level 1~3
 
@@ -1855,6 +2076,7 @@
 
 <a id="june-22-2017-feature-updates"></a>
 #### Feature Updates
+
 * Includes NHN AppGuard modules for each architecture, when using 64 bit architecture for x86_64 and jni for arm64-v8a.
 * Divides SDK download paths for Android from iOS(Beta)
 * Free service for iOS (Beta) users
@@ -1867,6 +2089,7 @@
 
 <a id="may-25-2017-feature-updates"></a>
 #### Feature Updates
+
 * Simplified the application method for Android
 * Previously: Protection after SDK integration
 * Now: Application is available only with protection (although SDK integration is required selectively, such as user ID identifier for registration, it is much simpler than before.)
@@ -1881,6 +2104,7 @@
 
 <a id="april-20-2017-bug-fixes"></a>
 #### Bug Fixes
+
 * Fixed some app installation issues when app forgery prevention is applied
 * Enhanced compatibility with apps that use external resources when app forgery prevention is applied
 * Fixed app guard build error in version 5.6 of Unity3d
@@ -1890,6 +2114,7 @@
 
 <a id="april-4-2017-bug-fixes"></a>
 #### Bug Fixes
+
 * Fixed multidex bugs of app forgery prevention
 
 <a id="march-23-2017"></a>
@@ -1897,10 +2122,12 @@
 
 <a id="march-23-2017-feature-updates"></a>
 #### Feature Updates
+
 * [SDK] Added the support of Unity3d il2cpp build
 
 <a id="march-23-2017-bug-fixes"></a>
 #### Bug Fixes
+
 * Fixed an issue where blocking logic was not executed normally when policy update was delayed
 * Fixed an issue where unnecessary exceptions were output to Android logs
 
@@ -1909,11 +2136,13 @@
 
 <a id="january-19-2017-feature-updates"></a>
 #### Feature Updates
+
 * [SDK] Newly deployed NHN AppGuard iOS SDK
 * Enhanced the app forgery prevention feature
 
 <a id="january-19-2017-bug-fixes"></a>
 #### Bug Fixes
+
 * Fixed synchronization error between policy settings and detection logic
 * Fixed crash issue based on network conditions (updates on log transfer library)
 
@@ -1922,6 +2151,7 @@
 
 <a id="december-22-2016-feature-updates"></a>
 #### Feature Updates
+
 * Added detection pattern of cheating tool
 * [Console] Added the NHN AppGuard Engine version information to detection logs
 
@@ -1930,11 +2160,13 @@
 
 <a id="december-8-2016-feature-updates"></a>
 #### Feature Updates
+
 * Added rooting detection pattern
 * [SDK] Added multi-lingual setting API at message when blocking in NHN AppGuard
 
 <a id="december-8-2016-bug-fixes"></a>
 #### Bug Fixes
+
 * [Console] Fixed an error that the protection failed but appears to be successful on the web console
 
 <a id="november-24-2016"></a>
