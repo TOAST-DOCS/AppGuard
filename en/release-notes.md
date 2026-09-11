@@ -17,7 +17,7 @@
 * [Android] 1.14.0.0
     * Added a feature to specify DEX encryption targets
         * Added a feature to select DEX encryption targets by package or class.
-        * For more information, see **Android Developer's Guide > 3. Unified Configuration File > 3.2 Settings by Feature > DEX Encryption Target Specification**.
+        * For more information, see **Android Developer's Guide > 3. Unified Configuration File > 3.2 Feature-Specific Settings > DEX Encryption Target Specification**.
     * Added support for unified configuration files
         * Improved to allow you to manage resource string obfuscation rules and DEX encryption scope in a single unified configuration file.
         * For more information, see **Android Developer's Guide > 3. Unified Configuration File**.
