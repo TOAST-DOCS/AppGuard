@@ -17,29 +17,28 @@
 * [Android] 1.14.0.0
     * Added a feature to specify DEX encryption targets
         * Added a feature to select DEX encryption targets by package or class.
-        * For more information, see **Android Developer's Guide > 3. Unified Configuration File > 3.2 Settings by Feature > DEX Encryption Target Specification**.
+        * For more information, see **Android Developer's Guide > 3. Unified Configuration File > 3.2 Feature-Specific Settings > Specify DEX Encryption Targets**.
     * Added support for unified configuration files
-        * Improved to allow you to manage resource string obfuscation rules and DEX encryption scope in a single unified configuration file.
+        * Updated to allow resource string obfuscation rules and DEX encryption scope to be managed in a single unified configuration file.
         * For more information, see **Android Developer's Guide > 3. Unified Configuration File**.
     * Added an Android ID-based blacklist feature
-        * Added a feature to register specific devices to the blacklist based on Android ID.
-    * Added emulator detection patterns
-        * Added UgPhone emulator detection patterns.
+        * Added a feature to register specific devices in the blacklist based on Android ID.
     * Bug Fixes
-        * Fixed an issue where the app terminated abnormally during MyCard payment.
-        * Fixed a false positive that occurred when detecting remote control apps.
+        * Fixed an issue where the app terminated abnormally during MyCard payments.
+        * Fixed false positives that occurred when detecting remote control apps.
+    * Improved stability.
 * [iOS] 1.6.0
     * Raised the minimum supported iOS version
-        * Raised the minimum supported version to iOS 13.
-    * Improved stability
+        * Updated the minimum supported version to iOS 13.
+    * Improved stability.
 * [Unity] 0.5.2
-    * Fixed an issue where blocking did not work correctly when SecureValue was tampered with in iOS environments.
+    * Fixed an issue where blocking did not work properly when SecureValue was tampered with in the iOS environment.
     * Updated to iOS SDK 1.6.0
 * [Unreal] 0.2.11
     * Updated to iOS SDK 1.6.0
 * [Console]
-    * Added a unified configuration file upload feature for Android
-        * Added a feature to upload unified configuration files for use in Android app protection tasks.
+    * Added a feature to upload Android unified configuration files
+        * Added a feature to upload a unified configuration file for use in Android App Protection tasks.
     * Added an Android ID-based blacklist blocking feature
         * Added a feature to block specific devices based on Android ID in the blacklist.
 
