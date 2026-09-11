@@ -23,11 +23,10 @@
         * For more information, see **Android Developer's Guide > 3. Unified Configuration File**.
     * Added an Android ID-based blacklist feature
         * Added a feature to register specific devices to the blacklist based on Android ID.
-    * Added emulator detection patterns
-        * Added UgPhone emulator detection patterns.
     * Bug Fixes
         * Fixed an issue where the app terminated abnormally during MyCard payment.
         * Fixed a false positive that occurred when detecting remote control apps.
+    * Improved stability
 * [iOS] 1.6.0
     * Raised the minimum supported iOS version
         * Raised the minimum supported version to iOS 13.
