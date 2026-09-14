@@ -1,4 +1,4 @@
-<!-- pre-align:aligned sig=badc8b8df20b -->
+<!-- pre-align:aligned sig=92dd702dd652 -->
 
 <a id="security-nhn-appguard-api-guide"></a>
 ## Security > NHN AppGuard > API 가이드 { #security-nhn-appguard-api-guide }
@@ -168,7 +168,7 @@ curl -X GET "https://appguard.api.nhncloudservice.com/v1.0/appkeys/{appkey}/dash
 <a id="dashboard-error-code"></a>
 #### 오류 코드
 
-아래에 명시되지 않은 코드는 [API Gateway의 Gateway 오류 코드](https://docs.nhncloud.com/ko/Application%20Service/API%20Gateway/ko/error-code/)와 HTTP Response Status Code (RFC9110)를 따릅니다.
+아래에 명시되지 않은 코드는 [API Gateway의 Gateway 오류 코드](/Application%20Service/API%20Gateway/ko/error-code/)와 HTTP Response Status Code (RFC9110)를 따릅니다.
 
 | code | message | 설명 | 비고 |
 | ---- | ------- | --- | --- |
@@ -177,10 +177,10 @@ curl -X GET "https://appguard.api.nhncloudservice.com/v1.0/appkeys/{appkey}/dash
 | 4010007 | Invalid user access key. | 잘못된 user access key |  |
 | 4010008 | Invalid user access key or secret access key. | 잘못된 user access key 또는 secret access key |  |
 
-<a id="integrity-verification-api-guide"></a>
-## 무결성 검증 API 가이드 { #integrity-verification-api-guide }
+<a id="app-attestation-api-guide"></a>
+## 앱 증명 API 가이드 { #app-attestation-api-guide }
 
-무결성 검증 API를 사용하려면 [문의하기](https://www.nhncloud.com/kr/support/inquiry?alias=tab3_08)에서 권한을 요청해야 합니다.
+앱 증명 API를 사용하려면 [문의하기](https://www.nhncloud.com/kr/support/inquiry?alias=tab3_08)에서 권한을 요청해야 합니다.
 
 [API 도메인]
 
@@ -284,3 +284,16 @@ curl -X GET 'https://api-integrityguard.nhncloudservice.com/integrity-api/v1.0/c
 
 </p>
 </details>
+
+<a id="get-token-info-error-codes"></a>
+#### 오류 코드
+
+아래 오류가 발생하더라도 HTTP 상태 코드는 200으로 반환됩니다. 성공 여부는 `header.resultCode`를 기준으로 판단해야 합니다.
+
+| code | message | 설명 | 비고 |
+| ---- | ------- | --- | --- |
+| 4000001 | INVALID_PARAMETER | 잘못된 인자 | `Authorization` 헤더가 없는 경우 |
+| 4000022 | TOKEN_NOT_EXIST | 토큰이 존재하지 않음 | 존재하지 않는 토큰이거나, 이미 검증되어 삭제된 일회성 토큰을 다시 사용한 경우 |
+| 4000023 | TOKEN_EXPIRED | 토큰 유효 기간 만료 | 토큰의 유효 기간(`exp`)이 지난 경우 |
+| 4000024 | TOKEN_VERIFICATION_FAILED | 토큰 검증 실패 | 서명 불일치, 토큰 형식 오류 등 |
+| 4000028 | INVALID_AUTH | 잘못된 `Authorization` 헤더 형식 | `Bearer {token}` 형식이 아닌 경우 |
