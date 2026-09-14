@@ -17,17 +17,16 @@
 * [Android] 1.14.0.0
     * Added a feature to specify DEX encryption targets
         * Added a feature to select DEX encryption targets by package or class.
-        * For more information, see **Android Developer's Guide > 3. Unified Configuration File > 3.2 Settings by Feature > DEX Encryption Target Specification**.
+        * For more information, see **Android Developer's Guide > 3. Unified Configuration File > 3.2 Feature-Specific Settings > DEX Encryption Target Specification**.
     * Added support for unified configuration files
         * Improved to allow you to manage resource string obfuscation rules and DEX encryption scope in a single unified configuration file.
         * For more information, see **Android Developer's Guide > 3. Unified Configuration File**.
     * Added an Android ID-based blacklist feature
         * Added a feature to register specific devices to the blacklist based on Android ID.
-    * Added emulator detection patterns
-        * Added UgPhone emulator detection patterns.
     * Bug Fixes
         * Fixed an issue where the app terminated abnormally during MyCard payment.
         * Fixed a false positive that occurred when detecting remote control apps.
+    * Improved stability
 * [iOS] 1.6.0
     * Raised the minimum supported iOS version
         * Raised the minimum supported version to iOS 13.
