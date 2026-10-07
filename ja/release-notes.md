@@ -1,6 +1,6 @@
 <!-- machine_translated: true -->
 
-<!-- pre-align:aligned sig=cf94e413e2c9 -->
+<!-- pre-align:aligned sig=9e5a3f34677f -->
 
 <a id="security-nhn-appguard-release-notes"></a>
 ## Security > NHN AppGuard > リリースノート { #security-nhn-appguard-release-notes }
