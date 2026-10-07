@@ -7,9 +7,18 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.14.0.0 | September 15, 2026  | latest |
+| Android  | 1.14.1.0 | October 15, 2026  | latest |
 | Android  | 1.12.4.18 | 2026. 03. 10.  | stable |
 | iOS      | 1.6.0    | September 15, 2026  | latest |
+
+<a id="october-15-2026"></a>
+### October 15, 2026 { #october-15-2026 }
+* [Android] 1.14.1.0
+    * Enhanced detection of app tampering
+    * Enhanced security
+* [Unity] 0.5.3
+    * Fixed a class name conflict with external SDKs
+        * Fixed an issue where obfuscated class names conflicted with class names of external SDKs during Android builds, causing a Duplicate class error.
 
 <a id="september-15-2026"></a>
 ### September 15, 2026 { #september-15-2026 }
