@@ -5,9 +5,18 @@
 
 | Platform | Version  | Release Date | Status |
 | -------- | -------- | -----------  | ------ |
-| Android  | 1.14.0.0 | 2026. 09. 15.  | latest |
+| Android  | 1.14.1.0 | 2026. 10. 15.  | latest |
 | Android  | 1.12.4.18 | 2026. 03. 10.  | stable |
 | iOS      | 1.6.0    | 2026. 09. 15.  | latest |
+
+<a id="october-15-2026"></a>
+### 2026. 10. 15. { #october-15-2026 }
+* [Android] 1.14.1.0
+    * 앱 위/변조 탐지 강화
+    * 보안 기능 강화
+* [Unity] 0.5.3
+    * 외부 SDK와의 클래스명 충돌 문제 수정
+        * Android 빌드 시 난독화된 클래스명이 외부 SDK의 클래스명과 충돌하여 Duplicate class 오류가 발생하는 문제를 수정했습니다.
 
 <a id="september-15-2026"></a>
 ### 2026. 09. 15. { #september-15-2026 }
