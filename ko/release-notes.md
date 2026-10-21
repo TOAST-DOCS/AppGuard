@@ -9,6 +9,11 @@
 | Android  | 1.12.4.18 | 2026. 03. 10.  | stable |
 | iOS      | 1.6.0    | 2026. 09. 15.  | latest |
 
+<a id="october-27-2026"></a>
+### 2026. 10. 27. { #october-27-2026 }
+* [Gradle Plugin] 1.3.1
+    * Gradle 구성 단계에서 서명 설정을 읽지 못해 빌드가 실패하는 문제 수정
+
 <a id="october-15-2026"></a>
 ### 2026. 10. 15. { #october-15-2026 }
 * [Android] 1.14.1.0
