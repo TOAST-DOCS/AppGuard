@@ -29,7 +29,7 @@ buildscript {
         // ...
 
         // Add the NHN Cloud AppGuard Gradle Plugin
-        classpath 'com.nhncloud.android:appguard-gradle-plugin:1.3.0'
+        classpath 'com.nhncloud.android:appguard-gradle-plugin:1.3.1'
     }
 }
 ```
