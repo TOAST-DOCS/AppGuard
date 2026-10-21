@@ -1,6 +1,6 @@
 <!-- machine_translated: true -->
 
-<!-- pre-align:aligned sig=9e5a3f34677f -->
+<!-- pre-align:aligned sig=2d7b0a5fc882 -->
 
 <a id="security-nhn-appguard-release-notes"></a>
 ## Security > NHN AppGuard > Release Notes { #security-nhn-appguard-release-notes }
@@ -10,6 +10,11 @@
 | Android  | 1.14.1.0 | October 15, 2026  | latest |
 | Android  | 1.12.4.18 | 2026. 03. 10.  | stable |
 | iOS      | 1.6.0    | September 15, 2026  | latest |
+
+<a id="october-27-2026"></a>
+### October 27, 2026 { #october-27-2026 }
+* [Gradle Plugin] 1.3.1
+    * Fixed an issue where the build fails because signature settings cannot be read during the Gradle configuration phase
 
 <a id="october-15-2026"></a>
 ### October 15, 2026 { #october-15-2026 }

@@ -1,3 +1,5 @@
+<!-- machine_translated: true -->
+
 <!-- pre-align:aligned sig=d940d4b2b6f4 -->
 
 <a id="security-nhn-appguard-gradle-plugin-guide"></a>
@@ -29,7 +31,7 @@ buildscript {
         // ...
 
         // Add the NHN Cloud AppGuard Gradle Plugin
-        classpath 'com.nhncloud.android:appguard-gradle-plugin:1.3.0'
+        classpath 'com.nhncloud.android:appguard-gradle-plugin:1.3.1'
     }
 }
 ```
