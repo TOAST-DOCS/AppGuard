@@ -1,6 +1,6 @@
 <!-- machine_translated: true -->
 
-<!-- pre-align:aligned sig=9e5a3f34677f -->
+<!-- pre-align:aligned sig=2d7b0a5fc882 -->
 
 <a id="security-nhn-appguard-release-notes"></a>
 ## Security > NHN AppGuard > リリースノート { #security-nhn-appguard-release-notes }
@@ -10,6 +10,11 @@
 | Android  | 1.14.1.0 | 2026. 10. 15.  | latest |
 | Android  | 1.12.4.18 | 2026. 03. 10.  | stable |
 | iOS      | 1.6.0    | 2026. 09. 15.  | latest |
+
+<a id="october-27-2026"></a>
+### 2026. 10. 27. { #october-27-2026 }
+* [Gradle Plugin] 1.3.1
+    * Gradle構成フェーズで署名設定を読み取れずビルドが失敗する問題を修正
 
 <a id="october-15-2026"></a>
 ### 2026. 10. 15. { #october-15-2026 }
